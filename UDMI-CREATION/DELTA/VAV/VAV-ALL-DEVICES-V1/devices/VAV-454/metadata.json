@@ -1,0 +1,30 @@
+{
+  "version":"1",
+  "timestamp":"2023-02-01T09:03:43Z",
+  "system":{
+    "location":{
+      "site":"IN-BLR-BCPWK",
+      "section":"AHU-ROOM-01"
+    },
+    "physical_tag":{
+      "asset":{
+        "guid":"uuid://6f47c6ca-77b0-c64b-cc8c-ac57bbb90151",
+        "site":"IN-BLR-BCPWK",
+        "name":"VAV-454"
+      }
+    }
+  },
+  "localnet":{
+    "subsystem":{
+      "bacnet":{
+        "local_id":"153305"
+      }
+    }
+  },
+  "pointset":{
+    "points":{}
+  },
+  "cloud":{
+    "auth_type":"RS256"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version":"1",
+  "timestamp":"2022-12-05T09:03:43Z",
+  "system":{
+    "location":{
+      "site":"IN-BLR-BCPWK",
+      "section":"4F-SOUTH-WING-AHU-02"
+    },
+    "physical_tag":{
+      "asset":{
+        "guid":"uuid://5ff6622f-baf4-bffa-4720-8e52ce0519c1",
+        "site":"IN-BLR-BCPWK",
+        "name":"DDC-11A"
+      }
+    }
+  },
+  "pointset":{
+    "points":{}
+  },
+  "cloud":{
+    "auth_type":"RS256_X509"
+  }
+}

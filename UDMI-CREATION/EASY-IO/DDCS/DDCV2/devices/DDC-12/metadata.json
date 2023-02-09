@@ -1,0 +1,30 @@
+{
+  "version":"1",
+  "timestamp":"2022-12-05T09:03:43Z",
+  "system":{
+    "location":{
+      "site":"IN-BLR-BCPWK",
+      "section":"4F-BATTERY-ROOM"
+    },
+    "physical_tag":{
+      "asset":{
+        "guid":"uuid://6705284d-e4d1-3abb-4675-cc65fa32d1fd",
+        "site":"IN-BLR-BCPWK",
+        "name":"DDC-12"
+      }
+    }
+  },
+  "pointset":{
+    "points":{
+      "mts_18_zone_air_temperature_s":{
+        "units":"degrees_celsius"
+      },
+      "mts_18_zone_air_relative_humid_s":{
+        "units":"percent"
+      }
+    }
+  },
+  "cloud":{
+    "auth_type":"RS256_X509"
+  }
+}

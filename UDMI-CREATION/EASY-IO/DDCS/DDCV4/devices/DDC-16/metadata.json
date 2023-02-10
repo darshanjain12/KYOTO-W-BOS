@@ -88,6 +88,18 @@
       "sf_07_lost_power_alarm":{
         "units":"No-units"
       },
+      "cb_144_run_status":{
+        "units":"No-units"
+      },
+      "cb_144_lost_power_alarm":{
+        "units":"No-units"
+      },
+      "cb_145_run_status":{
+        "units":"No-units"
+      },
+      "cb_145_lost_power_alarm":{
+        "units":"No-units"
+      },
       "mts_24_zone_air_temperature_s":{
         "units":"degrees_celsius"
       },

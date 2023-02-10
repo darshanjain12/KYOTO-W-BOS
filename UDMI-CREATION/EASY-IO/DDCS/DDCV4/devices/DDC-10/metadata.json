@@ -1,0 +1,36 @@
+{
+  "version":"1",
+  "timestamp":"2022-12-05T09:03:43Z",
+  "system":{
+    "location":{
+      "site":"IN-BLR-BCPWK",
+      "section":"3F-SERVICE-BALCONY"
+    },
+    "physical_tag":{
+      "asset":{
+        "guid":"uuid://",
+        "site":"IN-BLR-BCPWK",
+        "name":"DDC-10"
+      }
+    }
+  },
+  "pointset":{
+    "points":{
+      "sf_04_run_command":{
+        "units":"No-units"
+      },
+      "sf_04_run_status":{
+        "units":"No-units"
+      },
+      "sf_04_control_mode":{
+        "units":"No-units"
+      },
+      "sf_04_lost_power_alarm":{
+        "units":"No-units"
+      }
+    }
+  },
+  "cloud":{
+    "auth_type":"RS256_X509"
+  }
+}

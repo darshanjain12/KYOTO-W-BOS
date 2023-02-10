@@ -16,16 +16,16 @@
   },
   "pointset":{
     "points":{
-      "SF_05_run_command":{
+      "sf_05_run_command":{
         "units":"No-units"
       },
-      "SF_05_run_status":{
+      "sf_05_run_status":{
         "units":"No-units"
       },
-      "SF_05_control_mode":{
+      "sf_05_control_mode":{
         "units":"No-units"
       },
-      "SF_05_lost_power_alarm":{
+      "sf_05_lost_power_alarm":{
         "units":"No-units"
       },
       "cb_46_run_status":{

@@ -76,16 +76,16 @@
       "return_air_relative_humidity_sen":{
         "units":"percent"
       },
-      "SF_07_run_command":{
+      "sf_07_run_command":{
         "units":"No-units"
       },
-      "SF_07_run_status":{
+      "sf_07_run_status":{
         "units":"No-units"
       },
-      "SF_07_control_mode":{
+      "sf_07_control_mode":{
         "units":"No-units"
       },
-      "SF_07_lost_power_alarm":{
+      "sf_07_lost_power_alarm":{
         "units":"No-units"
       },
       "mts_24_zone_air_temperature_s":{

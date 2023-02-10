@@ -76,16 +76,16 @@
       "return_air_co2_concentration_sen":{
         "units":"parts_per_million"
       },
-      "SF_02_run_command":{
+      "sf_02_run_command":{
         "units":"No-units"
       },
-      "SF_02_run_status":{
+      "sf_02_run_status":{
         "units":"No-units"
       },
-      "SF_02_control_mode":{
+      "sf_02_control_mode":{
         "units":"No-units"
       },
-      "SF_02_lost_power_alarm":{
+      "sf_02_lost_power_alarm":{
         "units":"No-units"
       },
       "cb_20_run_status":{

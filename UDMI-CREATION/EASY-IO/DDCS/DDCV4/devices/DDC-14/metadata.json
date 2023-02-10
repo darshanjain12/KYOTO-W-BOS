@@ -76,16 +76,16 @@
       "return_air_relative_humidity_sen":{
         "units":"percent"
       },
-      "SF_06_run_command":{
+      "sf_06_run_command":{
         "units":"No-units"
       },
-      "SF_06_run_status":{
+      "sf_06_run_status":{
         "units":"No-units"
       },
-      "SF_06_control_mode":{
+      "sf_06_control_mode":{
         "units":"No-units"
       },
-      "SF_06_lost_power_alarm":{
+      "sf_06_lost_power_alarm":{
         "units":"No-units"
       },
       "cb_135_run_status":{
@@ -98,18 +98,6 @@
         "units":"No-units"
       },
       "cb_136_lost_power_alarm":{
-        "units":"No-units"
-      },
-      "cb_144_run_status":{
-        "units":"No-units"
-      },
-      "cb_144_lost_power_alarm":{
-        "units":"No-units"
-      },
-      "cb_145_run_status":{
-        "units":"No-units"
-      },
-      "cb_145_lost_power_alarm":{
         "units":"No-units"
       },
       "mts_20_zone_air_temperature_s":{

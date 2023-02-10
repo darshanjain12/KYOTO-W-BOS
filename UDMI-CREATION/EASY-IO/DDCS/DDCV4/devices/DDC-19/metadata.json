@@ -76,16 +76,16 @@
       "return_air_relative_humidity_sen":{
         "units":"percent"
       },
-      "SF_08_run_command":{
+      "sf_08_run_command":{
         "units":"No-units"
       },
-      "SF_08_run_status":{
+      "sf_08_run_status":{
         "units":"No-units"
       },
-      "SF_08_control_mode":{
+      "sf_08_control_mode":{
         "units":"No-units"
       },
-      "SF_08_lost_power_alarm":{
+      "sf_08_lost_power_alarm":{
         "units":"No-units"
       },
       "cb_155_run_status":{

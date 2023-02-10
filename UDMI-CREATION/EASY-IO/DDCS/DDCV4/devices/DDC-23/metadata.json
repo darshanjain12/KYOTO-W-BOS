@@ -76,16 +76,16 @@
       "return_air_relative_humidity_sen":{
         "units":"percent"
       },
-      "SF_09_run_command":{
+      "sf_09_run_command":{
         "units":"No-units"
       },
-      "SF_09_run_status":{
+      "sf_09_run_status":{
         "units":"No-units"
       },
-      "SF_09_control_mode":{
+      "sf_09_control_mode":{
         "units":"No-units"
       },
-      "SF_09_lost_power_alarm":{
+      "sf_09_lost_power_alarm":{
         "units":"No-units"
       }
     }

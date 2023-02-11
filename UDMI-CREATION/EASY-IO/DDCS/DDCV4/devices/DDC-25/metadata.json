@@ -67,15 +67,6 @@
       "return_air_isolation_dam_sts_1":{
         "units":"No-units"
       },
-      "return_air_temperature_sensor":{
-        "units":"degrees_celsius"
-      },
-      "return_air_co2_concentration_sen":{
-        "units":"parts_per_million"
-      },
-      "return_air_relative_humidity_sen":{
-        "units":"percent"
-      },
       "cb_193_run_status":{
         "units":"No-units"
       },

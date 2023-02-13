@@ -1,0 +1,2432 @@
+# Building
+IN-GUR-SIGD:
+  type: FACILITIES/BUILDING
+
+# Floor
+IN-GUR-SIGD_FL1:
+  type: FACILITIES/FLOOR
+  connections:
+    IN-GUR-SIGD: CONTAINS
+
+# Rooms
+IN-GUR-SIGD_RM1:
+  type: FACILITIES/ROOM
+  connections:
+    IN-GUR-SIGD_FL1: CONTAINS
+IN-GUR-SIGD_RM2:
+  type: FACILITIES/ROOM
+  connections:
+    IN-GUR-SIGD_ZN1: CONTAINS
+
+# Devices
+HLI-15:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2720579581841097
+  translation:
+    total_lamp_failed_counter_01:
+      present_value: "points.ltgrp_01_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_01:
+      present_value: "points.ltgrp_01_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_01:
+      present_value: "points.ltgrp_01_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_01:
+      present_value: "points.ltgrp_01_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_01:
+      present_value: "points.ltgrp_01_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_02:
+      present_value: "points.ltgrp_02_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_02:
+      present_value: "points.ltgrp_02_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_02:
+      present_value: "points.ltgrp_02_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_02:
+      present_value: "points.ltgrp_02_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_02:
+      present_value: "points.ltgrp_02_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_03:
+      present_value: "points.ltgrp_03_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_03:
+      present_value: "points.ltgrp_03_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_03:
+      present_value: "points.ltgrp_03_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_03:
+      present_value: "points.ltgrp_03_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_03:
+      present_value: "points.ltgrp_03_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_04:
+      present_value: "points.ltgrp_04_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_04:
+      present_value: "points.ltgrp_04_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_04:
+      present_value: "points.ltgrp_04_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_04:
+      present_value: "points.ltgrp_04_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_04:
+      present_value: "points.ltgrp_04_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_05:
+      present_value: "points.ltgrp_05_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_05:
+      present_value: "points.ltgrp_05_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_05:
+      present_value: "points.ltgrp_05_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_05:
+      present_value: "points.ltgrp_05_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_05:
+      present_value: "points.ltgrp_05_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_06:
+      present_value: "points.ltgrp_06_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_06:
+      present_value: "points.ltgrp_06_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_06:
+      present_value: "points.ltgrp_06_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_06:
+      present_value: "points.ltgrp_06_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_06:
+      present_value: "points.ltgrp_06_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_07:
+      present_value: "points.ltgrp_07_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_07:
+      present_value: "points.ltgrp_07_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_07:
+      present_value: "points.ltgrp_07_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_07:
+      present_value: "points.ltgrp_07_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_07:
+      present_value: "points.ltgrp_07_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_08:
+      present_value: "points.ltgrp_08_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_08:
+      present_value: "points.ltgrp_08_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_08:
+      present_value: "points.ltgrp_08_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_08:
+      present_value: "points.ltgrp_08_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_08:
+      present_value: "points.ltgrp_08_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_09:
+      present_value: "points.ltgrp_09_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_09:
+      present_value: "points.ltgrp_09_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_09:
+      present_value: "points.ltgrp_09_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_09:
+      present_value: "points.ltgrp_09_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_09:
+      present_value: "points.ltgrp_09_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_10:
+      present_value: "points.ltgrp_10_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_10:
+      present_value: "points.ltgrp_10_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_10:
+      present_value: "points.ltgrp_10_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_10:
+      present_value: "points.ltgrp_10_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_10:
+      present_value: "points.ltgrp_10_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_11:
+      present_value: "points.ltgrp_11_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_11:
+      present_value: "points.ltgrp_11_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_11:
+      present_value: "points.ltgrp_11_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_11:
+      present_value: "points.ltgrp_11_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_11:
+      present_value: "points.ltgrp_11_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_12:
+      present_value: "points.ltgrp_12_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_12:
+      present_value: "points.ltgrp_12_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_12:
+      present_value: "points.ltgrp_12_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_12:
+      present_value: "points.ltgrp_12_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_12:
+      present_value: "points.ltgrp_12_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_13:
+      present_value: "points.ltgrp_13_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_13:
+      present_value: "points.ltgrp_13_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_13:
+      present_value: "points.ltgrp_13_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_13:
+      present_value: "points.ltgrp_13_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_13:
+      present_value: "points.ltgrp_13_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_14:
+      present_value: "points.ltgrp_14_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_14:
+      present_value: "points.ltgrp_14_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_14:
+      present_value: "points.ltgrp_14_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_14:
+      present_value: "points.ltgrp_14_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_14:
+      present_value: "points.ltgrp_14_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_15:
+      present_value: "points.ltgrp_15_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_15:
+      present_value: "points.ltgrp_15_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_15:
+      present_value: "points.ltgrp_15_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_15:
+      present_value: "points.ltgrp_15_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_15:
+      present_value: "points.ltgrp_15_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_16:
+      present_value: "points.ltgrp_16_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_16:
+      present_value: "points.ltgrp_16_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_16:
+      present_value: "points.ltgrp_16_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_16:
+      present_value: "points.ltgrp_16_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_16:
+      present_value: "points.ltgrp_16_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_17:
+      present_value: "points.ltgrp_17_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_17:
+      present_value: "points.ltgrp_17_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_17:
+      present_value: "points.ltgrp_17_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_17:
+      present_value: "points.ltgrp_17_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_17:
+      present_value: "points.ltgrp_17_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_18:
+      present_value: "points.ltgrp_18_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_18:
+      present_value: "points.ltgrp_18_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_18:
+      present_value: "points.ltgrp_18_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_18:
+      present_value: "points.ltgrp_18_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_18:
+      present_value: "points.ltgrp_18_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_19:
+      present_value: "points.ltgrp_19_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_19:
+      present_value: "points.ltgrp_19_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_19:
+      present_value: "points.ltgrp_19_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_19:
+      present_value: "points.ltgrp_19_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_19:
+      present_value: "points.ltgrp_19_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_20:
+      present_value: "points.ltgrp_20_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_20:
+      present_value: "points.ltgrp_20_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_20:
+      present_value: "points.ltgrp_20_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_20:
+      present_value: "points.ltgrp_20_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_20:
+      present_value: "points.ltgrp_20_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_21:
+      present_value: "points.ltgrp_21_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_21:
+      present_value: "points.ltgrp_21_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_21:
+      present_value: "points.ltgrp_21_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_21:
+      present_value: "points.ltgrp_21_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_21:
+      present_value: "points.ltgrp_21_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_22:
+      present_value: "points.ltgrp_22_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_22:
+      present_value: "points.ltgrp_22_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_22:
+      present_value: "points.ltgrp_22_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_22:
+      present_value: "points.ltgrp_22_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_22:
+      present_value: "points.ltgrp_22_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_23:
+      present_value: "points.ltgrp_23_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_23:
+      present_value: "points.ltgrp_23_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_23:
+      present_value: "points.ltgrp_23_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_23:
+      present_value: "points.ltgrp_23_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_23:
+      present_value: "points.ltgrp_23_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_24:
+      present_value: "points.ltgrp_24_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_24:
+      present_value: "points.ltgrp_24_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_24:
+      present_value: "points.ltgrp_24_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_24:
+      present_value: "points.ltgrp_24_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_24:
+      present_value: "points.ltgrp_24_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_25:
+      present_value: "points.ltgrp_25_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_25:
+      present_value: "points.ltgrp_25_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_25:
+      present_value: "points.ltgrp_25_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_25:
+      present_value: "points.ltgrp_25_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_25:
+      present_value: "points.ltgrp_25_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_26:
+      present_value: "points.ltgrp_26_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_26:
+      present_value: "points.ltgrp_26_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_26:
+      present_value: "points.ltgrp_26_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_26:
+      present_value: "points.ltgrp_26_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_26:
+      present_value: "points.ltgrp_26_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_27:
+      present_value: "points.ltgrp_27_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_27:
+      present_value: "points.ltgrp_27_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_27:
+      present_value: "points.ltgrp_27_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_27:
+      present_value: "points.ltgrp_27_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_27:
+      present_value: "points.ltgrp_27_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_28:
+      present_value: "points.ltgrp_28_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_28:
+      present_value: "points.ltgrp_28_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_28:
+      present_value: "points.ltgrp_28_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_28:
+      present_value: "points.ltgrp_28_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_28:
+      present_value: "points.ltgrp_28_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_29:
+      present_value: "points.ltgrp_29_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_29:
+      present_value: "points.ltgrp_29_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_29:
+      present_value: "points.ltgrp_29_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_29:
+      present_value: "points.ltgrp_29_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_29:
+      present_value: "points.ltgrp_29_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_30:
+      present_value: "points.ltgrp_30_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_30:
+      present_value: "points.ltgrp_30_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_30:
+      present_value: "points.ltgrp_30_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_30:
+      present_value: "points.ltgrp_30_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_30:
+      present_value: "points.ltgrp_30_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_31:
+      present_value: "points.ltgrp_31_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_31:
+      present_value: "points.ltgrp_31_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_31:
+      present_value: "points.ltgrp_31_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_31:
+      present_value: "points.ltgrp_31_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_31:
+      present_value: "points.ltgrp_31_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_32:
+      present_value: "points.ltgrp_32_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_32:
+      present_value: "points.ltgrp_32_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_32:
+      present_value: "points.ltgrp_32_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_32:
+      present_value: "points.ltgrp_32_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_32:
+      present_value: "points.ltgrp_32_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_33:
+      present_value: "points.ltgrp_33_00_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_33:
+      present_value: "points.ltgrp_33_00_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_33:
+      present_value: "points.ltgrp_33_00_total_communication_failed_counter.present_value"
+    zone_occupancy_status_33:
+      present_value: "points.ltgrp_33_00_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_33:
+      present_value: "points.ltgrp_33_00_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_34:
+      present_value: "points.ltgrp_34_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_34:
+      present_value: "points.ltgrp_34_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_34:
+      present_value: "points.ltgrp_34_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_34:
+      present_value: "points.ltgrp_34_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_34:
+      present_value: "points.ltgrp_34_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_35:
+      present_value: "points.ltgrp_35_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_35:
+      present_value: "points.ltgrp_35_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_35:
+      present_value: "points.ltgrp_35_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_35:
+      present_value: "points.ltgrp_35_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_35:
+      present_value: "points.ltgrp_35_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_36:
+      present_value: "points.ltgrp_36_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_36:
+      present_value: "points.ltgrp_36_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_36:
+      present_value: "points.ltgrp_36_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_36:
+      present_value: "points.ltgrp_36_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_36:
+      present_value: "points.ltgrp_36_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_37:
+      present_value: "points.ltgrp_37_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_37:
+      present_value: "points.ltgrp_37_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_37:
+      present_value: "points.ltgrp_37_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_37:
+      present_value: "points.ltgrp_37_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_37:
+      present_value: "points.ltgrp_37_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_38:
+      present_value: "points.ltgrp_38_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_38:
+      present_value: "points.ltgrp_38_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_38:
+      present_value: "points.ltgrp_38_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_38:
+      present_value: "points.ltgrp_38_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_38:
+      present_value: "points.ltgrp_38_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_39:
+      present_value: "points.ltgrp_39_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_39:
+      present_value: "points.ltgrp_39_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_39:
+      present_value: "points.ltgrp_39_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_39:
+      present_value: "points.ltgrp_39_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_39:
+      present_value: "points.ltgrp_39_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_40:
+      present_value: "points.ltgrp_40_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_40:
+      present_value: "points.ltgrp_40_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_40:
+      present_value: "points.ltgrp_40_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_40:
+      present_value: "points.ltgrp_40_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_40:
+      present_value: "points.ltgrp_40_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_41:
+      present_value: "points.ltgrp_41_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_41:
+      present_value: "points.ltgrp_41_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_41:
+      present_value: "points.ltgrp_41_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_41:
+      present_value: "points.ltgrp_41_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_41:
+      present_value: "points.ltgrp_41_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_42:
+      present_value: "points.ltgrp_42_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_42:
+      present_value: "points.ltgrp_42_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_42:
+      present_value: "points.ltgrp_42_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_42:
+      present_value: "points.ltgrp_42_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_42:
+      present_value: "points.ltgrp_42_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_43:
+      present_value: "points.ltgrp_43_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_43:
+      present_value: "points.ltgrp_43_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_43:
+      present_value: "points.ltgrp_43_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_43:
+      present_value: "points.ltgrp_43_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_43:
+      present_value: "points.ltgrp_43_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_44:
+      present_value: "points.ltgrp_44_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_44:
+      present_value: "points.ltgrp_44_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_44:
+      present_value: "points.ltgrp_44_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_44:
+      present_value: "points.ltgrp_44_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_44:
+      present_value: "points.ltgrp_44_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_45:
+      present_value: "points.ltgrp_45_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_45:
+      present_value: "points.ltgrp_45_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_45:
+      present_value: "points.ltgrp_45_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_45:
+      present_value: "points.ltgrp_45_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_45:
+      present_value: "points.ltgrp_45_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_46:
+      present_value: "points.ltgrp_46_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_46:
+      present_value: "points.ltgrp_46_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_46:
+      present_value: "points.ltgrp_46_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_46:
+      present_value: "points.ltgrp_46_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_46:
+      present_value: "points.ltgrp_46_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_47:
+      present_value: "points.ltgrp_47_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_47:
+      present_value: "points.ltgrp_47_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_47:
+      present_value: "points.ltgrp_47_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_47:
+      present_value: "points.ltgrp_47_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_47:
+      present_value: "points.ltgrp_47_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_48:
+      present_value: "points.ltgrp_48_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_48:
+      present_value: "points.ltgrp_48_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_48:
+      present_value: "points.ltgrp_48_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_48:
+      present_value: "points.ltgrp_48_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_48:
+      present_value: "points.ltgrp_48_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_49:
+      present_value: "points.ltgrp_49_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_49:
+      present_value: "points.ltgrp_49_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_49:
+      present_value: "points.ltgrp_49_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_49:
+      present_value: "points.ltgrp_49_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_49:
+      present_value: "points.ltgrp_49_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_50:
+      present_value: "points.ltgrp_50_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_50:
+      present_value: "points.ltgrp_50_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_50:
+      present_value: "points.ltgrp_50_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_50:
+      present_value: "points.ltgrp_50_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_50:
+      present_value: "points.ltgrp_50_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_51:
+      present_value: "points.ltgrp_51_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_51:
+      present_value: "points.ltgrp_51_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_51:
+      present_value: "points.ltgrp_51_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_51:
+      present_value: "points.ltgrp_51_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_51:
+      present_value: "points.ltgrp_51_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_52:
+      present_value: "points.ltgrp_52_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_52:
+      present_value: "points.ltgrp_52_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_52:
+      present_value: "points.ltgrp_52_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_52:
+      present_value: "points.ltgrp_52_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_52:
+      present_value: "points.ltgrp_52_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_53:
+      present_value: "points.ltgrp_53_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_53:
+      present_value: "points.ltgrp_53_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_53:
+      present_value: "points.ltgrp_53_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_53:
+      present_value: "points.ltgrp_53_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_53:
+      present_value: "points.ltgrp_53_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_54:
+      present_value: "points.ltgrp_54_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_54:
+      present_value: "points.ltgrp_54_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_54:
+      present_value: "points.ltgrp_54_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_54:
+      present_value: "points.ltgrp_54_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_54:
+      present_value: "points.ltgrp_54_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_55:
+      present_value: "points.ltgrp_55_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_55:
+      present_value: "points.ltgrp_55_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_55:
+      present_value: "points.ltgrp_55_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_55:
+      present_value: "points.ltgrp_55_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_55:
+      present_value: "points.ltgrp_55_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_56:
+      present_value: "points.ltgrp_56_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_56:
+      present_value: "points.ltgrp_56_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_56:
+      present_value: "points.ltgrp_56_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_56:
+      present_value: "points.ltgrp_56_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_56:
+      present_value: "points.ltgrp_56_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_57:
+      present_value: "points.ltgrp_57_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_57:
+      present_value: "points.ltgrp_57_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_57:
+      present_value: "points.ltgrp_57_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_57:
+      present_value: "points.ltgrp_57_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_57:
+      present_value: "points.ltgrp_57_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_58:
+      present_value: "points.ltgrp_58_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_58:
+      present_value: "points.ltgrp_58_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_58:
+      present_value: "points.ltgrp_58_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_58:
+      present_value: "points.ltgrp_58_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_58:
+      present_value: "points.ltgrp_58_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_59:
+      present_value: "points.ltgrp_59_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_59:
+      present_value: "points.ltgrp_59_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_59:
+      present_value: "points.ltgrp_59_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_59:
+      present_value: "points.ltgrp_59_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_59:
+      present_value: "points.ltgrp_59_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_60:
+      present_value: "points.ltgrp_60_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_60:
+      present_value: "points.ltgrp_60_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_60:
+      present_value: "points.ltgrp_60_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_60:
+      present_value: "points.ltgrp_60_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_60:
+      present_value: "points.ltgrp_60_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_61:
+      present_value: "points.ltgrp_61_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_61:
+      present_value: "points.ltgrp_61_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_61:
+      present_value: "points.ltgrp_61_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_61:
+      present_value: "points.ltgrp_61_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_61:
+      present_value: "points.ltgrp_61_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_62:
+      present_value: "points.ltgrp_62_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_62:
+      present_value: "points.ltgrp_62_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_62:
+      present_value: "points.ltgrp_62_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_62:
+      present_value: "points.ltgrp_62_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_62:
+      present_value: "points.ltgrp_62_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_63:
+      present_value: "points.ltgrp_63_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_63:
+      present_value: "points.ltgrp_63_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_63:
+      present_value: "points.ltgrp_63_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_63:
+      present_value: "points.ltgrp_63_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_63:
+      present_value: "points.ltgrp_63_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_64:
+      present_value: "points.ltgrp_64_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_64:
+      present_value: "points.ltgrp_64_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_64:
+      present_value: "points.ltgrp_64_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_64:
+      present_value: "points.ltgrp_64_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_64:
+      present_value: "points.ltgrp_64_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_65:
+      present_value: "points.ltgrp_65_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_65:
+      present_value: "points.ltgrp_65_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_65:
+      present_value: "points.ltgrp_65_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_65:
+      present_value: "points.ltgrp_65_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_65:
+      present_value: "points.ltgrp_65_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_66:
+      present_value: "points.ltgrp_66_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_66:
+      present_value: "points.ltgrp_66_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_66:
+      present_value: "points.ltgrp_66_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_66:
+      present_value: "points.ltgrp_66_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_66:
+      present_value: "points.ltgrp_66_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_67:
+      present_value: "points.ltgrp_67_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_67:
+      present_value: "points.ltgrp_67_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_67:
+      present_value: "points.ltgrp_67_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_67:
+      present_value: "points.ltgrp_67_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_67:
+      present_value: "points.ltgrp_67_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_68:
+      present_value: "points.ltgrp_68_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_68:
+      present_value: "points.ltgrp_68_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_68:
+      present_value: "points.ltgrp_68_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_68:
+      present_value: "points.ltgrp_68_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_68:
+      present_value: "points.ltgrp_68_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_69:
+      present_value: "points.ltgrp_69_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_69:
+      present_value: "points.ltgrp_69_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_69:
+      present_value: "points.ltgrp_69_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_69:
+      present_value: "points.ltgrp_69_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_69:
+      present_value: "points.ltgrp_69_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_70:
+      present_value: "points.ltgrp_70_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_70:
+      present_value: "points.ltgrp_70_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_70:
+      present_value: "points.ltgrp_70_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_70:
+      present_value: "points.ltgrp_70_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_70:
+      present_value: "points.ltgrp_70_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_71:
+      present_value: "points.ltgrp_71_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_71:
+      present_value: "points.ltgrp_71_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_71:
+      present_value: "points.ltgrp_71_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_71:
+      present_value: "points.ltgrp_71_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_71:
+      present_value: "points.ltgrp_71_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_72:
+      present_value: "points.ltgrp_72_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_72:
+      present_value: "points.ltgrp_72_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_72:
+      present_value: "points.ltgrp_72_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_72:
+      present_value: "points.ltgrp_72_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_72:
+      present_value: "points.ltgrp_72_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_73:
+      present_value: "points.ltgrp_73_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_73:
+      present_value: "points.ltgrp_73_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_73:
+      present_value: "points.ltgrp_73_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_73:
+      present_value: "points.ltgrp_73_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_73:
+      present_value: "points.ltgrp_73_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_74:
+      present_value: "points.ltgrp_74_01_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_74:
+      present_value: "points.ltgrp_74_01_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_74:
+      present_value: "points.ltgrp_74_01_total_communication_failed_counter.present_value"
+    zone_occupancy_status_74:
+      present_value: "points.ltgrp_74_01_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_74:
+      present_value: "points.ltgrp_74_01_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_75:
+      present_value: "points.ltgrp_75_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_75:
+      present_value: "points.ltgrp_75_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_75:
+      present_value: "points.ltgrp_75_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_75:
+      present_value: "points.ltgrp_75_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_75:
+      present_value: "points.ltgrp_75_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_76:
+      present_value: "points.ltgrp_76_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_76:
+      present_value: "points.ltgrp_76_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_76:
+      present_value: "points.ltgrp_76_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_76:
+      present_value: "points.ltgrp_76_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_76:
+      present_value: "points.ltgrp_76_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_77:
+      present_value: "points.ltgrp_77_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_77:
+      present_value: "points.ltgrp_77_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_77:
+      present_value: "points.ltgrp_77_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_77:
+      present_value: "points.ltgrp_77_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_77:
+      present_value: "points.ltgrp_77_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_78:
+      present_value: "points.ltgrp_78_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_78:
+      present_value: "points.ltgrp_78_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_78:
+      present_value: "points.ltgrp_78_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_78:
+      present_value: "points.ltgrp_78_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_78:
+      present_value: "points.ltgrp_78_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_79:
+      present_value: "points.ltgrp_79_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_79:
+      present_value: "points.ltgrp_79_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_79:
+      present_value: "points.ltgrp_79_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_79:
+      present_value: "points.ltgrp_79_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_79:
+      present_value: "points.ltgrp_79_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_80:
+      present_value: "points.ltgrp_80_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_80:
+      present_value: "points.ltgrp_80_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_80:
+      present_value: "points.ltgrp_80_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_80:
+      present_value: "points.ltgrp_80_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_80:
+      present_value: "points.ltgrp_80_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_81:
+      present_value: "points.ltgrp_81_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_81:
+      present_value: "points.ltgrp_81_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_81:
+      present_value: "points.ltgrp_81_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_81:
+      present_value: "points.ltgrp_81_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_81:
+      present_value: "points.ltgrp_81_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_82:
+      present_value: "points.ltgrp_82_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_82:
+      present_value: "points.ltgrp_82_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_82:
+      present_value: "points.ltgrp_82_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_82:
+      present_value: "points.ltgrp_82_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_82:
+      present_value: "points.ltgrp_82_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_83:
+      present_value: "points.ltgrp_83_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_83:
+      present_value: "points.ltgrp_83_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_83:
+      present_value: "points.ltgrp_83_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_83:
+      present_value: "points.ltgrp_83_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_83:
+      present_value: "points.ltgrp_83_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_84:
+      present_value: "points.ltgrp_84_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_84:
+      present_value: "points.ltgrp_84_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_84:
+      present_value: "points.ltgrp_84_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_84:
+      present_value: "points.ltgrp_84_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_84:
+      present_value: "points.ltgrp_84_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_85:
+      present_value: "points.ltgrp_85_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_85:
+      present_value: "points.ltgrp_85_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_85:
+      present_value: "points.ltgrp_85_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_85:
+      present_value: "points.ltgrp_85_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_85:
+      present_value: "points.ltgrp_85_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_86:
+      present_value: "points.ltgrp_86_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_86:
+      present_value: "points.ltgrp_86_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_86:
+      present_value: "points.ltgrp_86_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_86:
+      present_value: "points.ltgrp_86_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_86:
+      present_value: "points.ltgrp_86_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_87:
+      present_value: "points.ltgrp_87_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_87:
+      present_value: "points.ltgrp_87_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_87:
+      present_value: "points.ltgrp_87_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_87:
+      present_value: "points.ltgrp_87_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_87:
+      present_value: "points.ltgrp_87_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_88:
+      present_value: "points.ltgrp_88_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_88:
+      present_value: "points.ltgrp_88_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_88:
+      present_value: "points.ltgrp_88_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_88:
+      present_value: "points.ltgrp_88_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_88:
+      present_value: "points.ltgrp_88_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_89:
+      present_value: "points.ltgrp_89_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_89:
+      present_value: "points.ltgrp_89_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_89:
+      present_value: "points.ltgrp_89_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_89:
+      present_value: "points.ltgrp_89_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_89:
+      present_value: "points.ltgrp_89_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_90:
+      present_value: "points.ltgrp_90_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_90:
+      present_value: "points.ltgrp_90_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_90:
+      present_value: "points.ltgrp_90_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_90:
+      present_value: "points.ltgrp_90_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_90:
+      present_value: "points.ltgrp_90_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_91:
+      present_value: "points.ltgrp_91_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_91:
+      present_value: "points.ltgrp_91_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_91:
+      present_value: "points.ltgrp_91_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_91:
+      present_value: "points.ltgrp_91_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_91:
+      present_value: "points.ltgrp_91_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_92:
+      present_value: "points.ltgrp_92_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_92:
+      present_value: "points.ltgrp_92_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_92:
+      present_value: "points.ltgrp_92_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_92:
+      present_value: "points.ltgrp_92_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_92:
+      present_value: "points.ltgrp_92_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_93:
+      present_value: "points.ltgrp_93_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_93:
+      present_value: "points.ltgrp_93_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_93:
+      present_value: "points.ltgrp_93_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_93:
+      present_value: "points.ltgrp_93_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_93:
+      present_value: "points.ltgrp_93_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_94:
+      present_value: "points.ltgrp_94_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_94:
+      present_value: "points.ltgrp_94_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_94:
+      present_value: "points.ltgrp_94_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_94:
+      present_value: "points.ltgrp_94_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_94:
+      present_value: "points.ltgrp_94_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_95:
+      present_value: "points.ltgrp_95_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_95:
+      present_value: "points.ltgrp_95_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_95:
+      present_value: "points.ltgrp_95_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_95:
+      present_value: "points.ltgrp_95_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_95:
+      present_value: "points.ltgrp_95_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_96:
+      present_value: "points.ltgrp_96_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_96:
+      present_value: "points.ltgrp_96_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_96:
+      present_value: "points.ltgrp_96_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_96:
+      present_value: "points.ltgrp_96_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_96:
+      present_value: "points.ltgrp_96_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_97:
+      present_value: "points.ltgrp_97_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_97:
+      present_value: "points.ltgrp_97_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_97:
+      present_value: "points.ltgrp_97_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_97:
+      present_value: "points.ltgrp_97_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_97:
+      present_value: "points.ltgrp_97_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_98:
+      present_value: "points.ltgrp_98_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_98:
+      present_value: "points.ltgrp_98_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_98:
+      present_value: "points.ltgrp_98_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_98:
+      present_value: "points.ltgrp_98_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_98:
+      present_value: "points.ltgrp_98_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_99:
+      present_value: "points.ltgrp_99_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_99:
+      present_value: "points.ltgrp_99_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_99:
+      present_value: "points.ltgrp_99_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_99:
+      present_value: "points.ltgrp_99_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_99:
+      present_value: "points.ltgrp_99_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_100:
+      present_value: "points.ltgrp_100_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_100:
+      present_value: "points.ltgrp_100_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_100:
+      present_value: "points.ltgrp_100_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_100:
+      present_value: "points.ltgrp_100_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_100:
+      present_value: "points.ltgrp_100_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_101:
+      present_value: "points.ltgrp_101_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_101:
+      present_value: "points.ltgrp_101_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_101:
+      present_value: "points.ltgrp_101_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_101:
+      present_value: "points.ltgrp_101_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_101:
+      present_value: "points.ltgrp_101_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_102:
+      present_value: "points.ltgrp_102_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_102:
+      present_value: "points.ltgrp_102_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_102:
+      present_value: "points.ltgrp_102_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_102:
+      present_value: "points.ltgrp_102_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_102:
+      present_value: "points.ltgrp_102_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_103:
+      present_value: "points.ltgrp_103_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_103:
+      present_value: "points.ltgrp_103_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_103:
+      present_value: "points.ltgrp_103_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_103:
+      present_value: "points.ltgrp_103_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_103:
+      present_value: "points.ltgrp_103_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_104:
+      present_value: "points.ltgrp_104_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_104:
+      present_value: "points.ltgrp_104_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_104:
+      present_value: "points.ltgrp_104_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_104:
+      present_value: "points.ltgrp_104_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_104:
+      present_value: "points.ltgrp_104_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_105:
+      present_value: "points.ltgrp_105_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_105:
+      present_value: "points.ltgrp_105_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_105:
+      present_value: "points.ltgrp_105_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_105:
+      present_value: "points.ltgrp_105_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_105:
+      present_value: "points.ltgrp_105_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_106:
+      present_value: "points.ltgrp_106_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_106:
+      present_value: "points.ltgrp_106_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_106:
+      present_value: "points.ltgrp_106_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_106:
+      present_value: "points.ltgrp_106_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_106:
+      present_value: "points.ltgrp_106_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_107:
+      present_value: "points.ltgrp_107_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_107:
+      present_value: "points.ltgrp_107_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_107:
+      present_value: "points.ltgrp_107_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_107:
+      present_value: "points.ltgrp_107_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_107:
+      present_value: "points.ltgrp_107_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_108:
+      present_value: "points.ltgrp_108_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_108:
+      present_value: "points.ltgrp_108_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_108:
+      present_value: "points.ltgrp_108_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_108:
+      present_value: "points.ltgrp_108_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_108:
+      present_value: "points.ltgrp_108_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_109:
+      present_value: "points.ltgrp_109_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_109:
+      present_value: "points.ltgrp_109_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_109:
+      present_value: "points.ltgrp_109_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_109:
+      present_value: "points.ltgrp_109_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_109:
+      present_value: "points.ltgrp_109_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_110:
+      present_value: "points.ltgrp_110_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_110:
+      present_value: "points.ltgrp_110_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_110:
+      present_value: "points.ltgrp_110_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_110:
+      present_value: "points.ltgrp_110_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_110:
+      present_value: "points.ltgrp_110_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_111:
+      present_value: "points.ltgrp_111_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_111:
+      present_value: "points.ltgrp_111_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_111:
+      present_value: "points.ltgrp_111_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_111:
+      present_value: "points.ltgrp_111_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_111:
+      present_value: "points.ltgrp_111_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_112:
+      present_value: "points.ltgrp_112_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_112:
+      present_value: "points.ltgrp_112_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_112:
+      present_value: "points.ltgrp_112_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_112:
+      present_value: "points.ltgrp_112_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_112:
+      present_value: "points.ltgrp_112_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_113:
+      present_value: "points.ltgrp_113_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_113:
+      present_value: "points.ltgrp_113_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_113:
+      present_value: "points.ltgrp_113_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_113:
+      present_value: "points.ltgrp_113_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_113:
+      present_value: "points.ltgrp_113_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_114:
+      present_value: "points.ltgrp_114_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_114:
+      present_value: "points.ltgrp_114_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_114:
+      present_value: "points.ltgrp_114_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_114:
+      present_value: "points.ltgrp_114_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_114:
+      present_value: "points.ltgrp_114_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_115:
+      present_value: "points.ltgrp_115_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_115:
+      present_value: "points.ltgrp_115_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_115:
+      present_value: "points.ltgrp_115_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_115:
+      present_value: "points.ltgrp_115_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_115:
+      present_value: "points.ltgrp_115_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_116:
+      present_value: "points.ltgrp_116_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_116:
+      present_value: "points.ltgrp_116_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_116:
+      present_value: "points.ltgrp_116_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_116:
+      present_value: "points.ltgrp_116_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_116:
+      present_value: "points.ltgrp_116_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_117:
+      present_value: "points.ltgrp_117_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_117:
+      present_value: "points.ltgrp_117_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_117:
+      present_value: "points.ltgrp_117_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_117:
+      present_value: "points.ltgrp_117_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_117:
+      present_value: "points.ltgrp_117_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_118:
+      present_value: "points.ltgrp_118_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_118:
+      present_value: "points.ltgrp_118_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_118:
+      present_value: "points.ltgrp_118_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_118:
+      present_value: "points.ltgrp_118_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_118:
+      present_value: "points.ltgrp_118_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_119:
+      present_value: "points.ltgrp_119_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_119:
+      present_value: "points.ltgrp_119_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_119:
+      present_value: "points.ltgrp_119_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_119:
+      present_value: "points.ltgrp_119_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_119:
+      present_value: "points.ltgrp_119_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_120:
+      present_value: "points.ltgrp_120_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_120:
+      present_value: "points.ltgrp_120_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_120:
+      present_value: "points.ltgrp_120_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_120:
+      present_value: "points.ltgrp_120_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_120:
+      present_value: "points.ltgrp_120_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_121:
+      present_value: "points.ltgrp_121_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_121:
+      present_value: "points.ltgrp_121_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_121:
+      present_value: "points.ltgrp_121_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_121:
+      present_value: "points.ltgrp_121_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_121:
+      present_value: "points.ltgrp_121_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_122:
+      present_value: "points.ltgrp_122_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_122:
+      present_value: "points.ltgrp_122_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_122:
+      present_value: "points.ltgrp_122_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_122:
+      present_value: "points.ltgrp_122_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_122:
+      present_value: "points.ltgrp_122_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_123:
+      present_value: "points.ltgrp_123_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_124:
+      present_value: "points.ltgrp_124_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_124:
+      present_value: "points.ltgrp_124_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_124:
+      present_value: "points.ltgrp_124_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_124:
+      present_value: "points.ltgrp_124_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_124:
+      present_value: "points.ltgrp_124_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_125:
+      present_value: "points.ltgrp_125_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_125:
+      present_value: "points.ltgrp_125_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_125:
+      present_value: "points.ltgrp_125_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_125:
+      present_value: "points.ltgrp_125_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_125:
+      present_value: "points.ltgrp_125_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_126:
+      present_value: "points.ltgrp_126_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_126:
+      present_value: "points.ltgrp_126_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_126:
+      present_value: "points.ltgrp_126_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_126:
+      present_value: "points.ltgrp_126_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_126:
+      present_value: "points.ltgrp_126_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_127:
+      present_value: "points.ltgrp_127_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_127:
+      present_value: "points.ltgrp_127_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_127:
+      present_value: "points.ltgrp_127_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_127:
+      present_value: "points.ltgrp_127_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_127:
+      present_value: "points.ltgrp_127_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_128:
+      present_value: "points.ltgrp_128_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_128:
+      present_value: "points.ltgrp_128_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_128:
+      present_value: "points.ltgrp_128_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_128:
+      present_value: "points.ltgrp_128_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_128:
+      present_value: "points.ltgrp_128_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_129:
+      present_value: "points.ltgrp_129_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_129:
+      present_value: "points.ltgrp_129_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_129:
+      present_value: "points.ltgrp_129_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_129:
+      present_value: "points.ltgrp_129_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_129:
+      present_value: "points.ltgrp_129_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_130:
+      present_value: "points.ltgrp_130_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_130:
+      present_value: "points.ltgrp_130_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_130:
+      present_value: "points.ltgrp_130_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_130:
+      present_value: "points.ltgrp_130_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_130:
+      present_value: "points.ltgrp_130_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_131:
+      present_value: "points.ltgrp_131_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_131:
+      present_value: "points.ltgrp_131_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_131:
+      present_value: "points.ltgrp_131_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_131:
+      present_value: "points.ltgrp_131_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_131:
+      present_value: "points.ltgrp_131_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_132:
+      present_value: "points.ltgrp_132_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_132:
+      present_value: "points.ltgrp_132_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_132:
+      present_value: "points.ltgrp_132_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_132:
+      present_value: "points.ltgrp_132_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_132:
+      present_value: "points.ltgrp_132_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_133:
+      present_value: "points.ltgrp_133_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_133:
+      present_value: "points.ltgrp_133_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_133:
+      present_value: "points.ltgrp_133_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_133:
+      present_value: "points.ltgrp_133_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_133:
+      present_value: "points.ltgrp_133_02_total_lamp_failed_counter.present_value"
+    total_wireless_device_failed_counter_134:
+      present_value: "points.ltgrp_134_02_total_wireless_device_failed_counter.present_value"
+    total_communication_failed_counter_134:
+      present_value: "points.ltgrp_134_02_total_communication_failed_counter.present_value"
+    zone_occupancy_status_134:
+      present_value: "points.ltgrp_134_02_zone_occupancy_status.present_value"
+      states:
+        OCCUPIED: "OCCUPIED"
+        UNKNOWN: "UNKNOWN"
+        UNOCCUPIED: "UNOCCUPIED"
+        INACTIVE: "INACTIVE"
+    lighting_switch_status_134:
+      present_value: "points.ltgrp_134_02_lighting_switch_status.present_value"
+      states:
+        ON: "ON"
+        OFF: "OFF"
+    total_lamp_failed_counter_134:
+      present_value: "points.ltgrp_134_02_total_lamp_failed_counter.present_value"
+
+# Zones
+IN-GUR-SIGD_ZN1:
+  type: HVAC/ZONE
+  connections:
+    IN-GUR-SIGD_RM1: CONTAINS
+IN-GUR-SIGD_ZN2:
+  type: HVAC/ZONE
+  connections:
+    IN-GUR-SIGD_RM2: CONTAINS
+

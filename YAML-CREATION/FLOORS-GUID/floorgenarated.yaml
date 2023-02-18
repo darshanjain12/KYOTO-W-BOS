@@ -1,0 +1,85 @@
+CONFIG_METADATA:
+  operation: INITIALIZE
+
+9b54e371-6748-4a90-ab6f-2d6ea6c4240d:
+  type: FACILITIES/BUILDING
+  code: IN-BLR-BCPWK
+
+22f53f64-cc99-4b4f-9a6c-23dc2d2a131e:
+  type: FACILITIES/FLOORS
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: FLOOR-LOWER-BASEMENT
+
+560714f9-ed47-4faa-83a9-5ddd8bcbf7f3:
+  type: FACILITIES/FLOORS
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: FLOOR-UPPER-BASEMENT
+
+fa6c1277-7f3a-470b-8c21-993a96f2b990:
+  type: FACILITIES/FLOORS
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: FLOOR-0
+
+ab1be32e-6f38-4f3a-ae19-aa83fec736d4:
+  type: FACILITIES/FLOORS
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: FLOOR-1
+
+72df6973-c81d-4f0c-b52b-6a0db1cf5652:
+  type: FACILITIES/FLOORS
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: FLOOR-2
+
+f545ae84-25b7-4270-8ffa-093752ac884a:
+  type: FACILITIES/FLOORS
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: FLOOR-3
+
+45c6c01a-8415-4c8b-8f14-ed725798e83b:
+  type: FACILITIES/FLOORS
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: FLOOR-4
+
+3d4bdf6e-5c76-4766-bd26-f41e11ca3fe9:
+  type: FACILITIES/FLOORS
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: FLOOR-5
+
+f37c30ad-b281-49bd-9b73-197f704d2548:
+  type: FACILITIES/FLOORS
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: FLOOR-6
+
+30074d4b-1ee5-4a8b-8363-5ef16839dfc6:
+  type: FACILITIES/FLOORS
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: FLOOR-7
+
+38e1c9ff-23dc-44a6-8c14-1eed4f02201d:
+  type: FACILITIES/FLOORS
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: FLOOR-8
+
+292dbc0b-7f1a-46d0-a57b-f1ef4e704337:
+  type: FACILITIES/FLOORS
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: FLOOR-9
+
+e04e2556-4ecd-42d4-bf30-732f5b9e9deb:
+  type: FACILITIES/FLOORS
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: FLOOR-TERRACE
+

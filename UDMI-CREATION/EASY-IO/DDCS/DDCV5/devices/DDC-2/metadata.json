@@ -100,6 +100,9 @@
       "mts_03_zone_air_relative_humid_s":{
         "units":"percent"
       },
+      "mts_04_zone_air_temperature_s":{
+        "units":"degrees_celsius"
+      },
       "mts_04_zone_air_relative_humid_s":{
         "units":"percent"
       },
@@ -155,6 +158,15 @@
         "units":"No-units"
       },
       "fcu_01_return_air_co2_concentration_set":{
+        "units":"parts_per_million"
+      },
+      "fcu_01_chilled_water_valve_percent_cmd":{
+        "units":"percent"
+      },
+      "fcu_01_chilled_water_valve_percent_sen":{
+        "units":"percent"
+      },
+      "fcu_01_filter_differential_pressure_sen":{
         "units":"parts_per_million"
       }
     }

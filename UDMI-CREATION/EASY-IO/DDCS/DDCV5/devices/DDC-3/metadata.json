@@ -34,47 +34,59 @@
       "mts_07_zone_air_relative_humid_s":{
         "units":"percent"
       },
-      "fcu_02_discharge_fan_run_status":{
+      "discharge_fan_run_status_02":{
         "units":"No-units"
       },
-      "fcu_02_discharge_fan_run_command":{
+      "discharge_fan_run_command_02":{
         "units":"No-units"
       },
-      "fcu_02_schedule_run_command":{
+      "schedule_run_command_02":{
         "units":"No-units"
       },
-      "fcu_02_discharge_fan_control_mode":{
+      "control_mode_02":{
         "units":"No-units"
       },
-      "fcu_02_discharge_fan_speed_mode":{
+      "discharge_fan_speed_mode_02":{
         "units":"No-units"
       },
-      "fcu_02_discharge_fan_speed_percentage_cmd":{
+      "discharge_fan_speed_perc_cmd_02":{
         "units":"percent"
       },
-      "fcu_02_discharge_fan_lost_power_alarm":{
+      "discharge_fan_lost_power_alm_02":{
         "units":"No-units"
       },
-      "fcu_02_return_air_relative_humidity_sen":{
+      "return_air_relative_humidity_sen_02":{
         "units":"percent"
       },
-      "fcu_02_return_air_temperature_sensor":{
+      "return_air_temperature_sen_02":{
         "units":"degrees_celsius"
       },
-      "fcu_02_discharge_air_temperature_sensor":{
+      "discharge_air_temperature_sen_02":{
         "units":"degrees_celsius"
       },
-      "fcu_02_discharge_air_temp_setpoint":{
+      "discharge_air_temperature_set_02":{
         "units":"degrees_celsius"
       },
-      "fcu_02_return_air_isolation_dam_sts_1":{
+      "return_air_isolation_dam_sts_1":{
         "units":"No-units"
       },
-      "fcu_02_supply_air_isolation_dam_sts_1":{
-        "units":"No-units"
-      },
-      "fcu_02_return_air_co2_concentration_set":{
+      "return_air_co2_concentration_sen_02":{
         "units":"parts_per_million"
+      },
+      "return_air_co2_concentration_set_02":{
+        "units":"parts_per_million"
+      },
+      "chilled_water_valve_percent_cmd_02":{
+        "units":"percent"
+      },
+      "chilled_water_valve_percent_sen_02":{
+        "units":"percent"
+      },
+      "filter_differen_pressure_sen_02":{
+        "units":"parts_per_million"
+      },
+      "supply_air_isolation_dam_sts_1":{
+        "units":"No-units"
       }
     }
   },

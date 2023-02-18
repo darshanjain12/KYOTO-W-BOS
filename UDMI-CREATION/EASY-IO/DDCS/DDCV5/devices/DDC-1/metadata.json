@@ -40,9 +40,6 @@
       "mts_02_zone_air_temperature_s":{
         "units":"degrees_celsius"
       },
-      "mts_04_zone_air_temperature_s":{
-        "units":"degrees_celsius"
-      },
       "ef_01_run_command":{
         "units":"No-units"
       },

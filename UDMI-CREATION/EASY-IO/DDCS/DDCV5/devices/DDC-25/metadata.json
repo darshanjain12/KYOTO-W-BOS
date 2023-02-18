@@ -144,6 +144,9 @@
       },
       "kfaf_02_supply_fan_lost_power_al":{
         "units":"No-units"
+      },
+      "kfaf_02_supply_air_static_pr_sen":{
+        "units":"parts_per_million"
       }
     }
   },

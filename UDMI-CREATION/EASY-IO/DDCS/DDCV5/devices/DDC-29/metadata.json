@@ -16,22 +16,22 @@
   },
   "pointset":{
     "points":{
-      "kfaf_01_filter_diff_pressure_sen":{
+      "kfaf_01_filter_differential_pr_s":{
         "units":"parts_per_million"
       },
-      "kfaf_02_filter_diff_pressure_sen":{
+      "kfaf_02_filter_differential_pr_s":{
         "units":"parts_per_million"
       },
-      "kfaf_01_air_ssp_sen":{
+      "kfaf_01_supply_air_static_pr_sen":{
         "units":"parts_per_million"
       },
-      "kfaf_02_air_ssp_sp":{
+      "kfaf_01_supply_air_static_pr_sp":{
         "units":"parts_per_million"
       },
-      "kfaf_01_fan_speed_percent_cmd":{
+      "kfaf_01_supply_fan_speed_per_s":{
         "units":"percent"
       },
-      "kfaf_02_fan_speed_percent_cmd":{
+      "kfaf_02_supply_fan_speed_per_s":{
         "units":"percent"
       }
     }

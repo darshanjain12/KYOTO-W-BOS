@@ -55,7 +55,7 @@
       "discharge_fan_lost_power_alm_02":{
         "units":"No-units"
       },
-      "return_air_relative_humidity_sen_02":{
+      "return_air_relative_humid_sen_02":{
         "units":"percent"
       },
       "return_air_temperature_sen_02":{
@@ -70,16 +70,13 @@
       "return_air_isolation_dam_sts_1":{
         "units":"No-units"
       },
-      "return_air_co2_concentration_sen_02":{
+      "return_air_co2_concent_sen_02":{
         "units":"parts_per_million"
       },
-      "return_air_co2_concentration_set_02":{
-        "units":"parts_per_million"
-      },
-      "chilled_water_valve_percent_cmd_02":{
+      "chilled_water_vlv_percent_cmd_02":{
         "units":"percent"
       },
-      "chilled_water_valve_percent_sen_02":{
+      "chilled_water_vlv_percent_sen_02":{
         "units":"percent"
       },
       "filter_differen_pressure_sen_02":{

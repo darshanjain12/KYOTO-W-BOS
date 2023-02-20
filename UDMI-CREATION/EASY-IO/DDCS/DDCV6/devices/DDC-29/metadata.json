@@ -33,6 +33,9 @@
       },
       "kfaf_02_supply_fan_speed_per_s":{
         "units":"percent"
+      },
+      "kfaf_02_supply_air_static_pr_sp":{
+        "units":"parts_per_million"
       }
     }
   },

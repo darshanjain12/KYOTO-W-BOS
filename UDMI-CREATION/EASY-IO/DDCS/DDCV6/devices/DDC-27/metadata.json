@@ -1,0 +1,23 @@
+{
+  "version":"1",
+  "timestamp":"2022-12-05T09:03:43Z",
+  "system":{
+    "location":{
+      "site":"IN-BLR-BCPWK",
+      "section":"9F-DDC-27-MK-EXHAUST-FAN"
+    },
+    "physical_tag":{
+      "asset":{
+        "guid":"uuid://53b3bec4-606b-7423-93f4-d128facce8f5",
+        "site":"IN-BLR-BCPWK",
+        "name":"DDC-27"
+      }
+    }
+  },
+  "pointset":{
+    "points":{}
+  },
+  "cloud":{
+    "auth_type":"RS256_X509"
+  }
+}

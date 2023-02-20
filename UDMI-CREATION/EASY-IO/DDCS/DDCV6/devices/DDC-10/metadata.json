@@ -34,7 +34,7 @@
       "ef_04_run_status":{
         "units":"No-units"
       },
-      "ef_04_run_mode":{
+      "ef_04_control_mode":{
         "units":"No-units"
       },
       "ef_04_lost_power_alarm":{

@@ -19,30 +19,2423 @@ IN-GUR-SIGD_RM2:
     IN-GUR-SIGD_ZN1: CONTAINS
 
 # Devices
-HLI-9:
+HLI-11:
   type: GATEWAYS/PASSTHROUGH
-  cloud_device_id: 2561906563582972
-HLI-909:
+  cloud_device_id: 2772973352702644
+  translation:
+    return_air_temperature_sensor_01:
+      present_value: "points.crac01_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac01_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_01:
+      present_value: "points.crac01_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac01_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_01:
+      present_value: "points.crac01_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_01:
+      present_value: "points.crac01_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_01:
+      present_value: "points.crac01_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_01:
+      present_value: "points.crac01_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_01:
+      present_value: "points.crac01_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_01:
+      present_value: "points.crac01_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac01_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_01:
+      present_value: "points.crac01_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac01_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_01:
+      present_value: "points.crac01_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac01_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_02:
+      present_value: "points.crac02_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac02_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_02:
+      present_value: "points.crac02_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac02_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_02:
+      present_value: "points.crac02_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_02:
+      present_value: "points.crac02_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_02:
+      present_value: "points.crac02_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_02:
+      present_value: "points.crac02_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_02:
+      present_value: "points.crac02_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_02:
+      present_value: "points.crac02_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac02_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_02:
+      present_value: "points.crac02_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac02_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_02:
+      present_value: "points.crac02_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac02_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_03:
+      present_value: "points.crac03_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac03_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_03:
+      present_value: "points.crac03_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac03_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_03:
+      present_value: "points.crac03_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_03:
+      present_value: "points.crac03_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_03:
+      present_value: "points.crac03_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_03:
+      present_value: "points.crac03_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_03:
+      present_value: "points.crac03_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_03:
+      present_value: "points.crac03_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac03_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_03:
+      present_value: "points.crac03_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac03_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_03:
+      present_value: "points.crac03_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac03_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_04:
+      present_value: "points.crac04_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac04_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_04:
+      present_value: "points.crac04_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac04_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_04:
+      present_value: "points.crac04_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_04:
+      present_value: "points.crac04_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_04:
+      present_value: "points.crac04_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_04:
+      present_value: "points.crac04_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_04:
+      present_value: "points.crac04_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_04:
+      present_value: "points.crac04_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac04_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_04:
+      present_value: "points.crac04_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac04_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_04:
+      present_value: "points.crac04_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac04_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_05:
+      present_value: "points.crac05_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac05_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_05:
+      present_value: "points.crac05_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac05_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_05:
+      present_value: "points.crac05_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_05:
+      present_value: "points.crac05_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_05:
+      present_value: "points.crac05_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_05:
+      present_value: "points.crac05_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_05:
+      present_value: "points.crac05_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_05:
+      present_value: "points.crac05_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac05_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_05:
+      present_value: "points.crac05_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac05_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_05:
+      present_value: "points.crac05_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac05_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_06:
+      present_value: "points.crac06_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac06_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_06:
+      present_value: "points.crac06_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac06_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_06:
+      present_value: "points.crac06_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_06:
+      present_value: "points.crac06_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_06:
+      present_value: "points.crac06_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_06:
+      present_value: "points.crac06_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_06:
+      present_value: "points.crac06_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_06:
+      present_value: "points.crac06_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac06_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_06:
+      present_value: "points.crac06_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac06_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_06:
+      present_value: "points.crac06_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac06_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_07:
+      present_value: "points.crac07_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac07_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_07:
+      present_value: "points.crac07_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac07_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_07:
+      present_value: "points.crac07_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_07:
+      present_value: "points.crac07_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_07:
+      present_value: "points.crac07_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_07:
+      present_value: "points.crac07_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_07:
+      present_value: "points.crac07_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_07:
+      present_value: "points.crac07_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac07_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_07:
+      present_value: "points.crac07_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac07_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_07:
+      present_value: "points.crac07_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac07_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_08:
+      present_value: "points.crac08_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac08_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_08:
+      present_value: "points.crac08_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac08_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_08:
+      present_value: "points.crac08_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_08:
+      present_value: "points.crac08_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_08:
+      present_value: "points.crac08_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_08:
+      present_value: "points.crac08_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_08:
+      present_value: "points.crac08_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_08:
+      present_value: "points.crac08_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac08_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_08:
+      present_value: "points.crac08_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac08_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_08:
+      present_value: "points.crac08_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac08_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_09:
+      present_value: "points.crac09_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac09_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_09:
+      present_value: "points.crac09_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac09_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_09:
+      present_value: "points.crac09_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_09:
+      present_value: "points.crac09_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_09:
+      present_value: "points.crac09_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_09:
+      present_value: "points.crac09_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_09:
+      present_value: "points.crac09_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_09:
+      present_value: "points.crac09_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac09_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_09:
+      present_value: "points.crac09_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac09_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_09:
+      present_value: "points.crac09_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac09_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_10:
+      present_value: "points.crac10_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac10_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_10:
+      present_value: "points.crac10_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac10_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_10:
+      present_value: "points.crac10_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_10:
+      present_value: "points.crac10_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_10:
+      present_value: "points.crac10_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_10:
+      present_value: "points.crac10_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_10:
+      present_value: "points.crac10_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_10:
+      present_value: "points.crac10_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac10_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_10:
+      present_value: "points.crac10_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac10_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_10:
+      present_value: "points.crac10_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac10_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_11:
+      present_value: "points.crac11_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac11_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_11:
+      present_value: "points.crac11_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac11_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_11:
+      present_value: "points.crac11_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_11:
+      present_value: "points.crac11_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_11:
+      present_value: "points.crac11_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_11:
+      present_value: "points.crac11_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_11:
+      present_value: "points.crac11_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_11:
+      present_value: "points.crac11_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac11_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_11:
+      present_value: "points.crac11_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac11_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_11:
+      present_value: "points.crac11_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac11_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_12:
+      present_value: "points.crac12_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac12_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_12:
+      present_value: "points.crac12_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac12_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_12:
+      present_value: "points.crac12_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_12:
+      present_value: "points.crac12_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_12:
+      present_value: "points.crac12_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_12:
+      present_value: "points.crac12_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_12:
+      present_value: "points.crac12_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_12:
+      present_value: "points.crac12_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac12_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_12:
+      present_value: "points.crac12_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac12_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_12:
+      present_value: "points.crac12_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac12_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_13:
+      present_value: "points.crac13_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac13_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_13:
+      present_value: "points.crac13_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac13_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_13:
+      present_value: "points.crac13_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_13:
+      present_value: "points.crac13_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_13:
+      present_value: "points.crac13_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_13:
+      present_value: "points.crac13_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_13:
+      present_value: "points.crac13_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_13:
+      present_value: "points.crac13_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac13_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_13:
+      present_value: "points.crac13_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac13_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_13:
+      present_value: "points.crac13_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac13_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+HLI-42:
   type: GATEWAYS/PASSTHROUGH
-  cloud_device_id: 2663448010426311
-HLI-19:
+  cloud_device_id: 2600199863144997
+  translation:
+    return_air_temperature_sensor_14:
+      present_value: "points.crac14_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac14_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_14:
+      present_value: "points.crac14_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac14_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_14:
+      present_value: "points.crac14_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_14:
+      present_value: "points.crac14_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_14:
+      present_value: "points.crac14_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_14:
+      present_value: "points.crac14_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_14:
+      present_value: "points.crac14_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_14:
+      present_value: "points.crac14_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac14_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_14:
+      present_value: "points.crac14_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac14_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_14:
+      present_value: "points.crac14_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac14_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_15:
+      present_value: "points.crac15_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac15_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_15:
+      present_value: "points.crac15_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac15_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_15:
+      present_value: "points.crac15_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_15:
+      present_value: "points.crac15_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_15:
+      present_value: "points.crac15_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_15:
+      present_value: "points.crac15_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_15:
+      present_value: "points.crac15_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_15:
+      present_value: "points.crac15_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac15_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_15:
+      present_value: "points.crac15_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac15_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_15:
+      present_value: "points.crac15_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac15_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_16:
+      present_value: "points.crac16_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac16_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_16:
+      present_value: "points.crac16_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac16_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_16:
+      present_value: "points.crac16_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_16:
+      present_value: "points.crac16_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_16:
+      present_value: "points.crac16_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_16:
+      present_value: "points.crac16_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_16:
+      present_value: "points.crac16_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_16:
+      present_value: "points.crac16_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac16_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_16:
+      present_value: "points.crac16_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac16_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_16:
+      present_value: "points.crac16_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac16_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_17:
+      present_value: "points.crac17_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac17_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_17:
+      present_value: "points.crac17_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac17_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_17:
+      present_value: "points.crac17_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_17:
+      present_value: "points.crac17_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_17:
+      present_value: "points.crac17_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_17:
+      present_value: "points.crac17_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_17:
+      present_value: "points.crac17_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_17:
+      present_value: "points.crac17_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac17_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_17:
+      present_value: "points.crac17_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac17_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_17:
+      present_value: "points.crac17_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac17_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_18:
+      present_value: "points.crac18_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac18_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_18:
+      present_value: "points.crac18_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac18_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_18:
+      present_value: "points.crac18_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_18:
+      present_value: "points.crac18_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_18:
+      present_value: "points.crac18_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_18:
+      present_value: "points.crac18_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_18:
+      present_value: "points.crac18_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_18:
+      present_value: "points.crac18_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac18_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_18:
+      present_value: "points.crac18_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac18_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_18:
+      present_value: "points.crac18_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac18_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_19:
+      present_value: "points.crac19_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac19_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_19:
+      present_value: "points.crac19_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac19_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_19:
+      present_value: "points.crac19_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_19:
+      present_value: "points.crac19_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_19:
+      present_value: "points.crac19_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_19:
+      present_value: "points.crac19_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_19:
+      present_value: "points.crac19_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_19:
+      present_value: "points.crac19_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac19_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_19:
+      present_value: "points.crac19_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac19_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_19:
+      present_value: "points.crac19_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac19_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_20:
+      present_value: "points.crac20_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac20_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_20:
+      present_value: "points.crac20_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac20_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_20:
+      present_value: "points.crac20_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_20:
+      present_value: "points.crac20_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_20:
+      present_value: "points.crac20_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_20:
+      present_value: "points.crac20_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_20:
+      present_value: "points.crac20_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_20:
+      present_value: "points.crac20_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac20_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_20:
+      present_value: "points.crac20_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac20_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_20:
+      present_value: "points.crac20_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac20_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_21:
+      present_value: "points.crac21_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac21_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_21:
+      present_value: "points.crac21_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac21_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_21:
+      present_value: "points.crac21_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_21:
+      present_value: "points.crac21_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_21:
+      present_value: "points.crac21_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_21:
+      present_value: "points.crac21_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_21:
+      present_value: "points.crac21_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_21:
+      present_value: "points.crac21_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac21_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_21:
+      present_value: "points.crac21_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac21_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_21:
+      present_value: "points.crac21_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac21_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_22:
+      present_value: "points.crac22_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac22_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_22:
+      present_value: "points.crac22_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac22_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_22:
+      present_value: "points.crac22_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_22:
+      present_value: "points.crac22_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_22:
+      present_value: "points.crac22_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_22:
+      present_value: "points.crac22_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_22:
+      present_value: "points.crac22_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_22:
+      present_value: "points.crac22_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac22_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_22:
+      present_value: "points.crac22_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac22_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_22:
+      present_value: "points.crac22_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac22_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_23:
+      present_value: "points.crac23_return_air_temperature_sen.present_value"
+      units:
+        key: "pointset.points.crac23_return_air_temperature_sen.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_sensor_23:
+      present_value: "points.crac23_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.crac23_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_23:
+      present_value: "points.crac23_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_23:
+      present_value: "points.crac23_compressor_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    filter_alarm_23:
+      present_value: "points.crac23_filter_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_23:
+      present_value: "points.crac23_master_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_alarm_23:
+      present_value: "points.crac23_water_leak_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_air_temperature_sensor_23:
+      present_value: "points.crac23_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.crac23_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_setpoint_23:
+      present_value: "points.crac23_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.crac23_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_relative_humidity_setpoint_23:
+      present_value: "points.crac23_return_air_relative_humidity_setpoint.present_value"
+      units:
+        key: "pointset.points.crac23_return_air_relative_humidity_setpoint.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+HLI-24:
   type: GATEWAYS/PASSTHROUGH
-  cloud_device_id: 2608169612030747
-HLI-1919:
-  type: GATEWAYS/PASSTHROUGH
-  cloud_device_id: 2651462415261499
-HLI-34:
-  type: GATEWAYS/PASSTHROUGH
-  cloud_device_id: 2773100014242099
-HLI-3434:
-  type: GATEWAYS/PASSTHROUGH
-  cloud_device_id: 2809538202596405
-HLI-53:
-  type: GATEWAYS/PASSTHROUGH
-  cloud_device_id: 2601288291233482
-HLI-65:
-  type: GATEWAYS/PASSTHROUGH
-  cloud_device_id: 2695652608784047
+  cloud_device_id: 2602488283706090
+  translation:
+    discharge_fan_run_command_03:
+      present_value: "points.fcu_03_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_03:
+      present_value: "points.fcu_03_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_03:
+      present_value: "points.fcu_03_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_03:
+      present_value: "points.fcu_03_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_03_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_03:
+      present_value: "points.fcu_03_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_03_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_03:
+      present_value: "points.fcu_03_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_03_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_04:
+      present_value: "points.fcu_04_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_04:
+      present_value: "points.fcu_04_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_04:
+      present_value: "points.fcu_04_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_04:
+      present_value: "points.fcu_04_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_04_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_04:
+      present_value: "points.fcu_04_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_04_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_04:
+      present_value: "points.fcu_04_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_04_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_05:
+      present_value: "points.fcu_05_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_05:
+      present_value: "points.fcu_05_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_05:
+      present_value: "points.fcu_05_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_05:
+      present_value: "points.fcu_05_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_05_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_05:
+      present_value: "points.fcu_05_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_05_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_05:
+      present_value: "points.fcu_05_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_05_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_06:
+      present_value: "points.fcu_06_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_06:
+      present_value: "points.fcu_06_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_06:
+      present_value: "points.fcu_06_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_06:
+      present_value: "points.fcu_06_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_06_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_06:
+      present_value: "points.fcu_06_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_06_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_06:
+      present_value: "points.fcu_06_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_06_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_07:
+      present_value: "points.fcu_07_discharge_fan_run_command.present_value"
+    discharge_fan_run_status_07:
+      present_value: "points.fcu_07_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_07:
+      present_value: "points.fcu_07_failed_discharge_fan_alarm.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_time_accumulator_07:
+      present_value: "points.fcu_07_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_07_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    return_air_temperature_setpoint_07:
+      present_value: "points.fcu_07_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_07_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_07:
+      present_value: "points.fcu_07_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_07_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_08:
+      present_value: "points.fcu_08_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_08:
+      present_value: "points.fcu_08_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_08:
+      present_value: "points.fcu_08_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_08:
+      present_value: "points.fcu_08_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_08_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_08:
+      present_value: "points.fcu_08_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_08_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_08:
+      present_value: "points.fcu_08_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_08_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_09:
+      present_value: "points.fcu_09_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_09:
+      present_value: "points.fcu_09_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_09:
+      present_value: "points.fcu_09_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_09:
+      present_value: "points.fcu_09_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_09_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_09:
+      present_value: "points.fcu_09_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_09_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_09:
+      present_value: "points.fcu_09_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_09_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_10:
+      present_value: "points.fcu_10_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_10:
+      present_value: "points.fcu_10_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_10:
+      present_value: "points.fcu_10_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_10:
+      present_value: "points.fcu_10_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_10_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_10:
+      present_value: "points.fcu_10_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_10_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_10:
+      present_value: "points.fcu_10_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_10_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_11:
+      present_value: "points.fcu_11_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_11:
+      present_value: "points.fcu_11_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_11:
+      present_value: "points.fcu_11_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_11:
+      present_value: "points.fcu_11_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_11_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_11:
+      present_value: "points.fcu_11_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_11_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_11:
+      present_value: "points.fcu_11_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_11_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_12:
+      present_value: "points.fcu_12_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_12:
+      present_value: "points.fcu_12_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_12:
+      present_value: "points.fcu_12_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_12:
+      present_value: "points.fcu_12_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_12_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_12:
+      present_value: "points.fcu_12_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_12_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_12:
+      present_value: "points.fcu_12_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_12_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_13:
+      present_value: "points.fcu_13_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_13:
+      present_value: "points.fcu_13_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_13:
+      present_value: "points.fcu_13_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_13:
+      present_value: "points.fcu_13_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_13_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_13:
+      present_value: "points.fcu_13_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_13_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_13:
+      present_value: "points.fcu_13_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_13_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_14:
+      present_value: "points.fcu_14_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_14:
+      present_value: "points.fcu_14_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_14:
+      present_value: "points.fcu_14_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_14:
+      present_value: "points.fcu_14_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_14_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_14:
+      present_value: "points.fcu_14_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_14_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_14:
+      present_value: "points.fcu_14_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_14_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_15:
+      present_value: "points.fcu_15_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_15:
+      present_value: "points.fcu_15_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_15:
+      present_value: "points.fcu_15_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_15:
+      present_value: "points.fcu_15_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_15_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_15:
+      present_value: "points.fcu_15_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_15_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_15:
+      present_value: "points.fcu_15_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_15_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_16:
+      present_value: "points.fcu_16_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_16:
+      present_value: "points.fcu_16_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_16:
+      present_value: "points.fcu_16_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_16:
+      present_value: "points.fcu_16_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_16_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_16:
+      present_value: "points.fcu_16_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_16_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_16:
+      present_value: "points.fcu_16_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_16_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_17:
+      present_value: "points.fcu_17_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_17:
+      present_value: "points.fcu_17_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_17:
+      present_value: "points.fcu_17_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_17:
+      present_value: "points.fcu_17_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_17_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_17:
+      present_value: "points.fcu_17_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_17_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_17:
+      present_value: "points.fcu_17_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_17_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_18:
+      present_value: "points.fcu_18_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_18:
+      present_value: "points.fcu_18_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_18:
+      present_value: "points.fcu_18_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_18:
+      present_value: "points.fcu_18_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_18_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_18:
+      present_value: "points.fcu_18_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_18_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_18:
+      present_value: "points.fcu_18_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_18_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_19:
+      present_value: "points.fcu_19_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_19:
+      present_value: "points.fcu_19_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_19:
+      present_value: "points.fcu_19_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_19:
+      present_value: "points.fcu_19_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_19_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_19:
+      present_value: "points.fcu_19_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_19_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_19:
+      present_value: "points.fcu_19_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_19_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_20:
+      present_value: "points.fcu_20_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_20:
+      present_value: "points.fcu_20_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_20:
+      present_value: "points.fcu_20_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_20:
+      present_value: "points.fcu_20_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_20_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_20:
+      present_value: "points.fcu_20_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_20_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_20:
+      present_value: "points.fcu_20_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_20_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_21:
+      present_value: "points.fcu_21_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_21:
+      present_value: "points.fcu_21_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_21:
+      present_value: "points.fcu_21_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_21:
+      present_value: "points.fcu_21_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_21_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_21:
+      present_value: "points.fcu_21_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_21_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_21:
+      present_value: "points.fcu_21_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_21_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_22:
+      present_value: "points.fcu_22_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_22:
+      present_value: "points.fcu_22_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_22:
+      present_value: "points.fcu_22_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_22:
+      present_value: "points.fcu_22_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_22_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_22:
+      present_value: "points.fcu_22_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_22_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_22:
+      present_value: "points.fcu_22_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_22_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_23:
+      present_value: "points.fcu_23_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_23:
+      present_value: "points.fcu_23_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_23:
+      present_value: "points.fcu_23_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_23:
+      present_value: "points.fcu_23_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_23_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_23:
+      present_value: "points.fcu_23_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_23_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_23:
+      present_value: "points.fcu_23_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_23_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_24:
+      present_value: "points.fcu_24_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_24:
+      present_value: "points.fcu_24_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_24:
+      present_value: "points.fcu_24_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_24:
+      present_value: "points.fcu_24_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_24_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_24:
+      present_value: "points.fcu_24_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_24_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_24:
+      present_value: "points.fcu_24_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_24_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_25:
+      present_value: "points.fcu_25_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_25:
+      present_value: "points.fcu_25_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_25:
+      present_value: "points.fcu_25_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_25:
+      present_value: "points.fcu_25_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_25_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_25:
+      present_value: "points.fcu_25_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_25_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_25:
+      present_value: "points.fcu_25_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_25_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_26:
+      present_value: "points.fcu_26_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_26:
+      present_value: "points.fcu_26_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_26:
+      present_value: "points.fcu_26_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_26:
+      present_value: "points.fcu_26_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_26_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_26:
+      present_value: "points.fcu_26_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_26_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_26:
+      present_value: "points.fcu_26_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_26_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_27:
+      present_value: "points.fcu_27_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_27:
+      present_value: "points.fcu_27_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_27:
+      present_value: "points.fcu_27_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_27:
+      present_value: "points.fcu_27_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_27_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_27:
+      present_value: "points.fcu_27_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_27_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_27:
+      present_value: "points.fcu_27_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_27_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_28:
+      present_value: "points.fcu_28_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_28:
+      present_value: "points.fcu_28_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_28:
+      present_value: "points.fcu_28_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_28:
+      present_value: "points.fcu_28_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_28_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_28:
+      present_value: "points.fcu_28_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_28_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_28:
+      present_value: "points.fcu_28_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_28_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_29:
+      present_value: "points.fcu_29_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_29:
+      present_value: "points.fcu_29_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_29:
+      present_value: "points.fcu_29_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_29:
+      present_value: "points.fcu_29_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_29_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_29:
+      present_value: "points.fcu_29_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_29_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_29:
+      present_value: "points.fcu_29_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_29_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_30:
+      present_value: "points.fcu_30_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_30:
+      present_value: "points.fcu_30_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_30:
+      present_value: "points.fcu_30_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_30:
+      present_value: "points.fcu_30_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_30_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_30:
+      present_value: "points.fcu_30_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_30_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_30:
+      present_value: "points.fcu_30_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_30_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_31:
+      present_value: "points.fcu_31_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_31:
+      present_value: "points.fcu_31_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_31:
+      present_value: "points.fcu_31_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_31:
+      present_value: "points.fcu_31_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_31_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_31:
+      present_value: "points.fcu_31_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_31_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_31:
+      present_value: "points.fcu_31_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_31_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_fan_run_command_32:
+      present_value: "points.fcu_32_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_status_32:
+      present_value: "points.fcu_32_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    failed_discharge_fan_alarm_32:
+      present_value: "points.fcu_32_failed_discharge_fan_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_time_accumulator_32:
+      present_value: "points.fcu_32_discharge_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.fcu_32_discharge_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    return_air_temperature_setpoint_32:
+      present_value: "points.fcu_32_return_air_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_32_return_air_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_temperature_sensor_32:
+      present_value: "points.fcu_32_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_32_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    control_mode_03:
+      present_value: "points.fcu_03_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_04:
+      present_value: "points.fcu_04_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_05:
+      present_value: "points.fcu_05_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_06:
+      present_value: "points.fcu_06_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_07:
+      present_value: "points.fcu_07_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_08:
+      present_value: "points.fcu_08_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_09:
+      present_value: "points.fcu_09_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_10:
+      present_value: "points.fcu_10_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_11:
+      present_value: "points.fcu_11_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_12:
+      present_value: "points.fcu_12_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_13:
+      present_value: "points.fcu_13_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_14:
+      present_value: "points.fcu_14_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_15:
+      present_value: "points.fcu_15_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_16:
+      present_value: "points.fcu_16_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_17:
+      present_value: "points.fcu_17_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_18:
+      present_value: "points.fcu_18_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_19:
+      present_value: "points.fcu_19_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_20:
+      present_value: "points.fcu_20_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_21:
+      present_value: "points.fcu_21_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_22:
+      present_value: "points.fcu_22_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_23:
+      present_value: "points.fcu_23_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_24:
+      present_value: "points.fcu_24_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_25:
+      present_value: "points.fcu_25_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_26:
+      present_value: "points.fcu_26_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_27:
+      present_value: "points.fcu_27_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_28:
+      present_value: "points.fcu_28_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_29:
+      present_value: "points.fcu_29_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_30:
+      present_value: "points.fcu_30_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_31:
+      present_value: "points.fcu_31_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
+    control_mode_32:
+      present_value: "points.fcu_32_control_mode.present_value"
+      states:
+        COOLING: "TRUE"
+        DEHUMIDIFY: "FALSE"
 
 # Zones
 IN-GUR-SIGD_ZN1:

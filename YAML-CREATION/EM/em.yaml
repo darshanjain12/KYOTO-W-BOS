@@ -602,7 +602,7 @@ HLI-9:
           
           
 EM-01:
-  type: EM_PWM_AVCM_PWMRDM
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
     HLI-9:
       average_line_current_sensor: average_line_current_sensor_01
@@ -613,9 +613,1280 @@ EM-01:
       electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_01
       generator_energy_accumulator: generator_energy_accumulator_01
       energy_accumulator: energy_accumulator_01
-      
-    
- 
+
+
+EM-02:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-9:
+      average_line_current_sensor: average_line_current_sensor_02
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_02
+      line_frequency_sensor: line_frequency_sensor_02
+      powerfactor_sensor: powerfactor_sensor_02
+      power_sensor: power_sensor_02
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_02
+      generator_energy_accumulator: generator_energy_accumulator_02
+      energy_accumulator: energy_accumulator_02
+EM-03:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-9:
+      average_line_current_sensor: average_line_current_sensor_03
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_03
+      line_frequency_sensor: line_frequency_sensor_03
+      powerfactor_sensor: powerfactor_sensor_03
+      power_sensor: power_sensor_03
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_03
+      generator_energy_accumulator: generator_energy_accumulator_03
+      energy_accumulator: energy_accumulator_03
+ EM-04:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-9:
+      average_line_current_sensor: average_line_current_sensor_04
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_04
+      line_frequency_sensor: line_frequency_sensor_04
+      powerfactor_sensor: powerfactor_sensor_04
+      power_sensor: power_sensor_04
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_04
+      generator_energy_accumulator: generator_energy_accumulator_04
+      energy_accumulator: energy_accumulator_04
+EM-05:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-9:
+      average_line_current_sensor: average_line_current_sensor_05
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_05
+      line_frequency_sensor: line_frequency_sensor_05
+      powerfactor_sensor: powerfactor_sensor_05
+      power_sensor: power_sensor_05
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_05
+      generator_energy_accumulator: generator_energy_accumulator_05
+      energy_accumulator: energy_accumulator_05
+EM-06:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-9:
+      average_line_current_sensor: average_line_current_sensor_06
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_06
+      line_frequency_sensor: line_frequency_sensor_06
+      powerfactor_sensor: powerfactor_sensor_06
+      power_sensor: power_sensor_06
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_06
+      generator_energy_accumulator: generator_energy_accumulator_06
+      energy_accumulator: energy_accumulator_06
+EM-07:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-9:
+      average_line_current_sensor: average_line_current_sensor_07
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_07
+      line_frequency_sensor: line_frequency_sensor_07
+      powerfactor_sensor: powerfactor_sensor_07
+      power_sensor: power_sensor_07
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_07
+      generator_energy_accumulator: generator_energy_accumulator_07
+      energy_accumulator: energy_accumulator_07
+EM-08:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-9:
+      average_line_current_sensor: average_line_current_sensor_08
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_08
+      line_frequency_sensor: line_frequency_sensor_08
+      powerfactor_sensor: powerfactor_sensor_08
+      power_sensor: power_sensor_08
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_08
+      generator_energy_accumulator: generator_energy_accumulator_08
+      energy_accumulator: energy_accumulator_08
+EM-09:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-9:
+      average_line_current_sensor: average_line_current_sensor_09
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_09
+      line_frequency_sensor: line_frequency_sensor_09
+      powerfactor_sensor: powerfactor_sensor_09
+      power_sensor: power_sensor_09
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_09
+      generator_energy_accumulator: generator_energy_accumulator_09
+      energy_accumulator: energy_accumulator_09
+EM-10:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-9:
+      average_line_current_sensor: average_line_current_sensor_10
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_10
+      line_frequency_sensor: line_frequency_sensor_10
+      powerfactor_sensor: powerfactor_sensor_10
+      power_sensor: power_sensor_10
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_10
+      generator_energy_accumulator: generator_energy_accumulator_10
+      energy_accumulator: energy_accumulator_10
+EM-11:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-9:
+      average_line_current_sensor: average_line_current_sensor_11
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_11
+      line_frequency_sensor: line_frequency_sensor_11
+      powerfactor_sensor: powerfactor_sensor_11
+      power_sensor: power_sensor_11
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_11
+      generator_energy_accumulator: generator_energy_accumulator_11
+      energy_accumulator: energy_accumulator_11
+EM-12:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-9:
+      average_line_current_sensor: average_line_current_sensor_12
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_12
+      line_frequency_sensor: line_frequency_sensor_12
+      powerfactor_sensor: powerfactor_sensor_12
+      power_sensor: power_sensor_12
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_12
+      generator_energy_accumulator: generator_energy_accumulator_12
+      energy_accumulator: energy_accumulator_12
+EM-13:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-909:
+      average_line_current_sensor: average_line_current_sensor_13
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_13
+      line_frequency_sensor: line_frequency_sensor_13
+      powerfactor_sensor: powerfactor_sensor_13
+      power_sensor: power_sensor_13
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_13
+      generator_energy_accumulator: generator_energy_accumulator_13
+      energy_accumulator: energy_accumulator_13
+EM-14:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-909:
+      average_line_current_sensor: average_line_current_sensor_14
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_14
+      line_frequency_sensor: line_frequency_sensor_14
+      powerfactor_sensor: powerfactor_sensor_14
+      power_sensor: power_sensor_14
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_14
+      generator_energy_accumulator: generator_energy_accumulator_14
+      energy_accumulator: energy_accumulator_14
+EM-15:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-909:
+      average_line_current_sensor: average_line_current_sensor_15
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_15
+      line_frequency_sensor: line_frequency_sensor_15
+      powerfactor_sensor: powerfactor_sensor_15
+      power_sensor: power_sensor_15
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_15
+      generator_energy_accumulator: generator_energy_accumulator_15
+      energy_accumulator: energy_accumulator_15
+EM-16:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-909:
+      average_line_current_sensor: average_line_current_sensor_16
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_16
+      line_frequency_sensor: line_frequency_sensor_16
+      powerfactor_sensor: powerfactor_sensor_16
+      power_sensor: power_sensor_16
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_16
+      generator_energy_accumulator: generator_energy_accumulator_16
+      energy_accumulator: energy_accumulator_16
+EM-17:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-909:
+      average_line_current_sensor: average_line_current_sensor_17
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_17
+      line_frequency_sensor: line_frequency_sensor_17
+      powerfactor_sensor: powerfactor_sensor_17
+      power_sensor: power_sensor_17
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_17
+      generator_energy_accumulator: generator_energy_accumulator_17
+      energy_accumulator: energy_accumulator_17
+EM-18:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-909:
+      average_line_current_sensor: average_line_current_sensor_18
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_18
+      line_frequency_sensor: line_frequency_sensor_18
+      powerfactor_sensor: powerfactor_sensor_18
+      power_sensor: power_sensor_18
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_18
+      generator_energy_accumulator: generator_energy_accumulator_18
+      energy_accumulator: energy_accumulator_18
+EM-19:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-909:
+      average_line_current_sensor: average_line_current_sensor_19
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_19
+      line_frequency_sensor: line_frequency_sensor_19
+      powerfactor_sensor: powerfactor_sensor_19
+      power_sensor: power_sensor_19
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_19
+      generator_energy_accumulator: generator_energy_accumulator_19
+      energy_accumulator: energy_accumulator_19
+EM-20:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-909:
+      average_line_current_sensor: average_line_current_sensor_20
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_20
+      line_frequency_sensor: line_frequency_sensor_20
+      powerfactor_sensor: powerfactor_sensor_20
+      power_sensor: power_sensor_20
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_20
+      generator_energy_accumulator: generator_energy_accumulator_20
+      energy_accumulator: energy_accumulator_20 
+EM-21:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-909:
+      average_line_current_sensor: average_line_current_sensor_21
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_21
+      line_frequency_sensor: line_frequency_sensor_21
+      powerfactor_sensor: powerfactor_sensor_21
+      power_sensor: power_sensor_21
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_21
+      generator_energy_accumulator: generator_energy_accumulator_21
+      energy_accumulator: energy_accumulator_21
+EM-22:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-909:
+      average_line_current_sensor: average_line_current_sensor_22
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_22
+      line_frequency_sensor: line_frequency_sensor_22
+      powerfactor_sensor: powerfactor_sensor_22
+      power_sensor: power_sensor_22
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_22
+      generator_energy_accumulator: generator_energy_accumulator_22
+      energy_accumulator: energy_accumulator_22
+EM-23:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-909:
+      average_line_current_sensor: average_line_current_sensor_23
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_23
+      line_frequency_sensor: line_frequency_sensor_23
+      powerfactor_sensor: powerfactor_sensor_23
+      power_sensor: power_sensor_23
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_23
+      generator_energy_accumulator: generator_energy_accumulator_23
+      energy_accumulator: energy_accumulator_23
+EM-24:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-909:
+      average_line_current_sensor: average_line_current_sensor_24
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_24
+      line_frequency_sensor: line_frequency_sensor_24
+      powerfactor_sensor: powerfactor_sensor_24
+      power_sensor: power_sensor_24
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_24
+      generator_energy_accumulator: generator_energy_accumulator_24
+      energy_accumulator: energy_accumulator_24
+EM-25:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-909:
+      average_line_current_sensor: average_line_current_sensor_25
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_25
+      line_frequency_sensor: line_frequency_sensor_25
+      powerfactor_sensor: powerfactor_sensor_25
+      power_sensor: power_sensor_25
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_25
+      generator_energy_accumulator: generator_energy_accumulator_25
+      energy_accumulator: energy_accumulator_25
+EM-26:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-19:
+      average_line_current_sensor: average_line_current_sensor_26
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_26
+      line_frequency_sensor: line_frequency_sensor_26
+      powerfactor_sensor: powerfactor_sensor_26
+      power_sensor: power_sensor_26
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_26
+      generator_energy_accumulator: generator_energy_accumulator_26
+      energy_accumulator: energy_accumulator_26
+EM-27:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-19:
+      average_line_current_sensor: average_line_current_sensor_27
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_27
+      line_frequency_sensor: line_frequency_sensor_27
+      powerfactor_sensor: powerfactor_sensor_27
+      power_sensor: power_sensor_27
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_27
+      generator_energy_accumulator: generator_energy_accumulator_27
+      energy_accumulator: energy_accumulator_27
+EM-28:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-19:
+      average_line_current_sensor: average_line_current_sensor_28
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_28
+      line_frequency_sensor: line_frequency_sensor_28
+      powerfactor_sensor: powerfactor_sensor_28
+      power_sensor: power_sensor_28
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_28
+      generator_energy_accumulator: generator_energy_accumulator_28
+      energy_accumulator: energy_accumulator_28
+EM-29:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-19:
+      average_line_current_sensor: average_line_current_sensor_29
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_29
+      line_frequency_sensor: line_frequency_sensor_29
+      powerfactor_sensor: powerfactor_sensor_29
+      power_sensor: power_sensor_29
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_29
+      generator_energy_accumulator: generator_energy_accumulator_29
+      energy_accumulator: energy_accumulator_29
+EM-30:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-19:
+      average_line_current_sensor: average_line_current_sensor_30
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_30
+      line_frequency_sensor: line_frequency_sensor_30
+      powerfactor_sensor: powerfactor_sensor_30
+      power_sensor: power_sensor_30
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_30
+      generator_energy_accumulator: generator_energy_accumulator_30
+      energy_accumulator: energy_accumulator_30
+EM-31:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-19:
+      average_line_current_sensor: average_line_current_sensor_31
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_31
+      line_frequency_sensor: line_frequency_sensor_31
+      powerfactor_sensor: powerfactor_sensor_31
+      power_sensor: power_sensor_31
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_31
+      generator_energy_accumulator: generator_energy_accumulator_31
+      energy_accumulator: energy_accumulator_31
+EM-32:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-19:
+      average_line_current_sensor: average_line_current_sensor_32
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_32
+      line_frequency_sensor: line_frequency_sensor_32
+      powerfactor_sensor: powerfactor_sensor_32
+      power_sensor: power_sensor_32
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_32
+      generator_energy_accumulator: generator_energy_accumulator_32
+      energy_accumulator: energy_accumulator_32
+EM-33:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-19:
+      average_line_current_sensor: average_line_current_sensor_33
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_33
+      line_frequency_sensor: line_frequency_sensor_33
+      powerfactor_sensor: powerfactor_sensor_33
+      power_sensor: power_sensor_33
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_33
+      generator_energy_accumulator: generator_energy_accumulator_33
+      energy_accumulator: energy_accumulator_33
+EM-34:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-19:
+      average_line_current_sensor: average_line_current_sensor_34
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_34
+      line_frequency_sensor: line_frequency_sensor_34
+      powerfactor_sensor: powerfactor_sensor_34
+      power_sensor: power_sensor_34
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_34
+      generator_energy_accumulator: generator_energy_accumulator_34
+      energy_accumulator: energy_accumulator_34
+EM-35:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-19:
+      average_line_current_sensor: average_line_current_sensor_35
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_35
+      line_frequency_sensor: line_frequency_sensor_35
+      powerfactor_sensor: powerfactor_sensor_35
+      power_sensor: power_sensor_35
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_35
+      generator_energy_accumulator: generator_energy_accumulator_35
+      energy_accumulator: energy_accumulator_35
+EM-36:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-19:
+      average_line_current_sensor: average_line_current_sensor_36
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_36
+      line_frequency_sensor: line_frequency_sensor_36
+      powerfactor_sensor: powerfactor_sensor_36
+      power_sensor: power_sensor_36
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_36
+      generator_energy_accumulator: generator_energy_accumulator_36
+      energy_accumulator: energy_accumulator_36
+EM-37:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-19:
+      average_line_current_sensor: average_line_current_sensor_37
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_37
+      line_frequency_sensor: line_frequency_sensor_37
+      powerfactor_sensor: powerfactor_sensor_37
+      power_sensor: power_sensor_37
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_37
+      generator_energy_accumulator: generator_energy_accumulator_37
+      energy_accumulator: energy_accumulator_37
+EM-38:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-19:
+      average_line_current_sensor: average_line_current_sensor_38
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_38
+      line_frequency_sensor: line_frequency_sensor_38
+      powerfactor_sensor: powerfactor_sensor_38
+      power_sensor: power_sensor_38
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_38
+      generator_energy_accumulator: generator_energy_accumulator_38
+      energy_accumulator: energy_accumulator_38  
+EM-39:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-19:
+      average_line_current_sensor: average_line_current_sensor_39
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_39
+      line_frequency_sensor: line_frequency_sensor_39
+      powerfactor_sensor: powerfactor_sensor_39
+      power_sensor: power_sensor_39
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_39
+      generator_energy_accumulator: generator_energy_accumulator_39
+      energy_accumulator: energy_accumulator_39    
+EM-40:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-1919:
+      average_line_current_sensor: average_line_current_sensor_40
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_40
+      line_frequency_sensor: line_frequency_sensor_40
+      powerfactor_sensor: powerfactor_sensor_40
+      power_sensor: power_sensor_40
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_40
+      generator_energy_accumulator: generator_energy_accumulator_40
+      energy_accumulator: energy_accumulator_40
+EM-41:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-1919:
+      average_line_current_sensor: average_line_current_sensor_41
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_41
+      line_frequency_sensor: line_frequency_sensor_41
+      powerfactor_sensor: powerfactor_sensor_41
+      power_sensor: power_sensor_41
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_41
+      generator_energy_accumulator: generator_energy_accumulator_41
+      energy_accumulator: energy_accumulator_41
+EM-42:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-1919:
+      average_line_current_sensor: average_line_current_sensor_42
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_42
+      line_frequency_sensor: line_frequency_sensor_42
+      powerfactor_sensor: powerfactor_sensor_42
+      power_sensor: power_sensor_42
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_42
+      generator_energy_accumulator: generator_energy_accumulator_42
+      energy_accumulator: energy_accumulator_42
+EM-43:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-1919:
+      average_line_current_sensor: average_line_current_sensor_43
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_43
+      line_frequency_sensor: line_frequency_sensor_43
+      powerfactor_sensor: powerfactor_sensor_43
+      power_sensor: power_sensor_43
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_43
+      generator_energy_accumulator: generator_energy_accumulator_43
+      energy_accumulator: energy_accumulator_43
+EM-44:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-1919:
+      average_line_current_sensor: average_line_current_sensor_44
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_44
+      line_frequency_sensor: line_frequency_sensor_44
+      powerfactor_sensor: powerfactor_sensor_44
+      power_sensor: power_sensor_44
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_44
+      generator_energy_accumulator: generator_energy_accumulator_44
+      energy_accumulator: energy_accumulator_44
+EM-45:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-1919:
+      average_line_current_sensor: average_line_current_sensor_45
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_45
+      line_frequency_sensor: line_frequency_sensor_45
+      powerfactor_sensor: powerfactor_sensor_45
+      power_sensor: power_sensor_45
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_45
+      generator_energy_accumulator: generator_energy_accumulator_45
+      energy_accumulator: energy_accumulator_45
+EM-46:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-1919:
+      average_line_current_sensor: average_line_current_sensor_46
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_46
+      line_frequency_sensor: line_frequency_sensor_46
+      powerfactor_sensor: powerfactor_sensor_46
+      power_sensor: power_sensor_46
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_46
+      generator_energy_accumulator: generator_energy_accumulator_46
+      energy_accumulator: energy_accumulator_46
+EM-47:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-1919:
+      average_line_current_sensor: average_line_current_sensor_47
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_47
+      line_frequency_sensor: line_frequency_sensor_47
+      powerfactor_sensor: powerfactor_sensor_47
+      power_sensor: power_sensor_47
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_47
+      generator_energy_accumulator: generator_energy_accumulator_47
+      energy_accumulator: energy_accumulator_47
+EM-48:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-1919:
+      average_line_current_sensor: average_line_current_sensor_48
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_48
+      line_frequency_sensor: line_frequency_sensor_48
+      powerfactor_sensor: powerfactor_sensor_48
+      power_sensor: power_sensor_48
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_48
+      generator_energy_accumulator: generator_energy_accumulator_48
+      energy_accumulator: energy_accumulator_48
+EM-49:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-1919:
+      average_line_current_sensor: average_line_current_sensor_49
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_49
+      line_frequency_sensor: line_frequency_sensor_49
+      powerfactor_sensor: powerfactor_sensor_49
+      power_sensor: power_sensor_49
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_49
+      generator_energy_accumulator: generator_energy_accumulator_49
+      energy_accumulator: energy_accumulator_49
+EM-50:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-1919:
+      average_line_current_sensor: average_line_current_sensor_50
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_50
+      line_frequency_sensor: line_frequency_sensor_50
+      powerfactor_sensor: powerfactor_sensor_50
+      power_sensor: power_sensor_50
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_50
+      generator_energy_accumulator: generator_energy_accumulator_50
+      energy_accumulator: energy_accumulator_50
+EM-51:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-1919:
+      average_line_current_sensor: average_line_current_sensor_51
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_51
+      line_frequency_sensor: line_frequency_sensor_51
+      powerfactor_sensor: powerfactor_sensor_51
+      power_sensor: power_sensor_51
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_51
+      generator_energy_accumulator: generator_energy_accumulator_51
+      energy_accumulator: energy_accumulator_51
+EM-52:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-1919:
+      average_line_current_sensor: average_line_current_sensor_52
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_52
+      line_frequency_sensor: line_frequency_sensor_52
+      powerfactor_sensor: powerfactor_sensor_52
+      power_sensor: power_sensor_52
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_52
+      generator_energy_accumulator: generator_energy_accumulator_52
+      energy_accumulator: energy_accumulator_52
+EM-53:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-1919:
+      average_line_current_sensor: average_line_current_sensor_53
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_53
+      line_frequency_sensor: line_frequency_sensor_53
+      powerfactor_sensor: powerfactor_sensor_53
+      power_sensor: power_sensor_53
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_53
+      generator_energy_accumulator: generator_energy_accumulator_53
+      energy_accumulator: energy_accumulator_53
+EM-54:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-1919:
+      average_line_current_sensor: average_line_current_sensor_54
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_54
+      line_frequency_sensor: line_frequency_sensor_54
+      powerfactor_sensor: powerfactor_sensor_54
+      power_sensor: power_sensor_54
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_54
+      generator_energy_accumulator: generator_energy_accumulator_54
+      energy_accumulator: energy_accumulator_54
+EM-55:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-1919:
+      average_line_current_sensor: average_line_current_sensor_55
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_55
+      line_frequency_sensor: line_frequency_sensor_55
+      powerfactor_sensor: powerfactor_sensor_55
+      power_sensor: power_sensor_55
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_55
+      generator_energy_accumulator: generator_energy_accumulator_55
+      energy_accumulator: energy_accumulator_55
+EM-56:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-1919:
+      average_line_current_sensor: average_line_current_sensor_56
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_56
+      line_frequency_sensor: line_frequency_sensor_56
+      powerfactor_sensor: powerfactor_sensor_56
+      power_sensor: power_sensor_56
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_56
+      generator_energy_accumulator: generator_energy_accumulator_56
+      energy_accumulator: energy_accumulator_56
+EM-57:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-34:
+      average_line_current_sensor: average_line_current_sensor_57
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_57
+      line_frequency_sensor: line_frequency_sensor_57
+      powerfactor_sensor: powerfactor_sensor_57
+      power_sensor: power_sensor_57
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_57
+      generator_energy_accumulator: generator_energy_accumulator_57
+      energy_accumulator: energy_accumulator_57
+EM-58:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-34:
+      average_line_current_sensor: average_line_current_sensor_58
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_58
+      line_frequency_sensor: line_frequency_sensor_58
+      powerfactor_sensor: powerfactor_sensor_58
+      power_sensor: power_sensor_58
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_58
+      generator_energy_accumulator: generator_energy_accumulator_58
+      energy_accumulator: energy_accumulator_58
+EM-59:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-34:
+      average_line_current_sensor: average_line_current_sensor_59
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_59
+      line_frequency_sensor: line_frequency_sensor_59
+      powerfactor_sensor: powerfactor_sensor_59
+      power_sensor: power_sensor_59
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_59
+      generator_energy_accumulator: generator_energy_accumulator_59
+      energy_accumulator: energy_accumulator_59
+EM-60:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-34:
+      average_line_current_sensor: average_line_current_sensor_60
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_60
+      line_frequency_sensor: line_frequency_sensor_60
+      powerfactor_sensor: powerfactor_sensor_60
+      power_sensor: power_sensor_60
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_60
+      generator_energy_accumulator: generator_energy_accumulator_60
+      energy_accumulator: energy_accumulator_60
+EM-61:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-34:
+      average_line_current_sensor: average_line_current_sensor_61
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_61
+      line_frequency_sensor: line_frequency_sensor_61
+      powerfactor_sensor: powerfactor_sensor_61
+      power_sensor: power_sensor_61
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_61
+      generator_energy_accumulator: generator_energy_accumulator_61
+      energy_accumulator: energy_accumulator_61
+EM-62:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-34:
+      average_line_current_sensor: average_line_current_sensor_62
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_62
+      line_frequency_sensor: line_frequency_sensor_62
+      powerfactor_sensor: powerfactor_sensor_62
+      power_sensor: power_sensor_62
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_62
+      generator_energy_accumulator: generator_energy_accumulator_62
+      energy_accumulator: energy_accumulator_62
+EM-63:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-34:
+      average_line_current_sensor: average_line_current_sensor_63
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_63
+      line_frequency_sensor: line_frequency_sensor_63
+      powerfactor_sensor: powerfactor_sensor_63
+      power_sensor: power_sensor_63
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_63
+      generator_energy_accumulator: generator_energy_accumulator_63
+      energy_accumulator: energy_accumulator_63
+EM-64:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-34:
+      average_line_current_sensor: average_line_current_sensor_64
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_64
+      line_frequency_sensor: line_frequency_sensor_64
+      powerfactor_sensor: powerfactor_sensor_64
+      power_sensor: power_sensor_64
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_64
+      generator_energy_accumulator: generator_energy_accumulator_64
+      energy_accumulator: energy_accumulator_64
+EM-65:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-34:
+      average_line_current_sensor: average_line_current_sensor_65
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_65
+      line_frequency_sensor: line_frequency_sensor_65
+      powerfactor_sensor: powerfactor_sensor_65
+      power_sensor: power_sensor_65
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_65
+      generator_energy_accumulator: generator_energy_accumulator_65
+      energy_accumulator: energy_accumulator_65
+EM-66:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-34:
+      average_line_current_sensor: average_line_current_sensor_66
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_66
+      line_frequency_sensor: line_frequency_sensor_66
+      powerfactor_sensor: powerfactor_sensor_66
+      power_sensor: power_sensor_66
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_66
+      generator_energy_accumulator: generator_energy_accumulator_66
+      energy_accumulator: energy_accumulator_66
+EM-67:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-34:
+      average_line_current_sensor: average_line_current_sensor_67
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_67
+      line_frequency_sensor: line_frequency_sensor_67
+      powerfactor_sensor: powerfactor_sensor_67
+      power_sensor: power_sensor_67
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_67
+      generator_energy_accumulator: generator_energy_accumulator_67
+      energy_accumulator: energy_accumulator_67
+EM-68:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-34:
+      average_line_current_sensor: average_line_current_sensor_68
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_68
+      line_frequency_sensor: line_frequency_sensor_68
+      powerfactor_sensor: powerfactor_sensor_68
+      power_sensor: power_sensor_68
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_68
+      generator_energy_accumulator: generator_energy_accumulator_68
+      energy_accumulator: energy_accumulator_68
+EM-69:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-34:
+      average_line_current_sensor: average_line_current_sensor_69
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_69
+      line_frequency_sensor: line_frequency_sensor_69
+      powerfactor_sensor: powerfactor_sensor_69
+      power_sensor: power_sensor_69
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_69
+      generator_energy_accumulator: generator_energy_accumulator_69
+      energy_accumulator: energy_accumulator_69
+EM-70:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-34:
+      average_line_current_sensor: average_line_current_sensor_70
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_70
+      line_frequency_sensor: line_frequency_sensor_70
+      powerfactor_sensor: powerfactor_sensor_70
+      power_sensor: power_sensor_70
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_70
+      generator_energy_accumulator: generator_energy_accumulator_70
+      energy_accumulator: energy_accumulator_70
+EM-71:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-34:
+      average_line_current_sensor: average_line_current_sensor_71
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_71
+      line_frequency_sensor: line_frequency_sensor_71
+      powerfactor_sensor: powerfactor_sensor_71
+      power_sensor: power_sensor_71
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_71
+      generator_energy_accumulator: generator_energy_accumulator_71
+      energy_accumulator: energy_accumulator_71
+EM-72:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-3434:
+      average_line_current_sensor: average_line_current_sensor_72
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_72
+      line_frequency_sensor: line_frequency_sensor_72
+      powerfactor_sensor: powerfactor_sensor_72
+      power_sensor: power_sensor_72
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_72
+      generator_energy_accumulator: generator_energy_accumulator_72
+      energy_accumulator: energy_accumulator_72
+EM-73:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-3434:
+      average_line_current_sensor: average_line_current_sensor_73
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_73
+      line_frequency_sensor: line_frequency_sensor_73
+      powerfactor_sensor: powerfactor_sensor_73
+      power_sensor: power_sensor_73
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_73
+      generator_energy_accumulator: generator_energy_accumulator_73
+      energy_accumulator: energy_accumulator_73
+EM-74:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-3434:
+      average_line_current_sensor: average_line_current_sensor_74
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_74
+      line_frequency_sensor: line_frequency_sensor_74
+      powerfactor_sensor: powerfactor_sensor_74
+      power_sensor: power_sensor_74
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_74
+      generator_energy_accumulator: generator_energy_accumulator_74
+      energy_accumulator: energy_accumulator_74
+EM-75:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-3434:
+      average_line_current_sensor: average_line_current_sensor_75
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_75
+      line_frequency_sensor: line_frequency_sensor_75
+      powerfactor_sensor: powerfactor_sensor_75
+      power_sensor: power_sensor_75
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_75
+      generator_energy_accumulator: generator_energy_accumulator_75
+      energy_accumulator: energy_accumulator_75
+EM-76:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-3434:
+      average_line_current_sensor: average_line_current_sensor_76
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_76
+      line_frequency_sensor: line_frequency_sensor_76
+      powerfactor_sensor: powerfactor_sensor_76
+      power_sensor: power_sensor_76
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_76
+      generator_energy_accumulator: generator_energy_accumulator_76
+      energy_accumulator: energy_accumulator_76
+EM-77:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-3434:
+      average_line_current_sensor: average_line_current_sensor_77
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_77
+      line_frequency_sensor: line_frequency_sensor_77
+      powerfactor_sensor: powerfactor_sensor_77
+      power_sensor: power_sensor_77
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_77
+      generator_energy_accumulator: generator_energy_accumulator_77
+      energy_accumulator: energy_accumulator_77
+EM-78:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-3434:
+      average_line_current_sensor: average_line_current_sensor_78
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_78
+      line_frequency_sensor: line_frequency_sensor_78
+      powerfactor_sensor: powerfactor_sensor_78
+      power_sensor: power_sensor_78
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_78
+      generator_energy_accumulator: generator_energy_accumulator_78
+      energy_accumulator: energy_accumulator_78
+EM-79:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-3434:
+      average_line_current_sensor: average_line_current_sensor_79
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_79
+      line_frequency_sensor: line_frequency_sensor_79
+      powerfactor_sensor: powerfactor_sensor_79
+      power_sensor: power_sensor_79
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_79
+      generator_energy_accumulator: generator_energy_accumulator_79
+      energy_accumulator: energy_accumulator_79
+EM-80:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-3434:
+      average_line_current_sensor: average_line_current_sensor_80
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_80
+      line_frequency_sensor: line_frequency_sensor_80
+      powerfactor_sensor: powerfactor_sensor_80
+      power_sensor: power_sensor_80
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_80
+      generator_energy_accumulator: generator_energy_accumulator_80
+      energy_accumulator: energy_accumulator_80
+EM-81:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-3434:
+      average_line_current_sensor: average_line_current_sensor_81
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_81
+      line_frequency_sensor: line_frequency_sensor_81
+      powerfactor_sensor: powerfactor_sensor_81
+      power_sensor: power_sensor_81
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_81
+      generator_energy_accumulator: generator_energy_accumulator_81
+      energy_accumulator: energy_accumulator_81
+EM-82:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-3434:
+      average_line_current_sensor: average_line_current_sensor_82
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_82
+      line_frequency_sensor: line_frequency_sensor_82
+      powerfactor_sensor: powerfactor_sensor_82
+      power_sensor: power_sensor_82
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_82
+      generator_energy_accumulator: generator_energy_accumulator_82
+      energy_accumulator: energy_accumulator_82
+EM-83:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-3434:
+      average_line_current_sensor: average_line_current_sensor_83
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_83
+      line_frequency_sensor: line_frequency_sensor_83
+      powerfactor_sensor: powerfactor_sensor_83
+      power_sensor: power_sensor_83
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_83
+      generator_energy_accumulator: generator_energy_accumulator_83
+      energy_accumulator: energy_accumulator_83
+EM-84:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-3434:
+      average_line_current_sensor: average_line_current_sensor_84
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_84
+      line_frequency_sensor: line_frequency_sensor_84
+      powerfactor_sensor: powerfactor_sensor_84
+      power_sensor: power_sensor_84
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_84
+      generator_energy_accumulator: generator_energy_accumulator_84
+      energy_accumulator: energy_accumulator_84
+EM-85:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-3434:
+      average_line_current_sensor: average_line_current_sensor_85
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_85
+      line_frequency_sensor: line_frequency_sensor_85
+      powerfactor_sensor: powerfactor_sensor_85
+      power_sensor: power_sensor_85
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_85
+      generator_energy_accumulator: generator_energy_accumulator_85
+      energy_accumulator: energy_accumulator_85
+EM-86:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-3434:
+      average_line_current_sensor: average_line_current_sensor_86
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_86
+      line_frequency_sensor: line_frequency_sensor_86
+      powerfactor_sensor: powerfactor_sensor_86
+      power_sensor: power_sensor_86
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_86
+      generator_energy_accumulator: generator_energy_accumulator_86
+      energy_accumulator: energy_accumulator_86
+EM-87:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-53:
+      average_line_current_sensor: average_line_current_sensor_87
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_87
+      line_frequency_sensor: line_frequency_sensor_87
+      powerfactor_sensor: powerfactor_sensor_87
+      power_sensor: power_sensor_87
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_87
+      generator_energy_accumulator: generator_energy_accumulator_87
+      energy_accumulator: energy_accumulator_87
+EM-88:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-53:
+      average_line_current_sensor: average_line_current_sensor_88
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_88
+      line_frequency_sensor: line_frequency_sensor_88
+      powerfactor_sensor: powerfactor_sensor_88
+      power_sensor: power_sensor_88
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_88
+      generator_energy_accumulator: generator_energy_accumulator_88
+      energy_accumulator: energy_accumulator_88
+EM-89:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-53:
+      average_line_current_sensor: average_line_current_sensor_89
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_89
+      line_frequency_sensor: line_frequency_sensor_89
+      powerfactor_sensor: powerfactor_sensor_89
+      power_sensor: power_sensor_89
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_89
+      generator_energy_accumulator: generator_energy_accumulator_89
+      energy_accumulator: energy_accumulator_89
+EM-90:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-53:
+      average_line_current_sensor: average_line_current_sensor_90
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_90
+      line_frequency_sensor: line_frequency_sensor_90
+      powerfactor_sensor: powerfactor_sensor_90
+      power_sensor: power_sensor_90
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_90
+      generator_energy_accumulator: generator_energy_accumulator_90
+      energy_accumulator: energy_accumulator_90
+EM-91:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-53:
+      average_line_current_sensor: average_line_current_sensor_91
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_91
+      line_frequency_sensor: line_frequency_sensor_91
+      powerfactor_sensor: powerfactor_sensor_91
+      power_sensor: power_sensor_91
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_91
+      generator_energy_accumulator: generator_energy_accumulator_91
+      energy_accumulator: energy_accumulator_91
+EM-92:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-53:
+      average_line_current_sensor: average_line_current_sensor_92
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_92
+      line_frequency_sensor: line_frequency_sensor_92
+      powerfactor_sensor: powerfactor_sensor_92
+      power_sensor: power_sensor_92
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_92
+      generator_energy_accumulator: generator_energy_accumulator_92
+      energy_accumulator: energy_accumulator_92
+EM-93:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-53:
+      average_line_current_sensor: average_line_current_sensor_93
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_93
+      line_frequency_sensor: line_frequency_sensor_93
+      powerfactor_sensor: powerfactor_sensor_93
+      power_sensor: power_sensor_93
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_93
+      generator_energy_accumulator: generator_energy_accumulator_93
+      energy_accumulator: energy_accumulator_93
+EM-94:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-53:
+      average_line_current_sensor: average_line_current_sensor_94
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_94
+      line_frequency_sensor: line_frequency_sensor_94
+      powerfactor_sensor: powerfactor_sensor_94
+      power_sensor: power_sensor_94
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_94
+      generator_energy_accumulator: generator_energy_accumulator_94
+      energy_accumulator: energy_accumulator_94
+EM-95:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-53:
+      average_line_current_sensor: average_line_current_sensor_95
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_95
+      line_frequency_sensor: line_frequency_sensor_95
+      powerfactor_sensor: powerfactor_sensor_95
+      power_sensor: power_sensor_95
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_95
+      generator_energy_accumulator: generator_energy_accumulator_95
+      energy_accumulator: energy_accumulator_95
+EM-96:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-53:
+      average_line_current_sensor: average_line_current_sensor_96
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_96
+      line_frequency_sensor: line_frequency_sensor_96
+      powerfactor_sensor: powerfactor_sensor_96
+      power_sensor: power_sensor_96
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_96
+      generator_energy_accumulator: generator_energy_accumulator_96
+      energy_accumulator: energy_accumulator_96
+EM-97:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-53:
+      average_line_current_sensor: average_line_current_sensor_97
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_97
+      line_frequency_sensor: line_frequency_sensor_97
+      powerfactor_sensor: powerfactor_sensor_97
+      power_sensor: power_sensor_97
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_97
+      generator_energy_accumulator: generator_energy_accumulator_97
+      energy_accumulator: energy_accumulator_97
+EM-98:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-53:
+      average_line_current_sensor: average_line_current_sensor_98
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_98
+      line_frequency_sensor: line_frequency_sensor_98
+      powerfactor_sensor: powerfactor_sensor_98
+      power_sensor: power_sensor_98
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_98
+      generator_energy_accumulator: generator_energy_accumulator_98
+      energy_accumulator: energy_accumulator_98
+EM-99:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-53:
+      average_line_current_sensor: average_line_current_sensor_99
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_99
+      line_frequency_sensor: line_frequency_sensor_99
+      powerfactor_sensor: powerfactor_sensor_99
+      power_sensor: power_sensor_99
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_99
+      generator_energy_accumulator: generator_energy_accumulator_99
+      energy_accumulator: energy_accumulator_99
+EM-100:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-53:
+      average_line_current_sensor: average_line_current_sensor_100
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_100
+      line_frequency_sensor: line_frequency_sensor_100
+      powerfactor_sensor: powerfactor_sensor_100
+      power_sensor: power_sensor_100
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_100
+      generator_energy_accumulator: generator_energy_accumulator_100
+      energy_accumulator: energy_accumulator_100
+EM-101:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-65:
+      average_line_current_sensor: average_line_current_sensor_101
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_101
+      line_frequency_sensor: line_frequency_sensor_101
+      powerfactor_sensor: powerfactor_sensor_101
+      power_sensor: power_sensor_101
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_101
+      generator_energy_accumulator: generator_energy_accumulator_101
+      energy_accumulator: energy_accumulator_101
+EM-102:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-65:
+      average_line_current_sensor: average_line_current_sensor_102
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_102
+      line_frequency_sensor: line_frequency_sensor_102
+      powerfactor_sensor: powerfactor_sensor_102
+      power_sensor: power_sensor_102
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_102
+      generator_energy_accumulator: generator_energy_accumulator_102
+      energy_accumulator: energy_accumulator_102
+EM-103:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-65:
+      average_line_current_sensor: average_line_current_sensor_103
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_103
+      line_frequency_sensor: line_frequency_sensor_103
+      powerfactor_sensor: powerfactor_sensor_103
+      power_sensor: power_sensor_103
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_103
+      generator_energy_accumulator: generator_energy_accumulator_103
+      energy_accumulator: energy_accumulator_103
+EM-104:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-65:
+      average_line_current_sensor: average_line_current_sensor_104
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_104
+      line_frequency_sensor: line_frequency_sensor_104
+      powerfactor_sensor: powerfactor_sensor_104
+      power_sensor: power_sensor_104
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_104
+      generator_energy_accumulator: generator_energy_accumulator_104
+      energy_accumulator: energy_accumulator_104
+EM-105:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-65:
+      average_line_current_sensor: average_line_current_sensor_105
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_105
+      line_frequency_sensor: line_frequency_sensor_105
+      powerfactor_sensor: powerfactor_sensor_105
+      power_sensor: power_sensor_105
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_105
+      generator_energy_accumulator: generator_energy_accumulator_105
+      energy_accumulator: energy_accumulator_105
+EM-106:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-65:
+      average_line_current_sensor: average_line_current_sensor_106
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_106
+      line_frequency_sensor: line_frequency_sensor_106
+      powerfactor_sensor: powerfactor_sensor_106
+      power_sensor: power_sensor_106
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_106
+      generator_energy_accumulator: generator_energy_accumulator_106
+      energy_accumulator: energy_accumulator_106
+EM-107:
+  type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
+  links:
+    HLI-65:
+      average_line_current_sensor: average_line_current_sensor_107
+      average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_107
+      line_frequency_sensor: line_frequency_sensor_107
+      powerfactor_sensor: powerfactor_sensor_107
+      power_sensor: power_sensor_107
+      electricalgrid_energy_accumulator: electricalgrid_energy_accumulator_107
+      generator_energy_accumulator: generator_energy_accumulator_107
+      energy_accumulator: energy_accumulator_107                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 HLI-909:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2663448010426311

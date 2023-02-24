@@ -78,6 +78,70 @@ HLI-13:
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
+
+
+RDT-01:
+  type: SAFETY/RDT_STD
+  links: 
+    HLI-13:
+      transducer_failed_alarm: transducer_failed_alarm_01
+RDT-02:
+  type: SAFETY/RDT_STD
+  links: 
+    HLI-13:
+      transducer_failed_alarm: transducer_failed_alarm_02
+RDT-03:
+  type: SAFETY/RDT_STD
+  links: 
+    HLI-13:
+      transducer_failed_alarm: transducer_failed_alarm_03
+RDT-04:
+  type: SAFETY/RDT_STD
+  links: 
+    HLI-13:
+      transducer_failed_alarm: transducer_failed_alarm_04
+RDT-05:
+  type: SAFETY/RDT_STD
+  links: 
+    HLI-13:
+      transducer_failed_alarm: transducer_failed_alarm_05
+RDT-06:
+  type: SAFETY/RDT_STD
+  links: 
+    HLI-13:
+      transducer_failed_alarm: transducer_failed_alarm_06
+RDT-07:
+  type: SAFETY/RDT_STD
+  links: 
+    HLI-13:
+      transducer_failed_alarm: transducer_failed_alarm_07
+RDT-08:
+  type: SAFETY/RDT_STD
+  links: 
+    HLI-13:
+      transducer_failed_alarm: transducer_failed_alarm_08
+RDT-09:
+  type: SAFETY/RDT_STD
+  links: 
+    HLI-13:
+      transducer_failed_alarm: transducer_failed_alarm_09
+RDT-10:
+  type: SAFETY/RDT_STD
+  links: 
+    HLI-13:
+      transducer_failed_alarm: transducer_failed_alarm_10
+RDT-11:
+  type: SAFETY/RDT_STD
+  links: 
+    HLI-13:
+      transducer_failed_alarm: transducer_failed_alarm_11
+
+
+
+
+
+
+
 HLI-7:
   type: HVAC/AHU_
   cloud_device_id: 
@@ -203,7 +267,72 @@ HLI-7:
         key: "pointset.points.water_leak_cable_distance_sensor_11.units"
         values:
           metres: metres
-
+LDS-01:
+  type: SAFETY\LDS_WLA_BCM
+  links: 
+    HLI-7:
+      water_leak_alarm: water_leak_alarm_01
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_01
+LDS-02:
+  type: SAFETY\LDS_WLA_BCM
+  links: 
+    HLI-7:
+      water_leak_alarm: water_leak_alarm_02
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_02
+LDS-03:
+  type: SAFETY\LDS_WLA_BCM
+  links: 
+    HLI-7:
+      water_leak_alarm: water_leak_alarm_03
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_03  
+LDS-04:
+  type: SAFETY\LDS_WLA_BCM
+  links: 
+    HLI-7:
+      water_leak_alarm: water_leak_alarm_04
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_04  
+LDS-05:
+  type: SAFETY\LDS_WLA_BCM
+  links: 
+    HLI-7:
+      water_leak_alarm: water_leak_alarm_05
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_05  
+LDS-06:
+  type: SAFETY\LDS_WLA_BCM
+  links: 
+    HLI-7:
+      water_leak_alarm: water_leak_alarm_06
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_06  
+LDS-07:
+  type: SAFETY\LDS_WLA_BCM
+  links: 
+    HLI-7:
+      water_leak_alarm: water_leak_alarm_07
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_07 
+LDS-08:
+  type: SAFETY\LDS_WLA_BCM
+  links: 
+    HLI-7:
+      water_leak_alarm: water_leak_alarm_08
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_08  
+LDS-09:
+  type: SAFETY\LDS_WLA_BCM
+  links: 
+    HLI-7:
+      water_leak_alarm: water_leak_alarm_09
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_09  
+LDS-10:
+  type: SAFETY\LDS_WLA_BCM
+  links: 
+    HLI-7:
+      water_leak_alarm: water_leak_alarm_10
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_10  
+LDS-11:
+  type: SAFETY\LDS_WLA_BCM
+  links: 
+    HLI-7:
+      water_leak_alarm: water_leak_alarm_11
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_11            
 # Zones
 IN-GUR-SIGD_ZN1:
   type: HVAC/ZONE

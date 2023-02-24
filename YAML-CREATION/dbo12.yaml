@@ -19,190 +19,5422 @@ IN-GUR-SIGD_RM2:
     IN-GUR-SIGD_ZN1: CONTAINS
 
 # Devices
-HLI-13:
-  type: HVAC/AHU_
-  cloud_device_id: 
+DDC-7:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2659847749708821
   translation:
-    transducer_failed_alarm_01:
-      present_value: "points.transducer_failed_alarm_01.present_value"
+    supply_fan_run_mode_01:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_01:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_01:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_01:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_01:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
-    transducer_failed_alarm_02:
-      present_value: "points.transducer_failed_alarm_02.present_value"
+    supply_fan_speed_percentage_command_01:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_01:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_01:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_01:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percent_command_01:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percent_sensor_01:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_01:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temp_setpoint_01:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_01:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_01:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_01:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_01:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    run_command_02:
+      present_value: "points.sf_02_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_02:
+      present_value: "points.sf_02_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    control_mode_02:
+      present_value: "points.sf_02_control_mode.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_02:
+      present_value: "points.sf_02_lost_power_alarm.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_20:
+      present_value: "points.cb_20_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_20:
+      present_value: "points.cb_20_lost_power_alarm.present_value"
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
-    transducer_failed_alarm_03:
-      present_value: "points.transducer_failed_alarm_03.present_value"
+    run_status_21:
+      present_value: "points.cb_21_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_21:
+      present_value: "points.cb_21_lost_power_alarm.present_value"
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
-    transducer_failed_alarm_04:
-      present_value: "points.transducer_failed_alarm_04.present_value"
+    run_status_22:
+      present_value: "points.cb_22_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_22:
+      present_value: "points.cb_22_lost_power_alarm.present_value"
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
-    transducer_failed_alarm_05:
-      present_value: "points.transducer_failed_alarm_05.present_value"
-      states:
-        ACTIVE: "TRUE"
-        INACTIVE: "FALSE"
-    transducer_failed_alarm_06:
-      present_value: "points.transducer_failed_alarm_06.present_value"
-      states:
-        ACTIVE: "TRUE"
-        INACTIVE: "FALSE"
-    transducer_failed_alarm_07:
-      present_value: "points.transducer_failed_alarm_07.present_value"
-      states:
-        ACTIVE: "TRUE"
-        INACTIVE: "FALSE"
-    transducer_failed_alarm_08:
-      present_value: "points.transducer_failed_alarm_08.present_value"
-      states:
-        ACTIVE: "TRUE"
-        INACTIVE: "FALSE"
-    transducer_failed_alarm_09:
-      present_value: "points.transducer_failed_alarm_09.present_value"
-      states:
-        ACTIVE: "TRUE"
-        INACTIVE: "FALSE"
-    transducer_failed_alarm_10:
-      present_value: "points.transducer_failed_alarm_10.present_value"
-      states:
-        ACTIVE: "TRUE"
-        INACTIVE: "FALSE"
-    transducer_failed_alarm_11:
-      present_value: "points.transducer_failed_alarm_11.present_value"
-      states:
-        ACTIVE: "TRUE"
-        INACTIVE: "FALSE"
-HLI-7:
-  type: HVAC/AHU_
-  cloud_device_id: 
+DDC-6:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2550717582081500
   translation:
-    water_leak_alarm_01:
-      present_value: "points.water_leak_alarm_01.present_value"
+    supply_fan_run_mode_02:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_02:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_02:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_02:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_02:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
-    water_leak_cable_distance_sensor_01:
-      present_value: "points.water_leak_cable_distance_sensor_01.present_value"
+    supply_fan_speed_percentage_command_02:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
       units:
-        key: "pointset.points.water_leak_cable_distance_sensor_01.units"
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
         values:
-          metres: metres
-    water_leak_alarm_02:
-      present_value: "points.water_leak_alarm_02.present_value"
+          percent: percent
+    filter_differential_pressure_sensor_02:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_02:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_02:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percent_command_02:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percent_sensor_02:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_02:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temp_setpoint_02:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_02:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_02:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_02:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_02:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    return_air_temperature_sensor_02:
+      present_value: "points.return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_co2_concentration_sensor_02:
+      present_value: "points.return_air_co2_concentration_sen.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_sen.units"
+        values:
+          parts_per_million: parts_per_million
+    return_air_relative_humidity_sensor_02:
+      present_value: "points.return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    run_status_16:
+      present_value: "points.cb_16_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_16:
+      present_value: "points.cb_16_lost_power_alarm.present_value"
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
-    water_leak_cable_distance_sensor_02:
-      present_value: "points.water_leak_cable_distance_sensor_02.present_value"
-      units:
-        key: "pointset.points.water_leak_cable_distance_sensor_02.units"
-        values:
-          metres: metres
-    water_leak_alarm_03:
-      present_value: "points.water_leak_alarm_03.present_value"
+    run_status_17:
+      present_value: "points.cb_17_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_17:
+      present_value: "points.cb_17_lost_power_alarm.present_value"
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
-    water_leak_cable_distance_sensor_03:
-      present_value: "points.water_leak_cable_distance_sensor_03.present_value"
-      units:
-        key: "pointset.points.water_leak_cable_distance_sensor_03.units"
-        values:
-          metres: metres
-    water_leak_alarm_04:
-      present_value: "points.water_leak_alarm_04.present_value"
+    run_status_18:
+      present_value: "points.cb_18_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_18:
+      present_value: "points.cb_18_lost_power_alarm.present_value"
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
-    water_leak_cable_distance_sensor_04:
-      present_value: "points.water_leak_cable_distance_sensor_04.present_value"
-      units:
-        key: "pointset.points.water_leak_cable_distance_sensor_04.units"
-        values:
-          metres: metres
-    water_leak_alarm_05:
-      present_value: "points.water_leak_alarm_05.present_value"
+    run_status_19:
+      present_value: "points.cb_19_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_19:
+      present_value: "points.cb_19_lost_power_alarm.present_value"
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
-    water_leak_cable_distance_sensor_05:
-      present_value: "points.water_leak_cable_distance_sensor_05.present_value"
+    zone_air_co2_concentration_sensor_01:
+      present_value: "points.cds_01_zone_air_co2_concen_s.present_value"
       units:
-        key: "pointset.points.water_leak_cable_distance_sensor_05.units"
+        key: "pointset.points.cds_01_zone_air_co2_concen_s.units"
         values:
-          metres: metres
-    water_leak_alarm_06:
-      present_value: "points.water_leak_alarm_06.present_value"
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_10:
+      present_value: "points.mts_10_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_10_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_10:
+      present_value: "points.mts_10_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_10_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+DDC-4:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2565683012752158
+  translation:
+    supply_fan_run_mode_03:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_03:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_03:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_03:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_03:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
-    water_leak_cable_distance_sensor_06:
-      present_value: "points.water_leak_cable_distance_sensor_06.present_value"
+    supply_fan_speed_percentage_command_03:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
       units:
-        key: "pointset.points.water_leak_cable_distance_sensor_06.units"
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
         values:
-          metres: metres
-    water_leak_alarm_07:
-      present_value: "points.water_leak_alarm_07.present_value"
+          percent: percent
+    filter_differential_pressure_sensor_03:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_03:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_03:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percent_command_03:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percent_sensor_03:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_03:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temp_setpoint_03:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_03:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_03:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_03:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_03:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    return_air_temperature_sensor_03:
+      present_value: "points.return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_co2_concentration_sensor_03:
+      present_value: "points.return_air_co2_concentration_sen.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_sen.units"
+        values:
+          parts_per_million: parts_per_million
+    return_air_relative_humidity_sensor_03:
+      present_value: "points.return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    run_status_14:
+      present_value: "points.cb_14_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_14:
+      present_value: "points.cb_14_lost_power_alarm.present_value"
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
-    water_leak_cable_distance_sensor_07:
-      present_value: "points.water_leak_cable_distance_sensor_07.present_value"
-      units:
-        key: "pointset.points.water_leak_cable_distance_sensor_07.units"
-        values:
-          metres: metres
-    water_leak_alarm_08:
-      present_value: "points.water_leak_alarm_08.present_value"
+    run_status_15:
+      present_value: "points.cb_15_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_15:
+      present_value: "points.cb_15_lost_power_alarm.present_value"
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
-    water_leak_cable_distance_sensor_08:
-      present_value: "points.water_leak_cable_distance_sensor_08.present_value"
+    zone_air_temperature_sensor_08:
+      present_value: "points.mts_08_zone_air_temperature_s.present_value"
       units:
-        key: "pointset.points.water_leak_cable_distance_sensor_08.units"
+        key: "pointset.points.mts_08_zone_air_temperature_s.units"
         values:
-          metres: metres
-    water_leak_alarm_09:
-      present_value: "points.water_leak_alarm_09.present_value"
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_08:
+      present_value: "points.mts_08_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_08_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_temperature_sensor_09:
+      present_value: "points.mts_09_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_09_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_09:
+      present_value: "points.mts_09_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_09_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+DDC-5:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2790314889991979
+  translation:
+    supply_fan_run_mode_04:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_04:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_04:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_04:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_04:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
-    water_leak_cable_distance_sensor_09:
-      present_value: "points.water_leak_cable_distance_sensor_09.present_value"
+    supply_fan_speed_percentage_command_04:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
       units:
-        key: "pointset.points.water_leak_cable_distance_sensor_09.units"
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
         values:
-          metres: metres
-    water_leak_alarm_10:
-      present_value: "points.water_leak_alarm_10.present_value"
+          percent: percent
+    filter_differential_pressure_sensor_04:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_04:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_04:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percent_command_04:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percent_sensor_04:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_04:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temp_setpoint_04:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_04:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_04:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_04:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_04:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    run_command_01:
+      present_value: "points.sf_01_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_01:
+      present_value: "points.sf_01_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    control_mode_01:
+      present_value: "points.sf_01_control_mode.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_01:
+      present_value: "points.sf_01_lost_power_alarm.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+DDC-9:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2564901727860213
+  translation:
+    supply_fan_run_mode_05:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_05:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_05:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_05:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_05:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
-    water_leak_cable_distance_sensor_10:
-      present_value: "points.water_leak_cable_distance_sensor_10.present_value"
+    supply_fan_speed_percentage_command_05:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
       units:
-        key: "pointset.points.water_leak_cable_distance_sensor_10.units"
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
         values:
-          metres: metres
-    water_leak_alarm_11:
-      present_value: "points.water_leak_alarm_11.present_value"
+          percent: percent
+    filter_differential_pressure_sensor_05:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_05:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_05:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percentage_command_05:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percentage_sensor_05:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_05:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temperature_setpoint_05:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_05:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_05:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_05:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_05:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    return_air_temperature_sensor_05:
+      present_value: "points.return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_co2_concentration_sensor_05:
+      present_value: "points.return_air_co2_concentration_sen.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_sen.units"
+        values:
+          parts_per_million: parts_per_million
+    return_air_relative_humidity_sensor_05:
+      present_value: "points.return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    run_status_25:
+      present_value: "points.cb_25_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_25:
+      present_value: "points.cb_25_lost_power_alarm.present_value"
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
-    water_leak_cable_distance_sensor_11:
-      present_value: "points.water_leak_cable_distance_sensor_11.present_value"
+    run_status_26:
+      present_value: "points.cb_26_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_26:
+      present_value: "points.cb_26_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_27:
+      present_value: "points.cb_27_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_27:
+      present_value: "points.cb_27_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_28:
+      present_value: "points.cb_28_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_28:
+      present_value: "points.cb_28_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_29:
+      present_value: "points.cb_29_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_29:
+      present_value: "points.cb_29_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_30:
+      present_value: "points.cb_30_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_30:
+      present_value: "points.cb_30_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_31:
+      present_value: "points.cb_31_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_31:
+      present_value: "points.cb_31_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_32:
+      present_value: "points.cb_32_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_32:
+      present_value: "points.cb_32_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_33:
+      present_value: "points.cb_33_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_33:
+      present_value: "points.cb_33_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_34:
+      present_value: "points.cb_34_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_34:
+      present_value: "points.cb_34_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_35:
+      present_value: "points.cb_35_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_35:
+      present_value: "points.cb_35_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_36:
+      present_value: "points.cb_36_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_36:
+      present_value: "points.cb_36_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_37:
+      present_value: "points.cb_37_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_37:
+      present_value: "points.cb_37_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_38:
+      present_value: "points.cb_38_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_38:
+      present_value: "points.cb_38_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_39:
+      present_value: "points.cb_39_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_39:
+      present_value: "points.cb_39_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_40:
+      present_value: "points.cb_40_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_40:
+      present_value: "points.cb_40_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_41:
+      present_value: "points.cb_41_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_41:
+      present_value: "points.cb_41_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_42:
+      present_value: "points.cb_42_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_42:
+      present_value: "points.cb_42_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_43:
+      present_value: "points.cb_43_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_43:
+      present_value: "points.cb_43_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_44:
+      present_value: "points.cb_44_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_44:
+      present_value: "points.cb_44_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    zone_air_co2_concentration_sensor_02:
+      present_value: "points.cds_02_zone_air_co2_concen_s.present_value"
       units:
-        key: "pointset.points.water_leak_cable_distance_sensor_11.units"
+        key: "pointset.points.cds_02_zone_air_co2_concen_s.units"
         values:
-          metres: metres
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_13:
+      present_value: "points.mts_13_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_13_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_13:
+      present_value: "points.mts_13_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_13_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+DDC-8:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2663184680202028
+  translation:
+    supply_fan_run_mode_06:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_06:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_06:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_06:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_06:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    supply_fan_speed_percentage_command_06:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_06:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_06:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_06:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percentage_command_06:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percentage_sensor_06:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_06:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temperature_setpoint_06:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_06:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_06:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_06:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_06:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    return_air_temperature_sensor_06:
+      present_value: "points.return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_co2_concentration_sensor_06:
+      present_value: "points.return_air_co2_concentration_sen.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_sen.units"
+        values:
+          parts_per_million: parts_per_million
+    return_air_relative_humidity_sensor_06:
+      present_value: "points.return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    run_command_03:
+      present_value: "points.sf_03_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_03:
+      present_value: "points.sf_03_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    control_mode_03:
+      present_value: "points.sf_03_control_mode.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_03:
+      present_value: "points.sf_03_lost_power_alarm.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_23:
+      present_value: "points.cb_23_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_23:
+      present_value: "points.cb_23_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_24:
+      present_value: "points.cb_24_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_24:
+      present_value: "points.cb_24_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    zone_air_temperature_sensor_11:
+      present_value: "points.mts_11_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_11_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_11:
+      present_value: "points.mts_11_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_11_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_temperature_sensor_12:
+      present_value: "points.mts_12_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_12_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_12:
+      present_value: "points.mts_12_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_12_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+DDC-13:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2744008025884209
+  translation:
+    supply_fan_run_mode_07:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_07:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_07:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_07:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_07:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    supply_fan_speed_percentage_command_07:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_07:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_07:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_07:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percentage_command_07:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percentage_sensor_07:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_07:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temperature_setpoint_07:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_07:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_07:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_07:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_07:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    return_air_temperature_sensor_07:
+      present_value: "points.return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_co2_concentration_sensor_07:
+      present_value: "points.return_air_co2_concentration_sen.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_sen.units"
+        values:
+          parts_per_million: parts_per_million
+    return_air_relative_humidity_sensor_07:
+      present_value: "points.return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    run_status_128:
+      present_value: "points.cb_128_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_128:
+      present_value: "points.cb_128_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_129:
+      present_value: "points.cb_129_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_129:
+      present_value: "points.cb_129_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_130:
+      present_value: "points.cb_130_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_130:
+      present_value: "points.cb_130_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_131:
+      present_value: "points.cb_131_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_131:
+      present_value: "points.cb_131_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_132:
+      present_value: "points.cb_132_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_132:
+      present_value: "points.cb_132_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_133:
+      present_value: "points.cb_133_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_133:
+      present_value: "points.cb_133_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_134:
+      present_value: "points.cb_134_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_134:
+      present_value: "points.cb_134_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    zone_air_co2_concentration_sensor_03:
+      present_value: "points.cds_03_zone_air_co2_concen_s.present_value"
+      units:
+        key: "pointset.points.cds_03_zone_air_co2_concen_s.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_19:
+      present_value: "points.mts_19_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_19_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_19:
+      present_value: "points.mts_19_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_19_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+DDC-1111:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2765513905337917
+  translation:
+    supply_fan_run_mode_08:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_08:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_08:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_08:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_08:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    supply_fan_speed_percentage_command_08:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_08:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_08:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_08:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percentage_command_08:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percentage_sensor_08:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_08:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temperature_setpoint_08:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_08:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_08:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_08:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_08:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    return_air_temperature_sensor_08:
+      present_value: "points.return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_co2_concentration_sensor_08:
+      present_value: "points.return_air_co2_concentration_sen.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_sen.units"
+        values:
+          parts_per_million: parts_per_million
+    return_air_relative_humidity_sensor_08:
+      present_value: "points.return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    run_status_45:
+      present_value: "points.cb_45_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_45:
+      present_value: "points.cb_45_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_74:
+      present_value: "points.cb_74_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_74:
+      present_value: "points.cb_74_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_75:
+      present_value: "points.cb_75_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_75:
+      present_value: "points.cb_75_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_76:
+      present_value: "points.cb_76_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_76:
+      present_value: "points.cb_76_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_77:
+      present_value: "points.cb_77_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_77:
+      present_value: "points.cb_77_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_78:
+      present_value: "points.cb_78_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_78:
+      present_value: "points.cb_78_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_79:
+      present_value: "points.cb_79_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_79:
+      present_value: "points.cb_79_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_80:
+      present_value: "points.cb_80_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_80:
+      present_value: "points.cb_80_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_81:
+      present_value: "points.cb_81_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_81:
+      present_value: "points.cb_81_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_82:
+      present_value: "points.cb_82_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_82:
+      present_value: "points.cb_82_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_83:
+      present_value: "points.cb_83_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_83:
+      present_value: "points.cb_83_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_84:
+      present_value: "points.cb_84_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_84:
+      present_value: "points.cb_84_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_85:
+      present_value: "points.cb_85_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_85:
+      present_value: "points.cb_85_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_86:
+      present_value: "points.cb_86_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_86:
+      present_value: "points.cb_86_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_87:
+      present_value: "points.cb_87_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_87:
+      present_value: "points.cb_87_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_88:
+      present_value: "points.cb_88_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_88:
+      present_value: "points.cb_88_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_89:
+      present_value: "points.cb_89_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_89:
+      present_value: "points.cb_89_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_90:
+      present_value: "points.cb_90_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_90:
+      present_value: "points.cb_90_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_102:
+      present_value: "points.cb_102_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_102:
+      present_value: "points.cb_102_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_103:
+      present_value: "points.cb_103_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_103:
+      present_value: "points.cb_103_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_104:
+      present_value: "points.cb_104_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_104:
+      present_value: "points.cb_104_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_105:
+      present_value: "points.cb_105_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_105:
+      present_value: "points.cb_105_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_106:
+      present_value: "points.cb_106_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_106:
+      present_value: "points.cb_106_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_116:
+      present_value: "points.cb_116_run_status.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    lost_power_alarm_116:
+      present_value: "points.cb_116_lost_power_alarm.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_117:
+      present_value: "points.cb_117_run_status.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    lost_power_alarm_117:
+      present_value: "points.cb_117_lost_power_alarm.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_118:
+      present_value: "points.cb_118_run_status.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    lost_power_alarm_118:
+      present_value: "points.cb_118_lost_power_alarm.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    zone_air_temperature_sensor_14:
+      present_value: "points.mts_14_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_14_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_14:
+      present_value: "points.mts_14_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_14_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_temperature_sensor_15:
+      present_value: "points.mts_15_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_15_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_15:
+      present_value: "points.mts_15_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_15_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_temperature_sensor_16:
+      present_value: "points.mts_16_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_16_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_16:
+      present_value: "points.mts_16_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_16_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_temperature_sensor_17:
+      present_value: "points.mts_17_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_17_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_17:
+      present_value: "points.mts_17_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_17_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+DDC-15:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2768367857129504
+  translation:
+    supply_fan_run_mode_09:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_09:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_09:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_09:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_09:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    supply_fan_speed_percentage_command_09:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_09:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_09:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_09:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percentage_command_09:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percentage_sensor_09:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_09:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temperature_setpoint_09:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_09:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_09:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_09:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_09:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    return_air_temperature_sensor_09:
+      present_value: "points.return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_co2_concentration_sensor_09:
+      present_value: "points.return_air_co2_concentration_sen.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_sen.units"
+        values:
+          parts_per_million: parts_per_million
+    return_air_relative_humidity_sensor_09:
+      present_value: "points.return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.return_air_relative_humidity_sen.units"
+        values:
+          percent: percent
+    run_status_137:
+      present_value: "points.cb_137_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_137:
+      present_value: "points.cb_137_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_138:
+      present_value: "points.cb_138_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_138:
+      present_value: "points.cb_138_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_139:
+      present_value: "points.cb_139_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_139:
+      present_value: "points.cb_139_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_140:
+      present_value: "points.cb_140_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_140:
+      present_value: "points.cb_140_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_141:
+      present_value: "points.cb_141_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_141:
+      present_value: "points.cb_141_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_142:
+      present_value: "points.cb_142_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_142:
+      present_value: "points.cb_142_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_143:
+      present_value: "points.cb_143_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_143:
+      present_value: "points.cb_143_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    zone_air_co2_concentration_sensor_04:
+      present_value: "points.cds_04_zone_air_co2_concen_s.present_value"
+      units:
+        key: "pointset.points.cds_04_zone_air_co2_concen_s.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_22:
+      present_value: "points.mts_22_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_22_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_22:
+      present_value: "points.mts_22_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_22_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_temperature_sensor_23:
+      present_value: "points.mts_23_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_23_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_23:
+      present_value: "points.mts_23_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_23_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+DDC-14:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2728074801386850
+  translation:
+    supply_fan_run_mode_10:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_10:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_10:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_10:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_10:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    supply_fan_speed_percentage_command_10:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_10:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_10:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_10:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percentage_command_10:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percentage_sensor_10:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_10:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temperature_setpoint_10:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_10:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_10:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_10:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_10:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    return_air_temperature_sensor_10:
+      present_value: "points.return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_co2_concentration_sensor_10:
+      present_value: "points.return_air_co2_concentration_sen.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_sen.units"
+        values:
+          parts_per_million: parts_per_million
+    return_air_relative_humidity_sensor_10:
+      present_value: "points.return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    run_command_06:
+      present_value: "points.sf_06_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_06:
+      present_value: "points.sf_06_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    control_mode_06:
+      present_value: "points.sf_06_control_mode.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_06:
+      present_value: "points.sf_06_lost_power_alarm.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_135:
+      present_value: "points.cb_135_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_135:
+      present_value: "points.cb_135_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_136:
+      present_value: "points.cb_136_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_136:
+      present_value: "points.cb_136_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    zone_air_temperature_sensor_20:
+      present_value: "points.mts_20_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_20_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_20:
+      present_value: "points.mts_20_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_20_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_temperature_sensor_21:
+      present_value: "points.mts_21_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_21_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_21:
+      present_value: "points.mts_21_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_21_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+DDC-17:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2656524524476737
+  translation:
+    supply_fan_run_mode_11:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_11:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_11:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_11:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_11:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    supply_fan_speed_percentage_command_11:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_11:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_11:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_11:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percentage_command_11:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percentage_sensor_11:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_11:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temperature_setpoint_11:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_11:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_11:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_11:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_11:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    return_air_temperature_sensor_11:
+      present_value: "points.return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_co2_concentration_sensor_11:
+      present_value: "points.return_air_co2_concentration_sen.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_sen.units"
+        values:
+          parts_per_million: parts_per_million
+    return_air_relative_humidity_sensor_11:
+      present_value: "points.return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    run_status_146:
+      present_value: "points.cb_146_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_146:
+      present_value: "points.cb_146_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_147:
+      present_value: "points.cb_147_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_147:
+      present_value: "points.cb_147_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_148:
+      present_value: "points.cb_148_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_148:
+      present_value: "points.cb_148_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_149:
+      present_value: "points.cb_149_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_149:
+      present_value: "points.cb_149_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_150:
+      present_value: "points.cb_150_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_150:
+      present_value: "points.cb_150_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_151:
+      present_value: "points.cb_151_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_151:
+      present_value: "points.cb_151_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_152:
+      present_value: "points.cb_152_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_152:
+      present_value: "points.cb_152_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    zone_air_co2_concentration_sensor_05:
+      present_value: "points.cds_05_zone_air_co2_concen_s.present_value"
+      units:
+        key: "pointset.points.cds_05_zone_air_co2_concen_s.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_26:
+      present_value: "points.mts_26_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_26_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_26:
+      present_value: "points.mts_26_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_26_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+DDC-16:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2759775104217647
+  translation:
+    supply_fan_run_mode_12:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_12:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_12:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_12:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_12:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    supply_fan_speed_percentage_command_12:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_12:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_12:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_12:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percentage_command_12:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percentage_sensor_12:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_12:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temperature_setpoint_12:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_12:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_12:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_12:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_12:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    return_air_temperature_sensor_12:
+      present_value: "points.return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_co2_concentration_sensor_12:
+      present_value: "points.return_air_co2_concentration_sen.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_sen.units"
+        values:
+          parts_per_million: parts_per_million
+    return_air_relative_humidity_sensor_12:
+      present_value: "points.return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    run_command_07:
+      present_value: "points.sf_07_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_07:
+      present_value: "points.sf_07_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    control_mode_07:
+      present_value: "points.sf_07_control_mode.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_07:
+      present_value: "points.sf_07_lost_power_alarm.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_144:
+      present_value: "points.cb_144_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_144:
+      present_value: "points.cb_144_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_145:
+      present_value: "points.cb_145_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_145:
+      present_value: "points.cb_145_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    zone_air_temperature_sensor_24:
+      present_value: "points.mts_24_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_24_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_24:
+      present_value: "points.mts_24_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_24_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_temperature_sensor_25:
+      present_value: "points.mts_25_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_25_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_25:
+      present_value: "points.mts_25_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_25_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+DDC-19:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2668940499185592
+  translation:
+    supply_fan_run_mode_13:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_13:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_13:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_13:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_13:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    supply_fan_speed_percentage_command_13:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_13:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_13:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_13:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percentage_command_13:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percentage_sensor_13:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_13:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temperature_setpoint_13:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_13:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_13:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_13:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_13:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    return_air_temperature_sensor_13:
+      present_value: "points.return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_co2_concentration_sensor_13:
+      present_value: "points.return_air_co2_concentration_sen.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_sen.units"
+        values:
+          parts_per_million: parts_per_million
+    return_air_relative_humidity_sensor_13:
+      present_value: "points.return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    run_command_08:
+      present_value: "points.sf_08_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_08:
+      present_value: "points.sf_08_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    control_mode_08:
+      present_value: "points.sf_08_control_mode.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_08:
+      present_value: "points.sf_08_lost_power_alarm.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_155:
+      present_value: "points.cb_155_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_155:
+      present_value: "points.cb_155_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_156:
+      present_value: "points.cb_156_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_156:
+      present_value: "points.cb_156_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_157:
+      present_value: "points.cb_157_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_157:
+      present_value: "points.cb_157_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_158:
+      present_value: "points.cb_158_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_158:
+      present_value: "points.cb_158_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_159:
+      present_value: "points.cb_159_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_159:
+      present_value: "points.cb_159_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_160:
+      present_value: "points.cb_160_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_160:
+      present_value: "points.cb_160_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_161:
+      present_value: "points.cb_161_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_161:
+      present_value: "points.cb_161_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_162:
+      present_value: "points.cb_162_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_162:
+      present_value: "points.cb_162_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_163:
+      present_value: "points.cb_163_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_163:
+      present_value: "points.cb_163_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_164:
+      present_value: "points.cb_164_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_164:
+      present_value: "points.cb_164_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_165:
+      present_value: "points.cb_165_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_165:
+      present_value: "points.cb_165_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_166:
+      present_value: "points.cb_166_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_166:
+      present_value: "points.cb_166_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_167:
+      present_value: "points.cb_167_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_167:
+      present_value: "points.cb_167_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_168:
+      present_value: "points.cb_168_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_168:
+      present_value: "points.cb_168_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_169:
+      present_value: "points.cb_169_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_169:
+      present_value: "points.cb_169_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_170:
+      present_value: "points.cb_170_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_170:
+      present_value: "points.cb_170_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_171:
+      present_value: "points.cb_171_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_171:
+      present_value: "points.cb_171_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_172:
+      present_value: "points.cb_172_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_172:
+      present_value: "points.cb_172_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_173:
+      present_value: "points.cb_173_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_173:
+      present_value: "points.cb_173_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_174:
+      present_value: "points.cb_174_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_174:
+      present_value: "points.cb_174_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    zone_air_co2_concentration_sensor_06:
+      present_value: "points.cds_06_zone_air_co2_concen_s.present_value"
+      units:
+        key: "pointset.points.cds_06_zone_air_co2_concen_s.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_29:
+      present_value: "points.mts_29_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_29_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_29:
+      present_value: "points.mts_29_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_29_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+DDC-18:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2569278903810754
+  translation:
+    supply_fan_run_mode_14:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_14:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_14:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_14:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_14:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    supply_fan_speed_percentage_command_14:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_14:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_14:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_14:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percentage_command_14:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percentage_sensor_14:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_14:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temperature_setpoint_14:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_14:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_14:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_14:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_14:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    return_air_temperature_sensor_14:
+      present_value: "points.return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_co2_concentration_sensor_14:
+      present_value: "points.return_air_co2_concentration_sen.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_sen.units"
+        values:
+          parts_per_million: parts_per_million
+    return_air_relative_humidity_sensor_14:
+      present_value: "points.return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    run_status_153:
+      present_value: "points.cb_153_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_153:
+      present_value: "points.cb_153_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_154:
+      present_value: "points.cb_154_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_154:
+      present_value: "points.cb_154_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    zone_air_temperature_sensor_27:
+      present_value: "points.mts_27_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_27_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_27:
+      present_value: "points.mts_27_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_27_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_temperature_sensor_28:
+      present_value: "points.mts_28_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_28_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_28:
+      present_value: "points.mts_28_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_28_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+DDC-21:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2700995914676171
+  translation:
+    supply_fan_run_mode_15:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_15:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_15:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_15:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_15:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    supply_fan_speed_percentage_command_15:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_15:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_15:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_15:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percentage_command_15:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percentage_sensor_15:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_15:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temperature_setpoint_15:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_15:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_15:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_15:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_15:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    return_air_temperature_sensor_15:
+      present_value: "points.return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_co2_concentration_sensor_15:
+      present_value: "points.return_air_co2_concentration_sen.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_sen.units"
+        values:
+          parts_per_million: parts_per_million
+    return_air_relative_humidity_sensor_15:
+      present_value: "points.return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    run_status_177:
+      present_value: "points.cb_177_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_177:
+      present_value: "points.cb_177_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_178:
+      present_value: "points.cb_178_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_178:
+      present_value: "points.cb_178_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_179:
+      present_value: "points.cb_179_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_179:
+      present_value: "points.cb_179_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_180:
+      present_value: "points.cb_180_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_180:
+      present_value: "points.cb_180_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_181:
+      present_value: "points.cb_181_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_181:
+      present_value: "points.cb_181_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_182:
+      present_value: "points.cb_182_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_182:
+      present_value: "points.cb_182_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_183:
+      present_value: "points.cb_183_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_183:
+      present_value: "points.cb_183_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    zone_air_co2_concentration_sensor_07:
+      present_value: "points.cds_07_zone_air_co2_concen_s.present_value"
+      units:
+        key: "pointset.points.cds_07_zone_air_co2_concen_s.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_32:
+      present_value: "points.mts_32_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_32_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_32:
+      present_value: "points.mts_32_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_32_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+DDC-20:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2698818475031683
+  translation:
+    supply_fan_run_mode_15:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_15:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_15:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_15:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_15:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    supply_fan_speed_percentage_command_15:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_15:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_15:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_15:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percentage_command_15:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percentage_sensor_15:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_15:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temperature_setpoint_15:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_15:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_15:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_15:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_15:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    return_air_temperature_sensor_15:
+      present_value: "points.return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_co2_concentration_sensor_15:
+      present_value: "points.return_air_co2_concentration_sen.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_sen.units"
+        values:
+          parts_per_million: parts_per_million
+    return_air_relative_humidity_sensor_15:
+      present_value: "points.return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    run_status_175:
+      present_value: "points.cb_175_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_175:
+      present_value: "points.cb_175_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_176:
+      present_value: "points.cb_176_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_176:
+      present_value: "points.cb_176_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    zone_air_temperature_sensor_30:
+      present_value: "points.mts_30_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_30_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_30:
+      present_value: "points.mts_30_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_30_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_temperature_sensor_31:
+      present_value: "points.mts_31_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_31_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_31:
+      present_value: "points.mts_31_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_31_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+DDC-25:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2751466850538840
+  translation:
+    supply_fan_run_mode_17:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_17:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_17:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_17:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_17:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    supply_fan_speed_percentage_command_17:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_17:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_17:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_17:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percentage_command_17:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percentage_sensor_17:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_17:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temperature_setpoint_17:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_17:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_17:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_17:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_17:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    run_status_193:
+      present_value: "points.cb_193_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_193:
+      present_value: "points.cb_193_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_194:
+      present_value: "points.cb_194_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_194:
+      present_value: "points.cb_194_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_195:
+      present_value: "points.cb_195_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_195:
+      present_value: "points.cb_195_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_196:
+      present_value: "points.cb_196_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_196:
+      present_value: "points.cb_196_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_197:
+      present_value: "points.cb_197_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_197:
+      present_value: "points.cb_197_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_198:
+      present_value: "points.cb_198_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_198:
+      present_value: "points.cb_198_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_199:
+      present_value: "points.cb_199_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_199:
+      present_value: "points.cb_199_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_200:
+      present_value: "points.cb_200_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_200:
+      present_value: "points.cb_200_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_201:
+      present_value: "points.cb_201_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_201:
+      present_value: "points.cb_201_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    supply_fan_run_command_01:
+      present_value: "points.kfaf_01_supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_01:
+      present_value: "points.kfaf_01_supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_speed_mode_01:
+      present_value: "points.kfaf_01_supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_lost_power_alarm_01:
+      present_value: "points.kfaf_01_supply_fan_lost_power_al.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    supply_fan_run_command_02:
+      present_value: "points.kfaf_02_supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_02:
+      present_value: "points.kfaf_02_supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_speed_mode_02:
+      present_value: "points.kfaf_02_supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_lost_power_alarm_02:
+      present_value: "points.kfaf_02_supply_fan_lost_power_al.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    supply_air_static_pressure_sensor_02:
+      present_value: "points.kfaf_02_supply_air_static_pr_sen.present_value"
+      units:
+        key: "pointset.points.kfaf_02_supply_air_static_pr_sen.units"
+        values:
+          pascals: pascals
+DDC-24:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2748713466783442
+  translation:
+    supply_fan_run_mode_18:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_18:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_18:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_18:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_18:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    supply_fan_speed_percentage_command_18:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_18:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_18:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_18:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percentage_command_18:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percentage_sensor_18:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_18:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temperature_setpoint_18:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_18:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_18:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_18:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_18:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    return_air_temperature_sensor_18:
+      present_value: "points.return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_co2_concentration_sensor_18:
+      present_value: "points.return_air_co2_concentration_sen.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_sen.units"
+        values:
+          parts_per_million: parts_per_million
+    return_air_relative_humidity_sensor_18:
+      present_value: "points.return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    run_status_186:
+      present_value: "points.cb_186_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_186:
+      present_value: "points.cb_186_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_187:
+      present_value: "points.cb_187_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_187:
+      present_value: "points.cb_187_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_188:
+      present_value: "points.cb_188_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_188:
+      present_value: "points.cb_188_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_189:
+      present_value: "points.cb_189_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_189:
+      present_value: "points.cb_189_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_190:
+      present_value: "points.cb_190_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_190:
+      present_value: "points.cb_190_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_191:
+      present_value: "points.cb_191_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_191:
+      present_value: "points.cb_191_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_192:
+      present_value: "points.cb_192_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_192:
+      present_value: "points.cb_192_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    zone_air_co2_concentration_sensor_08:
+      present_value: "points.cds_08_zone_air_co2_concen_s.present_value"
+      units:
+        key: "pointset.points.cds_08_zone_air_co2_concen_s.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_35:
+      present_value: "points.mts_35_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_35_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_35:
+      present_value: "points.mts_35_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_35_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+DDC-23:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2725575303247308
+  translation:
+    supply_fan_run_mode_19:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_19:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_19:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_19:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_19:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    supply_fan_speed_percentage_command_19:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_19:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_19:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_19:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percentage_command_19:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percentage_sensor_19:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_19:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temperature_setpoint_19:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_19:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_19:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_19:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_19:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    run_command_09:
+      present_value: "points.sf_09_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_09:
+      present_value: "points.sf_09_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    control_mode_09:
+      present_value: "points.sf_09_control_mode.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_09:
+      present_value: "points.sf_09_lost_power_alarm.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+DDC-22:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2679189552380744
+  translation:
+    supply_fan_run_mode_20:
+      present_value: "points.supply_fan_run_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_speed_mode_20:
+      present_value: "points.supply_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    supply_fan_run_command_20:
+      present_value: "points.supply_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_20:
+      present_value: "points.supply_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_lost_power_alarm_20:
+      present_value: "points.supply_fan_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    supply_fan_speed_percentage_command_20:
+      present_value: "points.supply_fan_speed_percentage_cmd.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_percentage_cmd.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_20:
+      present_value: "points.filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+    supply_air_temperature_sensor_20:
+      present_value: "points.supply_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_sensor_20:
+      present_value: "points.supply_air_static_pressure_sen.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_sen.units"
+        values:
+          pascals: pascals
+    chilled_water_valve_percentage_command_20:
+      present_value: "points.chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percentage_sensor_20:
+      present_value: "points.chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    supply_air_isolation_damper_status_20:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_temperature_setpoint_20:
+      present_value: "points.supply_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.supply_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    supply_air_static_pressure_setpoint_20:
+      present_value: "points.supply_air_static_pressure_setpo.present_value"
+      units:
+        key: "pointset.points.supply_air_static_pressure_setpo.units"
+        values:
+          pascals: pascals
+    return_air_co2_concentration_setpoint_20:
+      present_value: "points.return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    schedule_run_command_20:
+      present_value: "points.schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    return_air_isolation_damper_status_20:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    return_air_temperature_sensor_20:
+      present_value: "points.return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_co2_concentration_sensor_20:
+      present_value: "points.return_air_co2_concentration_sen.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concentration_sen.units"
+        values:
+          parts_per_million: parts_per_million
+    return_air_relative_humidity_sensor_20:
+      present_value: "points.return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    run_status_184:
+      present_value: "points.cb_184_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_184:
+      present_value: "points.cb_184_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_185:
+      present_value: "points.cb_185_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_185:
+      present_value: "points.cb_185_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    zone_air_temperature_sensor_33:
+      present_value: "points.mts_33_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_33_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_33:
+      present_value: "points.mts_33_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_33_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_temperature_sensor_34:
+      present_value: "points.mts_34_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_34_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_34:
+      present_value: "points.mts_34_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_34_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+DDC-1112:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2774656125244313
+  translation:
+    run_command_05:
+      present_value: "points.sf_05_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_05:
+      present_value: "points.sf_05_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    control_mode_05:
+      present_value: "points.sf_05_control_mode.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_05:
+      present_value: "points.sf_05_lost_power_alarm.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_46:
+      present_value: "points.cb_46_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_46:
+      present_value: "points.cb_46_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_47:
+      present_value: "points.cb_47_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_47:
+      present_value: "points.cb_47_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_48:
+      present_value: "points.cb_48_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_48:
+      present_value: "points.cb_48_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_49:
+      present_value: "points.cb_49_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_49:
+      present_value: "points.cb_49_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_50:
+      present_value: "points.cb_50_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_50:
+      present_value: "points.cb_50_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_51:
+      present_value: "points.cb_51_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_51:
+      present_value: "points.cb_51_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_52:
+      present_value: "points.cb_52_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_52:
+      present_value: "points.cb_52_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_53:
+      present_value: "points.cb_53_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_53:
+      present_value: "points.cb_53_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_54:
+      present_value: "points.cb_54_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_54:
+      present_value: "points.cb_54_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_55:
+      present_value: "points.cb_55_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_55:
+      present_value: "points.cb_55_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_56:
+      present_value: "points.cb_56_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_56:
+      present_value: "points.cb_56_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_57:
+      present_value: "points.cb_57_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_57:
+      present_value: "points.cb_57_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_58:
+      present_value: "points.cb_58_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_58:
+      present_value: "points.cb_58_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_59:
+      present_value: "points.cb_59_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_59:
+      present_value: "points.cb_59_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_60:
+      present_value: "points.cb_60_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_60:
+      present_value: "points.cb_60_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_61:
+      present_value: "points.cb_61_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_61:
+      present_value: "points.cb_61_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_62:
+      present_value: "points.cb_62_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_62:
+      present_value: "points.cb_62_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_63:
+      present_value: "points.cb_63_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_63:
+      present_value: "points.cb_63_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_64:
+      present_value: "points.cb_64_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_64:
+      present_value: "points.cb_64_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_65:
+      present_value: "points.cb_65_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_65:
+      present_value: "points.cb_65_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_66:
+      present_value: "points.cb_66_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_66:
+      present_value: "points.cb_66_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_67:
+      present_value: "points.cb_67_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_67:
+      present_value: "points.cb_67_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_68:
+      present_value: "points.cb_68_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_68:
+      present_value: "points.cb_68_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_69:
+      present_value: "points.cb_69_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_69:
+      present_value: "points.cb_69_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_70:
+      present_value: "points.cb_70_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_70:
+      present_value: "points.cb_70_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_71:
+      present_value: "points.cb_71_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_71:
+      present_value: "points.cb_71_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_72:
+      present_value: "points.cb_72_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_72:
+      present_value: "points.cb_72_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_73:
+      present_value: "points.cb_73_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_73:
+      present_value: "points.cb_73_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_91:
+      present_value: "points.cb_91_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_91:
+      present_value: "points.cb_91_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_92:
+      present_value: "points.cb_92_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_92:
+      present_value: "points.cb_92_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_93:
+      present_value: "points.cb_93_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_93:
+      present_value: "points.cb_93_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_94:
+      present_value: "points.cb_94_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_94:
+      present_value: "points.cb_94_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_95:
+      present_value: "points.cb_95_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_95:
+      present_value: "points.cb_95_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_96:
+      present_value: "points.cb_96_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_96:
+      present_value: "points.cb_96_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_97:
+      present_value: "points.cb_97_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_97:
+      present_value: "points.cb_97_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_98:
+      present_value: "points.cb_98_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_98:
+      present_value: "points.cb_98_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_99:
+      present_value: "points.cb_99_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_99:
+      present_value: "points.cb_99_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_100:
+      present_value: "points.cb_100_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_100:
+      present_value: "points.cb_100_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_101:
+      present_value: "points.cb_101_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_101:
+      present_value: "points.cb_101_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_107:
+      present_value: "points.cb_107_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_108:
+      present_value: "points.cb_108_run_status.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_109:
+      present_value: "points.cb_109_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_110:
+      present_value: "points.cb_110_run_status.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_111:
+      present_value: "points.cb_111_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_112:
+      present_value: "points.cb_112_run_status.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_113:
+      present_value: "points.cb_113_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_114:
+      present_value: "points.cb_114_run_status.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_115:
+      present_value: "points.cb_115_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_119:
+      present_value: "points.cb_119_run_status.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_120:
+      present_value: "points.cb_120_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_121:
+      present_value: "points.cb_121_run_status.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_122:
+      present_value: "points.cb_122_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_123:
+      present_value: "points.cb_123_run_status.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_124:
+      present_value: "points.cb_124_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_125:
+      present_value: "points.cb_125_run_status.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_126:
+      present_value: "points.cb_126_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_127:
+      present_value: "points.cb_127_run_status.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+DDC-1:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2606062346961168
+  translation:
+    zone_air_temperature_sensor_0001:
+      present_value: "points.tps_01_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.tps_01_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_0002:
+      present_value: "points.tps_02_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.tps_02_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_0003:
+      present_value: "points.tps_03_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.tps_03_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_0004:
+      present_value: "points.tps_04_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.tps_04_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_0005:
+      present_value: "points.tps_05_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.tps_05_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_0006:
+      present_value: "points.tps_06_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.tps_06_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_01:
+      present_value: "points.mts_01_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_01_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_02:
+      present_value: "points.mts_02_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_02_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    run_command_01:
+      present_value: "points.ef_01_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_01:
+      present_value: "points.ef_01_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_mode_01:
+      present_value: "points.ef_01_run_mode.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_01:
+      present_value: "points.ef_01_lost_power_alarm.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_command_02:
+      present_value: "points.ef_02_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_02:
+      present_value: "points.ef_02_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_mode_02:
+      present_value: "points.ef_02_run_mode.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_02:
+      present_value: "points.ef_02_lost_power_alarm.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_command_03:
+      present_value: "points.ef_03_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_03:
+      present_value: "points.ef_03_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_mode_03:
+      present_value: "points.ef_03_run_mode.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_03:
+      present_value: "points.ef_03_lost_power_alarm.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+DDC-2:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2595595986231345
+  translation:
+    run_status_01:
+      present_value: "points.cb_01_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_01:
+      present_value: "points.cb_01_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_02:
+      present_value: "points.cb_02_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_02:
+      present_value: "points.cb_02_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_03:
+      present_value: "points.cb_03_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_03:
+      present_value: "points.cb_03_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_04:
+      present_value: "points.cb_04_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_04:
+      present_value: "points.cb_04_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_05:
+      present_value: "points.cb_05_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_05:
+      present_value: "points.cb_05_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_06:
+      present_value: "points.cb_06_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_06:
+      present_value: "points.cb_06_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_07:
+      present_value: "points.cb_07_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_07:
+      present_value: "points.cb_07_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_08:
+      present_value: "points.cb_08_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_08:
+      present_value: "points.cb_08_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_09:
+      present_value: "points.cb_09_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_09:
+      present_value: "points.cb_09_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_10:
+      present_value: "points.cb_10_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_10:
+      present_value: "points.cb_10_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_11:
+      present_value: "points.cb_11_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_11:
+      present_value: "points.cb_11_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    zone_air_temperature_sensor_0007:
+      present_value: "points.tps_07_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.tps_07_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_0008:
+      present_value: "points.tps_08_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.tps_08_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_01:
+      present_value: "points.mts_01_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_01_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_relative_humidity_sensor_02:
+      present_value: "points.mts_02_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_02_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_temperature_sensor_03:
+      present_value: "points.mts_03_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_03_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_03:
+      present_value: "points.mts_03_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_03_zone_air_relative_humid_s.units"
+        values:
+          percent: percentpercent_relative_humidity
+    zone_air_temperature_sensor_04:
+      present_value: "points.mts_04_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_04_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_04:
+      present_value: "points.mts_04_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_04_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_temperature_sensor_05:
+      present_value: "points.mts_05_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_05_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_05:
+      present_value: "points.mts_05_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_05_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_temperature_sensor_06:
+      present_value: "points.mts_06_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_06_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_06:
+      present_value: "points.mts_06_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_06_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_01:
+      present_value: "points.fcu_01_discharge_fan_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_command_01:
+      present_value: "points.fcu_01_discharge_fan_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    schedule_run_command_01:
+      present_value: "points.fcu_01_schedule_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    control_mode_01:
+      present_value: "points.fcu_01_discharge_fan_control_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    discharge_fan_speed_mode_01:
+      present_value: "points.fcu_01_discharge_fan_speed_mode.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    discharge_fan_speed_percentage_command_01:
+      present_value: "points.fcu_01_discharge_fan_speed_percentage_cmd.present_value"
+      units:
+        key: "pointset.points.fcu_01_discharge_fan_speed_percentage_cmd.units"
+        values:
+          percent: percent
+    discharge_fan_lost_power_alarm_01:
+      present_value: "points.fcu_01_discharge_fan_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    return_air_relative_humidity_sensor_01:
+      present_value: "points.fcu_01_return_air_relative_humidity_sen.present_value"
+      units:
+        key: "pointset.points.fcu_01_return_air_relative_humidity_sen.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_01:
+      present_value: "points.fcu_01_return_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_01_return_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_air_temperature_sensor_01:
+      present_value: "points.fcu_01_discharge_air_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.fcu_01_discharge_air_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_air_temperature_setpoint_01:
+      present_value: "points.fcu_01_discharge_air_temp_setpoint.present_value"
+      units:
+        key: "pointset.points.fcu_01_discharge_air_temp_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_isolation_damper_status_01:
+      present_value: "points.fcu_01_return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    supply_air_isolation_damper_status_01:
+      present_value: "points.fcu_01_supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    return_air_co2_concentration_setpoint_01:
+      present_value: "points.fcu_01_return_air_co2_concentration_set.present_value"
+      units:
+        key: "pointset.points.fcu_01_return_air_co2_concentration_set.units"
+        values:
+          parts_per_million: parts_per_million
+    chilled_water_valve_percentage_command_01:
+      present_value: "points.fcu_01_chilled_water_valve_percent_cmd.present_value"
+      units:
+        key: "pointset.points.fcu_01_chilled_water_valve_percent_cmd.units"
+        values:
+          percent: percent
+    chilled_water_valve_percentage_sensor_01:
+      present_value: "points.fcu_01_chilled_water_valve_percent_sen.present_value"
+      units:
+        key: "pointset.points.fcu_01_chilled_water_valve_percent_sen.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_01:
+      present_value: "points.fcu_01_filter_differential_pressure_sen.present_value"
+      units:
+        key: "pointset.points.fcu_01_filter_differential_pressure_sen.units"
+        values:
+          pascals: pascals
+DDC-3:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2726090429306155
+  translation:
+    run_status_12:
+      present_value: "points.cb_12_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_12:
+      present_value: "points.cb_12_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    run_status_13:
+      present_value: "points.cb_13_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_13:
+      present_value: "points.cb_13_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    zone_air_temperature_sensor_07:
+      present_value: "points.mts_07_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_07_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_07:
+      present_value: "points.mts_07_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_07_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    discharge_fan_run_status_02:
+      present_value: "points.discharge_fan_run_status_02.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_run_command_02:
+      present_value: "points.discharge_fan_run_command_02.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    schedule_run_command_02:
+      present_value: "points.schedule_run_command_02.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    control_mode_02:
+      present_value: "points.control_mode_02.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    discharge_fan_speed_mode_02:
+      present_value: "points.discharge_fan_speed_mode_02.present_value"
+      states:
+        VFD: "TRUE"
+        BYPASS: "FALSE"
+    discharge_fan_speed_percentage_command_02:
+      present_value: "points.discharge_fan_speed_perc_cmd_02.present_value"
+      units:
+        key: "pointset.points.discharge_fan_speed_perc_cmd_02.units"
+        values:
+          percent: percent
+    discharge_fan_lost_power_alarm_02:
+      present_value: "points.discharge_fan_lost_power_alm_02.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    return_air_relative_humidity_sensor_02:
+      present_value: "points.return_air_relative_humid_sen_02.present_value"
+      units:
+        key: "pointset.points.return_air_relative_humid_sen_02.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    return_air_temperature_sensor_02:
+      present_value: "points.return_air_temperature_sen_02.present_value"
+      units:
+        key: "pointset.points.return_air_temperature_sen_02.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_air_temperature_sensor_02:
+      present_value: "points.discharge_air_temperature_sen_02.present_value"
+      units:
+        key: "pointset.points.discharge_air_temperature_sen_02.units"
+        values:
+          degrees_celsius: degrees_celsius
+    discharge_air_temperature_setpoint_02:
+      present_value: "points.discharge_air_temperature_set_02.present_value"
+      units:
+        key: "pointset.points.discharge_air_temperature_set_02.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_air_isolation_damper_status_02:
+      present_value: "points.return_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+    return_air_co2_concentration_sensor_02:
+      present_value: "points.return_air_co2_concent_sen_02.present_value"
+      units:
+        key: "pointset.points.return_air_co2_concent_sen_02.units"
+        values:
+          parts_per_million: parts_per_million
+    chilled_water_valve_percentage_command_02:
+      present_value: "points.chilled_water_vlv_percent_cmd_02.present_value"
+      units:
+        key: "pointset.points.chilled_water_vlv_percent_cmd_02.units"
+        values:
+          percent: percent
+    chilled_water_valve_percentage_sensor_02:
+      present_value: "points.chilled_water_vlv_percent_sen_02.present_value"
+      units:
+        key: "pointset.points.chilled_water_vlv_percent_sen_02.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_02:
+      present_value: "points.filter_differen_pressure_sen_02.present_value"
+      units:
+        key: "pointset.points.filter_differen_pressure_sen_02.units"
+        values:
+          pascals: pascals
+    supply_air_isolation_damper_status_02:
+      present_value: "points.supply_air_isolation_dam_sts_1.present_value"
+      states:
+        OPEN: "TRUE"
+        CLOSED: "FALSE"
+DDC-12:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2619954088185665
+  translation:
+    zone_air_temperature_sensor_18:
+      present_value: "points.mts_18_zone_air_temperature_s.present_value"
+      units:
+        key: "pointset.points.mts_18_zone_air_temperature_s.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_18:
+      present_value: "points.mts_18_zone_air_relative_humid_s.present_value"
+      units:
+        key: "pointset.points.mts_18_zone_air_relative_humid_s.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    run_command_05:
+      present_value: "points.ef_05_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_05:
+      present_value: "points.ef_05_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_mode_05:
+      present_value: "points.ef_05_run_mode.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_05:
+      present_value: "points.ef_05_lost_power_alarm.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+DDC-10:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2613175476487764
+  translation:
+    run_command_04:
+      present_value: "points.ef_04_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_04:
+      present_value: "points.ef_04_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    control_mode_04:
+      present_value: "points.sf_04_control_mode.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_04:
+      present_value: "points.ef_04_lost_power_alarm.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_mode_04:
+      present_value: "points.ef_04_control_mode.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+DDC-26:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2776535218446375
+  translation:
+    supply_fan_run_command_01:
+      present_value: "points.supply_fan_run_command_01.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_01:
+      present_value: "points.supply_fan_run_status_01.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    control_mode_01:
+      present_value: "points.control_mode_01.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_air_static_pressure_sensor_01:
+      present_value: "points.supply_air_ssp_sen_01.present_value"
+      units:
+        key: "pointset.points.supply_air_ssp_sen_01.units"
+        values:
+          pascals: pascals
+    supply_air_static_pressure_setpoint_01:
+      present_value: "points.supply_air_ssp_sp_01.present_value"
+      units:
+        key: "pointset.points.supply_air_ssp_sp_01.units"
+        values:
+          pascals: pascals
+    filter_differential_pressure_sensor_01:
+      present_value: "points.filter_diff_pressure_sen_01.present_value"
+    supply_fan_speed_percentage_command_01:
+      present_value: "points.supply_fan_speed_percent_cmd_01.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_percent_cmd_01.units"
+        values:
+          percent: percent
+    supply_fan_lost_power_alarm_01:
+      present_value: "points.supply_fan_lost_power_alarm_01.present_value"
+    supply_fan_run_command_02:
+      present_value: "points.supply_fan_run_command_02.present_value"
+    supply_fan_lost_power_alarm_02:
+      present_value: "points.supply_fan_lost_power_alarm_02.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+DDC-27:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2779442993638759
+DDC-28:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2674484314480736
+  translation:
+    control_mode_02:
+      present_value: "points.control_mode_02.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    supply_fan_run_command_02:
+      present_value: "points.supply_fan_run_command_02.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_run_status_02:
+      present_value: "points.supply_fan_run_status_02.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    supply_fan_speed_percentage_command_02:
+      present_value: "points.supply_fan_speed_percent_cmd_02.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_percent_cmd_02.units"
+        values:
+          percent: percent
+    filter_differential_pressure_sensor_02:
+      present_value: "points.filter_diff_pressure_sen_02.present_value"
+      units:
+        key: "pointset.points.filter_diff_pressure_sen_02.units"
+        values:
+          pascals: pascals
+    supply_air_static_pressure_sensor_02:
+      present_value: "points.supply_air_ssp_sen_02.present_value"
+      units:
+        key: "pointset.points.supply_air_ssp_sen_02.units"
+        values:
+          pascals: pascals
+    supply_air_static_pressure_setpoint_02:
+      present_value: "points.supply_air_ssp_sp_02.present_value"
+      units:
+        key: "pointset.points.supply_air_ssp_sp_02.units"
+        values:
+          pascals: pascals
+DDC-29:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2689054872034069
+  translation:
+    filter_differential_pressure_sensor_01:
+      present_value: "points.kfaf_01_filter_differential_pr_s.present_value"
+      units:
+        key: "pointset.points.kfaf_01_filter_differential_pr_s.units"
+        values:
+          pascals: pascals
+    filter_differential_pressure_sensor_02:
+      present_value: "points.kfaf_02_filter_differential_pr_s.present_value"
+      units:
+        key: "pointset.points.kfaf_02_filter_differential_pr_s.units"
+        values:
+          pascals: pascals
+    supply_air_static_pressure_sensor_01:
+      present_value: "points.kfaf_01_supply_air_static_pr_sen.present_value"
+      units:
+        key: "pointset.points.kfaf_01_supply_air_static_pr_sen.units"
+        values:
+          pascals: pascals
+    supply_air_static_pressure_setpoint_01:
+      present_value: "points.kfaf_01_supply_air_static_pr_sp.present_value"
+      units:
+        key: "pointset.points.kfaf_01_supply_air_static_pr_sp.units"
+        values:
+          pascals: pascals
+    supply_fan_speed_percentage_command_01:
+      present_value: "points.kfaf_01_supply_fan_speed_per_s.present_value"
+      units:
+        key: "pointset.points.kfaf_01_supply_fan_speed_per_s.units"
+        values:
+          percent: percent
+    supply_fan_speed_percentage_command_02:
+      present_value: "points.kfaf_02_supply_fan_speed_per_s.present_value"
+      units:
+        key: "pointset.points.kfaf_02_supply_fan_speed_per_s.units"
+        values:
+          percent: percent
+    supply_air_static_pressure_setpoint_02:
+      present_value: "points.kfaf_02_supply_air_static_pr_sp.present_value"
+      units:
+        key: "pointset.points.kfaf_02_supply_air_static_pr_sp.units"
+        values:
+          pascals: pascals
+DDC-30:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2720967928117423
+  translation:
+    run_command_01:
+      present_value: "points.kexf_01_run_command.present_value"
+    run_status_01:
+      present_value: "points.kexf_01_run_status.present_value"
+    control_mode_01:
+      present_value: "points.kexf_01_control_mode.present_value"
+    speed_percentage_command_01:
+      present_value: "points.kexf_01_speed_percent_cmd.present_value"
+      units:
+        key: "pointset.points.kexf_01_speed_percent_cmd.units"
+        values:
+          percent: percent
+    run_command_02:
+      present_value: "points.kexf_02_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_status_02:
+      present_value: "points.kexf_02_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    control_mode_02:
+      present_value: "points.kexf_02_control_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    speed_percentage_command_02:
+      present_value: "points.kexf_02_speed_percent_cmd.present_value"
+      units:
+        key: "pointset.points.kexf_02_speed_percent_cmd.units"
+        values:
+          percent: percent
+    run_status_03:
+      present_value: "points.mkexf_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    run_command_03:
+      present_value: "points.mkexf_run_command.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    control_mode_03:
+      present_value: "points.mkexf_control_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    lost_power_alarm_03:
+      present_value: "points.mkexf_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    filter_differential_pressure_sensor_01:
+      present_value: "points.filter_diff_pressure_sen_01.present_value"
+      units:
+        key: "pointset.points.filter_diff_pressure_sen_01.units"
+        values:
+          pascals: pascals
+    filter_differential_pressure_sensor_02:
+      present_value: "points.filter_diff_pressure_sen_02.present_value"
+      units:
+        key: "pointset.points.filter_diff_pressure_sen_02.units"
+        values:
+          pascals: pascals
 
 # Zones
 IN-GUR-SIGD_ZN1:

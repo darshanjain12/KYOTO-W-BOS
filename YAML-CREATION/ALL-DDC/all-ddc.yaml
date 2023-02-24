@@ -20,8 +20,8 @@ IN-GUR-SIGD_RM2:
 
 # Devices
 DDC-7:
-  type: HVAC/AHU_
-  cloud_device_id: 2724986027408634
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2659847749708821
   translation:
     supply_fan_run_mode_01:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -168,8 +168,8 @@ DDC-7:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
 DDC-6:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2550717582081500
   translation:
     supply_fan_run_mode_02:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -342,8 +342,8 @@ DDC-6:
         values:
           percent_relative_humidity: percent_relative_humidity
 DDC-4:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2565683012752158
   translation:
     supply_fan_run_mode_03:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -502,8 +502,8 @@ DDC-4:
         values:
           percent_relative_humidity: percent_relative_humidity
 DDC-5:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2790314889991979
   translation:
     supply_fan_run_mode_04:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -620,8 +620,8 @@ DDC-5:
         ON: "TRUE"
         OFF: "FALSE"
 DDC-9:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2564901727860213
   translation:
     supply_fan_run_mode_05:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -954,8 +954,8 @@ DDC-9:
         values:
           percent_relative_humidity: percent_relative_humidity
 DDC-8:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2663184680202028
   translation:
     supply_fan_run_mode_06:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -1134,8 +1134,8 @@ DDC-8:
         values:
           percent_relative_humidity: percent_relative_humidity
 DDC-13:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2744008025884209
   translation:
     supply_fan_run_mode_07:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -1338,8 +1338,8 @@ DDC-13:
         values:
           percent_relative_humidity: percent_relative_humidity
 DDC-1111:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2765513905337917
   translation:
     supply_fan_run_mode_08:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -1762,8 +1762,8 @@ DDC-1111:
         values:
           percent_relative_humidity: percent_relative_humidity
 DDC-15:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2768367857129504
   translation:
     supply_fan_run_mode_09:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -1978,8 +1978,8 @@ DDC-15:
         values:
           percent_relative_humidity: percent_relative_humidity
 DDC-14:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2728074801386850
   translation:
     supply_fan_run_mode_10:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -2158,8 +2158,8 @@ DDC-14:
         values:
           percent_relative_humidity: percent_relative_humidity
 DDC-17:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2656524524476737
   translation:
     supply_fan_run_mode_11:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -2362,8 +2362,8 @@ DDC-17:
         values:
           percent_relative_humidity: percent_relative_humidity
 DDC-16:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2759775104217647
   translation:
     supply_fan_run_mode_12:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -2542,8 +2542,8 @@ DDC-16:
         values:
           percent_relative_humidity: percent_relative_humidity
 DDC-19:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2668940499185592
   translation:
     supply_fan_run_mode_13:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -2896,8 +2896,8 @@ DDC-19:
         values:
           percent_relative_humidity: percent_relative_humidity
 DDC-18:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2569278903810754
   translation:
     supply_fan_run_mode_14:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -3056,8 +3056,8 @@ DDC-18:
         values:
           percent_relative_humidity: percent_relative_humidity
 DDC-21:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2700995914676171
   translation:
     supply_fan_run_mode_15:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -3260,8 +3260,8 @@ DDC-21:
         values:
           percent_relative_humidity: percent_relative_humidity
 DDC-20:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2698818475031683
   translation:
     supply_fan_run_mode_15:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -3420,8 +3420,8 @@ DDC-20:
         values:
           percent_relative_humidity: percent_relative_humidity
 DDC-25:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2751466850538840
   translation:
     supply_fan_run_mode_17:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -3654,8 +3654,8 @@ DDC-25:
         values:
           pascals: pascals
 DDC-24:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2748713466783442
   translation:
     supply_fan_run_mode_18:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -3858,8 +3858,8 @@ DDC-24:
         values:
           percent_relative_humidity: percent_relative_humidity
 DDC-23:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2725575303247308
   translation:
     supply_fan_run_mode_19:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -3976,8 +3976,8 @@ DDC-23:
         ON: "TRUE"
         OFF: "FALSE"
 DDC-22:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2679189552380744
   translation:
     supply_fan_run_mode_20:
       present_value: "points.supply_fan_run_mode.present_value"
@@ -4136,8 +4136,8 @@ DDC-22:
         values:
           percent_relative_humidity: percent_relative_humidity
 DDC-1112:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2774656125244313
   translation:
     run_command_05:
       present_value: "points.sf_05_run_command.present_value"
@@ -4640,8 +4640,8 @@ DDC-1112:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
 DDC-1:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2606062346961168
   translation:
     zone_air_temperature_sensor_0001:
       present_value: "points.tps_01_zone_air_temperature_s.present_value"
@@ -4654,7 +4654,7 @@ DDC-1:
       units:
         key: "pointset.points.tps_02_zone_air_temperature_s.units"
         values:
-          percent: percent
+          degrees_celsius: degrees_celsius
     zone_air_temperature_sensor_0003:
       present_value: "points.tps_03_zone_air_temperature_s.present_value"
       units:
@@ -4666,7 +4666,7 @@ DDC-1:
       units:
         key: "pointset.points.tps_04_zone_air_temperature_s.units"
         values:
-          percent: percent
+          degrees_celsius: degrees_celsius
     zone_air_temperature_sensor_0005:
       present_value: "points.tps_05_zone_air_temperature_s.present_value"
       units:
@@ -4678,7 +4678,7 @@ DDC-1:
       units:
         key: "pointset.points.tps_06_zone_air_temperature_s.units"
         values:
-          percent: percent
+          degrees_celsius: degrees_celsius
     zone_air_temperature_sensor_01:
       present_value: "points.mts_01_zone_air_temperature_s.present_value"
       units:
@@ -4752,8 +4752,8 @@ DDC-1:
         ON: "TRUE"
         OFF: "FALSE"
 DDC-2:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2595595986231345
   translation:
     run_status_01:
       present_value: "points.cb_01_run_status.present_value"
@@ -4876,7 +4876,7 @@ DDC-2:
       units:
         key: "pointset.points.tps_08_zone_air_temperature_s.units"
         values:
-          percent: percent
+          degrees_celsius: degrees_celsius
     zone_air_relative_humidity_sensor_01:
       present_value: "points.mts_01_zone_air_relative_humid_s.present_value"
       units:
@@ -4978,7 +4978,7 @@ DDC-2:
       units:
         key: "pointset.points.fcu_01_return_air_relative_humidity_sen.units"
         values:
-          percent: percent
+          percent_relative_humidity: percent_relative_humidity
     return_air_temperature_sensor_01:
       present_value: "points.fcu_01_return_air_temperature_sensor.present_value"
       units:
@@ -5032,8 +5032,8 @@ DDC-2:
         values:
           pascals: pascals
 DDC-3:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2726090429306155
   translation:
     run_status_12:
       present_value: "points.cb_12_run_status.present_value"
@@ -5108,7 +5108,7 @@ DDC-3:
       units:
         key: "pointset.points.return_air_relative_humid_sen_02.units"
         values:
-          percent: percent
+          percent_relative_humidity: percent_relative_humidity
     return_air_temperature_sensor_02:
       present_value: "points.return_air_temperature_sen_02.present_value"
       units:
@@ -5162,8 +5162,8 @@ DDC-3:
         OPEN: "TRUE"
         CLOSED: "FALSE"
 DDC-12:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2619954088185665
   translation:
     zone_air_temperature_sensor_18:
       present_value: "points.mts_18_zone_air_temperature_s.present_value"
@@ -5198,8 +5198,8 @@ DDC-12:
         ON: "TRUE"
         OFF: "FALSE"
 DDC-10:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2613175476487764
   translation:
     run_command_04:
       present_value: "points.ef_04_run_command.present_value"
@@ -5227,8 +5227,8 @@ DDC-10:
         ON: "TRUE"
         OFF: "FALSE"
 DDC-26:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2776535218446375
   translation:
     supply_fan_run_command_01:
       present_value: "points.supply_fan_run_command_01.present_value"
@@ -5275,11 +5275,11 @@ DDC-26:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
 DDC-27:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2779442993638759
 DDC-28:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2674484314480736
   translation:
     control_mode_02:
       present_value: "points.control_mode_02.present_value"
@@ -5321,8 +5321,8 @@ DDC-28:
         values:
           pascals: pascals
 DDC-29:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2689054872034069
   translation:
     filter_differential_pressure_sensor_01:
       present_value: "points.kfaf_01_filter_differential_pr_s.present_value"
@@ -5367,8 +5367,8 @@ DDC-29:
         values:
           pascals: pascals
 DDC-30:
-  type: HVAC/AHU_
-  cloud_device_id: 
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2720967928117423
   translation:
     run_command_01:
       present_value: "points.kexf_01_run_command.present_value"

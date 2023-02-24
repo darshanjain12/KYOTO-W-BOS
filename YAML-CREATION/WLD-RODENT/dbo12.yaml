@@ -1,0 +1,216 @@
+# Building
+IN-GUR-SIGD:
+  type: FACILITIES/BUILDING
+
+# Floor
+IN-GUR-SIGD_FL1:
+  type: FACILITIES/FLOOR
+  connections:
+    IN-GUR-SIGD: CONTAINS
+
+# Rooms
+IN-GUR-SIGD_RM1:
+  type: FACILITIES/ROOM
+  connections:
+    IN-GUR-SIGD_FL1: CONTAINS
+IN-GUR-SIGD_RM2:
+  type: FACILITIES/ROOM
+  connections:
+    IN-GUR-SIGD_ZN1: CONTAINS
+
+# Devices
+HLI-13:
+  type: HVAC/AHU_
+  cloud_device_id: 
+  translation:
+    transducer_failed_alarm_01:
+      present_value: "points.transducer_failed_alarm_01.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    transducer_failed_alarm_02:
+      present_value: "points.transducer_failed_alarm_02.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    transducer_failed_alarm_03:
+      present_value: "points.transducer_failed_alarm_03.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    transducer_failed_alarm_04:
+      present_value: "points.transducer_failed_alarm_04.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    transducer_failed_alarm_05:
+      present_value: "points.transducer_failed_alarm_05.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    transducer_failed_alarm_06:
+      present_value: "points.transducer_failed_alarm_06.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    transducer_failed_alarm_07:
+      present_value: "points.transducer_failed_alarm_07.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    transducer_failed_alarm_08:
+      present_value: "points.transducer_failed_alarm_08.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    transducer_failed_alarm_09:
+      present_value: "points.transducer_failed_alarm_09.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    transducer_failed_alarm_10:
+      present_value: "points.transducer_failed_alarm_10.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    transducer_failed_alarm_11:
+      present_value: "points.transducer_failed_alarm_11.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+HLI-7:
+  type: HVAC/AHU_
+  cloud_device_id: 
+  translation:
+    water_leak_alarm_01:
+      present_value: "points.water_leak_alarm_01.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_cable_distance_sensor_01:
+      present_value: "points.water_leak_cable_distance_sensor_01.present_value"
+      units:
+        key: "pointset.points.water_leak_cable_distance_sensor_01.units"
+        values:
+          metres: metres
+    water_leak_alarm_02:
+      present_value: "points.water_leak_alarm_02.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_cable_distance_sensor_02:
+      present_value: "points.water_leak_cable_distance_sensor_02.present_value"
+      units:
+        key: "pointset.points.water_leak_cable_distance_sensor_02.units"
+        values:
+          metres: metres
+    water_leak_alarm_03:
+      present_value: "points.water_leak_alarm_03.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_cable_distance_sensor_03:
+      present_value: "points.water_leak_cable_distance_sensor_03.present_value"
+      units:
+        key: "pointset.points.water_leak_cable_distance_sensor_03.units"
+        values:
+          metres: metres
+    water_leak_alarm_04:
+      present_value: "points.water_leak_alarm_04.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_cable_distance_sensor_04:
+      present_value: "points.water_leak_cable_distance_sensor_04.present_value"
+      units:
+        key: "pointset.points.water_leak_cable_distance_sensor_04.units"
+        values:
+          metres: metres
+    water_leak_alarm_05:
+      present_value: "points.water_leak_alarm_05.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_cable_distance_sensor_05:
+      present_value: "points.water_leak_cable_distance_sensor_05.present_value"
+      units:
+        key: "pointset.points.water_leak_cable_distance_sensor_05.units"
+        values:
+          metres: metres
+    water_leak_alarm_06:
+      present_value: "points.water_leak_alarm_06.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_cable_distance_sensor_06:
+      present_value: "points.water_leak_cable_distance_sensor_06.present_value"
+      units:
+        key: "pointset.points.water_leak_cable_distance_sensor_06.units"
+        values:
+          metres: metres
+    water_leak_alarm_07:
+      present_value: "points.water_leak_alarm_07.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_cable_distance_sensor_07:
+      present_value: "points.water_leak_cable_distance_sensor_07.present_value"
+      units:
+        key: "pointset.points.water_leak_cable_distance_sensor_07.units"
+        values:
+          metres: metres
+    water_leak_alarm_08:
+      present_value: "points.water_leak_alarm_08.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_cable_distance_sensor_08:
+      present_value: "points.water_leak_cable_distance_sensor_08.present_value"
+      units:
+        key: "pointset.points.water_leak_cable_distance_sensor_08.units"
+        values:
+          metres: metres
+    water_leak_alarm_09:
+      present_value: "points.water_leak_alarm_09.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_cable_distance_sensor_09:
+      present_value: "points.water_leak_cable_distance_sensor_09.present_value"
+      units:
+        key: "pointset.points.water_leak_cable_distance_sensor_09.units"
+        values:
+          metres: metres
+    water_leak_alarm_10:
+      present_value: "points.water_leak_alarm_10.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_cable_distance_sensor_10:
+      present_value: "points.water_leak_cable_distance_sensor_10.present_value"
+      units:
+        key: "pointset.points.water_leak_cable_distance_sensor_10.units"
+        values:
+          metres: metres
+    water_leak_alarm_11:
+      present_value: "points.water_leak_alarm_11.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    water_leak_cable_distance_sensor_11:
+      present_value: "points.water_leak_cable_distance_sensor_11.present_value"
+      units:
+        key: "pointset.points.water_leak_cable_distance_sensor_11.units"
+        values:
+          metres: metres
+
+# Zones
+IN-GUR-SIGD_ZN1:
+  type: HVAC/ZONE
+  connections:
+    IN-GUR-SIGD_RM1: CONTAINS
+IN-GUR-SIGD_ZN2:
+  type: HVAC/ZONE
+  connections:
+    IN-GUR-SIGD_RM2: CONTAINS
+

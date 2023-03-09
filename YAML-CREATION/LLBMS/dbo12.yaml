@@ -2200,37 +2200,1314 @@ HLI-4:
       units:
         key: "pointset.points.dgtk_01_percentage_sensor.units"
         values:
-          percentage: percentage
+          percent: percent
     percentage_sensor_170002:
       present_value: "points.dgtk_01_percentage_sensor.present_value"
       units:
         key: "pointset.points.dgtk_01_percentage_sensor.units"
         values:
-          percentage: percentage
+          percent: percent
     percentage_sensor_170003:
       present_value: "points.dgtk_01_percentage_sensor.present_value"
       units:
         key: "pointset.points.dgtk_01_percentage_sensor.units"
         values:
-          percentage: percentage
+          percent: percent
     percentage_sensor_170004:
       present_value: "points.dgtk_01_percentage_sensor.present_value"
       units:
         key: "pointset.points.dgtk_01_percentage_sensor.units"
         values:
-          percentage: percentage
+          percent: percent
     percentage_sensor_170005:
       present_value: "points.dgtk_01_percentage_sensor.present_value"
       units:
         key: "pointset.points.dgtk_01_percentage_sensor.units"
         values:
-          percentage: percentage
+          percent: percent
     percentage_sensor_170006:
       present_value: "points.dgtk_01_percentage_sensor.present_value"
       units:
         key: "pointset.points.dgtk_01_percentage_sensor.units"
         values:
-          percentage: percentage
+          percent: percent
+WCCH-01:
+  type: HVAC/CH_SS_SWTC_DX2SWC_SWISOVM
+  links:
+    HLI-4:
+      supply_water_temperature_sensor: supply_water_temperature_sensor_10001
+      return_water_temperature_sensor: return_water_temperature_sensor_10001
+      run_status: run_status_10001
+      control_mode: control_mode_10001
+      supply_water_temperature_setpoint:  supply_water_temperature_setpoint_10001
+      supply_water_isolation_valve_status:  supply_water_isolation_valve_status_10001
+      
+CDWS-01:
+  type: HVAC/CDWS_CWDT_CDWISOVM_CDWFRSM
+  links:
+    HLI-4:
+      condensing_return_water_temperature_sensor: condensing_return_water_temperature_sensor_10001
+      condensing_supply_water_temperature_sensor: condensing_supply_water_temperature_sensor_10001
+      condensing_water_flowrate_status: condensing_water_flowrate_status_10001
+
+EM-112:
+  type: METERS/EM_PWM
+  links:
+    HLI-4:
+      power_sensor: power_sensor_10001
+      energy_accumulator: energy_accumulator_10001
+WCCH-02:
+  type: HVAC/CH_SS_SWTC_DX2SWC_SWISOVM
+  links:
+    HLI-4:
+      supply_water_temperature_sensor: supply_water_temperature_sensor_10002
+      return_water_temperature_sensor: return_water_temperature_sensor_10002
+      run_status: run_status_10002
+      control_mode: control_mode_10002
+      supply_water_temperature_setpoint:  supply_water_temperature_setpoint_10002
+      supply_water_isolation_valve_status:  supply_water_isolation_valve_status_10002
+      
+CDWS-02:
+  type: HVAC/CDWS_CWDT_CDWISOVM_CDWFRSM
+  links:
+    HLI-4:
+      condensing_return_water_temperature_sensor: condensing_return_water_temperature_sensor_10002
+      condensing_supply_water_temperature_sensor: condensing_supply_water_temperature_sensor_10002
+      condensing_water_flowrate_status: condensing_water_flowrate_status_10002
+
+EM-113:
+  type: METERS/EM_PWM
+  links:
+    HLI-4:
+      power_sensor: power_sensor_10002
+      energy_accumulator: energy_accumulator_10002
+
+ACCH-01:
+  type: HVAC/CH_SS_SWTC_DX2SWC_SWISOVM
+  links:
+    HLI-4:
+      supply_water_temperature_sensor: supply_water_temperature_sensor_20001
+      return_water_temperature_sensor: return_water_temperature_sensor_20001
+      run_status: run_status_20001
+      control_mode: control_mode_20001
+      supply_water_temperature_setpoint:  supply_water_temperature_setpoint_20001
+      supply_water_isolation_valve_status:  supply_water_isolation_valve_status_20001
+      compressor_run_status_1: compressor_run_status_01_20001
+      compressor_run_status_2: compressor_run_status_02_20001
+
+EM-114:
+  type: METERS/EM_PWM
+  links:
+    HLI-4:
+      power_sensor: power_sensor_20001
+      energy_accumulator: energy_accumulator_20001
+
+ACCH-02:
+  type: HVAC/CH_SS_SWTC_DX2SWC_SWISOVM
+  links:
+    HLI-4:
+      supply_water_temperature_sensor: supply_water_temperature_sensor_20002
+      return_water_temperature_sensor: return_water_temperature_sensor_20002
+      run_status: run_status_20002
+      control_mode: control_mode_20002
+      supply_water_temperature_setpoint:  supply_water_temperature_setpoint_20002
+      supply_water_isolation_valve_status:  supply_water_isolation_valve_status_20002
+      compressor_run_status_1: compressor_run_status_01_20002
+      compressor_run_status_2: compressor_run_status_02_20002
+      
+EM-115:
+  type: METERS/EM_PWM
+  links:
+    HLI-4:
+      power_sensor: power_sensor_20002
+      energy_accumulator: energy_accumulator_20002
+
+PCHWP-01:
+  type: HVAC/PMP_SS_VSC
+  links:
+    HLI-4:
+      run_status: run_status_30001
+      lost_power_alarm: lost_power_alarm_30001
+      control_mode: control_mode_30001
+
+PCHWP-02:
+  type: HVAC/PMP_SS_VSC
+  links:
+    HLI-4:
+      run_status: run_status_30002
+      lost_power_alarm: lost_power_alarm_30002
+      control_mode: control_mode_30002
+
+PCHWP-03:
+  type: HVAC/PMP_SS_VSC
+  links:
+    HLI-4:
+      run_status: run_status_30003
+      lost_power_alarm: lost_power_alarm_30003
+      control_mode: control_mode_30003
+
+PCHWP-04:
+  type: HVAC/PMP_SS_VSC
+  links:
+    HLI-4:
+      run_status: run_status_30004
+      lost_power_alarm: lost_power_alarm_30004
+      control_mode: control_mode_30004
+
+PCHWP-05:
+  type: HVAC/PMP_SS_VSC
+  links:
+    HLI-4:
+      run_status: run_status_30005
+      lost_power_alarm: lost_power_alarm_30005
+      control_mode: control_mode_30005
+
+SCHWP-01:
+  type: HVAC/PMP_SS_VSC
+  links:
+    HLI-4:
+      run_status: run_status_40001
+
+SCHWP-02:
+  type: HVAC/PMP_SS_VSC
+  links:
+    HLI-4:
+      run_status: run_status_40002
+
+SCHWP-03:
+  type: HVAC/PMP_SS_VSC
+  links:
+    HLI-4:
+      run_status: run_status_40003
+
+SCHWP-04:
+  type: HVAC/PMP_SS_VSC
+  links:
+    HLI-4:
+      run_status: run_status_40004
+
+SCHWP-05:
+  type: HVAC/PMP_SS_VSC
+  links:
+    HLI-4:
+      run_status: run_status_40005
+
+CDWP-01:
+  type: HVAC/PMP_SS_VSC
+  links:
+    HLI-4:
+      run_status: run_status_50001
+      lost_power_alarm: lost_power_alarm_50001
+      control_mode: control_mode_50001
+
+CDWP-02:
+  type: HVAC/PMP_SS_VSC
+  links:
+    HLI-4:
+      run_status: run_status_50002
+      lost_power_alarm: lost_power_alarm_50002
+      control_mode: control_mode_50002
+
+CDWP-03:
+  type: HVAC/PMP_SS_VSC
+  links:
+    HLI-4:
+      run_status: run_status_50003
+      lost_power_alarm: lost_power_alarm_50003
+      control_mode: control_mode_50003
+
+CT-01:
+  type: HVAC/CT_SS_VSC_SWTC_SWISOVM_RWISOVM
+  links:
+    HLI-4:
+      run_status: run_status_60001
+      control_mode: control_mode_60001
+      supply_water_isolation_valve_status:  supply_water_isolation_valve_status_60001
+      return_water_isolation_valve_status:  return_water_isolation_valve_status_60001
+      runtime_accumulator: runtime_accumulator_60001
+      lost_power_alarm: lost_power_alarm_60001
+
+CT-02:
+  type: HVAC/CT_SS_VSC_SWTC_SWISOVM_RWISOVM
+  links:
+    HLI-4:
+      run_status: run_status_60002
+      control_mode: control_mode_60002
+      supply_water_isolation_valve_status:  supply_water_isolation_valve_status_60002
+      return_water_isolation_valve_status:  return_water_isolation_valve_status_60002
+      runtime_accumulator: runtime_accumulator_60002
+      lost_power_alarm: lost_power_alarm_60002
+
+CHWS-01:
+  type: HVAC/CHWS_SWTC
+  links:
+    HLI-4:
+      supply_water_temperature_sensor: supply_water_temperature_sensor_71000
+      return_water_temperature_sensor: return_water_temperature_sensor_71000
+
+CDWS-03:
+  type: HVAC/CHWS_SWTC
+  links:
+    HLI-4:
+      supply_water_temperature_sensor: supply_water_temperature_sensor_72000
+      return_water_temperature_sensor: return_water_temperature_sensor_72000
+
+HM-01:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80001
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80001
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80001
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80001
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80001
+
+HM-02:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80002
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80002
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80002
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80002
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80002
+
+HM-03:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80003
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80003
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80003
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80003
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80003
+
+HM-04:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80004
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80004
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80004
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80004
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80004
+
+HM-05:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80005
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80005
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80005
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80005
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80005
+
+HM-06:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80006
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80006
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80006
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80006
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80006
+
+HM-07:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80007
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80007
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80007
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80007
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80007
+
+HM-08:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80008
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80008
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80008
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80008
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80008
+HM-09:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80009
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80009
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80009
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80009
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80009
+
+HM-10:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80010
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80010
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80010
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80010
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80010
+
+HM-11:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80011
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80011
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80011
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80011
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80011
+
+HM-12:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80012
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80012
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80012
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80012
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80012
+
+HM-13:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80013
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80013
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80013
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80013
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80013
+
+HM-14:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80014
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80014
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80014
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80014
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80014
+
+HM-15:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80015
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80015
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80015
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80015
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80015
+
+HM-16:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80016
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80016
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80016
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80016
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80016
+
+HM-17:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80017
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80017
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80017
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80017
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80017
+
+HM-18:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80018
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80018
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80018
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80018
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80018
+
+HM-19:
+  type: METERS/HM_CHW
+  links:
+    HLI-4:
+      chilled_water_flowrate_sensor: chilled_water_flowrate_sensor_80019
+      chilled_supply_water_temperature_sensor: chilled_supply_water_temperature_sensor_80019
+      chilled_return_water_temperature_sensor: chilled_return_water_temperature_sensor_80019
+      cooling_thermal_power_sensor: cooling_thermal_power_sensor_80019
+      cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80019
+
+FM-01:
+  type: METERS/FM_STANDARD
+  links:
+    HLI-4:
+      flowrate_sensor: flowrate_sensor_90001
+      volume_accumulator: volume_accumulator_90001
+
+FM-02:
+  type: METERS/FM_STANDARD
+  links:
+    HLI-4:
+      flowrate_sensor: flowrate_sensor_90002
+      volume_accumulator: volume_accumulator_90002
+
+EM-108:
+  type: METERS/EM_PWM
+  links:
+    HLI-4:
+      power_sensor: power_sensor_100001
+      energy_accumulator: energy_accumulator_100001
+      powerfactor: powerfactor_100001
+
+EM-109:
+  type: METERS/EM_PWM
+  links:
+    HLI-4:
+      power_sensor: power_sensor_100002
+      energy_accumulator: energy_accumulator_100002
+      powerfactor: powerfactor_100002
+
+EM-110:
+  type: METERS/EM_PWM
+  links:
+    HLI-4:
+      power_sensor: power_sensor_100003
+      energy_accumulator: energy_accumulator_100003
+      powerfactor: powerfactor_100003
+
+EM-111:
+  type: METERS/EM_PWM
+  links:
+    HLI-4:
+      power_sensor: power_sensor_100004
+      energy_accumulator: energy_accumulator_100004
+      powerfactor: powerfactor_100004
+
+DG-01:
+  type: ELECTRICAL/GEN_SS_TKLS_OTPM_PWM_RDM_BTEPM
+  links:
+    HLI-4:
+      run_status: run_status_110001
+      battery_voltage_sensor: battery_voltage_sensor_110001
+      oil_pressure_sensor: oil_pressure_sensor_110001
+      run_time_accumulator: run_time_accumulator_110001
+      power_sensor: power_sensor_110001
+      powerfactor_sensor: powerfactor_sensor_110001
+      oil_temperature_sensor: oil_temperature_sensor_110001
+      energy_accumulator: energy_accumulator_110001
+
+DG-02:
+  type: ELECTRICAL/GEN_SS_TKLS_OTPM_PWM_RDM_BTEPM
+  links:
+    HLI-4:
+      run_status: run_status_110001
+      battery_voltage_sensor: battery_voltage_sensor_110002
+      oil_pressure_sensor: oil_pressure_sensor_110002
+      run_time_accumulator: run_time_accumulator_110002
+      power_sensor: power_sensor_110002
+      powerfactor_sensor: powerfactor_sensor_110002
+      oil_temperature_sensor: oil_temperature_sensor_110002
+      energy_accumulator: energy_accumulator_110002
+
+DG-03:
+  type: ELECTRICAL/GEN_SS_TKLS_OTPM_PWM_RDM_BTEPM
+  links:
+    HLI-4:
+      run_status: run_status_110003
+      battery_voltage_sensor: battery_voltage_sensor_110003
+      oil_pressure_sensor: oil_pressure_sensor_110003
+      run_time_accumulator: run_time_accumulator_110003
+      power_sensor: power_sensor_110003
+      powerfactor_sensor: powerfactor_sensor_110003
+      oil_temperature_sensor: oil_temperature_sensor_110003
+      energy_accumulator: energy_accumulator_110003
+
+DG-04:
+  type: ELECTRICAL/GEN_SS_TKLS_OTPM_PWM_RDM_BTEPM
+  links:
+    HLI-4:
+      run_status: run_status_110004
+      battery_voltage_sensor: battery_voltage_sensor_110004
+      oil_pressure_sensor: oil_pressure_sensor_110004
+      run_time_accumulator: run_time_accumulator_110004
+      power_sensor: power_sensor_110004
+      powerfactor_sensor: powerfactor_sensor_110004
+      oil_temperature_sensor: oil_temperature_sensor_110004
+      energy_accumulator: energy_accumulator_110004
+
+DG-05:
+  type: ELECTRICAL/GEN_SS_TKLS_OTPM_PWM_RDM_BTEPM
+  links:
+    HLI-4:
+      run_status: run_status_110005
+      battery_voltage_sensor: battery_voltage_sensor_110005
+      oil_pressure_sensor: oil_pressure_sensor_110005
+      run_time_accumulator: run_time_accumulator_110005
+      power_sensor: power_sensor_110005
+      powerfactor_sensor: powerfactor_sensor_110005
+      oil_temperature_sensor: oil_temperature_sensor_110005
+      energy_accumulator: energy_accumulator_110005
+
+DG-06:
+  type: ELECTRICAL/GEN_SS_TKLS_OTPM_PWM_RDM_BTEPM
+  links:
+    HLI-4:
+      run_status: run_status_110006
+      battery_voltage_sensor: battery_voltage_sensor_110006
+      oil_pressure_sensor: oil_pressure_sensor_110006
+      run_time_accumulator: run_time_accumulator_110006
+      power_sensor: power_sensor_110006
+      powerfactor_sensor: powerfactor_sensor_110006
+      oil_temperature_sensor: oil_temperature_sensor_110006
+      energy_accumulator: energy_accumulator_110006
+
+UPS-07:
+  type: ELECTRICAL/UPS_IOBM_BATM
+  links:
+    HLI-4:
+      output_phase1_neutral_voltage_sensor: output_phase1_neutral_voltage_sensor_150001
+      output_phase2_neutral_voltage_sensor: output_phase2_neutral_voltage_sensor_150001
+      output_phase3_neutral_voltage_sensor: output_phase3_neutral_voltage_sensor_150001
+      input_phase1_neutral_voltage_sensor: input_phase1_neutral_voltage_sensor_150001
+      input_phase2_neutral_voltage_sensor: input_phase2_neutral_voltage_sensor_150001
+      input_phase3_neutral_voltage_sensor: input_phase3_neutral_voltage_sensor_150001
+      output_phase1_neutral_current_sensor: output_phase1_neutral_current_sensor_150001
+      output_phase2_neutral_current_sensor: output_phase2_neutral_current_sensor_150001
+      output_phase3_neutral_current_sensor: output_phase3_neutral_current_sensor_150001
+      output_frequency: output_frequency_150001
+      input_frequency: input_frequency_150001
+      battery_voltage_sensor: battery_voltage_sensor_150001
+
+COS-01:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_01_160001
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160001
+
+COS-02:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_02_160002
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160001
+
+COS-03:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_03_160003
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160001
+
+COS-04:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_04_160004
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160001
+
+COS-05:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_05_160005
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160001
+
+COS-06:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_06_160006
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160001
+
+COS-07:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_07_160007
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160001
+
+COS-08:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_08_160008
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160001
+
+COS-09:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_09_160009
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160001
+
+COS-10:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_10_160010
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160001
+
+COS-11:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_11_160011
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160001
+
+COS-12:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_12_160012
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160001
+
+GTF-01:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_01_160101
+      lost_power_alarm: lost_power_alarm_01_160101
+      control_mode: control_mode_160000
+
+GTF-02:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_02_160102
+      lost_power_alarm: lost_power_alarm_02_160102
+      control_mode: control_mode_160000
+
+GTF-03:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_03_160103
+      lost_power_alarm: lost_power_alarm_03_160103
+      control_mode: control_mode_160000
+
+GTF-04:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_04_160104
+      lost_power_alarm: lost_power_alarm_04_160104
+      control_mode: control_mode_160000
+
+GTF-05:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_05_160105
+      lost_power_alarm: lost_power_alarm_05_160105
+      control_mode: control_mode_160000
+
+GTF-06:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_06_160106
+      lost_power_alarm: lost_power_alarm_06_160106
+      control_mode: control_mode_160000
+
+GTF-07:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_07_160107
+      lost_power_alarm: lost_power_alarm_07_160107
+      control_mode: control_mode_160000
+
+GTF-08:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_08_160108
+      lost_power_alarm: lost_power_alarm_08_160108
+      control_mode: control_mode_160000
+
+GTF-09:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_09_160109
+      lost_power_alarm: lost_power_alarm_09_160109
+      control_mode: control_mode_160000
+
+GTF-10:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_10_160110
+      lost_power_alarm: lost_power_alarm_10_160110
+      control_mode: control_mode_160000
+
+GTF-11:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_01_160201
+      lost_power_alarm: lost_power_alarm_01_160201
+      control_mode: control_mode_160000
+
+GTF-12:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_02_160202
+      lost_power_alarm: lost_power_alarm_02_160202
+      control_mode: control_mode_160000
+
+GTF-13:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_03_160203
+      lost_power_alarm: lost_power_alarm_03_160203
+      control_mode: control_mode_160000
+
+GTF-14:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_04_160204
+      lost_power_alarm: lost_power_alarm_04_160204
+      control_mode: control_mode_160000
+
+GTF-15:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_05_160205
+      lost_power_alarm: lost_power_alarm_05_160205
+      control_mode: control_mode_160000
+
+GTF-16:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_06_160206
+      lost_power_alarm: lost_power_alarm_06_160206
+      control_mode: control_mode_160000
+
+GTF-17:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_07_160207
+      lost_power_alarm: lost_power_alarm_07_160207
+      control_mode: control_mode_160000
+
+GTF-18:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_08_160208
+      lost_power_alarm: lost_power_alarm_08_160208
+      control_mode: control_mode_160000
+
+COS-13:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_01_161001
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_161001
+
+COS-14:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_02_161002
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_161001
+
+COS-15:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_03_161003
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_161001
+
+COS-16:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_04_161004
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_161001
+
+COS-17:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_05_161005
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_161001
+
+COS-18:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_06_161006
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_161001
+
+COS-19:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_07_161007
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_161001
+
+COS-20:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_08_161008
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_161001
+
+COS-21:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_09_161009
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_161001
+
+COS-22:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_10_161010
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_161001
+
+COS-23:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_11_161011
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_161001
+
+COS-24:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_12_161012
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_161001
+
+GTF-19:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_01_160301
+      lost_power_alarm: lost_power_alarm_01_160301
+      control_mode: control_mode_161000
+
+GTF-20:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_02_160302
+      lost_power_alarm: lost_power_alarm_02_160302
+      control_mode: control_mode_161000
+
+GTF-21:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_03_160303
+      lost_power_alarm: lost_power_alarm_03_160303
+      control_mode: control_mode_161000
+
+GTF-22:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_04_160304
+      lost_power_alarm: lost_power_alarm_04_160304
+      control_mode: control_mode_161000
+
+GTF-23:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_05_160305
+      lost_power_alarm: lost_power_alarm_05_160305
+      control_mode: control_mode_161000
+
+GTF-24:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_06_160306
+      lost_power_alarm: lost_power_alarm_06_160306
+      control_mode: control_mode_161000
+
+GTF-25:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_07_160307
+      lost_power_alarm: lost_power_alarm_07_160307
+      control_mode: control_mode_161000
+
+GTF-26:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_08_160308
+      lost_power_alarm: lost_power_alarm_08_160308
+      control_mode: control_mode_161000
+
+GTF-27:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_09_160309
+      lost_power_alarm: lost_power_alarm_09_160309
+      control_mode: control_mode_161000
+
+GTF-28:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_10_160310
+      lost_power_alarm: lost_power_alarm_10_160310
+      control_mode: control_mode_161000
+
+GTF-29:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_01_160401
+      lost_power_alarm: lost_power_alarm_01_160401
+      control_mode: control_mode_161000
+
+GTF-30:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_02_160402
+      lost_power_alarm: lost_power_alarm_02_160402
+      control_mode: control_mode_161000
+
+GTF-31:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_03_160403
+      lost_power_alarm: lost_power_alarm_03_160403
+      control_mode: control_mode_161000
+
+GTF-32:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_04_160404
+      lost_power_alarm: lost_power_alarm_04_160404
+      control_mode: control_mode_161000
+
+GTF-33:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_05_160405
+      lost_power_alarm: lost_power_alarm_05_160405
+      control_mode: control_mode_161000
+
+GTF-34:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_06_160406
+      lost_power_alarm: lost_power_alarm_06_160406
+      control_mode: control_mode_161000
+
+GTF-35:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_07_160407
+      lost_power_alarm: lost_power_alarm_07_160407
+      control_mode: control_mode_161000
+
+GTF-36:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_08_160408
+      lost_power_alarm: lost_power_alarm_08_160408
+      control_mode: control_mode_161000
+
+COS-25:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_01_160501
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160501
+
+COS-26:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_02_160502
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160501
+
+COS-27:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_03_160503
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160501
+
+COS-28:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_04_160504
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160501
+
+COS-29:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_05_160505
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160501
+
+COS-30:
+  type: HVAC/SENSOR_COC
+  links:
+    HLI-4:
+      zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_06_160506
+	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160501
+
+GTF-37:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_01_160501
+      lost_power_alarm: lost_power_alarm_01_160501
+      control_mode: control_mode_160500
+
+GTF-38:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_02_160502
+      lost_power_alarm: lost_power_alarm_02_160502
+      control_mode: control_mode_160500
+
+GTF-39:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_03_160503
+      lost_power_alarm: lost_power_alarm_03_160503
+      control_mode: control_mode_160500
+
+GTF-40:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_04_160504
+      lost_power_alarm: lost_power_alarm_04_160504
+      control_mode: control_mode_160500
+
+GTF-41:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_05_160505
+      lost_power_alarm: lost_power_alarm_05_160505
+      control_mode: control_mode_160500
+
+GTF-42:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_06_160506
+      lost_power_alarm: lost_power_alarm_06_160506
+      control_mode: control_mode_160500
+
+GTF-43:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_07_160507
+      lost_power_alarm: lost_power_alarm_07_160507
+      control_mode: control_mode_160500
+
+GTF-44:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_08_160508
+      lost_power_alarm: lost_power_alarm_08_160508
+      control_mode: control_mode_160500
+
+GTF-45:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_09_160509
+      lost_power_alarm: lost_power_alarm_09_160509
+      control_mode: control_mode_160500
+
+GTF-46:
+  type: HVAC/FAN_SS
+  links:
+    HLI-4:
+      run_status: run_status_10_160510
+      lost_power_alarm: lost_power_alarm_10_160510
+      control_mode: control_mode_160500
+
+TK-01:
+  type: PLUMBING/TK_LVLM
+  links:
+    HLI-4:
+      percentage_sensor: percentage_sensor_120001
+
+TK-02:
+  type: PLUMBING/TK_LVLM
+  links:
+    HLI-4:
+      percentage_sensor: percentage_sensor_120002
+
+TK-03:
+  type: PLUMBING/TK_LVLM
+  links:
+    HLI-4:
+      level_status: level_status_120003
+
+TK-04:
+  type: PLUMBING/TK_LVLM
+  links:
+    HLI-4:
+      level_status: level_status_120004
+
+TK-05:
+  type: PLUMBING/TK_LVLM
+  links:
+    HLI-4:
+      level_status: level_status_120005
+
+TK-06:
+  type: PLUMBING/TK_LVLM
+  links:
+    HLI-4:
+      level_status: level_status_120006
+
+TK-07:
+  type: PLUMBING/TK_LVLM
+  links:
+    HLI-4:
+      level_status: level_status_120007
+
+TRP-01:
+  type: PLUMBING/PMP_SS
+  links:
+    HLI-4:
+      run_status: run_status_130001
+      control_mode: control_mode_130001
+
+TRP-02:
+  type: PLUMBING/PMP_SS
+  links:
+    HLI-4:
+      run_status: run_status_130002
+      control_mode: control_mode_130002
+
+TRP-03:
+  type: PLUMBING/PMP_SS
+  links:
+    HLI-4:
+      run_status: run_status_130003
+      control_mode: control_mode_130003
+
+TRP-04:
+  type: PLUMBING/PMP_SS
+  links:
+    HLI-4:
+      run_status: run_status_130004
+      control_mode: control_mode_130004
+
+TRP-05:
+  type: PLUMBING/PMP_SS
+  links:
+    HLI-4:
+      run_status: run_status_130005
+      control_mode: control_mode_130005
+
+TRP-06:
+  type: PLUMBING/PMP_SS
+  links:
+    HLI-4:
+      run_status: run_status_130006
+      control_mode: control_mode_130006
+
+PMP-01:
+  type: PLUMBING/PMP_SS
+  links:
+    HLI-4:
+      run_status: run_status_140001
+      control_mode: control_mode_140001
+
+PMP-02:
+  type: PLUMBING/PMP_SS
+  links:
+    HLI-4:
+      run_status: run_status_140002
+      control_mode: control_mode_140002
+
+PMP-03:
+  type: PLUMBING/PMP_SS
+  links:
+    HLI-4:
+      run_status: run_status_140003
+      control_mode: control_mode_140003
+
+PMP-04:
+  type: PLUMBING/PMP_SS
+  links:
+    HLI-4:
+      run_status: run_status_140004
+      control_mode: control_mode_140004
+
+FODT-01:
+  type: PLUMBING/TK_LVLM
+  links:
+    HLI-4:
+      percentage_sensor: percentage_sensor_160001
+
+FODT-02:
+  type: PLUMBING/TK_LVLM
+  links:
+    HLI-4:
+      percentage_sensor: percentage_sensor_160002
+
+FODT-03:
+  type: PLUMBING/TK_LVLM
+  links:
+    HLI-4:
+      percentage_sensor: percentage_sensor_160003
+
+FODT-04:
+  type: PLUMBING/TK_LVLM
+  links:
+    HLI-4:
+      percentage_sensor: percentage_sensor_160004
+
+FODT-05:
+  type: PLUMBING/TK_LVLM
+  links:
+    HLI-4:
+      percentage_sensor: percentage_sensor_160005
+
+FODT-06:
+  type: PLUMBING/TK_LVLM
+  links:
+    HLI-4:
+      percentage_sensor: percentage_sensor_160006
+
 
 # Zones
 IN-GUR-SIGD_ZN1:

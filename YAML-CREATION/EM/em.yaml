@@ -678,7 +678,7 @@ EM-06:
 EM-07:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-9:
+    HLI-909:
       average_line_current_sensor: average_line_current_sensor_07
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_07
       line_frequency_sensor: line_frequency_sensor_07
@@ -690,7 +690,7 @@ EM-07:
 EM-08:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-9:
+    HLI-909:
       average_line_current_sensor: average_line_current_sensor_08
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_08
       line_frequency_sensor: line_frequency_sensor_08
@@ -702,7 +702,7 @@ EM-08:
 EM-09:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-9:
+    HLI-909:
       average_line_current_sensor: average_line_current_sensor_09
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_09
       line_frequency_sensor: line_frequency_sensor_09
@@ -714,7 +714,7 @@ EM-09:
 EM-10:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-9:
+    HLI-909:
       average_line_current_sensor: average_line_current_sensor_10
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_10
       line_frequency_sensor: line_frequency_sensor_10
@@ -726,7 +726,7 @@ EM-10:
 EM-11:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-9:
+    HLI-909:
       average_line_current_sensor: average_line_current_sensor_11
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_11
       line_frequency_sensor: line_frequency_sensor_11
@@ -738,7 +738,7 @@ EM-11:
 EM-12:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-9:
+    HLI-909:
       average_line_current_sensor: average_line_current_sensor_12
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_12
       line_frequency_sensor: line_frequency_sensor_12
@@ -810,7 +810,7 @@ EM-17:
 EM-18:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-909:
+    HLI-9:
       average_line_current_sensor: average_line_current_sensor_18
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_18
       line_frequency_sensor: line_frequency_sensor_18
@@ -822,7 +822,7 @@ EM-18:
 EM-19:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-909:
+    HLI-9:
       average_line_current_sensor: average_line_current_sensor_19
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_19
       line_frequency_sensor: line_frequency_sensor_19
@@ -834,7 +834,7 @@ EM-19:
 EM-20:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-909:
+    HLI-9:
       average_line_current_sensor: average_line_current_sensor_20
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_20
       line_frequency_sensor: line_frequency_sensor_20
@@ -846,7 +846,7 @@ EM-20:
 EM-21:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-909:
+    HLI-9:
       average_line_current_sensor: average_line_current_sensor_21
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_21
       line_frequency_sensor: line_frequency_sensor_21
@@ -858,7 +858,7 @@ EM-21:
 EM-22:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-909:
+    HLI-9:
       average_line_current_sensor: average_line_current_sensor_22
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_22
       line_frequency_sensor: line_frequency_sensor_22
@@ -870,7 +870,7 @@ EM-22:
 EM-23:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-909:
+    HLI-9:
       average_line_current_sensor: average_line_current_sensor_23
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_23
       line_frequency_sensor: line_frequency_sensor_23
@@ -906,7 +906,7 @@ EM-25:
 EM-26:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-19:
+    HLI-1919:
       average_line_current_sensor: average_line_current_sensor_26
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_26
       line_frequency_sensor: line_frequency_sensor_26
@@ -918,7 +918,7 @@ EM-26:
 EM-27:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-19:
+    HLI-1919:
       average_line_current_sensor: average_line_current_sensor_27
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_27
       line_frequency_sensor: line_frequency_sensor_27
@@ -930,7 +930,7 @@ EM-27:
 EM-28:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-19:
+    HLI-1919:
       average_line_current_sensor: average_line_current_sensor_28
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_28
       line_frequency_sensor: line_frequency_sensor_28
@@ -942,7 +942,7 @@ EM-28:
 EM-29:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-19:
+    HLI-1919:
       average_line_current_sensor: average_line_current_sensor_29
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_29
       line_frequency_sensor: line_frequency_sensor_29
@@ -954,7 +954,7 @@ EM-29:
 EM-30:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-19:
+    HLI-1919:
       average_line_current_sensor: average_line_current_sensor_30
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_30
       line_frequency_sensor: line_frequency_sensor_30
@@ -990,7 +990,7 @@ EM-32:
 EM-33:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-19:
+    HLI-1919:
       average_line_current_sensor: average_line_current_sensor_33
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_33
       line_frequency_sensor: line_frequency_sensor_33
@@ -1002,7 +1002,7 @@ EM-33:
 EM-34:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-19:
+    HLI-1919:
       average_line_current_sensor: average_line_current_sensor_34
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_34
       line_frequency_sensor: line_frequency_sensor_34
@@ -1014,7 +1014,7 @@ EM-34:
 EM-35:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-19:
+    HLI-1919:
       average_line_current_sensor: average_line_current_sensor_35
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_35
       line_frequency_sensor: line_frequency_sensor_35
@@ -1026,7 +1026,7 @@ EM-35:
 EM-36:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-19:
+    HLI-1919:
       average_line_current_sensor: average_line_current_sensor_36
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_36
       line_frequency_sensor: line_frequency_sensor_36
@@ -1038,7 +1038,7 @@ EM-36:
 EM-37:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-19:
+    HLI-1919:
       average_line_current_sensor: average_line_current_sensor_37
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_37
       line_frequency_sensor: line_frequency_sensor_37
@@ -1050,7 +1050,7 @@ EM-37:
 EM-38:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-19:
+    HLI-1919:
       average_line_current_sensor: average_line_current_sensor_38
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_38
       line_frequency_sensor: line_frequency_sensor_38
@@ -1062,7 +1062,7 @@ EM-38:
 EM-39:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-19:
+    HLI-1919:
       average_line_current_sensor: average_line_current_sensor_39
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_39
       line_frequency_sensor: line_frequency_sensor_39
@@ -1098,7 +1098,7 @@ EM-41:
 EM-42:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-1919:
+    HLI-19:
       average_line_current_sensor: average_line_current_sensor_42
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_42
       line_frequency_sensor: line_frequency_sensor_42
@@ -1110,7 +1110,7 @@ EM-42:
 EM-43:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-1919:
+    HLI-19:
       average_line_current_sensor: average_line_current_sensor_43
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_43
       line_frequency_sensor: line_frequency_sensor_43
@@ -1122,7 +1122,7 @@ EM-43:
 EM-44:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-1919:
+    HLI-3434:
       average_line_current_sensor: average_line_current_sensor_44
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_44
       line_frequency_sensor: line_frequency_sensor_44
@@ -1134,7 +1134,7 @@ EM-44:
 EM-45:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-1919:
+    HLI-3434:
       average_line_current_sensor: average_line_current_sensor_45
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_45
       line_frequency_sensor: line_frequency_sensor_45
@@ -1146,7 +1146,7 @@ EM-45:
 EM-46:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-1919:
+    HLI-3434:
       average_line_current_sensor: average_line_current_sensor_46
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_46
       line_frequency_sensor: line_frequency_sensor_46
@@ -1158,7 +1158,7 @@ EM-46:
 EM-47:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-1919:
+    HLI-3434:
       average_line_current_sensor: average_line_current_sensor_47
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_47
       line_frequency_sensor: line_frequency_sensor_47
@@ -1170,7 +1170,7 @@ EM-47:
 EM-48:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-1919:
+    HLI-3434:
       average_line_current_sensor: average_line_current_sensor_48
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_48
       line_frequency_sensor: line_frequency_sensor_48
@@ -1182,7 +1182,7 @@ EM-48:
 EM-49:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-1919:
+    HLI-34:
       average_line_current_sensor: average_line_current_sensor_49
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_49
       line_frequency_sensor: line_frequency_sensor_49
@@ -1194,7 +1194,7 @@ EM-49:
 EM-50:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-1919:
+    HLI-34:
       average_line_current_sensor: average_line_current_sensor_50
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_50
       line_frequency_sensor: line_frequency_sensor_50
@@ -1206,7 +1206,7 @@ EM-50:
 EM-51:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-1919:
+    HLI-34:
       average_line_current_sensor: average_line_current_sensor_51
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_51
       line_frequency_sensor: line_frequency_sensor_51
@@ -1218,7 +1218,7 @@ EM-51:
 EM-52:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-1919:
+    HLI-34:
       average_line_current_sensor: average_line_current_sensor_52
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_52
       line_frequency_sensor: line_frequency_sensor_52
@@ -1230,7 +1230,7 @@ EM-52:
 EM-53:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-1919:
+    HLI-34:
       average_line_current_sensor: average_line_current_sensor_53
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_53
       line_frequency_sensor: line_frequency_sensor_53
@@ -1242,7 +1242,7 @@ EM-53:
 EM-54:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-1919:
+    HLI-34:
       average_line_current_sensor: average_line_current_sensor_54
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_54
       line_frequency_sensor: line_frequency_sensor_54
@@ -1254,7 +1254,7 @@ EM-54:
 EM-55:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-1919:
+    HLI-34:
       average_line_current_sensor: average_line_current_sensor_55
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_55
       line_frequency_sensor: line_frequency_sensor_55
@@ -1266,7 +1266,7 @@ EM-55:
 EM-56:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-1919:
+    HLI-34:
       average_line_current_sensor: average_line_current_sensor_56
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_56
       line_frequency_sensor: line_frequency_sensor_56
@@ -1338,7 +1338,7 @@ EM-61:
 EM-62:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-34:
+    HLI-19:
       average_line_current_sensor: average_line_current_sensor_62
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_62
       line_frequency_sensor: line_frequency_sensor_62
@@ -1350,7 +1350,7 @@ EM-62:
 EM-63:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-34:
+    HLI-19:
       average_line_current_sensor: average_line_current_sensor_63
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_63
       line_frequency_sensor: line_frequency_sensor_63
@@ -1362,7 +1362,7 @@ EM-63:
 EM-64:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-34:
+    HLI-19:
       average_line_current_sensor: average_line_current_sensor_64
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_64
       line_frequency_sensor: line_frequency_sensor_64
@@ -1374,7 +1374,7 @@ EM-64:
 EM-65:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-34:
+    HLI-3434:
       average_line_current_sensor: average_line_current_sensor_65
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_65
       line_frequency_sensor: line_frequency_sensor_65
@@ -1386,7 +1386,7 @@ EM-65:
 EM-66:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-34:
+    HLI-3434:
       average_line_current_sensor: average_line_current_sensor_66
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_66
       line_frequency_sensor: line_frequency_sensor_66
@@ -1398,7 +1398,7 @@ EM-66:
 EM-67:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-34:
+    HLI-3434:
       average_line_current_sensor: average_line_current_sensor_67
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_67
       line_frequency_sensor: line_frequency_sensor_67
@@ -1410,7 +1410,7 @@ EM-67:
 EM-68:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-34:
+    HLI-3434:
       average_line_current_sensor: average_line_current_sensor_68
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_68
       line_frequency_sensor: line_frequency_sensor_68
@@ -1422,7 +1422,7 @@ EM-68:
 EM-69:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-34:
+    HLI-3434:
       average_line_current_sensor: average_line_current_sensor_69
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_69
       line_frequency_sensor: line_frequency_sensor_69
@@ -1434,7 +1434,7 @@ EM-69:
 EM-70:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-34:
+    HLI-19:
       average_line_current_sensor: average_line_current_sensor_70
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_70
       line_frequency_sensor: line_frequency_sensor_70
@@ -1446,7 +1446,7 @@ EM-70:
 EM-71:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-34:
+    HLI-19:
       average_line_current_sensor: average_line_current_sensor_71
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_71
       line_frequency_sensor: line_frequency_sensor_71
@@ -1518,7 +1518,7 @@ EM-76:
 EM-77:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-3434:
+    HLI-19:
       average_line_current_sensor: average_line_current_sensor_77
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_77
       line_frequency_sensor: line_frequency_sensor_77
@@ -1530,7 +1530,7 @@ EM-77:
 EM-78:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-3434:
+    HLI-19:
       average_line_current_sensor: average_line_current_sensor_78
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_78
       line_frequency_sensor: line_frequency_sensor_78
@@ -1542,7 +1542,7 @@ EM-78:
 EM-79:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-3434:
+    HLI-53:
       average_line_current_sensor: average_line_current_sensor_79
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_79
       line_frequency_sensor: line_frequency_sensor_79
@@ -1554,7 +1554,7 @@ EM-79:
 EM-80:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-3434:
+    HLI-53:
       average_line_current_sensor: average_line_current_sensor_80
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_80
       line_frequency_sensor: line_frequency_sensor_80
@@ -1566,7 +1566,7 @@ EM-80:
 EM-81:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-3434:
+    HLI-53:
       average_line_current_sensor: average_line_current_sensor_81
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_81
       line_frequency_sensor: line_frequency_sensor_81
@@ -1578,7 +1578,7 @@ EM-81:
 EM-82:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-3434:
+    HLI-53:
       average_line_current_sensor: average_line_current_sensor_82
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_82
       line_frequency_sensor: line_frequency_sensor_82
@@ -1590,7 +1590,7 @@ EM-82:
 EM-83:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-3434:
+    HLI-53:
       average_line_current_sensor: average_line_current_sensor_83
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_83
       line_frequency_sensor: line_frequency_sensor_83
@@ -1602,7 +1602,7 @@ EM-83:
 EM-84:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-3434:
+    HLI-53:
       average_line_current_sensor: average_line_current_sensor_84
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_84
       line_frequency_sensor: line_frequency_sensor_84
@@ -1614,7 +1614,7 @@ EM-84:
 EM-85:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-3434:
+    HLI-53:
       average_line_current_sensor: average_line_current_sensor_85
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_85
       line_frequency_sensor: line_frequency_sensor_85
@@ -1626,7 +1626,7 @@ EM-85:
 EM-86:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-3434:
+    HLI-53:
       average_line_current_sensor: average_line_current_sensor_86
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_86
       line_frequency_sensor: line_frequency_sensor_86
@@ -1650,7 +1650,7 @@ EM-87:
 EM-88:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-53:
+    HLI-19:
       average_line_current_sensor: average_line_current_sensor_88
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_88
       line_frequency_sensor: line_frequency_sensor_88
@@ -1662,7 +1662,7 @@ EM-88:
 EM-89:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-53:
+    HLI-19:
       average_line_current_sensor: average_line_current_sensor_89
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_89
       line_frequency_sensor: line_frequency_sensor_89
@@ -1734,7 +1734,7 @@ EM-94:
 EM-95:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-53:
+    HLI-19:
       average_line_current_sensor: average_line_current_sensor_95
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_95
       line_frequency_sensor: line_frequency_sensor_95
@@ -1746,7 +1746,7 @@ EM-95:
 EM-96:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-53:
+    HLI-19:
       average_line_current_sensor: average_line_current_sensor_96
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_96
       line_frequency_sensor: line_frequency_sensor_96
@@ -1758,7 +1758,7 @@ EM-96:
 EM-97:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-53:
+    HLI-65:
       average_line_current_sensor: average_line_current_sensor_97
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_97
       line_frequency_sensor: line_frequency_sensor_97
@@ -1770,7 +1770,7 @@ EM-97:
 EM-98:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-53:
+    HLI-65:
       average_line_current_sensor: average_line_current_sensor_98
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_98
       line_frequency_sensor: line_frequency_sensor_98
@@ -1782,7 +1782,7 @@ EM-98:
 EM-99:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-53:
+    HLI-65:
       average_line_current_sensor: average_line_current_sensor_99
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_99
       line_frequency_sensor: line_frequency_sensor_99
@@ -1794,7 +1794,7 @@ EM-99:
 EM-100:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-53:
+    HLI-65:
       average_line_current_sensor: average_line_current_sensor_100
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_100
       line_frequency_sensor: line_frequency_sensor_100
@@ -1818,7 +1818,7 @@ EM-101:
 EM-102:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-65:
+    HLI-19:
       average_line_current_sensor: average_line_current_sensor_102
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_102
       line_frequency_sensor: line_frequency_sensor_102
@@ -1830,7 +1830,7 @@ EM-102:
 EM-103:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-65:
+    HLI-19:
       average_line_current_sensor: average_line_current_sensor_103
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_103
       line_frequency_sensor: line_frequency_sensor_103
@@ -1866,7 +1866,7 @@ EM-105:
 EM-106:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-65:
+    HLI-34:
       average_line_current_sensor: average_line_current_sensor_106
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_106
       line_frequency_sensor: line_frequency_sensor_106
@@ -1878,7 +1878,7 @@ EM-106:
 EM-107:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
-    HLI-65:
+    HLI-34:
       average_line_current_sensor: average_line_current_sensor_107
       average_line_neutral_voltage_sensor: average_line_neutral_voltage_sensor_107
       line_frequency_sensor: line_frequency_sensor_107

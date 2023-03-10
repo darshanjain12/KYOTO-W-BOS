@@ -1,6 +1,5 @@
 # Building
 IN-GUR-SIGD:
-  type: FACILITIES/BUILDING
 
 # Floor
 IN-GUR-SIGD_FL1:
@@ -976,4 +975,13 @@ HLI-71:
         values:
           hours: hours
 
+# Zones
+IN-GUR-SIGD_ZN1:
+  type: HVAC/ZONE
+  connections:
+    IN-GUR-SIGD-RM1: CONTAINS
+IN-GUR-SIGD_ZN2:
+  type: HVAC/ZONE
+  connections:
+    IN-GUR-SIGD_RM2: CONTAINS
 

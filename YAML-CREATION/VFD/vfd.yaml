@@ -1,26 +1,11 @@
 # Building
-IN-GUR-SIGD:
+IN-BLR-BCPWK:
   type: FACILITIES/BUILDING
 
-# Floor
-IN-GUR-SIGD_FL1:
-  type: FACILITIES/FLOOR
-  connections:
-    IN-GUR-SIGD: CONTAINS
-
-# Rooms
-IN-GUR-SIGD_RM1:
-  type: FACILITIES/ROOM
-  connections:
-    IN-GUR-SIGD_FL1: CONTAINS
-IN-GUR-SIGD_RM2:
-  type: FACILITIES/ROOM
-  connections:
-    IN-GUR-SIGD_FL1: CONTAINS
 
 # Devices
 HLI-50:
-  type: HVAC/DFR_SFSS_SFVSC_BYPSSPC_HTSC
+  type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2562891943259362
   translation:
     supply_fan_run_time_accumulator_03:
@@ -348,7 +333,7 @@ HLI-50:
         values:
           kilowatt_hours: kilowatt_hours
 HLI-20:
-  type: HVAC/DFR_SFSS_SFVSC_BYPSSPC_HTSC
+  type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2552967711406693
   translation:
     supply_fan_run_time_accumulator_01:
@@ -676,7 +661,7 @@ HLI-20:
         values:
           kilowatt_hours: kilowatt_hours
 HLI-70:
-  type: HVAC/DFR_SFSS_SFVSC_BYPSSPC_HTSC
+  type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2623941416296494
   translation:
     supply_fan_run_time_accumulator_01:
@@ -824,7 +809,7 @@ HLI-70:
         values:
           kilowatt_hours: kilowatt_hours
 HLI-69:
-  type: HVAC/DFR_SFSS_SFVSC_BYPSSPC_HTSC
+  type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2586282808105109
   translation:
     voltage_sensor_02:

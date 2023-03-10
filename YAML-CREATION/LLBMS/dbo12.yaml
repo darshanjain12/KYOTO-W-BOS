@@ -3022,7 +3022,7 @@ COS-14:
   links:
     HLI-4:
       zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_02_161002
-	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_161001
+	  zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_161001
 
 COS-15:
   type: HVAC/SENSOR_COC
@@ -3243,28 +3243,28 @@ COS-25:
   links:
     HLI-4:
       zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_01_160501
-	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160501
+	  zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160501
 
 COS-26:
   type: HVAC/SENSOR_COC
   links:
     HLI-4:
       zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_02_160502
-	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160501
+	  zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160501
 
 COS-27:
   type: HVAC/SENSOR_COC
   links:
     HLI-4:
       zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_03_160503
-	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160501
+	  zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160501
 
 COS-28:
   type: HVAC/SENSOR_COC
   links:
     HLI-4:
       zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_04_160504
-	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160501
+	  zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160501
 
 COS-29:
   type: HVAC/SENSOR_COC
@@ -3278,7 +3278,7 @@ COS-30:
   links:
     HLI-4:
       zone_air_co_concentration_sensor: zone_air_co_concentration_sensor_06_160506
-	    zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160501
+	  zone_air_co_concentration_sensor_setpoint: zone_air_co_concentration_sensor_setpoint_160501
 
 GTF-37:
   type: HVAC/FAN_SS

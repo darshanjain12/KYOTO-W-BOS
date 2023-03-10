@@ -1,5 +1,6 @@
 # Building
 IN-GUR-SIGD:
+  type: FACILITIES/BUILDING
 
 # Floor
 IN-GUR-SIGD_FL1:

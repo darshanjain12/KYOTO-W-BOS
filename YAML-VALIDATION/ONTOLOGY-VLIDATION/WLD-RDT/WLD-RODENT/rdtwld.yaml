@@ -1,0 +1,372 @@
+CONFIG_METADATA:
+  operation: INITIALIZE
+
+85c359b6-6aae-40fb-b749-a2611c9a39ed:
+  type: FACILITIES/BUILDING
+  code: IN-BLR-BCPWK
+
+9f1f0755-d41b-4eff-bee6-e41fa96c106c:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2608501138334521
+  translation:
+    transducer_failed_alarm_01:
+      present_value: points.transducer_failed_alarm_01.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    transducer_failed_alarm_02:
+      present_value: points.transducer_failed_alarm_02.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    transducer_failed_alarm_03:
+      present_value: points.transducer_failed_alarm_03.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    transducer_failed_alarm_04:
+      present_value: points.transducer_failed_alarm_04.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    transducer_failed_alarm_05:
+      present_value: points.transducer_failed_alarm_05.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    transducer_failed_alarm_06:
+      present_value: points.transducer_failed_alarm_06.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    transducer_failed_alarm_07:
+      present_value: points.transducer_failed_alarm_07.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    transducer_failed_alarm_08:
+      present_value: points.transducer_failed_alarm_08.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    transducer_failed_alarm_09:
+      present_value: points.transducer_failed_alarm_09.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    transducer_failed_alarm_10:
+      present_value: points.transducer_failed_alarm_10.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    transducer_failed_alarm_11:
+      present_value: points.transducer_failed_alarm_11.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+  code: HLI-13
+
+2fa50a44-eef4-4d24-85f9-6baafe8fe21b:
+  type: SAFETY/RDT_STD
+  links:
+    9f1f0755-d41b-4eff-bee6-e41fa96c106c:
+      transducer_failed_alarm: transducer_failed_alarm_01
+  code: RDT-01
+
+3d28635d-78b4-4a75-8825-56b088e61e90:
+  type: SAFETY/RDT_STD
+  links:
+    9f1f0755-d41b-4eff-bee6-e41fa96c106c:
+      transducer_failed_alarm: transducer_failed_alarm_02
+  code: RDT-02
+
+3e6fdf95-4b02-4f85-ac8e-0a2041062b59:
+  type: SAFETY/RDT_STD
+  links:
+    9f1f0755-d41b-4eff-bee6-e41fa96c106c:
+      transducer_failed_alarm: transducer_failed_alarm_03
+  code: RDT-03
+
+34493f4c-d13e-48cf-b7a3-07f8531a4961:
+  type: SAFETY/RDT_STD
+  links:
+    9f1f0755-d41b-4eff-bee6-e41fa96c106c:
+      transducer_failed_alarm: transducer_failed_alarm_04
+  code: RDT-04
+
+065f9459-2680-4de6-8124-ffa65c4dc89c:
+  type: SAFETY/RDT_STD
+  links:
+    9f1f0755-d41b-4eff-bee6-e41fa96c106c:
+      transducer_failed_alarm: transducer_failed_alarm_05
+  code: RDT-05
+
+cf8a6294-8cef-4934-a11d-775a1ac07f04:
+  type: SAFETY/RDT_STD
+  links:
+    9f1f0755-d41b-4eff-bee6-e41fa96c106c:
+      transducer_failed_alarm: transducer_failed_alarm_06
+  code: RDT-06
+
+16c6d8b8-000f-4c0b-8fb1-f765c7d6ef14:
+  type: SAFETY/RDT_STD
+  links:
+    9f1f0755-d41b-4eff-bee6-e41fa96c106c:
+      transducer_failed_alarm: transducer_failed_alarm_07
+  code: RDT-07
+
+29ad492d-5182-48eb-bc8a-2644d710daa4:
+  type: SAFETY/RDT_STD
+  links:
+    9f1f0755-d41b-4eff-bee6-e41fa96c106c:
+      transducer_failed_alarm: transducer_failed_alarm_08
+  code: RDT-08
+
+87bf83e9-6a79-4f30-8baf-c01745aaeac0:
+  type: SAFETY/RDT_STD
+  links:
+    9f1f0755-d41b-4eff-bee6-e41fa96c106c:
+      transducer_failed_alarm: transducer_failed_alarm_09
+  code: RDT-09
+
+9b5943eb-460a-44fd-a982-66b5ad706289:
+  type: SAFETY/RDT_STD
+  links:
+    9f1f0755-d41b-4eff-bee6-e41fa96c106c:
+      transducer_failed_alarm: transducer_failed_alarm_10
+  code: RDT-10
+
+51b95cb6-1925-449e-8da3-5fdbaf928e2f:
+  type: SAFETY/RDT_STD
+  links:
+    9f1f0755-d41b-4eff-bee6-e41fa96c106c:
+      transducer_failed_alarm: transducer_failed_alarm_11
+  code: RDT-11
+
+0f85b40f-7c6f-4758-8db5-46ff476ba54a:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2685261384753605
+  translation:
+    water_leak_alarm_01:
+      present_value: points.water_leak_alarm_01.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    water_leak_cable_distance_sensor_01:
+      present_value: points.water_leak_cable_distance_sensor_01.present_value
+      units:
+        key: pointset.points.water_leak_cable_distance_sensor_01.units
+        values:
+          meters: meters
+    water_leak_alarm_02:
+      present_value: points.water_leak_alarm_02.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    water_leak_cable_distance_sensor_02:
+      present_value: points.water_leak_cable_distance_sensor_02.present_value
+      units:
+        key: pointset.points.water_leak_cable_distance_sensor_02.units
+        values:
+          meters: meters
+    water_leak_alarm_03:
+      present_value: points.water_leak_alarm_03.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    water_leak_cable_distance_sensor_03:
+      present_value: points.water_leak_cable_distance_sensor_03.present_value
+      units:
+        key: pointset.points.water_leak_cable_distance_sensor_03.units
+        values:
+          meters: meters
+    water_leak_alarm_04:
+      present_value: points.water_leak_alarm_04.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    water_leak_cable_distance_sensor_04:
+      present_value: points.water_leak_cable_distance_sensor_04.present_value
+      units:
+        key: pointset.points.water_leak_cable_distance_sensor_04.units
+        values:
+          meters: meters
+    water_leak_alarm_05:
+      present_value: points.water_leak_alarm_05.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    water_leak_cable_distance_sensor_05:
+      present_value: points.water_leak_cable_distance_sensor_05.present_value
+      units:
+        key: pointset.points.water_leak_cable_distance_sensor_05.units
+        values:
+          meters: meters
+    water_leak_alarm_06:
+      present_value: points.water_leak_alarm_06.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    water_leak_cable_distance_sensor_06:
+      present_value: points.water_leak_cable_distance_sensor_06.present_value
+      units:
+        key: pointset.points.water_leak_cable_distance_sensor_06.units
+        values:
+          meters: meters
+    water_leak_alarm_07:
+      present_value: points.water_leak_alarm_07.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    water_leak_cable_distance_sensor_07:
+      present_value: points.water_leak_cable_distance_sensor_07.present_value
+      units:
+        key: pointset.points.water_leak_cable_distance_sensor_07.units
+        values:
+          meters: meters
+    water_leak_alarm_08:
+      present_value: points.water_leak_alarm_08.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    water_leak_cable_distance_sensor_08:
+      present_value: points.water_leak_cable_distance_sensor_08.present_value
+      units:
+        key: pointset.points.water_leak_cable_distance_sensor_08.units
+        values:
+          meters: meters
+    water_leak_alarm_09:
+      present_value: points.water_leak_alarm_09.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    water_leak_cable_distance_sensor_09:
+      present_value: points.water_leak_cable_distance_sensor_09.present_value
+      units:
+        key: pointset.points.water_leak_cable_distance_sensor_09.units
+        values:
+          meters: meters
+    water_leak_alarm_10:
+      present_value: points.water_leak_alarm_10.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    water_leak_cable_distance_sensor_10:
+      present_value: points.water_leak_cable_distance_sensor_10.present_value
+      units:
+        key: pointset.points.water_leak_cable_distance_sensor_10.units
+        values:
+          meters: meters
+    water_leak_alarm_11:
+      present_value: points.water_leak_alarm_11.present_value
+      states:
+        ACTIVE: true
+        INACTIVE: false
+    water_leak_cable_distance_sensor_11:
+      present_value: points.water_leak_cable_distance_sensor_11.present_value
+      units:
+        key: pointset.points.water_leak_cable_distance_sensor_11.units
+        values:
+          meters: meters
+    broken_cable_alarm_01: MISSING
+  code: HLI-7
+
+3ae4e2d0-fad9-4a77-84a9-012f737ff2fa:
+  type: SAFETY/LDS_WLA_BCM
+  links:
+    0f85b40f-7c6f-4758-8db5-46ff476ba54a:
+      water_leak_alarm: water_leak_alarm_01
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_01
+      broken_cable_alarm: broken_cable_alarm_01
+  code: LDS-01
+
+e0005ba6-e48c-48e9-a640-1064f6c827ca:
+  type: SAFETY/LDS_WLA_BCM
+  links:
+    0f85b40f-7c6f-4758-8db5-46ff476ba54a:
+      water_leak_alarm: water_leak_alarm_02
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_02
+      broken_cable_alarm: broken_cable_alarm_01
+  code: LDS-02
+
+2103a9b2-1e56-49c3-9013-faf6c0800ef2:
+  type: SAFETY/LDS_WLA_BCM
+  links:
+    0f85b40f-7c6f-4758-8db5-46ff476ba54a:
+      water_leak_alarm: water_leak_alarm_03
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_03
+      broken_cable_alarm: broken_cable_alarm_01
+  code: LDS-03
+
+38f46aee-285d-4835-8bff-0cf71db65d70:
+  type: SAFETY/LDS_WLA_BCM
+  links:
+    0f85b40f-7c6f-4758-8db5-46ff476ba54a:
+      water_leak_alarm: water_leak_alarm_04
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_04
+      broken_cable_alarm: broken_cable_alarm_01
+  code: LDS-04
+
+5eecc2d2-3d60-489d-8b22-e3f28a7b966b:
+  type: SAFETY/LDS_WLA_BCM
+  links:
+    0f85b40f-7c6f-4758-8db5-46ff476ba54a:
+      water_leak_alarm: water_leak_alarm_05
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_05
+      broken_cable_alarm: broken_cable_alarm_01
+  code: LDS-05
+
+6b51d2b8-94e1-489e-a5df-c736dfc40645:
+  type: SAFETY/LDS_WLA_BCM
+  links:
+    0f85b40f-7c6f-4758-8db5-46ff476ba54a:
+      water_leak_alarm: water_leak_alarm_06
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_06
+      broken_cable_alarm: broken_cable_alarm_01
+  code: LDS-06
+
+26d14c12-7f0a-4261-a836-ac6407bf578b:
+  type: SAFETY/LDS_WLA_BCM
+  links:
+    0f85b40f-7c6f-4758-8db5-46ff476ba54a:
+      water_leak_alarm: water_leak_alarm_07
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_07
+      broken_cable_alarm: broken_cable_alarm_01
+  code: LDS-07
+
+25409c9b-dcd9-4900-b10f-682bde3ccf05:
+  type: SAFETY/LDS_WLA_BCM
+  links:
+    0f85b40f-7c6f-4758-8db5-46ff476ba54a:
+      water_leak_alarm: water_leak_alarm_08
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_08
+      broken_cable_alarm: broken_cable_alarm_01`
+  code: LDS-08
+
+01256c7e-85c1-4db8-aa4e-bb6ed0ce9f96:
+  type: SAFETY/LDS_WLA_BCM
+  links:
+    0f85b40f-7c6f-4758-8db5-46ff476ba54a:
+      water_leak_alarm: water_leak_alarm_09
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_09
+      broken_cable_alarm: broken_cable_alarm_01
+  code: LDS-09
+
+02189144-aeee-4faf-82e4-c130e440602f:
+  type: SAFETY/LDS_WLA_BCM
+  links:
+    0f85b40f-7c6f-4758-8db5-46ff476ba54a:
+      water_leak_alarm: water_leak_alarm_10
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_10
+      broken_cable_alarm: broken_cable_alarm_01
+  code: LDS-10
+
+30dcf8c8-0e52-46c6-a918-b1b74e693142:
+  type: SAFETY/LDS_WLA_BCM
+  links:
+    0f85b40f-7c6f-4758-8db5-46ff476ba54a:
+      water_leak_alarm: water_leak_alarm_11
+      water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_11
+      broken_cable_alarm: broken_cable_alarm_01
+  code: LDS-11
+

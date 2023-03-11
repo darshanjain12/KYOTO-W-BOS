@@ -633,7 +633,7 @@ EM-03:
       average_inter_line_voltage_sensor: average_inter_line_voltage_sensor
       generator_run_time_accumulator: generator_run_time_accumulator
       electricalgrid_run_time_accumulator: electricalgrid_run_time_accumulator
- EM-04:
+EM-04:
   type: ELECTRICAL/EM_PWM_AVCM_PWMRDM
   links:
     HLI-9:

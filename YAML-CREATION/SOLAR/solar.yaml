@@ -1,0 +1,31 @@
+# Building
+IN-BLR-BCPWK:
+  type: FACILITIES/BUILDING
+
+
+
+# Devices
+HLI-67:
+  type: GATEWAY/PASSTHROUGH
+  cloud_device_id: 2740339945917115
+  translation:
+    supply_water_temperature_sensor:
+      present_value: "points.supply_water_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.supply_water_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_water_temperature_sensor:
+      present_value: "points.return_water_temperature_sensor.present_value"
+      units:
+        key: "pointset.points.return_water_temperature_sensor.units"
+        values:
+          degrees_celsius: degrees_celsius
+    return_water_temperature_setpoint:
+      present_value: "points.return_water_temperature_setpoint.present_value"
+      units:
+        key: "pointset.points.return_water_temperature_setpoint.units"
+        values:
+          degrees_celsius: degrees_celsius
+
+

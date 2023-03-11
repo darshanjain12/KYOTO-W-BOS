@@ -1,0 +1,964 @@
+# Building
+IN-BLR-BCPWK:
+  type: FACILITIES/BUILDING
+
+
+# Devices
+HLI-50:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2562891943259362
+  translation:
+    supply_fan_run_time_accumulator_03:
+      present_value: "points.supply_fan_run_time_accumulator_03.present_value"
+      units:
+        key: "pointset.points.supply_fan_run_time_accumulator_03.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_03:
+      present_value: "points.supply_fan_voltage_sensor_03.present_value"
+      units:
+        key: "pointset.points.supply_fan_voltage_sensor_03.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_03:
+      present_value: "points.supply_fan_current_sensor_03.present_value"
+      units:
+        key: "pointset.points.supply_fan_current_sensor_03.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_03:
+      present_value: "points.supply_fan_speed_frequency_sensor_03.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_frequency_sensor_03.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_03:
+      present_value: "points.supply_fan_power_sensor_03.present_value"
+      units:
+        key: "pointset.points.supply_fan_power_sensor_03.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_03:
+      present_value: "points.supply_fan_energy_accumulator_03.present_value"
+      units:
+        key: "pointset.points.supply_fan_energy_accumulator_03.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    supply_fan_run_time_accumulator_06:
+      present_value: "points.supply_fan_run_time_accumulator_06.present_value"
+      units:
+        key: "pointset.points.supply_fan_run_time_accumulator_06.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_06:
+      present_value: "points.supply_fan_voltage_sensor_06.present_value"
+      units:
+        key: "pointset.points.supply_fan_voltage_sensor_06.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_06:
+      present_value: "points.supply_fan_current_sensor_06.present_value"
+      units:
+        key: "pointset.points.supply_fan_current_sensor_06.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_06:
+      present_value: "points.supply_fan_speed_frequency_sensor_06.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_frequency_sensor_06.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_06:
+      present_value: "points.supply_fan_power_sensor_06.present_value"
+      units:
+        key: "pointset.points.supply_fan_power_sensor_06.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_06:
+      present_value: "points.supply_fan_energy_accumulator_06.present_value"
+      units:
+        key: "pointset.points.supply_fan_energy_accumulator_06.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    supply_fan_run_time_accumulator_08:
+      present_value: "points.supply_fan_run_time_accumulator_08.present_value"
+      units:
+        key: "pointset.points.supply_fan_run_time_accumulator_08.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_08:
+      present_value: "points.supply_fan_voltage_sensor_08.present_value"
+      units:
+        key: "pointset.points.supply_fan_voltage_sensor_08.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_08:
+      present_value: "points.supply_fan_current_sensor_08.present_value"
+      units:
+        key: "pointset.points.supply_fan_current_sensor_08.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_08:
+      present_value: "points.supply_fan_speed_frequency_sensor_08.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_frequency_sensor_08.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_08:
+      present_value: "points.supply_fan_power_sensor_08.present_value"
+      units:
+        key: "pointset.points.supply_fan_power_sensor_08.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_08:
+      present_value: "points.supply_fan_energy_accumulator_08.present_value"
+      units:
+        key: "pointset.points.supply_fan_energy_accumulator_08.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    supply_fan_run_time_accumulator_10:
+      present_value: "points.supply_fan_run_time_accumulator_10.present_value"
+      units:
+        key: "pointset.points.supply_fan_run_time_accumulator_10.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_10:
+      present_value: "points.supply_fan_voltage_sensor_10.present_value"
+      units:
+        key: "pointset.points.supply_fan_voltage_sensor_10.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_10:
+      present_value: "points.supply_fan_current_sensor_10.present_value"
+      units:
+        key: "pointset.points.supply_fan_current_sensor_10.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_10:
+      present_value: "points.supply_fan_speed_frequency_sensor_10.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_frequency_sensor_10.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_10:
+      present_value: "points.supply_fan_power_sensor_10.present_value"
+      units:
+        key: "pointset.points.supply_fan_power_sensor_10.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_10:
+      present_value: "points.supply_fan_energy_accumulator_10.present_value"
+      units:
+        key: "pointset.points.supply_fan_energy_accumulator_10.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    supply_fan_run_time_accumulator_12:
+      present_value: "points.supply_fan_run_time_accumulator_12.present_value"
+      units:
+        key: "pointset.points.supply_fan_run_time_accumulator_12.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_12:
+      present_value: "points.supply_fan_voltage_sensor_12.present_value"
+      units:
+        key: "pointset.points.supply_fan_voltage_sensor_12.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_12:
+      present_value: "points.supply_fan_current_sensor_12.present_value"
+      units:
+        key: "pointset.points.supply_fan_current_sensor_12.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_12:
+      present_value: "points.supply_fan_speed_frequency_sensor_12.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_frequency_sensor_12.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_12:
+      present_value: "points.supply_fan_power_sensor_12.present_value"
+      units:
+        key: "pointset.points.supply_fan_power_sensor_12.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_12:
+      present_value: "points.supply_fan_energy_accumulator_12.present_value"
+      units:
+        key: "pointset.points.supply_fan_energy_accumulator_12.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    supply_fan_run_time_accumulator_14:
+      present_value: "points.supply_fan_run_time_accumulator_14.present_value"
+      units:
+        key: "pointset.points.supply_fan_run_time_accumulator_14.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_14:
+      present_value: "points.supply_fan_voltage_sensor_14.present_value"
+      units:
+        key: "pointset.points.supply_fan_voltage_sensor_14.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_14:
+      present_value: "points.supply_fan_current_sensor_14.present_value"
+      units:
+        key: "pointset.points.supply_fan_current_sensor_14.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_14:
+      present_value: "points.supply_fan_speed_frequency_sensor_14.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_frequency_sensor_14.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_14:
+      present_value: "points.supply_fan_power_sensor_14.present_value"
+      units:
+        key: "pointset.points.supply_fan_power_sensor_14.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_14:
+      present_value: "points.supply_fan_energy_accumulator_14.present_value"
+      units:
+        key: "pointset.points.supply_fan_energy_accumulator_14.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    supply_fan_run_time_accumulator_16:
+      present_value: "points.supply_fan_run_time_accumulator_16.present_value"
+      units:
+        key: "pointset.points.supply_fan_run_time_accumulator_16.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_16:
+      present_value: "points.supply_fan_voltage_sensor_16.present_value"
+      units:
+        key: "pointset.points.supply_fan_voltage_sensor_16.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_16:
+      present_value: "points.supply_fan_current_sensor_16.present_value"
+      units:
+        key: "pointset.points.supply_fan_current_sensor_16.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_16:
+      present_value: "points.supply_fan_speed_frequency_sensor_16.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_frequency_sensor_16.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_16:
+      present_value: "points.supply_fan_power_sensor_16.present_value"
+      units:
+        key: "pointset.points.supply_fan_power_sensor_16.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_16:
+      present_value: "points.supply_fan_energy_accumulator_16.present_value"
+      units:
+        key: "pointset.points.supply_fan_energy_accumulator_16.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    supply_fan_run_time_accumulator_19:
+      present_value: "points.supply_fan_run_time_accumulator_19.present_value"
+      units:
+        key: "pointset.points.supply_fan_run_time_accumulator_19.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_19:
+      present_value: "points.supply_fan_voltage_sensor_19.present_value"
+      units:
+        key: "pointset.points.supply_fan_voltage_sensor_19.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_19:
+      present_value: "points.supply_fan_current_sensor_19.present_value"
+      units:
+        key: "pointset.points.supply_fan_current_sensor_19.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_19:
+      present_value: "points.supply_fan_speed_frequency_sensor_19.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_frequency_sensor_19.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_19:
+      present_value: "points.supply_fan_power_sensor_19.present_value"
+      units:
+        key: "pointset.points.supply_fan_power_sensor_19.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_19:
+      present_value: "points.supply_fan_energy_accumulator_19.present_value"
+      units:
+        key: "pointset.points.supply_fan_energy_accumulator_19.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    supply_fan_run_time_accumulator_20:
+      present_value: "points.supply_fan_run_time_accumulator_20.present_value"
+      units:
+        key: "pointset.points.supply_fan_run_time_accumulator_20.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_20:
+      present_value: "points.supply_fan_voltage_sensor_20.present_value"
+      units:
+        key: "pointset.points.supply_fan_voltage_sensor_20.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_20:
+      present_value: "points.supply_fan_current_sensor_20.present_value"
+      units:
+        key: "pointset.points.supply_fan_current_sensor_20.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_20:
+      present_value: "points.supply_fan_speed_frequency_sensor_20.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_frequency_sensor_20.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_20:
+      present_value: "points.supply_fan_power_sensor_20.present_value"
+      units:
+        key: "pointset.points.supply_fan_power_sensor_20.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_20:
+      present_value: "points.supply_fan_energy_accumulator_20.present_value"
+      units:
+        key: "pointset.points.supply_fan_energy_accumulator_20.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+HLI-20:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2552967711406693
+  translation:
+    supply_fan_run_time_accumulator_01:
+      present_value: "points.supply_fan_run_time_accumulator_01.present_value"
+      units:
+        key: "pointset.points.supply_fan_run_time_accumulator_01.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_01:
+      present_value: "points.supply_fan_voltage_sensor_01.present_value"
+      units:
+        key: "pointset.points.supply_fan_voltage_sensor_01.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_01:
+      present_value: "points.supply_fan_current_sensor_01.present_value"
+      units:
+        key: "pointset.points.supply_fan_current_sensor_01.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_01:
+      present_value: "points.supply_fan_speed_frequency_sensor_01.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_frequency_sensor_01.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_01:
+      present_value: "points.supply_fan_power_sensor_01.present_value"
+      units:
+        key: "pointset.points.supply_fan_power_sensor_01.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_01:
+      present_value: "points.supply_fan_energy_accumulator_01.present_value"
+      units:
+        key: "pointset.points.supply_fan_energy_accumulator_01.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    supply_fan_run_time_accumulator_02:
+      present_value: "points.supply_fan_run_time_accumulator_02.present_value"
+      units:
+        key: "pointset.points.supply_fan_run_time_accumulator_02.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_02:
+      present_value: "points.supply_fan_voltage_sensor_02.present_value"
+      units:
+        key: "pointset.points.supply_fan_voltage_sensor_02.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_02:
+      present_value: "points.supply_fan_current_sensor_02.present_value"
+      units:
+        key: "pointset.points.supply_fan_current_sensor_02.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_02:
+      present_value: "points.supply_fan_speed_frequency_sensor_02.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_frequency_sensor_02.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_02:
+      present_value: "points.supply_fan_power_sensor_02.present_value"
+      units:
+        key: "pointset.points.supply_fan_power_sensor_02.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_02:
+      present_value: "points.supply_fan_energy_accumulator_02.present_value"
+      units:
+        key: "pointset.points.supply_fan_energy_accumulator_02.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    supply_fan_run_time_accumulator_07:
+      present_value: "points.supply_fan_run_time_accumulator_07.present_value"
+      units:
+        key: "pointset.points.supply_fan_run_time_accumulator_07.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_07:
+      present_value: "points.supply_fan_voltage_sensor_07.present_value"
+      units:
+        key: "pointset.points.supply_fan_voltage_sensor_07.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_07:
+      present_value: "points.supply_fan_current_sensor_07.present_value"
+      units:
+        key: "pointset.points.supply_fan_current_sensor_07.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_07:
+      present_value: "points.supply_fan_speed_frequency_sensor_07.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_frequency_sensor_07.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_07:
+      present_value: "points.supply_fan_power_sensor_07.present_value"
+      units:
+        key: "pointset.points.supply_fan_power_sensor_07.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_07:
+      present_value: "points.supply_fan_energy_accumulator_07.present_value"
+      units:
+        key: "pointset.points.supply_fan_energy_accumulator_07.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    supply_fan_run_time_accumulator_09:
+      present_value: "points.supply_fan_run_time_accumulator_09.present_value"
+      units:
+        key: "pointset.points.supply_fan_run_time_accumulator_09.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_09:
+      present_value: "points.supply_fan_voltage_sensor_09.present_value"
+      units:
+        key: "pointset.points.supply_fan_voltage_sensor_09.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_09:
+      present_value: "points.supply_fan_current_sensor_09.present_value"
+      units:
+        key: "pointset.points.supply_fan_current_sensor_09.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_09:
+      present_value: "points.supply_fan_speed_frequency_sensor_09.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_frequency_sensor_09.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_09:
+      present_value: "points.supply_fan_power_sensor_09.present_value"
+      units:
+        key: "pointset.points.supply_fan_power_sensor_09.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_09:
+      present_value: "points.supply_fan_energy_accumulator_09.present_value"
+      units:
+        key: "pointset.points.supply_fan_energy_accumulator_09.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    supply_fan_run_time_accumulator_11:
+      present_value: "points.supply_fan_run_time_accumulator_11.present_value"
+      units:
+        key: "pointset.points.supply_fan_run_time_accumulator_11.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_11:
+      present_value: "points.supply_fan_voltage_sensor_11.present_value"
+      units:
+        key: "pointset.points.supply_fan_voltage_sensor_11.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_11:
+      present_value: "points.supply_fan_current_sensor_11.present_value"
+      units:
+        key: "pointset.points.supply_fan_current_sensor_11.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_11:
+      present_value: "points.supply_fan_speed_frequency_sensor_11.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_frequency_sensor_11.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_11:
+      present_value: "points.supply_fan_power_sensor_11.present_value"
+      units:
+        key: "pointset.points.supply_fan_power_sensor_11.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_11:
+      present_value: "points.supply_fan_energy_accumulator_11.present_value"
+      units:
+        key: "pointset.points.supply_fan_energy_accumulator_11.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    supply_fan_run_time_accumulator_13:
+      present_value: "points.supply_fan_run_time_accumulator_13.present_value"
+      units:
+        key: "pointset.points.supply_fan_run_time_accumulator_13.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_13:
+      present_value: "points.supply_fan_voltage_sensor_13.present_value"
+      units:
+        key: "pointset.points.supply_fan_voltage_sensor_13.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_13:
+      present_value: "points.supply_fan_current_sensor_13.present_value"
+      units:
+        key: "pointset.points.supply_fan_current_sensor_13.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_13:
+      present_value: "points.supply_fan_speed_frequency_sensor_13.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_frequency_sensor_13.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_13:
+      present_value: "points.supply_fan_power_sensor_13.present_value"
+      units:
+        key: "pointset.points.supply_fan_power_sensor_13.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_13:
+      present_value: "points.supply_fan_energy_accumulator_13.present_value"
+      units:
+        key: "pointset.points.supply_fan_energy_accumulator_13.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    supply_fan_run_time_accumulator_15:
+      present_value: "points.supply_fan_run_time_accumulator_15.present_value"
+      units:
+        key: "pointset.points.supply_fan_run_time_accumulator_15.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_15:
+      present_value: "points.supply_fan_voltage_sensor_15.present_value"
+      units:
+        key: "pointset.points.supply_fan_voltage_sensor_15.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_15:
+      present_value: "points.supply_fan_current_sensor_15.present_value"
+      units:
+        key: "pointset.points.supply_fan_current_sensor_15.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_15:
+      present_value: "points.supply_fan_speed_frequency_sensor_15.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_frequency_sensor_15.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_15:
+      present_value: "points.supply_fan_power_sensor_15.present_value"
+      units:
+        key: "pointset.points.supply_fan_power_sensor_15.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_15:
+      present_value: "points.supply_fan_energy_accumulator_15.present_value"
+      units:
+        key: "pointset.points.supply_fan_energy_accumulator_15.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    supply_fan_run_time_accumulator_17:
+      present_value: "points.supply_fan_run_time_accumulator_17.present_value"
+      units:
+        key: "pointset.points.supply_fan_run_time_accumulator_17.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_17:
+      present_value: "points.supply_fan_voltage_sensor_17.present_value"
+      units:
+        key: "pointset.points.supply_fan_voltage_sensor_17.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_17:
+      present_value: "points.supply_fan_current_sensor_17.present_value"
+      units:
+        key: "pointset.points.supply_fan_current_sensor_17.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_17:
+      present_value: "points.supply_fan_speed_frequency_sensor_17.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_frequency_sensor_17.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_17:
+      present_value: "points.supply_fan_power_sensor_17.present_value"
+      units:
+        key: "pointset.points.supply_fan_power_sensor_17.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_17:
+      present_value: "points.supply_fan_energy_accumulator_17.present_value"
+      units:
+        key: "pointset.points.supply_fan_energy_accumulator_17.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    supply_fan_run_time_accumulator_18:
+      present_value: "points.supply_fan_run_time_accumulator_18.present_value"
+      units:
+        key: "pointset.points.supply_fan_run_time_accumulator_18.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_18:
+      present_value: "points.supply_fan_voltage_sensor_18.present_value"
+      units:
+        key: "pointset.points.supply_fan_voltage_sensor_18.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_18:
+      present_value: "points.supply_fan_current_sensor_18.present_value"
+      units:
+        key: "pointset.points.supply_fan_current_sensor_18.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_18:
+      present_value: "points.supply_fan_speed_frequency_sensor_18.present_value"
+      units:
+        key: "pointset.points.supply_fan_speed_frequency_sensor_18.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_18:
+      present_value: "points.supply_fan_power_sensor_18.present_value"
+      units:
+        key: "pointset.points.supply_fan_power_sensor_18.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_18:
+      present_value: "points.supply_fan_energy_accumulator_18.present_value"
+      units:
+        key: "pointset.points.supply_fan_energy_accumulator_18.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+HLI-70:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2623941416296494
+  translation:
+    supply_fan_run_time_accumulator_01:
+      present_value: "points.sf_01_supply_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.sf_01_supply_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_01:
+      present_value: "points.sf_01_supply_fan_voltage_sensor.present_value"
+      units:
+        key: "pointset.points.sf_01_supply_fan_voltage_sensor.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_01:
+      present_value: "points.sf_01_supply_fan_current_sensor.present_value"
+      units:
+        key: "pointset.points.sf_01_supply_fan_current_sensor.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_01:
+      present_value: "points.sf_01_supply_fan_speed_frequency_sensor.present_value"
+      units:
+        key: "pointset.points.sf_01_supply_fan_speed_frequency_sensor.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_01:
+      present_value: "points.sf_01_supply_fan_power_sensor.present_value"
+      units:
+        key: "pointset.points.sf_01_supply_fan_power_sensor.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_01:
+      present_value: "points.sf_01_supply_fan_energy_accumulator.present_value"
+      units:
+        key: "pointset.points.sf_01_supply_fan_energy_accumulator.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    supply_fan_run_time_accumulator_02:
+      present_value: "points.sf_02_supply_fan_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.sf_02_supply_fan_run_time_accumulator.units"
+        values:
+          hours: hours
+    supply_fan_voltage_sensor_02:
+      present_value: "points.sf_02_supply_fan_voltage_sensor.present_value"
+      units:
+        key: "pointset.points.sf_02_supply_fan_voltage_sensor.units"
+        values:
+          volts: volts
+    supply_fan_current_sensor_02:
+      present_value: "points.sf_02_supply_fan_current_sensor.present_value"
+      units:
+        key: "pointset.points.sf_02_supply_fan_current_sensor.units"
+        values:
+          amperes: amperes
+    supply_fan_speed_frequency_sensor_02:
+      present_value: "points.sf_02_supply_fan_speed_frequency_sensor.present_value"
+      units:
+        key: "pointset.points.sf_02_supply_fan_speed_frequency_sensor.units"
+        values:
+          hertz: hertz
+    supply_fan_power_sensor_02:
+      present_value: "points.sf_02_supply_fan_power_sensor.present_value"
+      units:
+        key: "pointset.points.sf_02_supply_fan_power_sensor.units"
+        values:
+          kilowatt: kilowatt
+    supply_fan_energy_accumulator_02:
+      present_value: "points.sf_02_supply_fan_energy_accumulator.present_value"
+      units:
+        key: "pointset.points.sf_02_supply_fan_energy_accumulator.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    run_time_accumulator_01:
+      present_value: "points.kef_01_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.kef_01_run_time_accumulator.units"
+        values:
+          hours: hours
+    voltage_sensor_01:
+      present_value: "points.kef_01_voltage_sensor.present_value"
+      units:
+        key: "pointset.points.kef_01_voltage_sensor.units"
+        values:
+          volts: volts
+    current_sensor_01:
+      present_value: "points.kef_01_current_sensor.present_value"
+      units:
+        key: "pointset.points.kef_01_current_sensor.units"
+        values:
+          amperes: amperes
+    speed_frequency_sensor_01:
+      present_value: "points.kef_01_speed_frequency_sensor.present_value"
+      units:
+        key: "pointset.points.kef_01_speed_frequency_sensor.units"
+        values:
+          hertz: hertz
+    power_sensor_01:
+      present_value: "points.kef_01_power_sensor.present_value"
+      units:
+        key: "pointset.points.kef_01_power_sensor.units"
+        values:
+          kilowatt: kilowatt
+    energy_accumulator_01:
+      present_value: "points.kef_01_energy_accumulator.present_value"
+      units:
+        key: "pointset.points.kef_01_energy_accumulator.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    run_time_accumulator_02:
+      present_value: "points.kef_02_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.kef_02_run_time_accumulator.units"
+        values:
+          hours: hours
+    voltage_sensor_02:
+      present_value: "points.kef_02_voltage_sensor.present_value"
+      units:
+        key: "pointset.points.kef_02_voltage_sensor.units"
+        values:
+          volts: volts
+    current_sensor_02:
+      present_value: "points.kef_02_current_sensor.present_value"
+      units:
+        key: "pointset.points.kef_02_current_sensor.units"
+        values:
+          amperes: amperes
+    speed_frequency_sensor_02:
+      present_value: "points.kef_02_speed_frequency_sensor.present_value"
+      units:
+        key: "pointset.points.kef_02_speed_frequency_sensor.units"
+        values:
+          hertz: hertz
+    power_sensor_02:
+      present_value: "points.kef_02_power_sensor.present_value"
+      units:
+        key: "pointset.points.kef_02_power_sensor.units"
+        values:
+          kilowatt: kilowatt
+    energy_accumulator_02:
+      present_value: "points.kef_02_energy_accumulator.present_value"
+      units:
+        key: "pointset.points.kef_02_energy_accumulator.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+HLI-69:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2586282808105109
+  translation:
+    voltage_sensor_02:
+      present_value: "points.cahu_02_voltage_sensor.present_value"
+      units:
+        key: "pointset.points.cahu_02_voltage_sensor.units"
+        values:
+          volts: volts
+    current_sensor_02:
+      present_value: "points.cahu_02_current_sensor.present_value"
+      units:
+        key: "pointset.points.cahu_02_current_sensor.units"
+        values:
+          amperes: amperes
+    speed_frequency_sensor_02:
+      present_value: "points.cahu_02_speed_frequency_sensor.present_value"
+      units:
+        key: "pointset.points.cahu_02_speed_frequency_sensor.units"
+        values:
+          hertz: hertz
+    power_sensor_02:
+      present_value: "points.cahu_02_power_sensor.present_value"
+      units:
+        key: "pointset.points.cahu_02_power_sensor.units"
+        values:
+          kilowatt: kilowatt
+    energy_accumulator_02:
+      present_value: "points.cahu_02_energy_accumulator.present_value"
+      units:
+        key: "pointset.points.cahu_02_energy_accumulator.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    run_time_accumulator_02:
+      present_value: "points.cahu_02_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.cahu_02_run_time_accumulator.units"
+        values:
+          hours: hours
+    voltage_sensor_01:
+      present_value: "points.cahu_01_voltage_sensor.present_value"
+      units:
+        key: "pointset.points.cahu_01_voltage_sensor.units"
+        values:
+          volts: volts
+    current_sensor_01:
+      present_value: "points.cahu_01_current_sensor.present_value"
+      units:
+        key: "pointset.points.cahu_01_current_sensor.units"
+        values:
+          amperes: amperes
+    speed_frequency_sensor_01:
+      present_value: "points.cahu_01_speed_frequency_sensor.present_value"
+      units:
+        key: "pointset.points.cahu_01_speed_frequency_sensor.units"
+        values:
+          hertz: hertz
+    power_sensor_01:
+      present_value: "points.cahu_01_power_sensor.present_value"
+      units:
+        key: "pointset.points.cahu_01_power_sensor.units"
+        values:
+          kilowatt: kilowatt
+    energy_accumulator_01:
+      present_value: "points.cahu_01_energy_accumulator.present_value"
+      units:
+        key: "pointset.points.cahu_01_energy_accumulator.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    run_time_accumulator_01:
+      present_value: "points.cahu_01_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.cahu_01_run_time_accumulator.units"
+        values:
+          hours: hours
+HLI-71:
+  type: HVAC/DFR_SFSS_SFVSC_BYPSSPC_HTSC
+  cloud_device_id: 2548343642047073
+  translation:
+    voltage_sensor_02:
+      present_value: "points.kfaf_02_voltage_sensor.present_value"
+      units:
+        key: "pointset.points.kfaf_02_voltage_sensor.units"
+        values:
+          volts: volts
+    current_sensor_02:
+      present_value: "points.kfaf_02_current_sensor.present_value"
+      units:
+        key: "pointset.points.kfaf_02_current_sensor.units"
+        values:
+          amperes: amperes
+    speed_frequency_sensor_02:
+      present_value: "points.kfaf_02_speed_frequency_sensor.present_value"
+      units:
+        key: "pointset.points.kfaf_02_speed_frequency_sensor.units"
+        values:
+          hertz: hertz
+    power_sensor_02:
+      present_value: "points.kfaf_02_power_sensor.present_value"
+      units:
+        key: "pointset.points.kfaf_02_power_sensor.units"
+        values:
+          kilowatt: kilowatt
+    energy_accumulator_02:
+      present_value: "points.kfaf_02_energy_accumulator.present_value"
+      units:
+        key: "pointset.points.kfaf_02_energy_accumulator.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    run_time_accumulator_02:
+      present_value: "points.kfaf_02_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.kfaf_02_run_time_accumulator.units"
+        values:
+          hours: hours
+    voltage_sensor_01:
+      present_value: "points.kfaf_01_voltage_sensor.present_value"
+      units:
+        key: "pointset.points.kfaf_01_voltage_sensor.units"
+        values:
+          volts: volts
+    current_sensor_01:
+      present_value: "points.kfaf_01_current_sensor.present_value"
+      units:
+        key: "pointset.points.kfaf_01_current_sensor.units"
+        values:
+          amperes: amperes
+    speed_frequency_sensor_01:
+      present_value: "points.kfaf_01_speed_frequency_sensor.present_value"
+      units:
+        key: "pointset.points.kfaf_01_speed_frequency_sensor.units"
+        values:
+          hertz: hertz
+    power_sensor_01:
+      present_value: "points.kfaf_01_power_sensor.present_value"
+      units:
+        key: "pointset.points.kfaf_01_power_sensor.units"
+        values:
+          kilowatt: kilowatt
+    energy_accumulator_01:
+      present_value: "points.kfaf_01_energy_accumulator.present_value"
+      units:
+        key: "pointset.points.kfaf_01_energy_accumulator.units"
+        values:
+          kilowatt_hours: kilowatt_hours
+    run_time_accumulator_01:
+      present_value: "points.kfaf_01_run_time_accumulator.present_value"
+      units:
+        key: "pointset.points.kfaf_01_run_time_accumulator.units"
+        values:
+          hours: hours
+
+

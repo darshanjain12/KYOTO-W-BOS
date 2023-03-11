@@ -1,0 +1,556 @@
+# Building
+IN-BLR-BCPWK:
+  type: FACILITIES/BUILDING
+
+
+HLI-43:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2739703868848253
+  translation:
+    zone_air_co2_concentartion_sensor_36:
+      present_value: "points.zone_air_co2_concentartion_sensor_36.present_value"
+      units:
+        key: "pointset.points.zone_air_co2_concentartion_sensor_36.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_36:
+      present_value: "points.zone_air_temperature_sensor_36.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_36.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_36:
+      present_value: "points.zone_air_relative_humidity_sensor_36.present_value"
+      units:
+        key: "pointset.points.zone_air_relative_humidity_sensor_36.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_formaldehyde_concentration_sensor_36:
+      present_value: "points.zone_air_formaldehyde_concentration_sensor_36.present_value"
+      units:
+        key: "pointset.points.zone_air_formaldehyde_concentration_sensor_36.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_pm2pt5_concentration_sensor_36:
+      present_value: "points.zone_air_pm2pt5_concentration_sensor_36.present_value"
+      units:
+        key: "pointset.points.zone_air_pm2pt5_concentration_sensor_36.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_co2_concentartion_sensor_37:
+      present_value: "points.zone_air_co2_concentartion_sensor_37.present_value"
+      units:
+        key: "pointset.points.zone_air_co2_concentartion_sensor_37.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_37:
+      present_value: "points.zone_air_temperature_sensor_37.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_37.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_37:
+      present_value: "points.zone_air_relative_humidity_sensor_37.present_value"
+      units:
+        key: "pointset.points.zone_air_relative_humidity_sensor_37.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_formaldehyde_concentration_sensor_37:
+      present_value: "points.zone_air_formaldehyde_concentration_sensor_37.present_value"
+      units:
+        key: "pointset.points.zone_air_formaldehyde_concentration_sensor_37.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_pm2pt5_concentration_sensor_37:
+      present_value: "points.zone_air_pm2pt5_concentration_sensor_37.present_value"
+      units:
+        key: "pointset.points.zone_air_pm2pt5_concentration_sensor_37.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_co2_concentartion_sensor_38:
+      present_value: "points.zone_air_co2_concentartion_sensor_38.present_value"
+      units:
+        key: "pointset.points.zone_air_co2_concentartion_sensor_38.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_38:
+      present_value: "points.zone_air_temperature_sensor_38.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_38.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_38:
+      present_value: "points.zone_air_relative_humidity_sensor_38.present_value"
+      units:
+        key: "pointset.points.zone_air_relative_humidity_sensor_38.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_formaldehyde_concentration_sensor_38:
+      present_value: "points.zone_air_formaldehyde_concentration_sensor_38.present_value"
+      units:
+        key: "pointset.points.zone_air_formaldehyde_concentration_sensor_38.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_pm2pt5_concentration_sensor_38:
+      present_value: "points.zone_air_pm2pt5_concentration_sensor_38.present_value"
+      units:
+        key: "pointset.points.zone_air_pm2pt5_concentration_sensor_38.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_co2_concentartion_sensor_39:
+      present_value: "points.zone_air_co2_concentartion_sensor_39.present_value"
+      units:
+        key: "pointset.points.zone_air_co2_concentartion_sensor_39.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_39:
+      present_value: "points.zone_air_temperature_sensor_39.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_39.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_39:
+      present_value: "points.zone_air_relative_humidity_sensor_39.present_value"
+      units:
+        key: "pointset.points.zone_air_relative_humidity_sensor_39.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_formaldehyde_concentration_sensor_39:
+      present_value: "points.zone_air_formaldehyde_concentration_sensor_39.present_value"
+      units:
+        key: "pointset.points.zone_air_formaldehyde_concentration_sensor_39.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_pm2pt5_concentration_sensor_39:
+      present_value: "points.zone_air_pm2pt5_concentration_sensor_39.present_value"
+      units:
+        key: "pointset.points.zone_air_pm2pt5_concentration_sensor_39.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_co2_concentartion_sensor_40:
+      present_value: "points.zone_air_co2_concentartion_sensor_40.present_value"
+      units:
+        key: "pointset.points.zone_air_co2_concentartion_sensor_40.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_40:
+      present_value: "points.zone_air_temperature_sensor_40.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_40.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_40:
+      present_value: "points.zone_air_relative_humidity_sensor_40.present_value"
+      units:
+        key: "pointset.points.zone_air_relative_humidity_sensor_40.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_formaldehyde_concentration_sensor_40:
+      present_value: "points.zone_air_formaldehyde_concentration_sensor_40.present_value"
+      units:
+        key: "pointset.points.zone_air_formaldehyde_concentration_sensor_40.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_pm2pt5_concentration_sensor_40:
+      present_value: "points.zone_air_pm2pt5_concentration_sensor_40.present_value"
+      units:
+        key: "pointset.points.zone_air_pm2pt5_concentration_sensor_40.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_co2_concentartion_sensor_41:
+      present_value: "points.zone_air_co2_concentartion_sensor_41.present_value"
+      units:
+        key: "pointset.points.zone_air_co2_concentartion_sensor_41.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_41:
+      present_value: "points.zone_air_temperature_sensor_41.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_41.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_41:
+      present_value: "points.zone_air_relative_humidity_sensor_41.present_value"
+      units:
+        key: "pointset.points.zone_air_relative_humidity_sensor_41.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_formaldehyde_concentration_sensor_41:
+      present_value: "points.zone_air_formaldehyde_concentration_sensor_41.present_value"
+      units:
+        key: "pointset.points.zone_air_formaldehyde_concentration_sensor_41.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_pm2pt5_concentration_sensor_41:
+      present_value: "points.zone_air_pm2pt5_concentration_sensor_41.present_value"
+      units:
+        key: "pointset.points.zone_air_pm2pt5_concentration_sensor_41.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_co2_concentartion_sensor_42:
+      present_value: "points.zone_air_co2_concentartion_sensor_42.present_value"
+      units:
+        key: "pointset.points.zone_air_co2_concentartion_sensor_42.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_42:
+      present_value: "points.zone_air_temperature_sensor_42.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_42.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_42:
+      present_value: "points.zone_air_relative_humidity_sensor_42.present_value"
+      units:
+        key: "pointset.points.zone_air_relative_humidity_sensor_42.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_formaldehyde_concentration_sensor_42:
+      present_value: "points.zone_air_formaldehyde_concentration_sensor_42.present_value"
+      units:
+        key: "pointset.points.zone_air_formaldehyde_concentration_sensor_42.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_pm2pt5_concentration_sensor_42:
+      present_value: "points.zone_air_pm2pt5_concentration_sensor_42.present_value"
+      units:
+        key: "pointset.points.zone_air_pm2pt5_concentration_sensor_42.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_co2_concentartion_sensor_43:
+      present_value: "points.zone_air_co2_concentartion_sensor_43.present_value"
+      units:
+        key: "pointset.points.zone_air_co2_concentartion_sensor_43.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_43:
+      present_value: "points.zone_air_temperature_sensor_43.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_43.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_43:
+      present_value: "points.zone_air_relative_humidity_sensor_43.present_value"
+      units:
+        key: "pointset.points.zone_air_relative_humidity_sensor_43.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_formaldehyde_concentration_sensor_43:
+      present_value: "points.zone_air_formaldehyde_concentration_sensor_43.present_value"
+      units:
+        key: "pointset.points.zone_air_formaldehyde_concentration_sensor_43.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_pm2pt5_concentration_sensor_43:
+      present_value: "points.zone_air_pm2pt5_concentration_sensor_43.present_value"
+      units:
+        key: "pointset.points.zone_air_pm2pt5_concentration_sensor_43.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_co2_concentartion_sensor_44:
+      present_value: "points.zone_air_co2_concentartion_sensor_44.present_value"
+      units:
+        key: "pointset.points.zone_air_co2_concentartion_sensor_44.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_44:
+      present_value: "points.zone_air_temperature_sensor_44.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_44.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_44:
+      present_value: "points.zone_air_relative_humidity_sensor_44.present_value"
+      units:
+        key: "pointset.points.zone_air_relative_humidity_sensor_44.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_formaldehyde_concentration_sensor_44:
+      present_value: "points.zone_air_formaldehyde_concentration_sensor_44.present_value"
+      units:
+        key: "pointset.points.zone_air_formaldehyde_concentration_sensor_44.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_pm2pt5_concentration_sensor_44:
+      present_value: "points.zone_air_pm2pt5_concentration_sensor_44.present_value"
+      units:
+        key: "pointset.points.zone_air_pm2pt5_concentration_sensor_44.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_co2_concentartion_sensor_45:
+      present_value: "points.zone_air_co2_concentartion_sensor_45.present_value"
+      units:
+        key: "pointset.points.zone_air_co2_concentartion_sensor_45.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_45:
+      present_value: "points.zone_air_temperature_sensor_45.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_45.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_45:
+      present_value: "points.zone_air_relative_humidity_sensor_45.present_value"
+      units:
+        key: "pointset.points.zone_air_relative_humidity_sensor_45.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_formaldehyde_concentration_sensor_45:
+      present_value: "points.zone_air_formaldehyde_concentration_sensor_45.present_value"
+      units:
+        key: "pointset.points.zone_air_formaldehyde_concentration_sensor_45.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_pm2pt5_concentration_sensor_45:
+      present_value: "points.zone_air_pm2pt5_concentration_sensor_45.present_value"
+      units:
+        key: "pointset.points.zone_air_pm2pt5_concentration_sensor_45.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_co2_concentartion_sensor_46:
+      present_value: "points.zone_air_co2_concentartion_sensor_46.present_value"
+      units:
+        key: "pointset.points.zone_air_co2_concentartion_sensor_46.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_46:
+      present_value: "points.zone_air_temperature_sensor_46.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_46.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_46:
+      present_value: "points.zone_air_relative_humidity_sensor_46.present_value"
+      units:
+        key: "pointset.points.zone_air_relative_humidity_sensor_46.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_formaldehyde_concentration_sensor_46:
+      present_value: "points.zone_air_formaldehyde_concentration_sensor_46.present_value"
+      units:
+        key: "pointset.points.zone_air_formaldehyde_concentration_sensor_46.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_pm2pt5_concentration_sensor_46:
+      present_value: "points.zone_air_pm2pt5_concentration_sensor_46.present_value"
+      units:
+        key: "pointset.points.zone_air_pm2pt5_concentration_sensor_46.units"
+        values:
+          parts_per_million: parts_per_million
+HLI-10:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2747211854135059
+  translation:
+    zone_air_co2_concentartion_sensor_47:
+      present_value: "points.zone_air_co2_concentartion_sensor_47.present_value"
+      units:
+        key: "pointset.points.zone_air_co2_concentartion_sensor_47.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_47:
+      present_value: "points.zone_air_temperature_sensor_47.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_47.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_47:
+      present_value: "points.zone_air_relative_humidity_sensor_47.present_value"
+      units:
+        key: "pointset.points.zone_air_relative_humidity_sensor_47.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_formaldehyde_concentration_sensor_47:
+      present_value: "points.zone_air_formaldehyde_concentration_sensor_47.present_value"
+      units:
+        key: "pointset.points.zone_air_formaldehyde_concentration_sensor_47.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_pm2pt5_concentration_sensor_47:
+      present_value: "points.zone_air_pm2pt5_concentration_sensor_47.present_value"
+      units:
+        key: "pointset.points.zone_air_pm2pt5_concentration_sensor_47.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_co2_concentartion_sensor_48:
+      present_value: "points.zone_air_co2_concentartion_sensor_48.present_value"
+      units:
+        key: "pointset.points.zone_air_co2_concentartion_sensor_48.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_48:
+      present_value: "points.zone_air_temperature_sensor_48.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_48.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_48:
+      present_value: "points.zone_air_relative_humidity_sensor_48.present_value"
+      units:
+        key: "pointset.points.zone_air_relative_humidity_sensor_48.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_formaldehyde_concentration_sensor_48:
+      present_value: "points.zone_air_formaldehyde_concentration_sensor_48.present_value"
+      units:
+        key: "pointset.points.zone_air_formaldehyde_concentration_sensor_48.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_pm2pt5_concentration_sensor_48:
+      present_value: "points.zone_air_pm2pt5_concentration_sensor_48.present_value"
+      units:
+        key: "pointset.points.zone_air_pm2pt5_concentration_sensor_48.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_co2_concentartion_sensor_49:
+      present_value: "points.zone_air_co2_concentartion_sensor_49.present_value"
+      units:
+        key: "pointset.points.zone_air_co2_concentartion_sensor_49.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_49:
+      present_value: "points.zone_air_temperature_sensor_49.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_49.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_49:
+      present_value: "points.zone_air_relative_humidity_sensor_49.present_value"
+      units:
+        key: "pointset.points.zone_air_relative_humidity_sensor_49.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_formaldehyde_concentration_sensor_49:
+      present_value: "points.zone_air_formaldehyde_concentration_sensor_49.present_value"
+      units:
+        key: "pointset.points.zone_air_formaldehyde_concentration_sensor_49.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_pm2pt5_concentration_sensor_49:
+      present_value: "points.zone_air_pm2pt5_concentration_sensor_49.present_value"
+      units:
+        key: "pointset.points.zone_air_pm2pt5_concentration_sensor_49.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_co2_concentartion_sensor_50:
+      present_value: "points.zone_air_co2_concentartion_sensor_50.present_value"
+      units:
+        key: "pointset.points.zone_air_co2_concentartion_sensor_50.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_50:
+      present_value: "points.zone_air_temperature_sensor_50.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_50.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_50:
+      present_value: "points.zone_air_relative_humidity_sensor_50.present_value"
+      units:
+        key: "pointset.points.zone_air_relative_humidity_sensor_50.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_formaldehyde_concentration_sensor_50:
+      present_value: "points.zone_air_formaldehyde_concentration_sensor_50.present_value"
+      units:
+        key: "pointset.points.zone_air_formaldehyde_concentration_sensor_50.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_pm2pt5_concentration_sensor_50:
+      present_value: "points.zone_air_pm2pt5_concentration_sensor_50.present_value"
+      units:
+        key: "pointset.points.zone_air_pm2pt5_concentration_sensor_50.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_co2_concentartion_sensor_51:
+      present_value: "points.zone_air_co2_concentartion_sensor_51.present_value"
+      units:
+        key: "pointset.points.zone_air_co2_concentartion_sensor_51.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_51:
+      present_value: "points.zone_air_temperature_sensor_51.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_51.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_51:
+      present_value: "points.zone_air_relative_humidity_sensor_51.present_value"
+      units:
+        key: "pointset.points.zone_air_relative_humidity_sensor_51.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_formaldehyde_concentration_sensor_51:
+      present_value: "points.zone_air_formaldehyde_concentration_sensor_51.present_value"
+      units:
+        key: "pointset.points.zone_air_formaldehyde_concentration_sensor_51.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_pm2pt5_concentration_sensor_51:
+      present_value: "points.zone_air_pm2pt5_concentration_sensor_51.present_value"
+      units:
+        key: "pointset.points.zone_air_pm2pt5_concentration_sensor_51.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_co2_concentartion_sensor_52:
+      present_value: "points.zone_air_co2_concentartion_sensor_52.present_value"
+      units:
+        key: "pointset.points.zone_air_co2_concentartion_sensor_52.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_52:
+      present_value: "points.zone_air_temperature_sensor_52.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_52.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_52:
+      present_value: "points.zone_air_relative_humidity_sensor_52.present_value"
+      units:
+        key: "pointset.points.zone_air_relative_humidity_sensor_52.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_formaldehyde_concentration_sensor_52:
+      present_value: "points.zone_air_formaldehyde_concentration_sensor_52.present_value"
+      units:
+        key: "pointset.points.zone_air_formaldehyde_concentration_sensor_52.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_pm2pt5_concentration_sensor_52:
+      present_value: "points.zone_air_pm2pt5_concentration_sensor_52.present_value"
+      units:
+        key: "pointset.points.zone_air_pm2pt5_concentration_sensor_52.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_co2_concentartion_sensor_53:
+      present_value: "points.zone_air_co2_concentartion_sensor_53.present_value"
+      units:
+        key: "pointset.points.zone_air_co2_concentartion_sensor_53.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_temperature_sensor_53:
+      present_value: "points.zone_air_temperature_sensor_53.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_53.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_relative_humidity_sensor_53:
+      present_value: "points.zone_air_relative_humidity_sensor_53.present_value"
+      units:
+        key: "pointset.points.zone_air_relative_humidity_sensor_53.units"
+        values:
+          percent_relative_humidity: percent_relative_humidity
+    zone_air_formaldehyde_concentration_sensor_53:
+      present_value: "points.zone_air_formaldehyde_concentration_sensor_53.present_value"
+      units:
+        key: "pointset.points.zone_air_formaldehyde_concentration_sensor_53.units"
+        values:
+          parts_per_million: parts_per_million
+    zone_air_pm2pt5_concentration_sensor_53:
+      present_value: "points.zone_air_pm2pt5_concentration_sensor_53.present_value"
+      units:
+        key: "pointset.points.zone_air_pm2pt5_concentration_sensor_53.units"
+        values:
+          parts_per_million: parts_per_million
+
+
+

@@ -201,13 +201,13 @@ class UDMISiteModelGenerator:
       if device[self._asset_columns.POINTSET_POINTS] == payload_network_type:
         networks.update({
           payload_localnet_families: {
-            "id": payload_localnet_id
+            "addr": payload_localnet_id
           }
         })
 
     return {
       "localnet": {
-        "subsystem": networks
+        "families": networks
       }
     }
   

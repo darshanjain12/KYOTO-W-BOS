@@ -207,7 +207,7 @@ class UDMISiteModelGenerator:
 
     return {
       "localnet": {
-        "subsystem": networks
+        "families": networks
       }
     }
   

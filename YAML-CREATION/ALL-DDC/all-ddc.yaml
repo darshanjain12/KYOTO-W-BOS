@@ -1,22 +1,7 @@
 # Building
-IN-GUR-SIGD:
+IN-BLR-BCPWK:
   type: FACILITIES/BUILDING
 
-# Floor
-IN-GUR-SIGD_FL1:
-  type: FACILITIES/FLOOR
-  connections:
-    IN-GUR-SIGD: CONTAINS
-
-# Rooms
-IN-GUR-SIGD_RM1:
-  type: FACILITIES/ROOM
-  connections:
-    IN-GUR-SIGD_FL1: CONTAINS
-IN-GUR-SIGD_RM2:
-  type: FACILITIES/ROOM
-  connections:
-    IN-GUR-SIGD_ZN1: CONTAINS
 
 # Devices
 DDC-7:
@@ -167,6 +152,53 @@ DDC-7:
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
+AHU-01:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-7:
+      supply_fan_run_mode: supply_fan_run_mode_01
+      supply_fan_speed_mode: supply_fan_speed_mode_01
+      supply_fan_run_command: supply_fan_run_command_01
+      supply_fan_run_status: supply_fan_run_status_01
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_01
+      supply_fan_speed_percentage_command: supply_fan_lost_power_alarm_01
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_01
+      supply_air_temperature_sensor: supply_air_temperature_sensor_01 
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_01
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_01
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_01
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_01
+      supply_air_temp_setpoint: supply_air_temp_setpoint_01
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_01
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_01
+      return_air_isolation_damper_status: return_air_isolation_damper_status_01
+SF-02:
+  type: HVAC/FAN_SS
+  links:
+    DDC-7:
+  	  run_command: run_command_02
+	    run_status: run_status_02
+	    control_mode: control_mode_02
+	    lost_power_alarm: lost_power_alarm_02
+CB-20:
+  type: ELECTRICAL/CB_SS   
+  links: 
+    DDC-7:      
+	    run_status: run_status_20
+	    lost_power_alarm: lost_power_alarm_20
+CB-21:
+  type: ELECTRICAL/CB_SS
+  links:
+    DDC-7:
+	    run_status: run_status_21
+	    lost_power_alarm: lost_power_alarm_21
+CB-22:
+  type: ELECTRICAL/CB_SS
+  links:
+    DDC-7:
+	    run_status: run_status_22
+      lost_power_alarm: lost_power_alarm_22
+  
 DDC-6:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2550717582081500
@@ -341,6 +373,69 @@ DDC-6:
         key: "pointset.points.mts_10_zone_air_relative_humid_s.units"
         values:
           percent_relative_humidity: percent_relative_humidity
+
+
+AHU-02:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-6:
+      supply_fan_run_mode: supply_fan_run_mode_02
+      supply_fan_speed_mode: supply_fan_speed_mode_02
+      supply_fan_run_command: supply_fan_run_command_02
+      supply_fan_run_status: supply_fan_run_status_02
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_02
+      supply_fan_speed_percentage_command: supply_fan_lost_power_alarm_02
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_02
+      supply_air_temperature_sensor: supply_air_temperature_sensor_02 
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_02
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_02
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_02
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_02
+      supply_air_temp_setpoint: supply_air_temp_setpoint_02
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_02
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_02
+      schedule_run_command: schedule_run_command_02	
+      return_air_isolation_damper_status: return_air_isolation_damper_status_02
+      return_air_temperature_sensor: return_air_temperature_sensor_02
+      return_air_co2_concentration_sensor: return_air_co2_concentration_sensor_02
+      return_air_relative_humidity_sensor: return_air_relative_humidity_sensor_02
+      
+CB-16:
+	type: ELECTRICAL/CB_SS
+  links:
+	  DDC-6:
+      run_status: run_status_16
+	    lost_power_alarm: lost_power_alarm_16
+CB-17:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-6:
+		  run_status: run_status_17
+		  lost_power_alarm: lost_power_alarm_17
+CB-18:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-6:
+		  run_status: run_status_18
+    	lost_power_alarm: lost_power_alarm_18
+CB-19:
+  type: ELECTRICAL/CB_SS
+  links:
+    DDC-6:
+		  run_status: run_status_19
+    	lost_power_alarm: lost_power_alarm_19  
+CDS-02:
+  type: HVAC/SENSOR_CO2M
+  links:
+    DDC-6:
+			zone_air_co2_concentration_sensor: zone_air_co2_concentration_sensor_02
+MTS-10:
+  type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-6:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_10
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_10
+
 DDC-4:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2565683012752158
@@ -501,6 +596,58 @@ DDC-4:
         key: "pointset.points.mts_09_zone_air_relative_humid_s.units"
         values:
           percent_relative_humidity: percent_relative_humidity
+
+
+AHU-03:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-4:
+      supply_fan_run_mode: supply_fan_run_mode_03
+      supply_fan_speed_mode: supply_fan_speed_mode_03
+      supply_fan_run_command: supply_fan_run_command_03
+      supply_fan_run_status: supply_fan_run_status_03
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_03
+      supply_fan_speed_percentage_command: supply_fan_lost_power_alarm_03
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_03
+      supply_air_temperature_sensor: supply_air_temperature_sensor_03 
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_03
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_03
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_03
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_03
+      supply_air_temp_setpoint: supply_air_temp_setpoint_03
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_03
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_03
+      schedule_run_command: schedule_run_command_03	
+      return_air_isolation_damper_status: return_air_isolation_damper_status_03
+      return_air_temperature_sensor: return_air_temperature_sensor_03
+      return_air_co2_concentration_sensor: return_air_co2_concentration_sensor_03
+      return_air_relative_humidity_sensor: return_air_relative_humidity_sensor_03
+      
+CB-14:
+  type: ELECTRICAL/CB_SS
+  links:
+    DDC-4:
+	  	run_status: run_status_14
+	  	lost_power_alarm: lost_power_alarm_14
+CB-15:
+  type: ELECTRICAL/CB_SS
+  links:
+    DDC-4:
+		  run_status: run_status_15
+		  lost_power_alarm: lost_power_alarm_15
+MTS-08:
+  type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-4:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_08
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_08
+MTS-09:
+  type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-4:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_09
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_09
+
 DDC-5:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2790314889991979
@@ -619,6 +766,39 @@ DDC-5:
       states:
         ON: "TRUE"
         OFF: "FALSE"
+
+
+AHU-04:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-5:
+      supply_fan_run_mode: supply_fan_run_mode_04
+      supply_fan_speed_mode: supply_fan_speed_mode_04
+      supply_fan_run_command: supply_fan_run_command_04
+      supply_fan_run_status: supply_fan_run_status_04
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_04
+      supply_fan_speed_percentage_command: supply_fan_lost_power_alarm_04
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_04
+      supply_air_temperature_sensor: supply_air_temperature_sensor_04 
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_04
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_04
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_04
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_04
+      supply_air_temp_setpoint: supply_air_temp_setpoint_04
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_04
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_04
+      schedule_run_command: schedule_run_command_04	
+      return_air_isolation_damper_status: return_air_isolation_damper_status_04
+SF-01:
+	type: HVAC/FAN_SS
+  links:
+    DDC-5:
+			run_command: run_command_01
+			run_status: run_status_01
+			control_mode: control_mode_01
+			lost_power_alarm: lost_power_alarm_01
+      
+     		
 DDC-9:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2564901727860213
@@ -953,6 +1133,166 @@ DDC-9:
         key: "pointset.points.mts_13_zone_air_relative_humid_s.units"
         values:
           percent_relative_humidity: percent_relative_humidity
+
+
+AHU-05:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-9:
+      supply_fan_run_mode: supply_fan_run_mode_05
+      supply_fan_speed_mode: supply_fan_speed_mode_05
+      supply_fan_run_command: supply_fan_run_command_05
+      supply_fan_run_status: supply_fan_run_status_05
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_05
+      supply_fan_speed_percentage_command: supply_fan_lost_power_alarm_05
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_05
+      supply_air_temperature_sensor: supply_air_temperature_sensor_05 
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_05
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_05
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_05
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_05
+      supply_air_temp_setpoint: supply_air_temp_setpoint_05
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_05
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_05
+      schedule_run_command: schedule_run_command_05	
+      return_air_isolation_damper_status: return_air_isolation_damper_status_05
+      return_air_temperature_sensor: return_air_temperature_sensor_05
+      return_air_co2_concentration_sensor: return_air_co2_concentration_sensor_05
+      return_air_relative_humidity_sensor: return_air_relative_humidity_sensor_05
+
+CB-25:
+  type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+		  run_status: run_status_25
+		  lost_power_alarm: lost_power_alarm_25
+CB-26:
+  type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+		  run_status: run_status_26
+		  lost_power_alarm: lost_power_alarm_26
+CB-27:
+  type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+			run_status: run_status_27
+		  lost_power_alarm: lost_power_alarm_27
+CB-28:
+  type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+		  run_status: run_status_28
+		  lost_power_alarm: lost_power_alarm_28
+CB-29:
+  type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+		  run_status: run_status_29
+		  lost_power_alarm: lost_power_alarm_29
+CB-30:
+  type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+		  run_status: run_status_30
+		  lost_power_alarm: lost_power_alarm_30
+CB-31:
+  type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+		  run_status: run_status_31
+		  lost_power_alarm: lost_power_alarm_31
+CB-32:
+	type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+			run_status: run_status_32
+		  lost_power_alarm: lost_power_alarm_32
+CB-33:
+	type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+		  run_status: run_status_33
+			lost_power_alarm: lost_power_alarm_33
+CB-34:
+	type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+			run_status: run_status_34
+			lost_power_alarm: lost_power_alarm_34
+CB-35:
+	type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+			run_status: run_status_35
+			lost_power_alarm: lost_power_alarm_35
+CB-36:
+	type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+		  run_status: run_status_36
+			lost_power_alarm: lost_power_alarm_36
+CB-37:
+	type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+			run_status: run_status_37
+			lost_power_alarm: lost_power_alarm_37
+CB-38:
+	type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+		  run_status: run_status_38
+		  lost_power_alarm: lost_power_alarm_38
+CB-39:
+	type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+			run_status: run_status_39
+			lost_power_alarm: lost_power_alarm_39
+CB-40:
+	type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+		  run_status: run_status_40
+			lost_power_alarm: lost_power_alarm_40  
+CB-41:
+	type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+			run_status: run_status_41
+			lost_power_alarm: lost_power_alarm_41
+CB-42:
+	type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+			run_status: run_status_42
+			lost_power_alarm: lost_power_alarm_42
+CB-43:
+	type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+			run_status: run_status_43
+			lost_power_alarm: lost_power_alarm_43
+CB-44:
+	type: ELECTRICCAL/CB_SS
+  links:
+    DDC-9:
+			run_status: run_status_44
+			lost_power_alarm: lost_power_alarm_44
+CDS-02:
+	type: HVAC/SENSOR_CO2M
+  links:
+    DDC-9:
+    	zone_air_co2_concentration_sensor: zone_air_co2_concentration_sensor_02
+MTS-13:
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-9:
+			zone_air_temperature_sensor: zone_air_temperature_sensor_13
+			zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_13
+
+
 DDC-8:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2663184680202028
@@ -1133,6 +1473,78 @@ DDC-8:
         key: "pointset.points.mts_12_zone_air_relative_humid_s.units"
         values:
           percent_relative_humidity: percent_relative_humidity
+AHU-06:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-8:
+      supply_fan_run_mode: supply_fan_run_mode_06
+      supply_fan_speed_mode: supply_fan_speed_mode_06
+      supply_fan_run_command: supply_fan_run_command_06
+      supply_fan_run_status: supply_fan_run_status_06
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_06
+      supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_06
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_06
+      supply_air_temperature_sensor: supply_air_temperature_sensor_06
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_06
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_06
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_06
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_06
+      supply_air_temp_setpoint: supply_air_temp_setpoint_06
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_06
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_06
+      schedule_run_command: schedule_run_command_06
+      return_air_isolation_damper_status: return_air_isolation_damper_status_06
+      return_air_co2_concentration_sensor: return_air_co2_concentration_sensor_06 
+      return_air_relative_humidity_sensor: return_air_relative_humidity_sensor_06
+      
+SF-03:
+  type: HVAC/FAN_SS
+  links:
+    DDC-8:
+		  run_command: run_command_03
+		  run_status: run_status_03 
+		  control_mode: control_mode_03
+		  lost_power_alarm: lost_power_alarm_03
+SF-04:
+	type: HVAC/FAN_SS
+  links:
+    DDC-8:
+		  run_command: run_command_04
+		  run_status: run_status_04  
+		  control_mode: control_mode_04
+		  lost_power_alarm: lost_power_alarm_04
+CB-23:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-8:
+		  run_status: run_status_23
+		  lost_power_alarm: lost_power_alarm_23
+CB-24:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-8:
+		  run_status: run_status_24
+		  lost_power_alarm: lost_power_alarm_21
+CB-24:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-8:
+		  run_status: run_status_25
+		  lost_power_alarm: lost_power_alarm_22
+MTS-11: 
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-8:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_11
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_11  
+MTS-12: 
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-8:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_12
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_12   
+
+
 DDC-13:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2744008025884209
@@ -1337,6 +1749,88 @@ DDC-13:
         key: "pointset.points.mts_19_zone_air_relative_humid_s.units"
         values:
           percent_relative_humidity: percent_relative_humidity
+
+
+AHU-07:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-13:
+      supply_fan_run_mode: supply_fan_run_mode_07
+      supply_fan_speed_mode: supply_fan_speed_mode_07
+      supply_fan_run_command: supply_fan_run_command_07
+      supply_fan_run_status: supply_fan_run_status_07
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_07
+      supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_07
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_07
+      supply_air_temperature_sensor: supply_air_temperature_sensor_07
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_07
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_07
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_07
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_07
+      supply_air_temp_setpoint: supply_air_temp_setpoint_07
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_07
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_07
+      schedule_run_command: schedule_run_command_07
+      return_air_isolation_damper_status: return_air_isolation_damper_status_07
+      return_air_temperature_sensor: return_air_temperature_sensor_07
+      return_air_co2_concentration_sensor: return_air_co2_concentration_sensor_07 
+      return_air_relative_humidity_sensor: return_air_relative_humidity_sensor_07
+    
+CB-128:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-13:
+		  run_status: run_status_128
+		  lost_power_alarm: lost_power_alarm_128
+CB-129:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-13:
+		  run_status: run_status_129
+		  lost_power_alarm: lost_power_alarm_129
+CB-130:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-13:
+		  run_status: run_status_130
+		  lost_power_alarm: lost_power_alarm_130
+CB-131:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-13:
+      run_status: run_status_131
+		  lost_power_alarm: lost_power_alarm_131
+CB-132:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC13:
+		  run_status: run_status_132
+		  lost_power_alarm: lost_power_alarm_132
+CB-133:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-13:
+		  run_status: run_status_133
+		  lost_power_alarm: lost_power_alarm_133
+CB-134:
+	type: ELECTRICAL/CB_SS		
+      links:
+        DDC-13:
+		      run_status: run_status_134
+		      lost_power_alarm: lost_power_alarm_134
+CDS-03:
+	type: HVAC/SENSOR_CO2M
+  links:
+    DDC-13:
+	    zone_air_co2_concentration_sensor: zone_air_co2_concentration_sensor_03
+MTS-19: 
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-13:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_19
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_19
+
+
 DDC-1111:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2765513905337917
@@ -1761,6 +2255,215 @@ DDC-1111:
         key: "pointset.points.mts_17_zone_air_relative_humid_s.units"
         values:
           percent_relative_humidity: percent_relative_humidity
+
+
+AHU-08:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-1111:
+      supply_fan_run_mode: supply_fan_run_mode_08
+      supply_fan_speed_mode: supply_fan_speed_mode_08
+      supply_fan_run_command: supply_fan_run_command_08
+      supply_fan_run_status: supply_fan_run_status_08
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_08
+      supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_08
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_08
+      supply_air_temperature_sensor: supply_air_temperature_sensor_08
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_08
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_08
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_08
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_08
+      supply_air_temp_setpoint: supply_air_temp_setpoint_08
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_08
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_08
+      schedule_run_command: schedule_run_command_08
+      return_air_isolation_damper_status: return_air_isolation_damper_status_08
+      return_air_temperature_sensor: return_air_temperature_sensor_08
+      return_air_co2_concentration_sensor: return_air_co2_concentration_sensor_08 
+      return_air_relative_humidity_sensor: return_air_relative_humidity_sensor_08
+    
+CB-45:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-1111:
+		  run_status: run_status_45
+		  lost_power_alarm: lost_power_alarm_45
+CB-74:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-1111:
+		  run_status: run_status_74
+		  lost_power_alarm: lost_power_alarm_74
+CB-75:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-1111:
+		  run_status: run_status_75
+		    lost_power_alarm: lost_power_alarm_75
+CB-76:
+	type: ELECTRICAL/CB_SS		
+    links:
+      DDC-1111:
+		    run_status: run_status_76
+		    lost_power_alarm: lost_power_alarm_76
+CB-77:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-1111:
+		  run_status: run_status_77
+		  lost_power_alarm: lost_power_alarm_77
+CB-78:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-1111:
+		  run_status: run_status_178
+		  lost_power_alarm: lost_power_alarm_78
+CB-79:
+	type: ELECTRICAL/CB_SS		
+  links: 
+    DDC-1111:
+		  run_status: run_status_79
+		  lost_power_alarm: lost_power_alarm_79
+CB-80:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-1111:
+		  run_status: run_status_80
+		  lost_power_alarm: lost_power_alarm_80
+CB-81:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-1111:
+		  run_status: run_status_81
+		  lost_power_alarm: lost_power_alarm_81
+CB-82:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-1111:
+		  run_status: run_status_82
+		  lost_power_alarm: lost_power_alarm_82
+CB-83:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-1111:
+		  run_status: run_status_83
+		  lost_power_alarm: lost_power_alarm_83
+CB-84:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-1111:		
+		  run_status: run_status_84
+		  lost_power_alarm: lost_power_alarm_84
+CB-85:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-1111:
+		  run_status: run_status_85
+		  lost_power_alarm: lost_power_alarm_85
+CB-86:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-1111:
+		  run_status: run_status_86
+		  lost_power_alarm: lost_power_alarm_86    
+CB-87:
+	type: ELECTRICAL/CB_SS	
+  links:
+    DDC-1111:
+		  run_status: run_status_87
+		  lost_power_alarm: lost_power_alarm_87
+CB-88:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-1111:
+		  run_status: run_status_88
+		  lost_power_alarm: lost_power_alarm_88
+CB-89:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-1111:
+		  run_status: run_status_89
+		  lost_power_alarm: lost_power_alarm_89
+CB-90:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-1111:
+		  run_status: run_status_90
+		  lost_power_alarm: lost_power_alarm_90
+CB-102:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-1111:
+		  run_status: run_status_102
+		  lost_power_alarm: lost_power_alarm_102
+CB-103:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-1111:
+		  run_status: run_status_103
+		  lost_power_alarm: lost_power_alarm_103
+CB-104:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-1111:
+		  run_status: run_status_104
+		  lost_power_alarm: lost_power_alarm_104
+CB-105:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-1111:
+		  run_status: run_status_105
+		  lost_power_alarm: lost_power_alarm_105
+CB-106:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-1111:
+		  run_status: run_status_106
+		  lost_power_alarm: lost_power_alarm_106
+CB-116:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-1111:
+		  run_status: run_status_116
+		  lost_power_alarm: lost_power_alarm_116
+CB-117:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-111:
+		  run_status: run_status_117
+		  lost_power_alarm: lost_power_alarm_117
+CB-118:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-1111:
+		  run_status: run_status_118
+		  lost_power_alarm: lost_power_alarm_118
+MTS-14: 
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-1111:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_14
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_14
+MTS-15: 
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-1111:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_15
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_15
+MTS-16: 
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-1111:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_16
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_16
+MTS-17: 
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-1111:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_17
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_17          
+
+
 DDC-15:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2768367857129504
@@ -1977,6 +2680,95 @@ DDC-15:
         key: "pointset.points.mts_23_zone_air_relative_humid_s.units"
         values:
           percent_relative_humidity: percent_relative_humidity
+
+
+AHU-09:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-15:
+      supply_fan_run_mode: supply_fan_run_mode_09
+      supply_fan_speed_mode: supply_fan_speed_mode_09
+      supply_fan_run_command: supply_fan_run_command_09
+      supply_fan_run_status: supply_fan_run_status_09
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_09
+      supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_09
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_09
+      supply_air_temperature_sensor: supply_air_temperature_sensor_09
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_09
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_09
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_09
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_09
+      supply_air_temp_setpoint: supply_air_temp_setpoint_09
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_09
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_09
+      schedule_run_command: schedule_run_command_09
+      return_air_isolation_damper_status: return_air_isolation_damper_status_09
+      return_air_temperature_sensor: return_air_temperature_sensor_09
+      return_air_co2_concentration_sensor: return_air_co2_concentration_sensor_09 
+      return_air_relative_humidity_sensor: return_air_relative_humidity_sensor_09
+    
+CB-137:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-15:
+		  run_status: run_status_137
+		  lost_power_alarm: lost_power_alarm_137
+CB-138:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-15:
+		  run_status: run_status_138
+		  lost_power_alarm: lost_power_alarm_138
+CB-139:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-15:		
+      run_status: run_status_139
+      lost_power_alarm: lost_power_alarm_139
+CB-140:
+	type: ELECTRICAL/CB_SS	
+  links:	
+    DDC-15:
+		  run_status: run_status_140
+		  lost_power_alarm: lost_power_alarm_140
+CB-141:
+	type: ELECTRICAL/CB_SS	
+  links:	
+    DDC15:
+		  run_status: run_status_141
+		  lost_power_alarm: lost_power_alarm_141
+CB-142:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-15:
+		  run_status: run_status_142
+		  lost_power_alarm: lost_power_alarm_142
+CB-143:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-15:
+		  run_status: run_status_143
+		  lost_power_alarm: lost_power_alarm_143
+CDS-04:
+	type: HVAC/SENSOR_CO2M
+  links:
+    DDC-15:
+		  zone_air_co2_concentration_sensor: zone_air_co2_concentration_sensor_04
+
+MTS-22: 
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-15:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_22
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_22
+MTS-23: 
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-15:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_23
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_23          
+
+
 DDC-14:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2728074801386850
@@ -2157,6 +2949,67 @@ DDC-14:
         key: "pointset.points.mts_21_zone_air_relative_humid_s.units"
         values:
           percent_relative_humidity: percent_relative_humidity
+
+
+AHU-10:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-14:
+      supply_fan_run_mode: supply_fan_run_mode_10
+      supply_fan_speed_mode: supply_fan_speed_mode_10
+      supply_fan_run_command: supply_fan_run_command_10
+      supply_fan_run_status: supply_fan_run_status_10
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_10
+      supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_10
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_10
+      supply_air_temperature_sensor: supply_air_temperature_sensor_10
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_10
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_10
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_10
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_10
+      supply_air_temp_setpoint: supply_air_temp_setpoint_10
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_10
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_10
+      schedule_run_command: schedule_run_command_10
+      return_air_isolation_damper_status: return_air_isolation_damper_status_10
+      return_air_temperature_sensor: return_air_temperature_sensor_10
+      return_air_co2_concentration_sensor: return_air_co2_concentration_sensor_10 
+      return_air_relative_humidity_sensor: return_air_relative_humidity_sensor_10
+SF-06:
+	type: HVAC/FAN_SS
+  links:
+    DDC-14:
+		  run_command: run_command_06
+		  run_status: run_status_06 
+		  control_mode: control_mode_06
+		  lost_power_alarm: lost_power_alarm_06
+    
+CB-135:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-14:
+		  run_status: run_status_135
+		  lost_power_alarm: lost_power_alarm_135
+CB-136:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-14:
+		  run_status: run_status_136
+		  lost_power_alarm: lost_power_alarm_136
+MTS-20: 
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-14:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_20
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_20
+MTS-21: 
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-14:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_21
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_21
+
+
 DDC-17:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2656524524476737
@@ -2361,6 +3214,87 @@ DDC-17:
         key: "pointset.points.mts_26_zone_air_relative_humid_s.units"
         values:
           percent_relative_humidity: percent_relative_humidity
+
+
+AHU-11:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-17:
+      supply_fan_run_mode: supply_fan_run_mode_11
+      supply_fan_speed_mode: supply_fan_speed_mode_11
+      supply_fan_run_command: supply_fan_run_command_11
+      supply_fan_run_status: supply_fan_run_status_11
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_11
+      supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_11
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_11
+      supply_air_temperature_sensor: supply_air_temperature_sensor_11
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_11
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_11
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_11
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_11
+      supply_air_temp_setpoint: supply_air_temp_setpoint_11
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_11
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_11
+      schedule_run_command: schedule_run_command_11
+      return_air_isolation_damper_status: return_air_isolation_damper_status_11
+      return_air_temperature_sensor: return_air_temperature_sensor_11
+      return_air_co2_concentration_sensor: return_air_co2_concentration_sensor_11 
+      return_air_relative_humidity_sensor: return_air_relative_humidity_sensor_11
+    
+CB-146:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-17:
+		  run_status: run_status_146
+		  lost_power_alarm: lost_power_alarm_14CB-147:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-17:
+		  run_status: run_status_147
+		  lost_power_alarm: lost_power_alarm_147
+CB-148:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-17:
+		  run_status: run_status_148
+		  lost_power_alarm: lost_power_alarm_148
+CB-149:
+	type: ELECTRICAL/CB_SS		
+    DDC-17:
+    links:
+		  run_status: run_status_149
+		  lost_power_alarm: lost_power_alarm_149
+CB-150:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-17:
+		  run_status: run_status_150
+		  lost_power_alarm: lost_power_alarm_150
+CB-151:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-17:
+		  run_status: run_status_151
+		  lost_power_alarm: lost_power_alarm_151
+CB-152:
+	type: ELECTRICAL/CB_SS		
+  links:
+    DDC-17:
+		  run_status: run_status_152
+		  lost_power_alarm: lost_power_alarm_152
+CDS-05:
+	type: HVAC/SENSOR_CO2M
+  links:
+    DDC-17:
+		  zone_air_co2_concentration_sensor: zone_air_co2_concentration_sensor_05
+MTS-26: 
+	type: HVAC/SENSOR_ZTM_ZHM
+	links:
+    DDC-17:
+      zone_air_temperature_sensor: zone_air_temperature_sensor_26
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_26    
+
+
 DDC-16:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2759775104217647
@@ -2541,6 +3475,66 @@ DDC-16:
         key: "pointset.points.mts_25_zone_air_relative_humid_s.units"
         values:
           percent_relative_humidity: percent_relative_humidity
+
+
+AHU-12:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-16:
+      supply_fan_run_mode: supply_fan_run_mode_12
+      supply_fan_speed_mode: supply_fan_speed_mode_12
+      supply_fan_run_command: supply_fan_run_command_12
+      supply_fan_run_status: supply_fan_run_status_12
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_12
+      supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_12
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_12
+      supply_air_temperature_sensor: supply_air_temperature_sensor_12
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_12
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_12
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_12
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_12
+      supply_air_temp_setpoint: supply_air_temp_setpoint_12
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_12
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_12
+      schedule_run_command: schedule_run_command_12
+      return_air_isolation_damper_status: return_air_isolation_damper_status_12
+      return_air_temperature_sensor: return_air_temperature_sensor_12
+      return_air_co2_concentration_sensor: return_air_co2_concentration_sensor_12 
+      return_air_relative_humidity_sensor: return_air_relative_humidity_sensor_12
+SF-07:
+	type: HVAC/FAN_SS
+  links:
+    DDC-16:
+		  run_command: run_command_07
+		  run_status: run_status_07
+		  control_mode: control_mode_07
+		  lost_power_alarm: lost_power_alarm_07
+    
+CB-144:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-16:
+		  run_status: run_status_144
+		  lost_power_alarm: lost_power_alarm_144
+CB-145:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-16:
+		  run_status: run_status_145
+		  lost_power_alarm: lost_power_alarm_145
+MTS-24: 
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-16:
+		zone_air_temperature_sensor: zone_air_temperature_sensor_24
+		zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_24
+MTS-25: 
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-16:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_25
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_25          
+
 DDC-19:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2668940499185592
@@ -2895,6 +3889,172 @@ DDC-19:
         key: "pointset.points.mts_29_zone_air_relative_humid_s.units"
         values:
           percent_relative_humidity: percent_relative_humidity
+
+
+AHU-13:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-19:
+      supply_fan_run_mode: supply_fan_run_mode_13
+      supply_fan_speed_mode: supply_fan_speed_mode_13
+      supply_fan_run_command: supply_fan_run_command_13
+      supply_fan_run_status: supply_fan_run_status_13
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_13
+      supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_13
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_13
+      supply_air_temperature_sensor: supply_air_temperature_sensor_13
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_13
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_13
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_13
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_13
+      supply_air_temp_setpoint: supply_air_temp_setpoint_13
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_13
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_13
+      schedule_run_command: schedule_run_command_13
+      return_air_isolation_damper_status: return_air_isolation_damper_status_13
+      return_air_temperature_sensor: return_air_temperature_sensor_13
+      return_air_co2_concentration_sensor: return_air_co2_concentration_sensor_13 
+      return_air_relative_humidity_sensor: return_air_relative_humidity_sensor_13
+SF-08:
+	type: HVAC/FAN_SS
+  links:
+    DDC-19:
+		  run_command: run_command_08
+		  run_status: run_status_08
+		  control_mode: control_mode_08
+		  lost_power_alarm: lost_power_alarm_08
+CB-155:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-19:
+		  run_status: run_status_155
+		  lost_power_alarm: lost_power_alarm_155
+CB-156:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-19:
+		  run_status: run_status_156
+		  lost_power_alarm: lost_power_alarm_156
+CB-157:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-19:
+		  run_status: run_status_157
+		  lost_power_alarm: lost_power_alarm_157
+CB-158:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-19:
+		  run_status: run_status_1568
+		  lost_power_alarm: lost_power_alarm_158
+CB-159:
+	type: ELECTRICAL/CB_SS
+  links:
+    DC-19:
+		  run_status: run_status_1569
+		  lost_power_alarm: lost_power_alarm_159
+CB-160:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-198:
+		  run_status: run_status_160
+		  lost_power_alarm: lost_power_alarm_160
+CB-161:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-19:
+		  run_status: run_status_161
+		  lost_power_alarm: lost_power_alarm_161
+CB-162:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-19:
+		  run_status: run_status_162
+		  lost_power_alarm: lost_power_alarm_162
+CB-163:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-19:
+		  run_status: run_status_1603
+		  lost_power_alarm: lost_power_alarm_163
+CB-164:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-19:
+		  run_status: run_status_1604
+		  lost_power_alarm: lost_power_alarm_164
+CB-165:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-16:
+		  run_status: run_status_165
+		  lost_power_alarm: lost_power_alarm_165
+CB-166:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-19:
+		  run_status: run_status_166
+		  lost_power_alarm: lost_power_alarm_166
+CB-167:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-19:
+		  run_status: run_status_167
+		  lost_power_alarm: lost_power_alarm_167
+CB-168:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-19:
+		  run_status: run_status_168
+		  lost_power_alarm: lost_power_alarm_168
+CB-169:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-19:
+		  run_status: run_status_1609
+		  lost_power_alarm: lost_power_alarm_169
+CB-170:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-19:
+		  run_status: run_status_170
+		  lost_power_alarm: lost_power_alarm_170
+CB-171:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-19:
+		  run_status: run_status_171
+		  lost_power_alarm: lost_power_alarm_171
+CB-172:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-19:
+		  run_status: run_status_172
+		  lost_power_alarm: lost_power_alarm_172
+CB-173:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-19:
+		  run_status: run_status_173
+		  lost_power_alarm: lost_power_alarm_173
+CB-174:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-19:
+		  run_status: run_status_174
+		  lost_power_alarm: lost_power_alarm_174
+CDS-06: 
+	type: HVAC/SENSOR_CO2M
+  links:
+    DDC-19:
+		  zone_air_co2_concentration_sensor: zone_air_co2_concentration_sensor_06
+MTS-29: 
+  type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-19:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_29
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_29
+
 DDC-18:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2569278903810754
@@ -3055,6 +4215,59 @@ DDC-18:
         key: "pointset.points.mts_28_zone_air_relative_humid_s.units"
         values:
           percent_relative_humidity: percent_relative_humidity
+
+
+AHU-14:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-18:
+      supply_fan_run_mode: supply_fan_run_mode_14
+      supply_fan_speed_mode: supply_fan_speed_mode_14
+      supply_fan_run_command: supply_fan_run_command_14
+      supply_fan_run_status: supply_fan_run_status_14
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_14
+      supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_14
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_14
+      supply_air_temperature_sensor: supply_air_temperature_sensor_14
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_14
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_14
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_14
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_14
+      supply_air_temp_setpoint: supply_air_temp_setpoint_14
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_14
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_14
+      schedule_run_command: schedule_run_command_14
+      return_air_isolation_damper_status: return_air_isolation_damper_status_14
+      return_air_temperature_sensor: return_air_temperature_sensor_14
+      return_air_co2_concentration_sensor: return_air_co2_concentration_sensor_14 
+      return_air_relative_humidity_sensor: return_air_relative_humidity_sensor_14
+
+CB-153:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-18:
+		  run_status: run_status_153
+		  lost_power_alarm: lost_power_alarm_153
+CB-154:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-18:
+		  run_status: run_status_154
+		  lost_power_alarm: lost_power_alarm_154
+   
+MTS-27: 
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-18:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_27
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidty_sensor_27
+MTS-28: 
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-18:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_28
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_28
+
 DDC-21:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2700995914676171
@@ -3259,6 +4472,87 @@ DDC-21:
         key: "pointset.points.mts_32_zone_air_relative_humid_s.units"
         values:
           percent_relative_humidity: percent_relative_humidity
+
+
+AHU-15:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-21:
+      supply_fan_run_mode: supply_fan_run_mode_15
+      supply_fan_speed_mode: supply_fan_speed_mode_15
+      supply_fan_run_command: supply_fan_run_command_15
+      supply_fan_run_status: supply_fan_run_status_15
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_15
+      supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_15
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_15
+      supply_air_temperature_sensor: supply_air_temperature_sensor_15
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_15
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_15
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_15
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_15
+      supply_air_temp_setpoint: supply_air_temp_setpoint_15
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_15
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_15
+      schedule_run_command: schedule_run_command_15
+      return_air_isolation_damper_status: return_air_isolation_damper_status_15
+      return_air_temperature_sensor: return_air_temperature_sensor_15
+      return_air_co2_concentration_sensor: return_air_co2_concentration_sensor_15 
+      return_air_relative_humidity_sensor: return_air_relative_humidity_sensor_15
+
+CB-177:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-21:
+		  run_status: run_status_177
+		  lost_power_alarm: lost_power_alarm_177
+CB-178:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-21:
+		  run_status: run_status_178
+		  lost_power_alarm: lost_power_alarm_178
+CB-179:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-21:
+		  run_status: run_status_179
+		  lost_power_alarm: lost_power_alarm_179   
+CB-180:
+	type: ELECTRICAL/CB_SS
+    links:
+      DDC-21:
+		    run_status: run_status_180
+		    lost_power_alarm: lost_power_alarm_180
+CB-181:
+	type: ELECTRICAL/CB_SS
+    links:
+        DDC-21:
+		    run_status: run_status_181
+		    lost_power_alarm: lost_power_alarm_181
+CB-182:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-21:
+		  run_status: run_status_182
+		  lost_power_alarm: lost_power_alarm_182
+CB-183:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-21:
+		  run_status: run_status_183
+		  lost_power_alarm: lost_power_alarm_183
+CDS-07:
+	type: HVAC/SENSOR_CO2M
+  links:
+    DDC-21:
+	    zone_air_co2_concentration_sensor: zone_air_co2_concentration_sensor_07
+MTS-32: 
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-21:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_32
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidty_sensor_32
+              
 DDC-20:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2698818475031683
@@ -3419,6 +4713,56 @@ DDC-20:
         key: "pointset.points.mts_31_zone_air_relative_humid_s.units"
         values:
           percent_relative_humidity: percent_relative_humidity
+
+AHU-16:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-20:
+      supply_fan_run_mode: supply_fan_run_mode_16
+      supply_fan_speed_mode: supply_fan_speed_mode_16
+      supply_fan_run_command: supply_fan_run_command_16
+      supply_fan_run_status: supply_fan_run_status_16
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_16
+      supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_16
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_16
+      supply_air_temperature_sensor: supply_air_temperature_sensor_16
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_16
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_16
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_16
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_16
+      supply_air_temp_setpoint: supply_air_temp_setpoint_16
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_16
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_16
+      schedule_run_command: schedule_run_command_16
+      return_air_isolation_damper_status: return_air_isolation_damper_status_16
+      return_air_temperature_sensor: return_air_temperature_sensor_16
+      return_air_co2_concentration_sensor: return_air_co2_concentration_sensor_16 
+      return_air_relative_humidity_sensor: return_air_relative_humidity_sensor_16
+CB-175:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-20:
+		  run_status: run_status_175
+		  lost_power_alarm: lost_power_alarm_175
+CB-176:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-20:
+		  run_status: run_status_176
+      lost_power_alarm: lost_power_alarm_176
+MTS-30: 
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-20:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_30
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidty_sensor_30
+MTS-31: 
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-20:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_31
+		  zone_air_relative_humidity_sensor: zone_air_relative_humidty_sensor_31
+              
 DDC-25:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2751466850538840
@@ -3653,6 +4997,100 @@ DDC-25:
         key: "pointset.points.kfaf_02_supply_air_static_pr_sen.units"
         values:
           pascals: pascals
+
+
+AHU-17:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-25:
+      supply_fan_run_mode: supply_fan_run_mode_17
+      supply_fan_speed_mode: supply_fan_speed_mode_17
+      supply_fan_run_command: supply_fan_run_command_17
+      supply_fan_run_status: supply_fan_run_status_17
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_17
+      supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_17
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_17
+      supply_air_temperature_sensor: supply_air_temperature_sensor_17
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_17
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_17
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_17
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_17
+      supply_air_temp_setpoint: supply_air_temp_setpoint_17
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_17
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_17
+      schedule_run_command: schedule_run_command_17
+      return_air_isolation_damper_status: return_air_isolation_damper_status_17
+CB-193:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-25:
+		  run_status: run_status_193
+		  lost_power_alarm: lost_power_alarm_193
+CB-194:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-25:
+		  run_status: run_status_194
+		  lost_power_alarm: lost_power_alarm_194
+CB-195:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-25:
+		  run_status: run_status_195
+		  lost_power_alarm: lost_power_alarm_195
+CB-196:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-25:
+		  run_status: run_status_1936
+		  lost_power_alarm: lost_power_alarm_196
+CB-197:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-25:
+		  run_status: run_status_197
+		  lost_power_alarm: lost_power_alarm_197
+CB-198:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-25:
+		  run_status: run_status_198
+		  lost_power_alarm: lost_power_alarm_198    
+CB-199:
+  type: ELECTRICAL/CB_SS
+  links:
+    DDC-25:
+		  run_status: run_status_199
+		  lost_power_alarm: lost_power_alarm_199
+CB-200:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-25:
+		  run_status: run_status_200
+		  lost_power_alarm: lost_power_alarm_200
+CB-202:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-25:
+		  run_status: run_status_202
+		  lost_power_alarm: lost_power_alarm_202
+SF-01:
+	type: HVAC/FAN_SS_VSC
+  links:
+    DDC-25:
+		  supply_fan_run_command: supply_fan_run_command_01
+		  supply_fan_run_status: supply_fan_run_status_01
+		  supply_fan_speed_mode: supply_fan_speed_mode_01
+		  supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_01
+SF-02:
+	type: HVAC/FAN_SS_VSC
+  links:
+    DDC-25:
+		  supply_fan_run_command: supply_fan_run_command_02
+		  supply_fan_run_status: supply_fan_run_status_02
+		  supply_fan_speed_mode: supply_fan_speed_mode_02
+		  supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_02
+
 DDC-24:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2748713466783442
@@ -3857,6 +5295,87 @@ DDC-24:
         key: "pointset.points.mts_35_zone_air_relative_humid_s.units"
         values:
           percent_relative_humidity: percent_relative_humidity
+
+
+AHU-18:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-24:
+      supply_fan_run_mode: supply_fan_run_mode_18
+      supply_fan_speed_mode: supply_fan_speed_mode_18
+      supply_fan_run_command: supply_fan_run_command_18
+      supply_fan_run_status: supply_fan_run_status_18
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_18
+      supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_18
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_18
+      supply_air_temperature_sensor: supply_air_temperature_sensor_18
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_18
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_18
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_18
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_18
+      supply_air_temp_setpoint: supply_air_temp_setpoint_18
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_18
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_18
+      schedule_run_command: schedule_run_command_18
+      return_air_isolation_damper_status: return_air_isolation_damper_status_18
+      return_air_temperature_sensor: return_air_temperature_sensor_18
+      return_air_co2_concentration_sensor: return_air_co2_concentration_sensor_18 
+      return_air_relative_humidity_sensor: return_air_relative_humidity_sensor_18
+CB-186:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-24:
+		  run_status: run_status_186
+		  lost_power_alarm: lost_power_alarm_186
+CB-187:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-24:
+		  run_status: run_status_187
+		  lost_power_alarm: lost_power_alarm_187
+CB-188:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-24:
+		  run_status: run_status_188
+		  lost_power_alarm: lost_power_alarm_188
+CB-189:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-24:
+		  run_status: run_status_189
+		  lost_power_alarm: lost_power_alarm_189
+CB-190:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-24:
+		  run_status: run_status_190
+		  lost_power_alarm: lost_power_alarm_190
+CB-191:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-24:
+		  run_status: run_status_191
+		  lost_power_alarm: lost_power_alarm_191
+CB-192:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-24:
+		  run_status: run_status_192
+		  lost_power_alarm: lost_power_alarm_192
+CDS-08:
+	type: HVAC/SENSOR_CO2M
+  links:
+    DDC-24:
+	    zone_air_co2_concentration_sensor: zone_air_co2_concentration_sensor_08
+MTS-35:
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-24:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_35
+  		zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_35
+
+
 DDC-23:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2725575303247308
@@ -3975,6 +5494,38 @@ DDC-23:
       states:
         ON: "TRUE"
         OFF: "FALSE"
+
+
+AHU-19:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-23:
+      supply_fan_run_mode: supply_fan_run_mode_19
+      supply_fan_speed_mode: supply_fan_speed_mode_19
+      supply_fan_run_command: supply_fan_run_command_19
+      supply_fan_run_status: supply_fan_run_status_19
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_19
+      supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_19
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_19
+      supply_air_temperature_sensor: supply_air_temperature_sensor_19
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_19
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_19
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_19
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_19
+      supply_air_temp_setpoint: supply_air_temp_setpoint_19
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_19
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_19
+      schedule_run_command: schedule_run_command_19
+      return_air_isolation_damper_status: return_air_isolation_damper_status_19
+SF-09:
+	type: HVAC/FAN_SS
+  links:
+    DDC-23:
+		  run_command: run_command_09
+		  run_status: run_status_09
+		  control_mode: control_mode_09
+		  lost_power_alarm: lost_power_alarm_09
+            
 DDC-22:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2679189552380744
@@ -4135,6 +5686,58 @@ DDC-22:
         key: "pointset.points.mts_34_zone_air_relative_humid_s.units"
         values:
           percent_relative_humidity: percent_relative_humidity
+
+
+AHU-20:
+  type: HVAC/AHU_SFSS_SFMSC_SFVSC_FDPM_CHWSC_RTM_RACO2C_SSPC_VOADM2X_SAIDC2X_RAIDC2X
+  links:
+    DDC-22:
+      supply_fan_run_mode: supply_fan_run_mode_20
+      supply_fan_speed_mode: supply_fan_speed_mode_20
+      supply_fan_run_command: supply_fan_run_command_20
+      supply_fan_run_status: supply_fan_run_status_20
+      supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_20
+      supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_20
+      filter_differential_pressure_sensor: filter_differential_pressure_sensor_20
+      supply_air_temperature_sensor: supply_air_temperature_sensor_20
+      supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_20
+      chilled_water_valve_percent_command: chilled_water_valve_percent_command_20
+      chilled_water_valve_percent_sensor: chilled_water_valve_percent_sensor_20
+      supply_air_isolation_damper_status: supply_air_isolation_damper_status_20
+      supply_air_temp_setpoint: supply_air_temp_setpoint_20
+      supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_20
+      return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_20
+      schedule_run_command: schedule_run_command_20
+      return_air_isolation_damper_status: return_air_isolation_damper_status_20
+      return_air_temperature_sensor: return_air_temperature_sensor_20
+      return_air_co2_concentration_sensor: return_air_co2_concentration_sensor_20 
+      return_air_relative_humidity_sensor: return_air_relative_humidity_sensor_20
+CB-184:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-22:
+		  run_status: run_status_184
+		  lost_power_alarm: lost_power_alarm_184
+CB-185:
+	type: ELECTRICAL/CB_SS
+  links:
+    DDC-22:
+		  run_status: run_status_185
+		  lost_power_alarm: lost_power_alarm_185
+MTS-33:
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-22:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_33
+   		zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_33
+MTS-34:
+	type: HVAC/SENSOR_ZTM_ZHM
+  links:
+    DDC-22:
+		  zone_air_temperature_sensor: zone_air_temperature_sensor_34
+  		zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_34
+
+
 DDC-1112:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2774656125244313
@@ -4639,6 +6242,358 @@ DDC-1112:
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
+
+
+SF-05:			
+	type: HVAC/FAN_SS		
+	links:		
+		DDC-1112:	
+			run_command: run_command_05
+			run_status: run_status_05
+			control_mode: controlo_mode_05
+			lost_power_alarm: lost_power_alarm_05
+CB-46:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_46
+			lost_power_alarm: lost_power_alarm_46
+CB-47:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_47
+			lost_power_alarm: lost_power_alarm_47
+CB-48:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_48
+			lost_power_alarm: lost_power_alarm_48
+CB-49:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_49
+			lost_power_alarm: lost_power_alarm_49
+CB-50:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_50
+			lost_power_alarm: lost_power_alarm_50
+CB-51:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_51
+			lost_power_alarm: lost_power_alarm_51
+CB-52:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_52
+			lost_power_alarm: lost_power_alarm_52
+CB-53:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_53
+			lost_power_alarm: lost_power_alarm_53
+CB-54:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_54
+			lost_power_alarm: lost_power_alarm_54
+CB-55:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_55
+			lost_power_alarm: lost_power_alarm_55
+CB-56:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_56
+			lost_power_alarm: lost_power_alarm_56
+CB-57:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_57
+			lost_power_alarm: lost_power_alarm_57
+CB-58:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_58
+			lost_power_alarm: lost_power_alarm_58
+CB-59:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_59
+			lost_power_alarm: lost_power_alarm_59
+CB-60:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_60
+			lost_power_alarm: lost_power_alarm_60
+CB-61:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_61
+			lost_power_alarm: lost_power_alarm_61
+CB-62:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_62
+			lost_power_alarm: lost_power_alarm_62
+CB-63:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_63
+			lost_power_alarm: lost_power_alarm_63
+CB-64:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_64
+			lost_power_alarm: lost_power_alarm_64
+CB-65:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_65
+			lost_power_alarm: lost_power_alarm_65
+CB-66:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_66
+			lost_power_alarm: lost_power_alarm_66
+CB-67:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_67
+			lost_power_alarm: lost_power_alarm_67
+CB-68:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_68
+			lost_power_alarm: lost_power_alarm_68
+CB-69:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_69
+			lost_power_alarm: lost_power_alarm_69
+CB-70:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_70
+			lost_power_alarm: lost_power_alarm_70
+CB-71:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_71
+			lost_power_alarm: lost_power_alarm_71
+CB-72:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_72
+			lost_power_alarm: lost_power_alarm_72
+CB-73:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_73
+			lost_power_alarm: lost_power_alarm_73
+CB-91:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_91
+			lost_power_alarm: lost_power_alarm_91
+CB-92:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_92
+			lost_power_alarm: lost_power_alarm_92
+CB-93:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_93
+			lost_power_alarm: lost_power_alarm_93
+CB-94:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_94
+			lost_power_alarm: lost_power_alarm_94
+CB-95:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_95
+			lost_power_alarm: lost_power_alarm_95
+CB-96:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_96
+			lost_power_alarm: lost_power_alarm_96
+CB-97:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_97
+			lost_power_alarm: lost_power_alarm_97
+CB-98:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_98
+			lost_power_alarm: lost_power_alarm_98
+CB-99:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_99
+			lost_power_alarm: lost_power_alarm_99
+CB-100:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_100
+			lost_power_alarm: lost_power_alarm_100
+CB-101:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_101
+			lost_power_alarm: lost_power_alarm_101
+CB-107:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_107
+			
+CB-108:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_108
+			
+CB-109:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_109
+			
+CB-110:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_110
+			
+CB-111:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_111
+			
+CB-112:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_112
+			
+CB-113:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_113
+			
+CB-114:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_114
+			
+CB-115:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_115
+			
+CB-119:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_119
+			
+CB-120:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_120
+			
+CB-121:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_121
+			
+CB-122:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_122
+			
+CB-123:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_123
+			
+CB-124:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_124
+			
+CB-125:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_125
+			
+CB-126:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_126
+			
+CB-127:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-1112:	
+			run_status: run_status_127 
+
 DDC-1:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2606062346961168
@@ -4751,6 +6706,74 @@ DDC-1:
       states:
         ON: "TRUE"
         OFF: "FALSE"
+
+
+TPS-0001:			
+	type: HVAC/SENSOR_ZTM		
+	links:		
+		DDC-1:	
+			zone_air_temperature_sensor: zone_air_temperature_sensor_0001
+TPS-0002:			
+	type: HVAC/SENSOR_ZTM		
+	links:		
+		DDC-1:	
+			zone_air_temperature_sensor: zone_air_temperature_sensor_0002
+TPS-0003:			
+	type: HVAC/SENSOR_ZTM		
+	links:		
+		DDC-1:	
+			zone_air_temperature_sensor: zone_air_temperature_sensor_0003
+TPS-0004:			
+	type: HVAC/SENSOR_ZTM		
+	links:		
+		DDC-1:	
+			zone_air_temperature_sensor: zone_air_temperature_sensor_0004
+TPS-0005:			
+	type: HVAC/SENSOR_ZTM		
+	links:		
+		DDC-1:	
+			zone_air_temperature_sensor: zone_air_temperature_sensor_0005
+TPS-0006:			
+	type: HVAC/SENSOR_ZTM		
+	links:		
+		DDC-1:	
+			zone_air_temperature_sensor: zone_air_temperature_sensor_0006
+MTS-1:			
+	type: HVAC/SENSOR_ZTM		
+	links:		
+		DDC-1:	
+			zone_air_temperature_sensor: zone_air_temperature_sensor_1
+MTS-2:			
+	type: HVAC/SENSOR_ZTM		
+	links:		
+		DDC-1:	
+			zone_air_temperature_sensor: zone_air_temperature_sensor_2
+EF-01:			
+	type: HVAC/FAN_SS		
+	links:		
+		DDC-1:	
+			run_command: run_command_01
+			run_status: run_status_01
+			run_mode: run_mode_01
+			lost_power_alarm: lost_power_alarm_01
+EF-02:			
+	type: HVAC/FAN_SS		
+	links:		
+		DDC-1:	
+			run_command: run_command_02
+			run_status: run_status_02
+			run_mode: run_mode_02
+			lost_power_alarm: lost_power_alarm_02
+EF-03:			
+	type: HVAC/FAN_SS		
+	links:		
+		DDC-1:	
+			run_command: run_command_03
+			run_status: run_status_03
+			run_mode: run_mode_03
+			lost_power_alarm: lost_power_alarm_03
+
+
 DDC-2:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2595595986231345
@@ -5031,6 +7054,142 @@ DDC-2:
         key: "pointset.points.fcu_01_filter_differential_pressure_sen.units"
         values:
           pascals: pascals
+
+
+CB-01:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-2:	
+			run_status: run_status_01
+			lost_power_alarm: lost_power_alarm_01
+CB-02:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-2:	
+			run_status: run_status_02
+			lost_power_alarm: lost_power_alarm_02
+CB-03:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-2:	
+			run_status: run_status_03
+			lost_power_alarm: lost_power_alarm_03
+CB-04:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-2:	
+			run_status: run_status_04
+			lost_power_alarm: lost_power_alarm_04
+CB-05:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-2:	
+			run_status: run_status_05
+			lost_power_alarm: lost_power_alarm_05
+CB-06:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-2:	
+			run_status: run_status_06
+			lost_power_alarm: lost_power_alarm_06
+CB-07:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-2:	
+			run_status: run_status_07
+			lost_power_alarm: lost_power_alarm_07
+CB-08:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-2:	
+			run_status: run_status_08
+			lost_power_alarm: lost_power_alarm_08
+CB-09:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-2:	
+			run_status: run_status_09
+			lost_power_alarm: lost_power_alarm_09
+CB-10:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-2:	
+			run_status: run_status_10
+			lost_power_alarm: lost_power_alarm_10
+CB-11:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-2:	
+			run_status: run_status_11
+			lost_power_alarm: lost_power_alarm_11
+TPS-0007:			
+	type: HVAC/SENSOR_ZTM		
+	links:		
+		DDC-2:	
+			zone_air_temperature_sensor: zone_air_temperature_sensor_0007
+TPS-0008:			
+	type: HVAC/SENSOR_ZTM		
+	links:		
+		DDC-2:	
+			zone_air_temperature_sensor: zone_air_temperature_sensor_0008
+MTS-01:			
+	type: HVAC/SENSOR_ZTM_ZHM		
+	links:		
+		DDC-2:	
+			zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_01
+MTS-02:			
+	type: HVAC/SENSOR_ZTM_ZHM		
+	links:		
+		DDC-2:	
+			zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_02
+MTS-03:			
+	type: HVAC/SENSOR_ZTM_ZHM		
+	links:		
+		DDC-2:	
+			zone_air_temperature_sensor: zone_air_temperature_sensor_03
+			zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_03
+MTS-04:			
+	type: HVAC/SENSOR_ZTM_ZHM		
+	links:		
+		DDC-2:	
+			zone_air_temperature_sensor: zone_air_temperature_sensor_04
+			zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_04
+MTS-05:			
+	type: HVAC/SENSOR_ZTM_ZHM		
+	links:		
+		DDC-2:	
+			zone_air_temperature_sensor: zone_air_temperature_sensor_05
+			zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_05
+MTS-06:			
+	type: HVAC/SENSOR_ZTM_ZHM		
+	links:		
+		DDC-2:	
+			zone_air_temperature_sensor: zone_air_temperature_sensor_06
+			zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_06
+FCU-01:			
+	type: HVAC/FCU_DFSS_DFVSC_FDPM_CHWDC_SRC_DFRMM		
+	links:		
+		DDC-2:	
+			discharge_fan_run_status_; discharge_fan_run_status__01
+			discharge_fan_run_command_; discharge_fan_run_command__01
+			schedule_run_command_; schedule_run_command__01
+			control_mode_; control_mode__01
+			discharge_fan_speed_mode_; discharge_fan_speed_mode__01
+			discharge_fan_speed_percentage_command_; discharge_fan_speed_percentage_command__01
+			discharge_fan_lost_power_alarm_; discharge_fan_lost_power_alarm__01
+			return_air_relative_humidity_sensor_; return_air_relative_humidity_sensor__01
+			return_air_temperature_sensor_; return_air_temperature_sensor__01
+			discharge_air_temperature_sensor_; discharge_air_temperature_sensor__01
+			discharge_air_temperature_setpoint_; discharge_air_temperature_setpoint__01
+			return_air_isolation_damper_status_; return_air_isolation_damper_status__01
+			supply_air_isolation_damper_status_; supply_air_isolation_damper_status__01
+			return_air_co2_concentration_setpoint_ ; return_air_co2_concentration_setpoint_ _01
+			chilled_water_valve_percentage_command_; chilled_water_valve_percentage_command__01
+			chilled_water_valve_percentage_sensor_; chilled_water_valve_percentage_sensor__01
+			filter_differential_pressure_sensor_; filter_differential_pressure_sensor__01
+
+
+
 DDC-3:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2726090429306155
@@ -5161,6 +7320,50 @@ DDC-3:
       states:
         OPEN: "TRUE"
         CLOSED: "FALSE"
+
+
+CB-12:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-3:	
+			run_status: run_status_12
+			lost_power_alarm: lost_power_alarm_12
+CB-13:			
+	type: ELECTRICAL/CB_SS		
+	links:		
+		DDC-3:	
+			run_status: run_status_13
+			lost_power_alarm: lost_power_alarm_13
+MTS-07:			
+	type: HVAC/SENSOR_ZTM_ZHM		
+	links:		
+		DDC-3:	
+			zone_air_temperature_sensor: zone_air_temperature_sensor_07
+			zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_07
+FCU-02:			
+	type: HVAC/FCU_DFSS_DFVSC_FDPM_CHWDC_SRC_DFRMM		
+	links:		
+		DDC-3:	
+			discharge_fan_run_status_; discharge_fan_run_status__02
+			discharge_fan_run_command_; discharge_fan_run_command__02
+			schedule_run_command_; schedule_run_command__02
+			control_mode_; control_mode__02
+			discharge_fan_speed_mode_; discharge_fan_speed_mode__02
+			discharge_fan_speed_percentage_command_; discharge_fan_speed_percentage_command__02
+			discharge_fan_lost_power_alarm_; discharge_fan_lost_power_alarm__02
+			return_air_relative_humidity_sensor_; return_air_relative_humidity_sensor__02
+			return_air_temperature_sensor_; return_air_temperature_sensor__02
+			discharge_air_temperature_sensor_; discharge_air_temperature_sensor__02
+			discharge_air_temperature_setpoint_; discharge_air_temperature_setpoint__02
+			return_air_isolation_damper_status_; return_air_isolation_damper_status__02
+			supply_air_isolation_damper_status_; supply_air_isolation_damper_status__02
+			return_air_co2_concentration_setpoint_ ; return_air_co2_concentration_setpoint_ _02
+			chilled_water_valve_percentage_command_; chilled_water_valve_percentage_command__02
+			chilled_water_valve_percentage_sensor_; chilled_water_valve_percentage_sensor__02
+			filter_differential_pressure_sensor_; filter_differential_pressure_sensor__02
+
+
+
 DDC-12:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2619954088185665
@@ -5197,6 +7400,24 @@ DDC-12:
       states:
         ON: "TRUE"
         OFF: "FALSE"
+
+
+MTS-18:			
+	type: HVAC/SENSOR_ZTM_ZHM		
+	links:		
+		DDC-12:	
+			zone_air_temperature_sensor: zone_air_temperature_sensor_18
+			zone_air_relative_humidity_sensor: zone_air_relative_humidity_sensor_18
+EF-05:			
+	type: HVAC/FAN_SS		
+	links:		
+		DDC-12:	
+			run_command: run_command_05
+			run_status: run_status_05
+			run_mode: run_mode_05
+			lost_power_alarm: lost_power_alarm_05
+
+
 DDC-10:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2613175476487764
@@ -5226,6 +7447,18 @@ DDC-10:
       states:
         ON: "TRUE"
         OFF: "FALSE"
+
+
+EF-04:			
+	type: HVAC/FAN_SS		
+	links:		
+		DDC-10:	
+			run_command: run_command_04
+			run_status: run_status_04
+			run_mode: run_mode_04
+			lost_power_alarm: lost_power_alarm_04
+
+
 DDC-26:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2776535218446375
@@ -5274,6 +7507,28 @@ DDC-26:
       states:
         ACTIVE: "TRUE"
         INACTIVE: "FALSE"
+
+
+SF-01:			
+	type: HVAC/FAN_SS_VSC_SSPC_FDPSM		
+	links:		
+		DDC-26:	
+			supply_fan_run_command: supply_fan_run_command_01
+			supply_fan_run_status: supply_fan_run_status_01
+			control_mode: control_mode_01
+			supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_01
+			supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_01
+			filter_differential_pressure_sensor: filter_differential_pressure_sensor_01
+			supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_01
+			supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_01
+SF-02:			
+	type: HVAC/FAN_SS_VSC_SSPC_FDPSM		
+	links:		
+		DDC-26:	
+			supply_fan_run_command: supply_fan_run_command_02
+			supply_fan_lost_power_alarm: supply_fan_lost_power_alarm_02
+
+        
 DDC-27:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2779442993638759
@@ -5320,6 +7575,20 @@ DDC-28:
         key: "pointset.points.supply_air_ssp_sp_02.units"
         values:
           pascals: pascals
+
+
+SF-02:			
+	type: HVAC/FAN_SS_VSC_SSPC_FDPSM		
+	links:		
+		DDC-28:	
+			control_mode: control_mode_02
+			supply_fan_run_status: supply_fan_run_status_02
+			supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_02
+			filter_differential_pressure_sensor: filter_differential_pressure_sensor_02
+			supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_02
+			supply_air_static_pressure_setpoint : supply_air_static_pressure_setpoint _02
+
+
 DDC-29:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2689054872034069
@@ -5366,6 +7635,24 @@ DDC-29:
         key: "pointset.points.kfaf_02_supply_air_static_pr_sp.units"
         values:
           pascals: pascals
+
+
+SF-01:			
+	type: HVAC/FAN_SS_VSC		
+	links: 		
+		DDC-29:	
+			filter_differential_pressure_sensor: filter_differential_pressure_sensor_01
+			supply_air_static_pressure_sensor: supply_air_static_pressure_sensor_01
+			supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_01
+			supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_01
+SF-02:			
+	type: HVAC/FAN_SS_VSC		
+	links: 		
+		DDC-29:	
+			filter_differential_pressure_sensor: filter_differential_pressure_sensor_02
+			supply_fan_speed_percentage_command: supply_fan_speed_percentage_command_02
+			supply_air_static_pressure_setpoint: supply_air_static_pressure_setpoint_02
+
 DDC-30:
   type: GATEWAYS/PASSTHROUGH
   cloud_device_id: 2720967928117423
@@ -5436,13 +7723,33 @@ DDC-30:
         values:
           pascals: pascals
 
-# Zones
-IN-GUR-SIGD_ZN1:
-  type: HVAC/ZONE
-  connections:
-    IN-GUR-SIGD_RM1: CONTAINS
-IN-GUR-SIGD_ZN2:
-  type: HVAC/ZONE
-  connections:
-    IN-GUR-SIGD_RM2: CONTAINS
+
+
+KEF-01:			
+	type: HVAC/FAN_SS_VSC		
+	links:		
+		DDC-30:	
+			run_command: run_command_01
+			run_status: run_status_01
+			control_mode: control_mode_01
+			speed_percentage_command: speed_percentage_command_01
+			filter_differential_pressure_sensor: filter_differential_pressure_sensor_01
+KEF-02:			
+	type: HVAC/FAN_SS_VSC		
+	links:		
+		DDC-30:	
+			run_command: run_command_02
+			run_status: run_status_02
+			control_mode: control_mode_02
+			speed_percentage_command: speed_percentage_command_02
+			filter_differential_pressure_sensor: filter_differential_pressure_sensor_02
+KEF-03:			
+	type: HVAC/FAN_SS_VSC		
+	links:		
+		DDC-30:	
+			run_command: run_command_03
+			run_status: run_status_03
+			control_mode: control_mode_03
+			lost_power_alarm: lost_power_alarm_03
+
 

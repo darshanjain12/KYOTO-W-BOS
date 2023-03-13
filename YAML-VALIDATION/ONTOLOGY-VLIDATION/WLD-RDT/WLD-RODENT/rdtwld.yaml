@@ -268,7 +268,7 @@ cf8a6294-8cef-4934-a11d-775a1ac07f04:
         key: pointset.points.water_leak_cable_distance_sensor_11.units
         values:
           meters: meters
-    broken_cable_alarm_01: MISSING
+    broken_cable_alarm: MISSING
   code: HLI-7
 
 3ae4e2d0-fad9-4a77-84a9-012f737ff2fa:
@@ -277,7 +277,7 @@ cf8a6294-8cef-4934-a11d-775a1ac07f04:
     0f85b40f-7c6f-4758-8db5-46ff476ba54a:
       water_leak_alarm: water_leak_alarm_01
       water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_01
-      broken_cable_alarm: broken_cable_alarm_01
+      broken_cable_alarm: broken_cable_alarm
   code: LDS-01
 
 e0005ba6-e48c-48e9-a640-1064f6c827ca:
@@ -286,7 +286,7 @@ e0005ba6-e48c-48e9-a640-1064f6c827ca:
     0f85b40f-7c6f-4758-8db5-46ff476ba54a:
       water_leak_alarm: water_leak_alarm_02
       water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_02
-      broken_cable_alarm: broken_cable_alarm_01
+      broken_cable_alarm: broken_cable_alarm
   code: LDS-02
 
 2103a9b2-1e56-49c3-9013-faf6c0800ef2:
@@ -295,7 +295,7 @@ e0005ba6-e48c-48e9-a640-1064f6c827ca:
     0f85b40f-7c6f-4758-8db5-46ff476ba54a:
       water_leak_alarm: water_leak_alarm_03
       water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_03
-      broken_cable_alarm: broken_cable_alarm_01
+      broken_cable_alarm: broken_cable_alarm
   code: LDS-03
 
 38f46aee-285d-4835-8bff-0cf71db65d70:
@@ -304,7 +304,7 @@ e0005ba6-e48c-48e9-a640-1064f6c827ca:
     0f85b40f-7c6f-4758-8db5-46ff476ba54a:
       water_leak_alarm: water_leak_alarm_04
       water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_04
-      broken_cable_alarm: broken_cable_alarm_01
+      broken_cable_alarm: broken_cable_alarm
   code: LDS-04
 
 5eecc2d2-3d60-489d-8b22-e3f28a7b966b:
@@ -313,7 +313,7 @@ e0005ba6-e48c-48e9-a640-1064f6c827ca:
     0f85b40f-7c6f-4758-8db5-46ff476ba54a:
       water_leak_alarm: water_leak_alarm_05
       water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_05
-      broken_cable_alarm: broken_cable_alarm_01
+      broken_cable_alarm: broken_cable_alarm
   code: LDS-05
 
 6b51d2b8-94e1-489e-a5df-c736dfc40645:
@@ -322,7 +322,7 @@ e0005ba6-e48c-48e9-a640-1064f6c827ca:
     0f85b40f-7c6f-4758-8db5-46ff476ba54a:
       water_leak_alarm: water_leak_alarm_06
       water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_06
-      broken_cable_alarm: broken_cable_alarm_01
+      broken_cable_alarm: broken_cable_alarm
   code: LDS-06
 
 26d14c12-7f0a-4261-a836-ac6407bf578b:
@@ -331,7 +331,7 @@ e0005ba6-e48c-48e9-a640-1064f6c827ca:
     0f85b40f-7c6f-4758-8db5-46ff476ba54a:
       water_leak_alarm: water_leak_alarm_07
       water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_07
-      broken_cable_alarm: broken_cable_alarm_01
+      broken_cable_alarm: broken_cable_alarm
   code: LDS-07
 
 25409c9b-dcd9-4900-b10f-682bde3ccf05:
@@ -340,7 +340,7 @@ e0005ba6-e48c-48e9-a640-1064f6c827ca:
     0f85b40f-7c6f-4758-8db5-46ff476ba54a:
       water_leak_alarm: water_leak_alarm_08
       water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_08
-      broken_cable_alarm: broken_cable_alarm_01`
+      broken_cable_alarm: broken_cable_alarm
   code: LDS-08
 
 01256c7e-85c1-4db8-aa4e-bb6ed0ce9f96:
@@ -349,7 +349,7 @@ e0005ba6-e48c-48e9-a640-1064f6c827ca:
     0f85b40f-7c6f-4758-8db5-46ff476ba54a:
       water_leak_alarm: water_leak_alarm_09
       water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_09
-      broken_cable_alarm: broken_cable_alarm_01
+      broken_cable_alarm: broken_cable_alarm
   code: LDS-09
 
 02189144-aeee-4faf-82e4-c130e440602f:
@@ -358,7 +358,7 @@ e0005ba6-e48c-48e9-a640-1064f6c827ca:
     0f85b40f-7c6f-4758-8db5-46ff476ba54a:
       water_leak_alarm: water_leak_alarm_10
       water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_10
-      broken_cable_alarm: broken_cable_alarm_01
+      broken_cable_alarm: broken_cable_alarm
   code: LDS-10
 
 30dcf8c8-0e52-46c6-a918-b1b74e693142:
@@ -367,6 +367,6 @@ e0005ba6-e48c-48e9-a640-1064f6c827ca:
     0f85b40f-7c6f-4758-8db5-46ff476ba54a:
       water_leak_alarm: water_leak_alarm_11
       water_leak_cable_distance_sensor: water_leak_cable_distance_sensor_11
-      broken_cable_alarm: broken_cable_alarm_01
+      broken_cable_alarm: broken_cable_alarm
   code: LDS-11
 

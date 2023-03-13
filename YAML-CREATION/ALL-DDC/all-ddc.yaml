@@ -7344,23 +7344,23 @@ FCU-02:
 	type: HVAC/FCU_DFSS_DFVSC_FDPM_CHWDC_SRC_DFRMM		
 	links:		
 		DDC-3:	
-			discharge_fan_run_status_; discharge_fan_run_status__02
-			discharge_fan_run_command_; discharge_fan_run_command__02
-			schedule_run_command_; schedule_run_command__02
-			control_mode_; control_mode__02
-			discharge_fan_speed_mode_; discharge_fan_speed_mode__02
-			discharge_fan_speed_percentage_command_; discharge_fan_speed_percentage_command__02
-			discharge_fan_lost_power_alarm_; discharge_fan_lost_power_alarm__02
-			return_air_relative_humidity_sensor_; return_air_relative_humidity_sensor__02
-			return_air_temperature_sensor_; return_air_temperature_sensor__02
-			discharge_air_temperature_sensor_; discharge_air_temperature_sensor__02
-			discharge_air_temperature_setpoint_; discharge_air_temperature_setpoint__02
-			return_air_isolation_damper_status_; return_air_isolation_damper_status__02
-			supply_air_isolation_damper_status_; supply_air_isolation_damper_status__02
-			return_air_co2_concentration_setpoint_ ; return_air_co2_concentration_setpoint_ _02
-			chilled_water_valve_percentage_command_; chilled_water_valve_percentage_command__02
-			chilled_water_valve_percentage_sensor_; chilled_water_valve_percentage_sensor__02
-			filter_differential_pressure_sensor_; filter_differential_pressure_sensor__02
+			discharge_fan_run_status: discharge_fan_run_status__02
+			discharge_fan_run_command: discharge_fan_run_command__02
+			schedule_run_command: schedule_run_command__02
+			control_mode: control_mode__02
+			discharge_fan_speed_mode: discharge_fan_speed_mode__02
+			discharge_fan_speed_percentage_command: discharge_fan_speed_percentage_command__02
+			discharge_fan_lost_power_alarm: discharge_fan_lost_power_alarm__02
+			return_air_relative_humidity_sensor: return_air_relative_humidity_sensor__02
+			return_air_temperature_sensor: return_air_temperature_sensor__02
+			discharge_air_temperature_sensor: discharge_air_temperature_sensor__02
+			discharge_air_temperature_setpoint: discharge_air_temperature_setpoint__02
+			return_air_isolation_damper_status: return_air_isolation_damper_status__02
+			supply_air_isolation_damper_status: supply_air_isolation_damper_status__02
+			return_air_co2_concentration_setpoint: return_air_co2_concentration_setpoint_ _02
+			chilled_water_valve_percentage_command: chilled_water_valve_percentage_command__02
+			chilled_water_valve_percentage_sensor: chilled_water_valve_percentage_sensor__02
+			filter_differential_pressure_sensor:  filter_differential_pressure_sensor__02
 
 
 

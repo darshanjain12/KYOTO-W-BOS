@@ -7,18 +7,18 @@ CONFIG_METADATA:
 
 4499fea4-458c-46f7-9588-1211b92bd84f:
   type: GATEWAYS/PASSTHROUGH
-  cloud_device_id:
+  cloud_device_id: 2609124197886251
   translation:
     supply_water_isolation_valve_status_10001:
       present_value: points.wch_01_ supply_water_isolation_valve_status.present_value
       states:
-        ON: TRUE
-        OFF: FALSE
+        OPEN: TRUE
+        CLOSED: FALSE
     supply_water_isolation_valve_status_10002:
       present_value: points.wch_02_ supply_water_isolation_valve_status.present_value
       states:
-        ON: TRUE
-        OFF: FALSE
+        OPEN: TRUE
+        CLOSED: FALSE
     return_water_temperature_sensor_20001:
       present_value: points.ach_01_return_water_temperature_sensor.present_value
       units:
@@ -60,23 +60,23 @@ CONFIG_METADATA:
       units:
         key: pointset.points.wch_02_ condensing_return_water_temperature_sensor.units
         values:
-          pascals: pascals
+          degrees_celsius: degrees_celsius
     condensing_supply_water_temperature_sensor_10002:
       present_value: points.wch_02_ condensing_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.wch_02_ condensing_supply_water_temperature_sensor.units
         values:
-          percent: percent
+          degrees_celsius: degrees_celsius
     condensing_water_flowrate_status_10001:
       present_value: points.wch_01_condensing_water_flowrate_status.present_value
       states:
-        ON: TRUE
-        OFF: FALSE
+        PRESENT: TRUE
+        ABSENT: FALSE
     condensing_water_flowrate_status_10002:
       present_value: points.wch_02_condensing_water_flowrate_status.present_value
       states:
-        ON: TRUE
-        OFF: FALSE
+        PRESENT: TRUE
+        ABSENT: FALSE
     return_water_temperature_sensor_10001:
       present_value: points.wch_01_return_water_temperature_sensor.present_value
       units:
@@ -106,6 +106,11 @@ CONFIG_METADATA:
       states:
         ON: TRUE
         OFF: FALSE
+    run_status_10002:
+      present_value: points.wch_02_run_status.present_value
+      states:
+        ON: TRUE
+        OFF: FALSE
     supply_water_temperature_setpoint_10002:
       present_value: points.wch_02_supply_water_temperature_setpoint.present_value
       units:
@@ -120,6 +125,11 @@ CONFIG_METADATA:
           degrees_celsius: degrees_celsius
     control_mode_10001:
       present_value: points.wch_01_control_mode.present_value
+      states:
+        AUTO: TRUE
+        MANUAL: FALSE
+    control_mode_10002:
+      present_value: points.wch_02_control_mode.present_value
       states:
         AUTO: TRUE
         MANUAL: FALSE
@@ -138,6 +148,26 @@ CONFIG_METADATA:
       states:
         ON: TRUE
         OFF: FALSE
+    run_status_20001:
+      present_value: points.ach_01_run_status_01.present_value
+      states:
+        ON: TRUE
+        OFF: FALSE
+    run_status_20002:
+      present_value: points.ach_02_run_status_02.present_value
+      states:
+        ON: TRUE
+        OFF: FALSE
+    control_mode_20001:
+      present_value: points.ach_01_control_mode_01.present_value
+      states:
+        AUTO: TRUE
+        MANUAL: FALSE
+    control_mode_20002:
+      present_value: points.ach_02_control_mode_02s.present_value
+      states:
+        AUTO: TRUE
+        MANUAL: FALSE        
     compressor_run_status_02_20001:
       present_value: points.ach_01_compressor_run_status_02.present_value
       states:
@@ -147,6 +177,12 @@ CONFIG_METADATA:
       present_value: points.ach_02_supply_water_temperature_setpoint.present_value
       units:
         key: pointset.points.ach_02_supply_water_temperature_setpoint.units
+        values:
+          degrees_celsius: degrees_celsius
+    supply_water_temperature_setpoint_20001:
+      present_value: points.ach_01_supply_water_temperature_setpoint.present_value
+      units:
+        key: pointset.points.ach_01_supply_water_temperature_setpoint.units
         values:
           degrees_celsius: degrees_celsius
     compressor_run_status_01_20002:
@@ -162,13 +198,13 @@ CONFIG_METADATA:
     supply_water_isolation_valve_status_20001:
       present_value: points.ach_01_supply_water_isolation_valve_status.present_value
       states:
-        ON: TRUE
-        OFF: FALSE
+        OPEN: TRUE
+        CLOSED: FALSE
     supply_water_isolation_valve_status_20002:
       present_value: points.ach_02_supply_water_isolation_valve_status.present_value
       states:
-        ON: TRUE
-        OFF: FALSE
+        OPEN: TRUE
+        CLOSED: FALSE
     power_sensor_10002:
       present_value: points.wch_02_power_sensor.present_value
       units:
@@ -222,6 +258,33 @@ CONFIG_METADATA:
       states:
         ON: TRUE
         OFF: FALSE
+    control_mode_30001:
+      present_value: points.pchwp_01_control_mode.present_value
+      states:
+        AUTO: TRUE
+        MANUAL: FALSE
+
+    control_mode_30002:
+      present_value: points.pchwp_02_control_mode.present_value
+      states:
+        AUTO: TRUE
+        MANUAL: FALSE
+    control_mode_30003:
+      present_value: points.pchwp_03_control_mode.present_value
+      states:
+        AUTO: TRUE
+        MANUAL: FALSE
+    control_mode_30004:
+      present_value: points.pchwp_04_control_mode.present_value
+      states:
+        AUTO: TRUE
+        MANUAL: FALSE
+    control_mode_30005:
+      present_value: points.pchwp_05_control_mode.present_value
+      states:
+        AUTO: TRUE
+        MANUAL: FALSE
+  
     lost_power_alarm_30001:
       present_value: points.pchwp_01_lost_power_alarm.present_value
       states:
@@ -297,6 +360,23 @@ CONFIG_METADATA:
       states:
         ON: TRUE
         OFF: FALSE
+    control_mode_50001:
+      present_value: points.cdwp_01_control_mode.present_value
+      states:
+        AUTO: TRUE
+        MANUAL: FALSE
+
+    control_mode_50002:
+      present_value: points.cdwp_02_control_mode.present_value
+      states:
+        AUTO: TRUE
+        MANUAL: FALSE
+
+    control_mode_50003:
+      present_value: points.cdwp_03_control_mode.present_value
+      states:
+        AUTO: TRUE
+        MANUAL: FALSE
     lost_power_alarm_50001:
       present_value: points.cdwp_01_lost_power_alarm.present_value
       states:
@@ -351,18 +431,19 @@ CONFIG_METADATA:
     return_water_isolation_valve_status_60002:
       present_value: points.ct_02_return_water_isolation_valve_status.present_value
       states:
-        ON: TRUE
-        OFF: FALSE
+        OPEN: TRUE
+        CLOSED: FALSE
     supply_water_isolation_valve_status_60002:
       present_value: points.ct_02_supply_water_isolation_valve_status.present_value
       states:
-        ON: TRUE
-        OFF: FALSE
+        OPEN: TRUE
+        CLOSED: FALSE
     run_time_accumulator_60002:
       present_value: points.ct_02_run_time_accumulator.present_value
-      states:
-        ON: TRUE
-        OFF: FALSE
+      units:
+        key: pointset.points.ct_02_run_time_accumulator.units
+        values:
+          hours: hours
     run_status_60002:
       present_value: points.ct_02_run_status.present_value
       states:
@@ -376,13 +457,13 @@ CONFIG_METADATA:
     return_water_isolation_valve_status_60001:
       present_value: points.ct_01_return_water_isolation_valve_status.present_value
       states:
-        ON: TRUE
-        OFF: FALSE
+        OPEN: TRUE
+        CLOSED: FALSE
     supply_water_isolation_valve_status_60001:
       present_value: points.ct_01_supply_water_isolation_valve_status.present_value
       states:
-        ON: TRUE
-        OFF: FALSE
+        OPEN: TRUE
+        CLOSED: FALSE
     return_water_temperature_sensor_71000:
       present_value: points.chws_com_return_water_temperature_sensor.present_value
       units:
@@ -413,13 +494,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_01_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80001:
+    chilled_return_water_temperature_sensor_80001:
       present_value: points.hm_01_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_01_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80001:
+    chilled_supply_water_temperature_sensor_80001:
       present_value: points.hm_01_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_01_supply_water_temperature_sensor.units
@@ -443,13 +524,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_02_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80002:
+    chilled_return_water_temperature_sensor_80002:
       present_value: points.hm_02_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_02_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80002:
+    chilled_supply_water_temperature_sensor_80002:
       present_value: points.hm_02_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_02_supply_water_temperature_sensor.units
@@ -473,13 +554,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_03_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80003:
+    chilled_return_water_temperature_sensor_80003:
       present_value: points.hm_03_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_03_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80003:
+    chilled_supply_water_temperature_sensor_80003:
       present_value: points.hm_03_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_03_supply_water_temperature_sensor.units
@@ -503,13 +584,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_04_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80004:
+    chilled_return_water_temperature_sensor_80004:
       present_value: points.hm_04_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_04_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80004:
+    chilled_supply_water_temperature_sensor_80004:
       present_value: points.hm_04_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_04_supply_water_temperature_sensor.units
@@ -533,13 +614,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_05_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80005:
+    chilled_return_water_temperature_sensor_80005:
       present_value: points.hm_05_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_05_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80005:
+    chilled_supply_water_temperature_sensor_80005:
       present_value: points.hm_05_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_05_supply_water_temperature_sensor.units
@@ -563,13 +644,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_06_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80006:
+    chilled_return_water_temperature_sensor_80006:
       present_value: points.hm_06_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_06_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80006:
+    chilled_supply_water_temperature_sensor_80006:
       present_value: points.hm_06_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_06_supply_water_temperature_sensor.units
@@ -593,13 +674,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_07_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80007:
+    chilled_return_water_temperature_sensor_80007:
       present_value: points.hm_07_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_07_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80007:
+    chilled_supply_water_temperature_sensor_80007:
       present_value: points.hm_07_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_07_supply_water_temperature_sensor.units
@@ -623,13 +704,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_08_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80008:
+    chilled_return_water_temperature_sensor_80008:
       present_value: points.hm_08_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_08_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80008:
+    chilled_supply_water_temperature_sensor_80008:
       present_value: points.hm_08_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_08_supply_water_temperature_sensor.units
@@ -653,13 +734,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_09_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80009:
+    chilled_return_water_temperature_sensor_80009:
       present_value: points.hm_09_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_09_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80009:
+    chilled_supply_water_temperature_sensor_80009:
       present_value: points.hm_09_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_09_supply_water_temperature_sensor.units
@@ -683,13 +764,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_10_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80010:
+    chilled_return_water_temperature_sensor_80010:
       present_value: points.hm_10_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_10_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80010:
+    chilled_supply_water_temperature_sensor_80010:
       present_value: points.hm_10_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_10_supply_water_temperature_sensor.units
@@ -713,13 +794,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_11_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80011:
+    chilled_return_water_temperature_sensor_80011:
       present_value: points.hm_11_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_11_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80011:
+    chilled_supply_water_temperature_sensor_80011:
       present_value: points.hm_11_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_11_supply_water_temperature_sensor.units
@@ -743,13 +824,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_12_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80012:
+    chilled_return_water_temperature_sensor_80012:
       present_value: points.hm_12_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_12_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80012:
+    chilled_supply_water_temperature_sensor_80012:
       present_value: points.hm_12_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_12_supply_water_temperature_sensor.units
@@ -773,13 +854,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_13_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80013:
+    chilled_return_water_temperature_sensor_80013:
       present_value: points.hm_13_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_13_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80013:
+    chilled_supply_water_temperature_sensor_80013:
       present_value: points.hm_13_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_13_supply_water_temperature_sensor.units
@@ -803,13 +884,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_14_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80014:
+    chilled_return_water_temperature_sensor_80014:
       present_value: points.hm_14_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_14_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80014:
+    chilled_supply_water_temperature_sensor_80014:
       present_value: points.hm_14_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_14_supply_water_temperature_sensor.units
@@ -833,13 +914,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_15_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80015:
+    chilled_return_water_temperature_sensor_80015:
       present_value: points.hm_15_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_15_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80015:
+    chilled_supply_water_temperature_sensor_80015:
       present_value: points.hm_15_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_15_supply_water_temperature_sensor.units
@@ -863,13 +944,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_16_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80016:
+    chilled_return_water_temperature_sensor_80016:
       present_value: points.hm_16_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_16_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80016:
+    chilled_supply_water_temperature_sensor_80016:
       present_value: points.hm_16_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_16_supply_water_temperature_sensor.units
@@ -893,13 +974,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_17_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80017:
+    chilled_return_water_temperature_sensor_80017:
       present_value: points.hm_17_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_17_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80017:
+    chilled_supply_water_temperature_sensor_80017:
       present_value: points.hm_17_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_17_supply_water_temperature_sensor.units
@@ -923,13 +1004,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_18_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80018:
+    chilled_return_water_temperature_sensor_80018:
       present_value: points.hm_18_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_18_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80018:
+    chilled_supply_water_temperature_sensor_80018:
       present_value: points.hm_18_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_18_supply_water_temperature_sensor.units
@@ -953,13 +1034,13 @@ CONFIG_METADATA:
         key: pointset.points.hm_19_cooling_thermal_energy_accumulator.units
         values:
           megawatt_hours: megawatt_hours
-    return_water_temperature_sensor_80019:
+    chilled_return_water_temperature_sensor_80019:
       present_value: points.hm_19_return_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_19_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
-    supply_water_temperature_sensor_80019:
+    chilled_supply_water_temperature_sensor_80019:
       present_value: points.hm_19_supply_water_temperature_sensor.present_value
       units:
         key: pointset.points.hm_19_supply_water_temperature_sensor.units
@@ -983,35 +1064,36 @@ CONFIG_METADATA:
         key: pointset.points.fm_01_flowrate_sensor.units
         values:
           cubic_meters_per_hour: cubic_meters_per_hour
-    volume_accumulator_90001:
-      present_value: points.fm_01_volume_accumulator.present_value
-      units:
-        key: pointset.points.fm_01_volume_accumulator.units
-        values:
-          liters: liters
-    volume_accumulator_90002:
-      present_value: points.fm_02_volume_accumulator.present_value
-      units:
-        key: pointset.points.fm_02_volume_accumulator.units
-        values:
-          liters: liters
-    flowrate_sensor_90002:
-      present_value: points.fm_02_flowrate_sensor.present_value
-      units:
-        key: pointset.points.fm_02_flowrate_sensor.units
-        values:
-          cubic_meters_per_hour: cubic_meters_per_hour
+    #volume_accumulator_90001:
+      #present_value: points.fm_01_volume_accumulator.present_value
+      #units:
+        #key: pointset.points.fm_01_volume_accumulator.units
+        #values:
+          #liters: liters
+    #volume_accumulator_90002:
+      #present_value: points.fm_02_volume_accumulator.present_value
+      #units:
+       # key: pointset.points.fm_02_volume_accumulator.units
+        #values:
+          #liters: liters
+    #flowrate_sensor_90002:
+      #present_value: points.fm_02_flowrate_sensor.present_value
+      #units:
+        #key: pointset.points.fm_02_flowrate_sensor.units
+        #values:
+          #cubic_meters_per_hour: cubic_meters_per_hour
     power_sensor_100001:
       present_value: points.ll_em_01_power_sensor.present_value
       units:
         key: pointset.points.ll_em_01_power_sensor.units
         values:
           kilowatts: kilowatts
-    powefactor_sensor_100001:
-      present_value: points.ll_em_01_powefactor_sensor.present_value
-      states:
-        ON: TRUE
-        OFF: FALSE
+    powerfactor_sensor_100001:
+      present_value: points.ll_em_01_powerfactor_sensor.present_value
+      units:
+        key: pointset.points.ll_em_01_powerfactor_sensor.units
+        values:
+          no_units: no_units
     energy_accumulator_100001:
       present_value: points.ll_em_01_energy_accumulator.present_value
       units:
@@ -1024,11 +1106,12 @@ CONFIG_METADATA:
         key: pointset.points.ll_em_02_power_sensor.units
         values:
           kilowatts: kilowatts
-    powefactor_sensor_100002:
-      present_value: points.ll_em_02_powefactor_sensor.present_value
-      states:
-        ON: TRUE
-        OFF: FALSE
+    powerfactor_sensor_100002:
+      present_value: points.ll_em_02_powerfactor_sensor.present_value
+      units:
+        key: pointset.points.ll_em_02_powerfactor_sensor.units
+        values:
+          no_units: no_units
     energy_accumulator_100002:
       present_value: points.ll_em_02_energy_accumulator.present_value
       units:
@@ -1041,11 +1124,12 @@ CONFIG_METADATA:
         key: pointset.points.ll_em_03_power_sensor.units
         values:
           kilowatts: kilowatts
-    powefactor_sensor_100003:
-      present_value: points.ll_em_03_powefactor_sensor.present_value
-      states:
-        ON: TRUE
-        OFF: FALSE
+    powerfactor_sensor_100003:
+      present_value: points.ll_em_03_powerfactor_sensor.present_value
+      units:
+        key: pointset.points.ll_em_03_powerfactor_sensor.units
+        values:
+          no_units: no_units
     energy_accumulator_100003:
       present_value: points.ll_em_03_energy_accumulator.present_value
       units:
@@ -1058,11 +1142,12 @@ CONFIG_METADATA:
         key: pointset.points.ll_em_04_power_sensor.units
         values:
           kilowatts: kilowatts
-    powefactor_sensor_100004:
-      present_value: points.ll_em_04_powefactor_sensor.present_value
-      states:
-        ON: TRUE
-        OFF: FALSE
+    powerfactor_sensor_100004:
+      present_value: points.ll_em_04_powerfactor_sensor.present_value
+      units:
+        key: pointset.points.ll_em_04_powerfactor_sensor.units
+        values:
+          no_units: no_units
     energy_accumulator_100004:
       present_value: points.ll_em_04_energy_accumulator.present_value
       units:
@@ -1100,12 +1185,16 @@ CONFIG_METADATA:
           kilowatts: kilowatts
     powerfactor_sensor_110001:
       present_value: points.gen_01_powerfactor_sensor.present_value
+      units:
+        key: pointset.points.gen_01_powerfactor_sensor.units
+        values:
+          no_units: no_units
     oil_temperature_sensor_110001:
       present_value: points.gen_01_oil_temperature_sensor.present_value
       units:
         key: pointset.points.gen_01_oil_temperature_sensor.units
         values:
-          pascals: pascals
+          degrees_celsius: degrees_celsius
     energy_accumulator_110001:
       present_value: points.gen_01_energy_accumulator.present_value
       units:
@@ -1143,12 +1232,16 @@ CONFIG_METADATA:
           kilowatts: kilowatts
     powerfactor_sensor_110002:
       present_value: points.gen_02_powerfactor_sensor.present_value
+      units:
+        key: pointset.points.gen_02_powerfactor_sensor.units
+        values:
+          no_units: no_units
     oil_temperature_sensor_110002:
       present_value: points.gen_02_oil_temperature_sensor.present_value
       units:
         key: pointset.points.gen_02_oil_temperature_sensor.units
         values:
-          pascals: pascals
+          degrees_celsius: degrees_celsius
     energy_accumulator_110002:
       present_value: points.gen_02_energy_accumulator.present_value
       units:
@@ -1186,12 +1279,16 @@ CONFIG_METADATA:
           kilowatts: kilowatts
     powerfactor_sensor_110003:
       present_value: points.gen_03_powerfactor_sensor.present_value
+      units:
+        key: pointset.points.gen_03_powerfactor_sensor.units
+        values:
+          no_units: no_units
     oil_temperature_sensor_110003:
       present_value: points.gen_03_oil_temperature_sensor.present_value
       units:
         key: pointset.points.gen_03_oil_temperature_sensor.units
         values:
-          pascals: pascals
+          degrees_celsius: degrees_celsius
     energy_accumulator_110003:
       present_value: points.gen_03_energy_accumulator.present_value
       units:
@@ -1229,12 +1326,17 @@ CONFIG_METADATA:
           kilowatts: kilowatts
     powerfactor_sensor_110004:
       present_value: points.gen_04_powerfactor_sensor.present_value
+      units:
+        key: pointset.points.gen_04_powerfactor_sensor.units
+        values:
+          no_units: no_units
+
     oil_temperature_sensor_110004:
       present_value: points.gen_04_oil_temperature_sensor.present_value
       units:
         key: pointset.points.gen_04_oil_temperature_sensor.units
         values:
-          pascals: pascals
+          degrees_celsius: degrees_celsius
     energy_accumulator_110004:
       present_value: points.gen_04_energy_accumulator.present_value
       units:
@@ -1272,12 +1374,16 @@ CONFIG_METADATA:
           kilowatts: kilowatts
     powerfactor_sensor_110005:
       present_value: points.gen_05_powerfactor_sensor.present_value
+      units:
+        key: pointset.points.gen_05_powerfactor_sensor.units
+        values:
+          no_units: no_units
     oil_temperature_sensor_110005:
       present_value: points.gen_05_oil_temperature_sensor.present_value
       units:
         key: pointset.points.gen_05_oil_temperature_sensor.units
         values:
-          pascals: pascals
+          degrees_celsius: degrees_celsius
     energy_accumulator_110005:
       present_value: points.gen_05_energy_accumulator.present_value
       units:
@@ -1315,12 +1421,16 @@ CONFIG_METADATA:
           kilowatts: kilowatts
     powerfactor_sensor_110006:
       present_value: points.gen_06_powerfactor_sensor.present_value
+      units:
+        key: pointset.points.gen_06_powerfactor_sensor.units
+        values:
+          no_units: no_units
     oil_temperature_sensor_110006:
       present_value: points.gen_06_oil_temperature_sensor.present_value
       units:
         key: pointset.points.gen_06_oil_temperature_sensor.units
         values:
-          pascals: pascals
+          degrees_celsius: degrees_celsius
     energy_accumulator_110006:
       present_value: points.gen_06_energy_accumulator.present_value
       units:
@@ -1346,6 +1456,11 @@ CONFIG_METADATA:
         LOW: FALSE
     level_status_120004:
       present_value: points.tk_04_level_status.present_value
+      states:
+        HIGH: TRUE
+        LOW: FALSE
+    level_status_120003:
+      present_value: points.tk_03_level_status.present_value
       states:
         HIGH: TRUE
         LOW: FALSE
@@ -1673,6 +1788,13 @@ CONFIG_METADATA:
       states:
         ON: TRUE
         OFF: FALSE
+
+    run_status_04_160204:
+      present_value: points.z2_run_status_04.present_value
+      states:
+        ON: TRUE
+        OFF: FALSE
+
     run_status_05_160205:
       present_value: points.z2_run_status_05.present_value
       states:
@@ -1860,6 +1982,8 @@ CONFIG_METADATA:
       states:
         AUTO: TRUE
         MANUAL: FALSE
+
+
     run_status_01_160301:
       present_value: points.z3_run_status_01.present_value
       states:
@@ -1915,38 +2039,38 @@ CONFIG_METADATA:
       states:
         ON: TRUE
         OFF: FALSE
-    run_status_01_160402:
-      present_value: points.z4_run_status_01.present_value
-      states:
-        ON: TRUE
-        OFF: FALSE
-    run_status_02_160403:
+    run_status_02_160402:
       present_value: points.z4_run_status_02.present_value
       states:
         ON: TRUE
         OFF: FALSE
-    run_status_03_160404:
+    run_status_03_160403:
       present_value: points.z4_run_status_03.present_value
       states:
         ON: TRUE
         OFF: FALSE
-    run_status_04_160405:
+    run_status_04_160404:
       present_value: points.z4_run_status_04.present_value
       states:
         ON: TRUE
         OFF: FALSE
-    run_status_05_160406:
+    run_status_05_160405:
       present_value: points.z4_run_status_05.present_value
       states:
         ON: TRUE
         OFF: FALSE
-    run_status_06_160407:
+    run_status_06_160406:
       present_value: points.z4_run_status_06.present_value
       states:
         ON: TRUE
         OFF: FALSE
-    run_status_07_160408:
+    run_status_07_160407:
       present_value: points.z4_run_status_07.present_value
+      states:
+        ON: TRUE
+        OFF: FALSE
+    run_status_08_160408:
+      present_value: points.z4_run_status_08.present_value
       states:
         ON: TRUE
         OFF: FALSE
@@ -2188,41 +2312,73 @@ CONFIG_METADATA:
         values:
           percent: percent
     percentage_sensor_170002:
-      present_value: points.dgtk_01_percentage_sensor.present_value
+      present_value: points.dgtk_02_percentage_sensor.present_value
       units:
-        key: pointset.points.dgtk_01_percentage_sensor.units
+        key: pointset.points.dgtk_02_percentage_sensor.units
         values:
           percent: percent
     percentage_sensor_170003:
-      present_value: points.dgtk_01_percentage_sensor.present_value
+      present_value: points.dgtk_03_percentage_sensor.present_value
       units:
-        key: pointset.points.dgtk_01_percentage_sensor.units
+        key: pointset.points.dgtk_03_percentage_sensor.units
         values:
           percent: percent
     percentage_sensor_170004:
-      present_value: points.dgtk_01_percentage_sensor.present_value
+      present_value: points.dgtk_04_percentage_sensor.present_value
       units:
-        key: pointset.points.dgtk_01_percentage_sensor.units
+        key: pointset.points.dgtk_04_percentage_sensor.units
         values:
           percent: percent
     percentage_sensor_170005:
-      present_value: points.dgtk_01_percentage_sensor.present_value
+      present_value: points.dgtk_05_percentage_sensor.present_value
       units:
-        key: pointset.points.dgtk_01_percentage_sensor.units
+        key: pointset.points.dgtk_05_percentage_sensor.units
         values:
           percent: percent
     percentage_sensor_170006:
-      present_value: points.dgtk_01_percentage_sensor.present_value
+      present_value: points.dgtk_06_percentage_sensor.present_value
       units:
-        key: pointset.points.dgtk_01_percentage_sensor.units
+        key: pointset.points.dgtk_06_percentage_sensor.units
         values:
           percent: percent
     zone_air_co_concentration_setpoint_160501:
-      present_value: points.dgtk_01_percentage_sensor.present_value
+      present_value: points.zone_air_co_concentration_setpoint_160501.present_value
       units:
-        key: pointset.points.dgtk_01_percentage_sensor.units
+        key: pointset.points.zone_air_co_concentration_setpoint_160501.units
         values:
-          percent: percent
+          parts_per_million: parts_per_million
+    compressor_run_command_1: MISSING
+    compressor_run_command_2: MISSING
+    compressor_run_status_1: MISSING
+    compressor_run_status_2: MISSING
+    supply_water_isolation_valve_command: MISSING
+    condensing_water_isolation_valve_command: MISSING
+    condensing_water_isolation_valve_status: MISSING
+    speed_percentage_command: MISSING
+    supply_water_temperature_sensor: MISSING
+    supply_water_temperature_setpoint: MISSING
+    run_command: MISSING
+    battery_current_sensor: MISSING
+    line_frequency_sensor: MISSING
+    tank_level_status: MISSING
+    input_phase1_phase2_voltage_sensor: MISSING 
+    input_phase2_phase3_voltage_sensor: MISSING
+    input_phase3_phase1_voltage_sensor: MISSING
+    input_phase1_current_sensor: MISSING 
+    input_phase2_current_sensor: MISSING
+    input_phase3_current_sensor: MISSING 
+    output_phase1_phase2_voltage_sensor: MISSING
+    output_phase2_phase3_voltage_sensor: MISSING
+    output_phase3_phase1_voltage_sensor: MISSING 
+    bypass_phase1_neutral_voltage_sensor: MISSING
+    bypass_phase2_neutral_voltage_sensor: MISSING 
+    bypass_phase3_neutral_voltage_sensor: MISSING
+    battery_charge_percentage_sensor: MISSING 
+    level_status: MISSING
+    apparent_power_sensor: MISSING
+    return_water_isolation_valve_command: MISSING
+    
+
   code: HLI-4
 
 1700bd30-6c84-49ba-98f1-95ef55a7e786:
@@ -2235,6 +2391,12 @@ CONFIG_METADATA:
       control_mode: control_mode_10001
       supply_water_temperature_setpoint: supply_water_temperature_setpoint_10001
       supply_water_isolation_valve_status: supply_water_isolation_valve_status_10001
+      compressor_run_status_1: compressor_run_status_01_10002
+      compressor_run_status_2: compressor_run_status_02_10002
+      compressor_run_command_1: compressor_run_command_1
+      compressor_run_command_2: compressor_run_command_2
+      supply_water_isolation_valve_command: supply_water_isolation_valve_command
+      run_command: run_command
   code: WCCH-01
 
 6482c7ac-e564-446b-884d-106b572ee78c:
@@ -2244,6 +2406,8 @@ CONFIG_METADATA:
       condensing_return_water_temperature_sensor: condensing_return_water_temperature_sensor_10001
       condensing_supply_water_temperature_sensor: condensing_supply_water_temperature_sensor_10001
       condensing_water_flowrate_status: condensing_water_flowrate_status_10001
+      condensing_water_isolation_valve_command: condensing_water_isolation_valve_command
+      condensing_water_isolation_valve_status: condensing_water_isolation_valve_status
   code: CDWS-01
 
 f72fadd0-f2e5-4570-b2e7-111060f0147a:
@@ -2264,6 +2428,13 @@ e4fcd809-1202-4fec-902c-e46d3e90d71e:
       control_mode: control_mode_10002
       supply_water_temperature_setpoint: supply_water_temperature_setpoint_10002
       supply_water_isolation_valve_status: supply_water_isolation_valve_status_10002
+      compressor_run_status_1: compressor_run_status_01_20001
+      compressor_run_status_2: compressor_run_status_02_20001
+      compressor_run_command_1: compressor_run_command_1
+      compressor_run_command_2: compressor_run_command_2
+      supply_water_isolation_valve_command: supply_water_isolation_valve_command
+      run_command: run_command
+
   code: WCCH-02
 
 3ae649be-bdd1-43a5-a301-40db2a4e3b04:
@@ -2273,6 +2444,8 @@ e4fcd809-1202-4fec-902c-e46d3e90d71e:
       condensing_return_water_temperature_sensor: condensing_return_water_temperature_sensor_10002
       condensing_supply_water_temperature_sensor: condensing_supply_water_temperature_sensor_10002
       condensing_water_flowrate_status: condensing_water_flowrate_status_10002
+      condensing_water_isolation_valve_command: condensing_water_isolation_valve_command
+      condensing_water_isolation_valve_status: condensing_water_isolation_valve_status
   code: CDWS-02
 
 583266f5-6249-4a47-a5f1-f44bc49b69df:
@@ -2293,8 +2466,12 @@ e4fcd809-1202-4fec-902c-e46d3e90d71e:
       control_mode: control_mode_20001
       supply_water_temperature_setpoint: supply_water_temperature_setpoint_20001
       supply_water_isolation_valve_status: supply_water_isolation_valve_status_20001
-      compressor_run_status_1: compressor_run_status_01_20001
-      compressor_run_status_2: compressor_run_status_02_20001
+      compressor_run_command_1: compressor_run_command_1
+      compressor_run_command_2: compressor_run_command_2     
+      compressor_run_status_1: compressor_run_status_1
+      compressor_run_status_2: compressor_run_status_2     
+      run_command: run_command
+      supply_water_isolation_valve_command: supply_water_isolation_valve_command
   code: ACCH-01
 
 40002373-16be-4cfe-8a6b-2915d742e4c5:
@@ -2315,8 +2492,12 @@ a3a888b4-7a5f-41c3-b3eb-b9a928afd205:
       control_mode: control_mode_20002
       supply_water_temperature_setpoint: supply_water_temperature_setpoint_20002
       supply_water_isolation_valve_status: supply_water_isolation_valve_status_20002
-      compressor_run_status_1: compressor_run_status_01_20002
-      compressor_run_status_2: compressor_run_status_02_20002
+      compressor_run_status_1: compressor_run_status_1
+      compressor_run_status_2: compressor_run_status_2     
+      compressor_run_command_1: compressor_run_command_1
+      compressor_run_command_2: compressor_run_command_2
+      supply_water_isolation_valve_command: supply_water_isolation_valve_command
+      run_command: run_command
   code: ACCH-02
 
 b1a6764b-2b6d-4284-b91a-c02580e40e8a:
@@ -2328,110 +2509,123 @@ b1a6764b-2b6d-4284-b91a-c02580e40e8a:
   code: EM-115
 
 224aad61-90e0-4ca3-97e1-b5b7f7b5532b:
-  type: HVAC/PMP_SS_VSC
+  type: HVAC/PMP_SS
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_30001
       lost_power_alarm: lost_power_alarm_30001
       control_mode: control_mode_30001
+      run_command: run_command
   code: PCHWP-01
 
 8d55f0d6-3448-4bc0-88f4-0d8825125496:
-  type: HVAC/PMP_SS_VSC
+  type: HVAC/PMP_SS
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_30002
       lost_power_alarm: lost_power_alarm_30002
       control_mode: control_mode_30002
+      run_command: run_command
   code: PCHWP-02
 
 d8962b7a-cd2d-432e-96bb-76d6aaf8098e:
-  type: HVAC/PMP_SS_VSC
+  type: HVAC/PMP_SS
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_30003
       lost_power_alarm: lost_power_alarm_30003
       control_mode: control_mode_30003
+      run_command: run_command
   code: PCHWP-03
 
 a0b821ec-04f4-4ce1-9899-1ea2dbed9dcd:
-  type: HVAC/PMP_SS_VSC
+  type: HVAC/PMP_SS
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_30004
       lost_power_alarm: lost_power_alarm_30004
       control_mode: control_mode_30004
+      run_command: run_command
   code: PCHWP-04
 
 99a232f1-fe7c-45d3-a5b3-29758fd9dc54:
-  type: HVAC/PMP_SS_VSC
+  type: HVAC/PMP_SS
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_30005
       lost_power_alarm: lost_power_alarm_30005
       control_mode: control_mode_30005
+      run_command: run_command
   code: PCHWP-05
 
 87b7cd81-7d6d-43ae-9037-e0c69ee74bd1:
-  type: HVAC/PMP_SS_VSC
+  type: HVAC/PMP_SS
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_40001
+      run_command: run_command
   code: SCHWP-01
 
 d4418a48-d4a6-44ab-a4b0-bec998780a15:
-  type: HVAC/PMP_SS_VSC
+  type: HVAC/PMP_SS
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_40002
+      run_command: run_command
   code: SCHWP-02
 
 238e0ca5-87a5-468f-b822-138ed1fdafb8:
-  type: HVAC/PMP_SS_VSC
+  type: HVAC/PMP_SS
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_40003
+      run_command: run_command
   code: SCHWP-03
 
 e42c737a-530a-418b-ad18-cf3cd53df632:
-  type: HVAC/PMP_SS_VSC
+  type: HVAC/PMP_SS
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_40004
+      run_command: run_command
   code: SCHWP-04
 
 18e616e7-c0be-477b-8812-059715467180:
-  type: HVAC/PMP_SS_VSC
+  type: HVAC/PMP_SS
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_40005
+      run_command: run_command
   code: SCHWP-05
 
 0bac11f5-4df7-49a3-b89c-d652bca2ae24:
-  type: HVAC/PMP_SS_VSC
+  type: HVAC/PMP_SS
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_50001
       lost_power_alarm: lost_power_alarm_50001
       control_mode: control_mode_50001
+      run_command: run_command
   code: CDWP-01
 
 ccb31e42-3d6b-4593-ba14-00eabb6a4922:
-  type: HVAC/PMP_SS_VSC
+  type: HVAC/PMP_SS
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_50002
       lost_power_alarm: lost_power_alarm_50002
       control_mode: control_mode_50002
+      run_command: run_command
   code: CDWP-02
 
 6ece2c7a-c3c2-49db-9bf6-1a04911751b5:
-  type: HVAC/PMP_SS_VSC
+  type: HVAC/PMP_SS
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_50003
       lost_power_alarm: lost_power_alarm_50003
       control_mode: control_mode_50003
+      run_command: run_command
   code: CDWP-03
 
 037fcf58-8324-4bd5-be22-ad59710bf04d:
@@ -2442,8 +2636,14 @@ ccb31e42-3d6b-4593-ba14-00eabb6a4922:
       control_mode: control_mode_60001
       supply_water_isolation_valve_status: supply_water_isolation_valve_status_60001
       return_water_isolation_valve_status: return_water_isolation_valve_status_60001
-      runtime_accumulator: runtime_accumulator_60001
+      run_time_accumulator: run_time_accumulator_60001
       lost_power_alarm: lost_power_alarm_60001
+      run_command: run_command
+      supply_water_temperature_sensor: supply_water_temperature_sensor
+      supply_water_temperature_setpoint: supply_water_temperature_setpoint
+      speed_percentage_command: speed_percentage_command
+      supply_water_isoltion_valve_command: supply_water_isoltion_valve_command
+      return_water_isolation_valve_command: return_water_isolation_valve_command
   code: CT-01
 
 8488a44e-513c-4634-8480-96ff732998a7:
@@ -2454,8 +2654,14 @@ ccb31e42-3d6b-4593-ba14-00eabb6a4922:
       control_mode: control_mode_60002
       supply_water_isolation_valve_status: supply_water_isolation_valve_status_60002
       return_water_isolation_valve_status: return_water_isolation_valve_status_60002
-      runtime_accumulator: runtime_accumulator_60002
+      run_time_accumulator: run_time_accumulator_60002
       lost_power_alarm: lost_power_alarm_60002
+      run_command: run_command
+      supply_water_temperature_sensor: supply_water_temperature_sensor
+      supply_water_temperature_setpoint: supply_water_temperature_setpoint
+      speed_percentage_command: speed_percentage_command
+      supply_water_isoltion_valve_command: supply_water_isoltion_valve_command
+      return_water_isolation_valve_command: return_water_isolation_valve_command
   code: CT-02
 
 079bdc43-f6f9-4e96-bd61-8927f022b010:
@@ -2683,21 +2889,21 @@ b228e140-8089-40b2-90ac-60fcb36d1b7a:
       cooling_thermal_energy_accumulator: cooling_thermal_energy_accumulator_80019
   code: HM-19
 
-89d66ac6-bfab-4264-992b-a250ed876aa9:
-  type: METERS/FM_STANDARD
-  links:
-    4499fea4-458c-46f7-9588-1211b92bd84f:
-      flowrate_sensor: flowrate_sensor_90001
-      volume_accumulator: volume_accumulator_90001
-  code: FM-01
+#89d66ac6-bfab-4264-992b-a250ed876aa9:
+  #type: METERS/FM_STANDARD
+  #links:
+    #4499fea4-458c-46f7-9588-1211b92bd84f:
+      #flowrate_sensor: flowrate_sensor_90001
+      #volume_accumulator: volume_accumulator_90001
+  #code: FM-01
 
-161aff9c-063d-4fce-88b0-c4ff952beb1d:
-  type: METERS/FM_STANDARD
-  links:
-    4499fea4-458c-46f7-9588-1211b92bd84f:
-      flowrate_sensor: flowrate_sensor_90002
-      volume_accumulator: volume_accumulator_90002
-  code: FM-02
+#161aff9c-063d-4fce-88b0-c4ff952beb1d:
+  #type: METERS/FM_STANDARD
+  #links:
+    #4499fea4-458c-46f7-9588-1211b92bd84f:
+      #flowrate_sensor: flowrate_sensor_90002
+      #volume_accumulator: volume_accumulator_90002
+  #code: FM-02
 
 71d55daf-6e3a-4f84-ae85-c662e4e35995:
   type: METERS/EM_PWM
@@ -2705,7 +2911,8 @@ b228e140-8089-40b2-90ac-60fcb36d1b7a:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       power_sensor: power_sensor_100001
       energy_accumulator: energy_accumulator_100001
-      powerfactor: powerfactor_100001
+      powerfactor_sensor: powerfactor_sensor_100001
+      apparent_power_sensor: apparent_power_sensor
   code: EM-108
 
 257a2f6c-b1a1-457e-9c43-2c91d2420f0b:
@@ -2714,7 +2921,8 @@ b228e140-8089-40b2-90ac-60fcb36d1b7a:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       power_sensor: power_sensor_100002
       energy_accumulator: energy_accumulator_100002
-      powerfactor: powerfactor_100002
+      powerfactor_sensor: powerfactor_sensor_100002
+      apparent_power_sensor: apparent_power_sensor
   code: EM-109
 
 7729d6e8-09c8-47b5-b01b-ecd276d35c3c:
@@ -2723,7 +2931,8 @@ b228e140-8089-40b2-90ac-60fcb36d1b7a:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       power_sensor: power_sensor_100003
       energy_accumulator: energy_accumulator_100003
-      powerfactor: powerfactor_100003
+      powerfactor_sensor: powerfactor_sensor_100003
+      apparent_power_sensor: apparent_power_sensor
   code: EM-110
 
 eb040e43-919c-4c5c-abce-e252cc8b3f4e:
@@ -2732,7 +2941,8 @@ eb040e43-919c-4c5c-abce-e252cc8b3f4e:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       power_sensor: power_sensor_100004
       energy_accumulator: energy_accumulator_100004
-      powerfactor: powerfactor_100004
+      powerfactor_sensor: powerfactor_sensor_100004
+      apparent_power_sensor: apparent_power_sensor
   code: EM-111
 
 9cf9993d-fa24-44aa-a62e-417f14f26a3c:
@@ -2747,6 +2957,10 @@ eb040e43-919c-4c5c-abce-e252cc8b3f4e:
       powerfactor_sensor: powerfactor_sensor_110001
       oil_temperature_sensor: oil_temperature_sensor_110001
       energy_accumulator: energy_accumulator_110001
+      run_command: run_command
+      battery_current_sensor: battery_current_sensor
+      line_frequency_sensor: line_frequency_sensor
+      tank_level_status: tank_level_status
   code: DG-01
 
 bab9a68f-3f12-4822-86d1-f663c75e5af6:
@@ -2761,6 +2975,10 @@ bab9a68f-3f12-4822-86d1-f663c75e5af6:
       powerfactor_sensor: powerfactor_sensor_110002
       oil_temperature_sensor: oil_temperature_sensor_110002
       energy_accumulator: energy_accumulator_110002
+      run_command: run_command
+      battery_current_sensor: battery_current_sensor
+      line_frequency_sensor: line_frequency_sensor
+      tank_level_status: tank_level_status
   code: DG-02
 
 10832d1d-c45a-4011-a3fc-a38c65159bce:
@@ -2775,6 +2993,10 @@ bab9a68f-3f12-4822-86d1-f663c75e5af6:
       powerfactor_sensor: powerfactor_sensor_110003
       oil_temperature_sensor: oil_temperature_sensor_110003
       energy_accumulator: energy_accumulator_110003
+      run_command: run_command
+      battery_current_sensor: battery_current_sensor
+      line_frequency_sensor: line_frequency_sensor
+      tank_level_status: tank_level_status
   code: DG-03
 
 85e9e506-4d2e-4a6e-9935-93c9c996e65e:
@@ -2789,6 +3011,10 @@ bab9a68f-3f12-4822-86d1-f663c75e5af6:
       powerfactor_sensor: powerfactor_sensor_110004
       oil_temperature_sensor: oil_temperature_sensor_110004
       energy_accumulator: energy_accumulator_110004
+      run_command: run_command
+      battery_current_sensor: battery_current_sensor
+      line_frequency_sensor: line_frequency_sensor
+      tank_level_status: tank_level_status
   code: DG-04
 
 bd0bb4d4-af69-4b4b-b8c2-27f4d3d2971f:
@@ -2803,6 +3029,10 @@ bd0bb4d4-af69-4b4b-b8c2-27f4d3d2971f:
       powerfactor_sensor: powerfactor_sensor_110005
       oil_temperature_sensor: oil_temperature_sensor_110005
       energy_accumulator: energy_accumulator_110005
+      run_command: run_command
+      battery_current_sensor: battery_current_sensor
+      line_frequency_sensor: line_frequency_sensor
+      tank_level_status: tank_level_status
   code: DG-05
 
 e5511d18-f009-49b4-ab44-b9823344c106:
@@ -2817,6 +3047,10 @@ e5511d18-f009-49b4-ab44-b9823344c106:
       powerfactor_sensor: powerfactor_sensor_110006
       oil_temperature_sensor: oil_temperature_sensor_110006
       energy_accumulator: energy_accumulator_110006
+      run_command: run_command
+      battery_current_sensor: battery_current_sensor
+      line_frequency_sensor: line_frequency_sensor
+      tank_level_status: tank_level_status
   code: DG-06
 
 489c8327-34bf-41b9-91b9-f9b057db5e69:
@@ -2829,13 +3063,26 @@ e5511d18-f009-49b4-ab44-b9823344c106:
       input_phase1_neutral_voltage_sensor: input_phase1_neutral_voltage_sensor_150001
       input_phase2_neutral_voltage_sensor: input_phase2_neutral_voltage_sensor_150001
       input_phase3_neutral_voltage_sensor: input_phase3_neutral_voltage_sensor_150001
-      output_phase1_neutral_current_sensor: output_phase1_neutral_current_sensor_150001
-      output_phase2_neutral_current_sensor: output_phase2_neutral_current_sensor_150001
-      output_phase3_neutral_current_sensor: output_phase3_neutral_current_sensor_150001
-      output_frequency: output_frequency_150001
-      input_frequency: input_frequency_150001
+      output_phase1_current_sensor: output_phase1_current_sensor_150001
+      output_phase2_current_sensor: output_phase2_current_sensor_150001
+      output_phase3_current_sensor: output_phase3_current_sensor_150001
+      output_frequency_sensor: output_frequency_sensor_150001
+      input_frequency_sensor: input_frequency_sensor_150001
       battery_voltage_sensor: battery_voltage_sensor_150001
-  code: UPS-07
+      input_phase1_phase2_voltage_sensor: input_phase1_phase2_voltage_sensor
+      input_phase2_phase3_voltage_sensor: input_phase1_phase2_voltage_sensor
+      input_phase3_phase1_voltage_sensor: input_phase1_phase2_voltage_sensor
+      input_phase1_current_sensor: input_phase1_current_sensor
+      input_phase2_current_sensor: input_phase2_current_sensor
+      input_phase3_current_sensor: input_phase3_current_sensor
+      output_phase1_phase2_voltage_sensor: output_phase1_phase2_voltage_sensor
+      output_phase2_phase3_voltage_sensor: output_phase2_phase3_voltage_sensor
+      output_phase3_phase1_voltage_sensor: output_phase3_phase1_voltage_sensor
+      bypass_phase1_neutral_voltage_sensor: bypass_phase1_neutral_voltage_sensor
+      bypass_phase2_neutral_voltage_sensor: bypass_phase2_neutral_voltage_sensor
+      bypass_phase3_neutral_voltage_sensor: bypass_phase3_neutral_voltage_sensor
+      battery_charge_percentage_sensor: battery_charge_percentage_sensor
+  code: UPS-08
 
 b95a96aa-ebdc-4c82-b5fe-b911efa56df7:
   type: HVAC/FAN_SS
@@ -2844,6 +3091,7 @@ b95a96aa-ebdc-4c82-b5fe-b911efa56df7:
       run_status: run_status_01_160101
       lost_power_alarm: lost_power_alarm_01_160101
       control_mode: control_mode_160000
+      run_command: run_command
   code: GTF-01
 
 050e951b-0921-471f-b7fc-a32e455d11aa:
@@ -2853,6 +3101,7 @@ b95a96aa-ebdc-4c82-b5fe-b911efa56df7:
       run_status: run_status_02_160102
       lost_power_alarm: lost_power_alarm_02_160102
       control_mode: control_mode_160000
+      run_command: run_command
   code: GTF-02
 
 b0772d95-b460-4b73-a899-70ad8c62bbad:
@@ -2862,6 +3111,7 @@ b0772d95-b460-4b73-a899-70ad8c62bbad:
       run_status: run_status_03_160103
       lost_power_alarm: lost_power_alarm_03_160103
       control_mode: control_mode_160000
+      run_command: run_command
   code: GTF-03
 
 6b52239e-37a6-4eb8-8e5f-e38299369edc:
@@ -2871,6 +3121,7 @@ b0772d95-b460-4b73-a899-70ad8c62bbad:
       run_status: run_status_04_160104
       lost_power_alarm: lost_power_alarm_04_160104
       control_mode: control_mode_160000
+      run_command: run_command
   code: GTF-04
 
 5bc35512-b326-49fc-98da-e4f251922f7b:
@@ -2880,6 +3131,7 @@ b0772d95-b460-4b73-a899-70ad8c62bbad:
       run_status: run_status_05_160105
       lost_power_alarm: lost_power_alarm_05_160105
       control_mode: control_mode_160000
+      run_command: run_command
   code: GTF-05
 
 7675761c-6587-4e82-84a3-8dd775cef1d4:
@@ -2889,6 +3141,7 @@ b0772d95-b460-4b73-a899-70ad8c62bbad:
       run_status: run_status_06_160106
       lost_power_alarm: lost_power_alarm_06_160106
       control_mode: control_mode_160000
+      run_command: run_command
   code: GTF-06
 
 aa16c414-d8e2-420e-bf51-9a72a36a150f:
@@ -2898,6 +3151,7 @@ aa16c414-d8e2-420e-bf51-9a72a36a150f:
       run_status: run_status_07_160107
       lost_power_alarm: lost_power_alarm_07_160107
       control_mode: control_mode_160000
+      run_command: run_command
   code: GTF-07
 
 280783b8-f6da-4682-ba61-1e2887143a1c:
@@ -2907,6 +3161,7 @@ aa16c414-d8e2-420e-bf51-9a72a36a150f:
       run_status: run_status_08_160108
       lost_power_alarm: lost_power_alarm_08_160108
       control_mode: control_mode_160000
+      run_command: run_command
   code: GTF-08
 
 ed1b67bd-3120-4cc6-8978-b3950c3af242:
@@ -2916,6 +3171,7 @@ ed1b67bd-3120-4cc6-8978-b3950c3af242:
       run_status: run_status_09_160109
       lost_power_alarm: lost_power_alarm_09_160109
       control_mode: control_mode_160000
+      run_command: run_command
   code: GTF-09
 
 1995792b-de0d-4c64-be5e-e96dac55cc66:
@@ -2925,6 +3181,7 @@ ed1b67bd-3120-4cc6-8978-b3950c3af242:
       run_status: run_status_10_160110
       lost_power_alarm: lost_power_alarm_10_160110
       control_mode: control_mode_160000
+      run_command: run_command
   code: GTF-10
 
 957d49f2-040d-492f-bae7-c37d06a7e7db:
@@ -2934,6 +3191,7 @@ ed1b67bd-3120-4cc6-8978-b3950c3af242:
       run_status: run_status_01_160201
       lost_power_alarm: lost_power_alarm_01_160201
       control_mode: control_mode_160000
+      run_command: run_command
   code: GTF-11
 
 5b3ebc6b-e596-4ebf-8c40-41ca2bf20a4e:
@@ -2943,6 +3201,7 @@ ed1b67bd-3120-4cc6-8978-b3950c3af242:
       run_status: run_status_02_160202
       lost_power_alarm: lost_power_alarm_02_160202
       control_mode: control_mode_160000
+      run_command: run_command
   code: GTF-12
 
 9b24615e-4386-4d8a-b42b-ba953c3cc5e3:
@@ -2952,6 +3211,7 @@ ed1b67bd-3120-4cc6-8978-b3950c3af242:
       run_status: run_status_03_160203
       lost_power_alarm: lost_power_alarm_03_160203
       control_mode: control_mode_160000
+      run_command: run_command
   code: GTF-13
 
 72e17d22-7a0c-469d-8fb4-05d5460ce76d:
@@ -2961,6 +3221,7 @@ ed1b67bd-3120-4cc6-8978-b3950c3af242:
       run_status: run_status_04_160204
       lost_power_alarm: lost_power_alarm_04_160204
       control_mode: control_mode_160000
+      run_command: run_command
   code: GTF-14
 
 72b85c12-bbd1-48fd-9acd-7c65d7ee32ce:
@@ -2970,6 +3231,7 @@ ed1b67bd-3120-4cc6-8978-b3950c3af242:
       run_status: run_status_05_160205
       lost_power_alarm: lost_power_alarm_05_160205
       control_mode: control_mode_160000
+      run_command: run_command
   code: GTF-15
 
 73e20c13-0fea-4d24-b522-2669a92629fd:
@@ -2979,6 +3241,7 @@ ed1b67bd-3120-4cc6-8978-b3950c3af242:
       run_status: run_status_06_160206
       lost_power_alarm: lost_power_alarm_06_160206
       control_mode: control_mode_160000
+      run_command: run_command
   code: GTF-16
 
 cd0baa36-091d-4e57-9794-ef4927e2b779:
@@ -2988,6 +3251,7 @@ cd0baa36-091d-4e57-9794-ef4927e2b779:
       run_status: run_status_07_160207
       lost_power_alarm: lost_power_alarm_07_160207
       control_mode: control_mode_160000
+      run_command: run_command
   code: GTF-17
 
 2095ac57-1bb8-489d-acc1-abf66ad539ca:
@@ -2997,6 +3261,7 @@ cd0baa36-091d-4e57-9794-ef4927e2b779:
       run_status: run_status_08_160208
       lost_power_alarm: lost_power_alarm_08_160208
       control_mode: control_mode_160000
+      run_command: run_command
   code: GTF-18
 
 29c67e86-291f-4ee2-a56c-bce038489120:
@@ -3006,6 +3271,7 @@ cd0baa36-091d-4e57-9794-ef4927e2b779:
       run_status: run_status_01_160301
       lost_power_alarm: lost_power_alarm_01_160301
       control_mode: control_mode_161000
+      run_command: run_command
   code: GTF-19
 
 721d3a5b-f487-440e-b516-c2c74c895bab:
@@ -3015,6 +3281,7 @@ cd0baa36-091d-4e57-9794-ef4927e2b779:
       run_status: run_status_02_160302
       lost_power_alarm: lost_power_alarm_02_160302
       control_mode: control_mode_161000
+      run_command: run_command
   code: GTF-20
 
 9a94f81a-93b9-4392-8391-760a147a61be:
@@ -3024,6 +3291,7 @@ cd0baa36-091d-4e57-9794-ef4927e2b779:
       run_status: run_status_03_160303
       lost_power_alarm: lost_power_alarm_03_160303
       control_mode: control_mode_161000
+      run_command: run_command
   code: GTF-21
 
 b1da861c-f677-4098-841d-ccc77034319a:
@@ -3033,6 +3301,7 @@ b1da861c-f677-4098-841d-ccc77034319a:
       run_status: run_status_04_160304
       lost_power_alarm: lost_power_alarm_04_160304
       control_mode: control_mode_161000
+      run_command: run_command
   code: GTF-22
 
 0ea65996-c1c4-4f85-bee6-a9ad30a98b32:
@@ -3042,6 +3311,7 @@ b1da861c-f677-4098-841d-ccc77034319a:
       run_status: run_status_05_160305
       lost_power_alarm: lost_power_alarm_05_160305
       control_mode: control_mode_161000
+      run_command: run_command
   code: GTF-23
 
 f7a2094a-ad0b-4195-aa15-8f638c33a9c1:
@@ -3051,6 +3321,7 @@ f7a2094a-ad0b-4195-aa15-8f638c33a9c1:
       run_status: run_status_06_160306
       lost_power_alarm: lost_power_alarm_06_160306
       control_mode: control_mode_161000
+      run_command: run_command
   code: GTF-24
 
 1cba4a6b-e9a5-42a9-bf3b-4a3a191fad97:
@@ -3060,6 +3331,7 @@ f7a2094a-ad0b-4195-aa15-8f638c33a9c1:
       run_status: run_status_07_160307
       lost_power_alarm: lost_power_alarm_07_160307
       control_mode: control_mode_161000
+      run_command: run_command
   code: GTF-25
 
 673cfd55-8056-4f57-9f52-aed4243f243d:
@@ -3069,6 +3341,7 @@ f7a2094a-ad0b-4195-aa15-8f638c33a9c1:
       run_status: run_status_08_160308
       lost_power_alarm: lost_power_alarm_08_160308
       control_mode: control_mode_161000
+      run_command: run_command
   code: GTF-26
 
 ee977208-e481-487f-8fe2-eae12b58daf8:
@@ -3078,6 +3351,7 @@ ee977208-e481-487f-8fe2-eae12b58daf8:
       run_status: run_status_09_160309
       lost_power_alarm: lost_power_alarm_09_160309
       control_mode: control_mode_161000
+      run_command: run_command
   code: GTF-27
 
 512d0a87-e400-4c7f-99a2-f4399a4fddee:
@@ -3087,6 +3361,7 @@ ee977208-e481-487f-8fe2-eae12b58daf8:
       run_status: run_status_10_160310
       lost_power_alarm: lost_power_alarm_10_160310
       control_mode: control_mode_161000
+      run_command: run_command
   code: GTF-28
 
 750e6aca-1406-49c8-8f8a-fe2bf2a30251:
@@ -3096,6 +3371,7 @@ ee977208-e481-487f-8fe2-eae12b58daf8:
       run_status: run_status_01_160401
       lost_power_alarm: lost_power_alarm_01_160401
       control_mode: control_mode_161000
+      run_command: run_command
   code: GTF-29
 
 6cff0b9e-d04e-447c-8308-308868226018:
@@ -3105,6 +3381,7 @@ ee977208-e481-487f-8fe2-eae12b58daf8:
       run_status: run_status_02_160402
       lost_power_alarm: lost_power_alarm_02_160402
       control_mode: control_mode_161000
+      run_command: run_command
   code: GTF-30
 
 e6ab1a37-e388-478c-895d-0f8b288071f8:
@@ -3114,6 +3391,7 @@ e6ab1a37-e388-478c-895d-0f8b288071f8:
       run_status: run_status_03_160403
       lost_power_alarm: lost_power_alarm_03_160403
       control_mode: control_mode_161000
+      run_command: run_command
   code: GTF-31
 
 1f93d158-88d1-4029-bbc1-625f01c61104:
@@ -3123,6 +3401,7 @@ e6ab1a37-e388-478c-895d-0f8b288071f8:
       run_status: run_status_04_160404
       lost_power_alarm: lost_power_alarm_04_160404
       control_mode: control_mode_161000
+      run_command: run_command
   code: GTF-32
 
 3f4a3275-b2ea-41e1-bdf4-e5d25de1c41c:
@@ -3132,6 +3411,7 @@ e6ab1a37-e388-478c-895d-0f8b288071f8:
       run_status: run_status_05_160405
       lost_power_alarm: lost_power_alarm_05_160405
       control_mode: control_mode_161000
+      run_command: run_command
   code: GTF-33
 
 8d627054-e057-4750-95ff-a4a3acfcdbd5:
@@ -3141,6 +3421,7 @@ e6ab1a37-e388-478c-895d-0f8b288071f8:
       run_status: run_status_06_160406
       lost_power_alarm: lost_power_alarm_06_160406
       control_mode: control_mode_161000
+      run_command: run_command
   code: GTF-34
 
 3b7777f2-349f-4087-b47d-ddf5b63c3a19:
@@ -3150,6 +3431,7 @@ e6ab1a37-e388-478c-895d-0f8b288071f8:
       run_status: run_status_07_160407
       lost_power_alarm: lost_power_alarm_07_160407
       control_mode: control_mode_161000
+      run_command: run_command
   code: GTF-35
 
 63e1938e-61b4-4de4-8413-ad68421a85b7:
@@ -3159,6 +3441,7 @@ e6ab1a37-e388-478c-895d-0f8b288071f8:
       run_status: run_status_08_160408
       lost_power_alarm: lost_power_alarm_08_160408
       control_mode: control_mode_161000
+      run_command: run_command
   code: GTF-36
 
 d0ac8f8b-25e6-4077-aba6-404c9b14d9a2:
@@ -3168,6 +3451,7 @@ d0ac8f8b-25e6-4077-aba6-404c9b14d9a2:
       run_status: run_status_01_160501
       lost_power_alarm: lost_power_alarm_01_160501
       control_mode: control_mode_160500
+      run_command: run_command
   code: GTF-37
 
 cfbb0663-e417-411b-b1a9-ba266728d33a:
@@ -3177,6 +3461,7 @@ cfbb0663-e417-411b-b1a9-ba266728d33a:
       run_status: run_status_02_160502
       lost_power_alarm: lost_power_alarm_02_160502
       control_mode: control_mode_160500
+      run_command: run_command
   code: GTF-38
 
 145a22d8-ae0f-4da5-a086-e8dcfd6d7dbc:
@@ -3186,6 +3471,7 @@ cfbb0663-e417-411b-b1a9-ba266728d33a:
       run_status: run_status_03_160503
       lost_power_alarm: lost_power_alarm_03_160503
       control_mode: control_mode_160500
+      run_command: run_command
   code: GTF-39
 
 0319c953-d28b-4dbc-b8be-a81beadb5a50:
@@ -3195,6 +3481,7 @@ cfbb0663-e417-411b-b1a9-ba266728d33a:
       run_status: run_status_04_160504
       lost_power_alarm: lost_power_alarm_04_160504
       control_mode: control_mode_160500
+      run_command: run_command
   code: GTF-40
 
 06a9b53e-9959-4f0c-bdbc-d8f8a79b6a12:
@@ -3204,6 +3491,7 @@ cfbb0663-e417-411b-b1a9-ba266728d33a:
       run_status: run_status_05_160505
       lost_power_alarm: lost_power_alarm_05_160505
       control_mode: control_mode_160500
+      run_command: run_command
   code: GTF-41
 
 bee5f3e0-26bb-430d-a04b-6e6b91875fc3:
@@ -3213,6 +3501,7 @@ bee5f3e0-26bb-430d-a04b-6e6b91875fc3:
       run_status: run_status_06_160506
       lost_power_alarm: lost_power_alarm_06_160506
       control_mode: control_mode_160500
+      run_command: run_command
   code: GTF-42
 
 5c188375-01f3-45f2-81e1-f05f80838e0f:
@@ -3222,6 +3511,7 @@ bee5f3e0-26bb-430d-a04b-6e6b91875fc3:
       run_status: run_status_07_160507
       lost_power_alarm: lost_power_alarm_07_160507
       control_mode: control_mode_160500
+      run_command: run_command
   code: GTF-43
 
 f2878a84-5fa3-4cec-8b78-9deb4740279e:
@@ -3231,6 +3521,7 @@ f2878a84-5fa3-4cec-8b78-9deb4740279e:
       run_status: run_status_08_160508
       lost_power_alarm: lost_power_alarm_08_160508
       control_mode: control_mode_160500
+      run_command: run_command
   code: GTF-44
 
 746929d0-e64a-48c8-b42c-10999adfbc4f:
@@ -3240,6 +3531,7 @@ f2878a84-5fa3-4cec-8b78-9deb4740279e:
       run_status: run_status_09_160509
       lost_power_alarm: lost_power_alarm_09_160509
       control_mode: control_mode_160500
+      run_command: run_command
   code: GTF-45
 
 48faa35d-cf89-495f-b59a-351c2878c833:
@@ -3249,6 +3541,7 @@ f2878a84-5fa3-4cec-8b78-9deb4740279e:
       run_status: run_status_10_160510
       lost_power_alarm: lost_power_alarm_10_160510
       control_mode: control_mode_160500
+      run_command: run_command
   code: GTF-46
 
 d809a45b-7978-4b0f-b983-3fe8daeff933:
@@ -3256,6 +3549,7 @@ d809a45b-7978-4b0f-b983-3fe8daeff933:
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       percentage_sensor: percentage_sensor_120001
+      level_status: level_status      
   code: TK-01
 
 caf43266-e5c9-403a-8d29-c4efa5562471:
@@ -3263,6 +3557,7 @@ caf43266-e5c9-403a-8d29-c4efa5562471:
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       percentage_sensor: percentage_sensor_120002
+      level_status: level_status
   code: TK-02
 
 651c3b1a-98b7-4f41-a9b4-501adf891176:
@@ -3306,6 +3601,7 @@ c7a14fea-41f3-44b6-8ac6-6078a8274607:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_130001
       control_mode: control_mode_130001
+      run_command: run_command
   code: TRP-01
 
 f95a45fd-d2aa-4f01-881e-68fd0dcd7e2a:
@@ -3314,6 +3610,7 @@ f95a45fd-d2aa-4f01-881e-68fd0dcd7e2a:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_130002
       control_mode: control_mode_130002
+      run_command: run_command
   code: TRP-02
 
 5de43688-5071-4aa0-94fc-d8d21890d01c:
@@ -3322,6 +3619,7 @@ f95a45fd-d2aa-4f01-881e-68fd0dcd7e2a:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_130003
       control_mode: control_mode_130003
+      run_command: run_command
   code: TRP-03
 
 538ad37a-e8c3-4c6d-a62c-c01d8bf13643:
@@ -3330,6 +3628,7 @@ f95a45fd-d2aa-4f01-881e-68fd0dcd7e2a:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_130004
       control_mode: control_mode_130004
+      run_command: run_command
   code: TRP-04
 
 163b7973-c3cf-4c7f-809c-f2e8e8ad02fe:
@@ -3338,6 +3637,7 @@ f95a45fd-d2aa-4f01-881e-68fd0dcd7e2a:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_130005
       control_mode: control_mode_130005
+      run_command: run_command
   code: TRP-05
 
 75dd701d-bae2-4124-897a-e3fc3708b1b7:
@@ -3346,6 +3646,7 @@ f95a45fd-d2aa-4f01-881e-68fd0dcd7e2a:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_130006
       control_mode: control_mode_130006
+      run_command: run_command
   code: TRP-06
 
 f97e8572-e852-49ba-af57-b95ef5488789:
@@ -3354,6 +3655,7 @@ f97e8572-e852-49ba-af57-b95ef5488789:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_140001
       control_mode: control_mode_140001
+      run_command: run_command
   code: PMP-01
 
 63f5032e-29cd-43d2-9828-ce3306366f89:
@@ -3362,6 +3664,7 @@ f97e8572-e852-49ba-af57-b95ef5488789:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_140002
       control_mode: control_mode_140002
+      run_command: run_command
   code: PMP-02
 
 70bdd55f-6768-450b-a63f-cae419150fa8:
@@ -3370,6 +3673,7 @@ f97e8572-e852-49ba-af57-b95ef5488789:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_140003
       control_mode: control_mode_140003
+      run_command: run_command
   code: PMP-03
 
 8c9f8497-351a-49b7-adde-26d605f80e3c:
@@ -3378,47 +3682,54 @@ f97e8572-e852-49ba-af57-b95ef5488789:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       run_status: run_status_140004
       control_mode: control_mode_140004
+      run_command: run_command
   code: PMP-04
 
 5293e786-6cd5-4121-953c-47bd730a959c:
   type: PLUMBING/TK_LVLM
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
-      percentage_sensor: percentage_sensor_160001
+      percentage_sensor: percentage_sensor_170001
+      level_status: level_status
   code: FODT-01
 
 d082204a-b4a5-4358-a29f-970b4578832f:
   type: PLUMBING/TK_LVLM
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
-      percentage_sensor: percentage_sensor_160002
+      percentage_sensor: percentage_sensor_170002
+      level_status: level_status
   code: FODT-02
 
 dd897feb-eb65-4ee1-b51e-ebcbc3273df4:
   type: PLUMBING/TK_LVLM
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
-      percentage_sensor: percentage_sensor_160003
+      percentage_sensor: percentage_sensor_170003
+      level_status: level_status
   code: FODT-03
 
 ca36ea41-5d12-4c83-b227-4ee84a79a0d5:
   type: PLUMBING/TK_LVLM
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
-      percentage_sensor: percentage_sensor_160004
+      percentage_sensor: percentage_sensor_170004
+      level_status: level_status
   code: FODT-04
 
 4ac08c98-b38b-47ec-814c-38218c013228:
   type: PLUMBING/TK_LVLM
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
-      percentage_sensor: percentage_sensor_160005
+      percentage_sensor: percentage_sensor_170005
+      level_status: level_status
   code: FODT-05
 
 156e50cb-760e-4f2b-83cf-cbca23f81518:
   type: PLUMBING/TK_LVLM
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
-      percentage_sensor: percentage_sensor_160006
+      percentage_sensor: percentage_sensor_170006
+      level_status: level_status
   code: FODT-06
 

@@ -1,0 +1,1407 @@
+# Building
+IN-BLR-BCPWK:
+  type: FACILITIES/BUILDING
+
+
+HLI-31:
+  type: GATEWAY/PASSTHROUGH
+  cloud_device_id: 2753690491780359
+  translation:
+    input_phase1_phase2_voltage_sensor_01:
+      present_value: "points.input_phase1_phase2_voltage_sensor_01.present_value"
+      units:
+        key: "pointset.points.input_phase1_phase2_voltage_sensor_01.units"
+        values:
+          volts: volts
+    input_phase2_phase3_voltage_sensor_01:
+      present_value: "points.input_phase2_phase3_voltage_sensor_01.present_value"
+      units:
+        key: "pointset.points.input_phase2_phase3_voltage_sensor_01.units"
+        values:
+          volts: volts
+    input_phase3_phase1_voltage_sensor_01:
+      present_value: "points.input_phase3_phase1_voltage_sensor_01.present_value"
+      units:
+        key: "pointset.points.input_phase3_phase1_voltage_sensor_01.units"
+        values:
+          volts: volts
+    input_phase1_neutral_voltage_sensor_01:
+      present_value: "points.input_phase1_neutral_voltage_sensor_01.present_value"
+      units:
+        key: "pointset.points.input_phase1_neutral_voltage_sensor_01.units"
+        values:
+          volts: volts
+    input_phase2_neutral_voltage_sensor_01:
+      present_value: "points.input_phase2_neutral_voltage_sensor_01.present_value"
+      units:
+        key: "pointset.points.input_phase2_neutral_voltage_sensor_01.units"
+        values:
+          volts: volts
+    input_phase3_neutral_voltage_sensor_01:
+      present_value: "points.input_phase3_neutral_voltage_sensor_01.present_value"
+      units:
+        key: "pointset.points.input_phase3_neutral_voltage_sensor_01.units"
+        values:
+          volts: volts
+    input_phase1_current_sensor_01:
+      present_value: "points.input_phase1_current_sensor_01.present_value"
+      units:
+        key: "pointset.points.input_phase1_current_sensor_01.units"
+        values:
+          amperes: amperes
+    input_phase2_current_sensor_01:
+      present_value: "points.input_phase2_current_sensor_01.present_value"
+      units:
+        key: "pointset.points.input_phase2_current_sensor_01.units"
+        values:
+          amperes: amperes
+    input_phase3_current_sensor_01:
+      present_value: "points.input_phase3_current_sensor_01.present_value"
+      units:
+        key: "pointset.points.input_phase3_current_sensor_01.units"
+        values:
+          amperes: amperes
+    output_phase1_phase2_voltage_sensor_01:
+      present_value: "points.output_phase1_phase2_voltage_sensor_01.present_value"
+      units:
+        key: "pointset.points.output_phase1_phase2_voltage_sensor_01.units"
+        values:
+          volts: volts
+    output_phase2_phase3_voltage_sensor_01:
+      present_value: "points.output_phase2_phase3_voltage_sensor_01.present_value"
+      units:
+        key: "pointset.points.output_phase2_phase3_voltage_sensor_01.units"
+        values:
+          volts: volts
+    output_phase3_phase1_voltage_sensor_01:
+      present_value: "points.output_phase3_phase1_voltage_sensor_01.present_value"
+      units:
+        key: "pointset.points.output_phase3_phase1_voltage_sensor_01.units"
+        values:
+          volts: volts
+    output_phase1_neutral_voltage_sensor_01:
+      present_value: "points.output_phase1_neutral_voltage_sensor_01.present_value"
+      units:
+        key: "pointset.points.output_phase1_neutral_voltage_sensor_01.units"
+        values:
+          volts: volts
+    output_phase2_neutral_voltage_sensor_01:
+      present_value: "points.output_phase2_neutral_voltage_sensor_01.present_value"
+      units:
+        key: "pointset.points.output_phase2_neutral_voltage_sensor_01.units"
+        values:
+          volts: volts
+    output_phase3_neutral_voltage_sensor_01:
+      present_value: "points.output_phase3_neutral_voltage_sensor_01.present_value"
+      units:
+        key: "pointset.points.output_phase3_neutral_voltage_sensor_01.units"
+        values:
+          volts: volts
+    output_phase1_current_sensor_01:
+      present_value: "points.output_phase1_current_sensor_01.present_value"
+      units:
+        key: "pointset.points.output_phase1_current_sensor_01.units"
+        values:
+          amperes: amperes
+    output_phase2_current_sensor_01:
+      present_value: "points.output_phase2_current_sensor_01.present_value"
+      units:
+        key: "pointset.points.output_phase2_current_sensor_01.units"
+        values:
+          amperes: amperes
+    output_phase3_current_sensor_01:
+      present_value: "points.output_phase3_current_sensor_01.present_value"
+      units:
+        key: "pointset.points.output_phase3_current_sensor_01.units"
+        values:
+          amperes: amperes
+    bypass_phase1_neutral_voltage_sensor_01:
+      present_value: "points.bypass_phase1_neutral_voltage_sensor_01.present_value"
+      units:
+        key: "pointset.points.bypass_phase1_neutral_voltage_sensor_01.units"
+        values:
+          volts: volts
+    bypass_phase2_neutral_voltage_sensor_01:
+      present_value: "points.bypass_phase2_neutral_voltage_sensor_01.present_value"
+      units:
+        key: "pointset.points.bypass_phase2_neutral_voltage_sensor_01.units"
+        values:
+          volts: volts
+    bypass_phase3_neutral_voltage_sensor_01:
+      present_value: "points.bypass_phase3_neutral_voltage_sensor_01.present_value"
+      units:
+        key: "pointset.points.bypass_phase3_neutral_voltage_sensor_01.units"
+        values:
+          volts: volts
+    average_inter_line_voltage_sensor_01:
+      present_value: "points.average_inter_line_voltage_sensor_01.present_value"
+      units:
+        key: "pointset.points.average_inter_line_voltage_sensor_01.units"
+        values:
+          volts: volts
+    input_frequency_sensor_01:
+      present_value: "points.input_frequency_sensor_01.present_value"
+      units:
+        key: "pointset.points.input_frequency_sensor_01.units"
+        values:
+          hertz: hertz
+    output_frequency_sensor_01:
+      present_value: "points.output_frequency_sensor_01.present_value"
+      units:
+        key: "pointset.points.output_frequency_sensor_01.units"
+        values:
+          hertz: hertz
+    bypass_frequency_sensor_01:
+      present_value: "points.bypass_frequency_sensor_01.present_value"
+      units:
+        key: "pointset.points.bypass_frequency_sensor_01.units"
+        values:
+          hertz: hertz
+    output_power_sensor_01:
+      present_value: "points.output_power_sensor_01.present_value"
+      units:
+        key: "pointset.points.output_power_sensor_01.units"
+        values:
+          kilowatts: kilowatts
+    output_apparent_power_sensor_01:
+      present_value: "points.output_apparent_power_sensor_01.present_value"
+      units:
+        key: "pointset.points.output_apparent_power_sensor_01.units"
+        values:
+          kilowatts: kilowatts
+    battery_voltage_sensor_01:
+      present_value: "points.battery_voltage_sensor_01.present_value"
+      units:
+        key: "pointset.points.battery_voltage_sensor_01.units"
+        values:
+          volts: volts
+    battery_current_sensor_01:
+      present_value: "points.battery_current_sensor_01.present_value"
+      units:
+        key: "pointset.points.battery_current_sensor_01.units"
+        values:
+          amperes: amperes
+    remaining_charge_time_sensor_01:
+      present_value: "points.remaining_charge_time_sensor_01.present_value"
+      units:
+        key: "pointset.points.remaining_charge_time_sensor_01.units"
+        values:
+          minutes: minutes
+    lost_power_alarm_01:
+      present_value: "points.lost_power_alarm_01.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    input_phase1_phase2_voltage_sensor_02:
+      present_value: "points.input_phase1_phase2_voltage_sensor_02.present_value"
+      units:
+        key: "pointset.points.input_phase1_phase2_voltage_sensor_02.units"
+        values:
+          volts: volts
+    input_phase2_phase3_voltage_sensor_02:
+      present_value: "points.input_phase2_phase3_voltage_sensor_02.present_value"
+      units:
+        key: "pointset.points.input_phase2_phase3_voltage_sensor_02.units"
+        values:
+          volts: volts
+    input_phase3_phase1_voltage_sensor_02:
+      present_value: "points.input_phase3_phase1_voltage_sensor_02.present_value"
+      units:
+        key: "pointset.points.input_phase3_phase1_voltage_sensor_02.units"
+        values:
+          volts: volts
+    input_phase1_neutral_voltage_sensor_02:
+      present_value: "points.input_phase1_neutral_voltage_sensor_02.present_value"
+      units:
+        key: "pointset.points.input_phase1_neutral_voltage_sensor_02.units"
+        values:
+          volts: volts
+    input_phase2_neutral_voltage_sensor_02:
+      present_value: "points.input_phase2_neutral_voltage_sensor_02.present_value"
+      units:
+        key: "pointset.points.input_phase2_neutral_voltage_sensor_02.units"
+        values:
+          volts: volts
+    input_phase3_neutral_voltage_sensor_02:
+      present_value: "points.input_phase3_neutral_voltage_sensor_02.present_value"
+      units:
+        key: "pointset.points.input_phase3_neutral_voltage_sensor_02.units"
+        values:
+          volts: volts
+    input_phase1_current_sensor_02:
+      present_value: "points.input_phase1_current_sensor_02.present_value"
+      units:
+        key: "pointset.points.input_phase1_current_sensor_02.units"
+        values:
+          amperes: amperes
+    input_phase2_current_sensor_02:
+      present_value: "points.input_phase2_current_sensor_02.present_value"
+      units:
+        key: "pointset.points.input_phase2_current_sensor_02.units"
+        values:
+          amperes: amperes
+    input_phase3_current_sensor_02:
+      present_value: "points.input_phase3_current_sensor_02.present_value"
+      units:
+        key: "pointset.points.input_phase3_current_sensor_02.units"
+        values:
+          amperes: amperes
+    output_phase1_phase2_voltage_sensor_02:
+      present_value: "points.output_phase1_phase2_voltage_sensor_02.present_value"
+      units:
+        key: "pointset.points.output_phase1_phase2_voltage_sensor_02.units"
+        values:
+          volts: volts
+    output_phase2_phase3_voltage_sensor_02:
+      present_value: "points.output_phase2_phase3_voltage_sensor_02.present_value"
+      units:
+        key: "pointset.points.output_phase2_phase3_voltage_sensor_02.units"
+        values:
+          volts: volts
+    output_phase3_phase1_voltage_sensor_02:
+      present_value: "points.output_phase3_phase1_voltage_sensor_02.present_value"
+      units:
+        key: "pointset.points.output_phase3_phase1_voltage_sensor_02.units"
+        values:
+          volts: volts
+    output_phase1_neutral_voltage_sensor_02:
+      present_value: "points.output_phase1_neutral_voltage_sensor_02.present_value"
+      units:
+        key: "pointset.points.output_phase1_neutral_voltage_sensor_02.units"
+        values:
+          volts: volts
+    output_phase2_neutral_voltage_sensor_02:
+      present_value: "points.output_phase2_neutral_voltage_sensor_02.present_value"
+      units:
+        key: "pointset.points.output_phase2_neutral_voltage_sensor_02.units"
+        values:
+          volts: volts
+    output_phase3_neutral_voltage_sensor_02:
+      present_value: "points.output_phase3_neutral_voltage_sensor_02.present_value"
+      units:
+        key: "pointset.points.output_phase3_neutral_voltage_sensor_02.units"
+        values:
+          volts: volts
+    output_phase1_current_sensor_02:
+      present_value: "points.output_phase1_current_sensor_02.present_value"
+      units:
+        key: "pointset.points.output_phase1_current_sensor_02.units"
+        values:
+          amperes: amperes
+    output_phase2_current_sensor_02:
+      present_value: "points.output_phase2_current_sensor_02.present_value"
+      units:
+        key: "pointset.points.output_phase2_current_sensor_02.units"
+        values:
+          amperes: amperes
+    output_phase3_current_sensor_02:
+      present_value: "points.output_phase3_current_sensor_02.present_value"
+      units:
+        key: "pointset.points.output_phase3_current_sensor_02.units"
+        values:
+          amperes: amperes
+    bypass_phase1_neutral_voltage_sensor_02:
+      present_value: "points.bypass_phase1_neutral_voltage_sensor_02.present_value"
+      units:
+        key: "pointset.points.bypass_phase1_neutral_voltage_sensor_02.units"
+        values:
+          volts: volts
+    bypass_phase2_neutral_voltage_sensor_02:
+      present_value: "points.bypass_phase2_neutral_voltage_sensor_02.present_value"
+      units:
+        key: "pointset.points.bypass_phase2_neutral_voltage_sensor_02.units"
+        values:
+          volts: volts
+    bypass_phase3_neutral_voltage_sensor_02:
+      present_value: "points.bypass_phase3_neutral_voltage_sensor_02.present_value"
+      units:
+        key: "pointset.points.bypass_phase3_neutral_voltage_sensor_02.units"
+        values:
+          volts: volts
+    average_inter_line_voltage_sensor_02:
+      present_value: "points.average_inter_line_voltage_sensor_02.present_value"
+      units:
+        key: "pointset.points.average_inter_line_voltage_sensor_02.units"
+        values:
+          volts: volts
+    input_frequency_sensor_02:
+      present_value: "points.input_frequency_sensor_02.present_value"
+      units:
+        key: "pointset.points.input_frequency_sensor_02.units"
+        values:
+          hertz: hertz
+    output_frequency_sensor_02:
+      present_value: "points.output_frequency_sensor_02.present_value"
+      units:
+        key: "pointset.points.output_frequency_sensor_02.units"
+        values:
+          hertz: hertz
+    bypass_frequency_sensor_02:
+      present_value: "points.bypass_frequency_sensor_02.present_value"
+      units:
+        key: "pointset.points.bypass_frequency_sensor_02.units"
+        values:
+          hertz: hertz
+    output_power_sensor_02:
+      present_value: "points.output_power_sensor_02.present_value"
+      units:
+        key: "pointset.points.output_power_sensor_02.units"
+        values:
+          kilowatts: kilowatts
+    output_apparent_power_sensor_02:
+      present_value: "points.output_apparent_power_sensor_02.present_value"
+      units:
+        key: "pointset.points.output_apparent_power_sensor_02.units"
+        values:
+          kilowatts: kilowatts
+    battery_voltage_sensor_02:
+      present_value: "points.battery_voltage_sensor_02.present_value"
+      units:
+        key: "pointset.points.battery_voltage_sensor_02.units"
+        values:
+          volts: volts
+    battery_current_sensor_02:
+      present_value: "points.battery_current_sensor_02.present_value"
+      units:
+        key: "pointset.points.battery_current_sensor_02.units"
+        values:
+          amperes: amperes
+    remaining_charge_time_sensor_02:
+      present_value: "points.remaining_charge_time_sensor_02.present_value"
+      units:
+        key: "pointset.points.remaining_charge_time_sensor_02.units"
+        values:
+          minutes: minutes
+    lost_power_alarm_02:
+      present_value: "points.lost_power_alarm_02.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    input_phase1_phase2_voltage_sensor_03:
+      present_value: "points.input_phase1_phase2_voltage_sensor_03.present_value"
+      units:
+        key: "pointset.points.input_phase1_phase2_voltage_sensor_03.units"
+        values:
+          volts: volts
+    input_phase2_phase3_voltage_sensor_03:
+      present_value: "points.input_phase2_phase3_voltage_sensor_03.present_value"
+      units:
+        key: "pointset.points.input_phase2_phase3_voltage_sensor_03.units"
+        values:
+          volts: volts
+    input_phase3_phase1_voltage_sensor_03:
+      present_value: "points.input_phase3_phase1_voltage_sensor_03.present_value"
+      units:
+        key: "pointset.points.input_phase3_phase1_voltage_sensor_03.units"
+        values:
+          volts: volts
+    input_phase1_neutral_voltage_sensor_03:
+      present_value: "points.input_phase1_neutral_voltage_sensor_03.present_value"
+      units:
+        key: "pointset.points.input_phase1_neutral_voltage_sensor_03.units"
+        values:
+          volts: volts
+    input_phase2_neutral_voltage_sensor_03:
+      present_value: "points.input_phase2_neutral_voltage_sensor_03.present_value"
+      units:
+        key: "pointset.points.input_phase2_neutral_voltage_sensor_03.units"
+        values:
+          volts: volts
+    input_phase3_neutral_voltage_sensor_03:
+      present_value: "points.input_phase3_neutral_voltage_sensor_03.present_value"
+      units:
+        key: "pointset.points.input_phase3_neutral_voltage_sensor_03.units"
+        values:
+          volts: volts
+    input_phase1_current_sensor_03:
+      present_value: "points.input_phase1_current_sensor_03.present_value"
+      units:
+        key: "pointset.points.input_phase1_current_sensor_03.units"
+        values:
+          amperes: amperes
+    input_phase2_current_sensor_03:
+      present_value: "points.input_phase2_current_sensor_03.present_value"
+      units:
+        key: "pointset.points.input_phase2_current_sensor_03.units"
+        values:
+          amperes: amperes
+    input_phase3_current_sensor_03:
+      present_value: "points.input_phase3_current_sensor_03.present_value"
+      units:
+        key: "pointset.points.input_phase3_current_sensor_03.units"
+        values:
+          amperes: amperes
+    output_phase1_phase2_voltage_sensor_03:
+      present_value: "points.output_phase1_phase2_voltage_sensor_03.present_value"
+      units:
+        key: "pointset.points.output_phase1_phase2_voltage_sensor_03.units"
+        values:
+          volts: volts
+    output_phase2_phase3_voltage_sensor_03:
+      present_value: "points.output_phase2_phase3_voltage_sensor_03.present_value"
+      units:
+        key: "pointset.points.output_phase2_phase3_voltage_sensor_03.units"
+        values:
+          volts: volts
+    output_phase3_phase1_voltage_sensor_03:
+      present_value: "points.output_phase3_phase1_voltage_sensor_03.present_value"
+      units:
+        key: "pointset.points.output_phase3_phase1_voltage_sensor_03.units"
+        values:
+          volts: volts
+    output_phase1_neutral_voltage_sensor_03:
+      present_value: "points.output_phase1_neutral_voltage_sensor_03.present_value"
+      units:
+        key: "pointset.points.output_phase1_neutral_voltage_sensor_03.units"
+        values:
+          volts: volts
+    output_phase2_neutral_voltage_sensor_03:
+      present_value: "points.output_phase2_neutral_voltage_sensor_03.present_value"
+      units:
+        key: "pointset.points.output_phase2_neutral_voltage_sensor_03.units"
+        values:
+          volts: volts
+    output_phase3_neutral_voltage_sensor_03:
+      present_value: "points.output_phase3_neutral_voltage_sensor_03.present_value"
+      units:
+        key: "pointset.points.output_phase3_neutral_voltage_sensor_03.units"
+        values:
+          volts: volts
+    output_phase1_current_sensor_03:
+      present_value: "points.output_phase1_current_sensor_03.present_value"
+      units:
+        key: "pointset.points.output_phase1_current_sensor_03.units"
+        values:
+          amperes: amperes
+    output_phase2_current_sensor_03:
+      present_value: "points.output_phase2_current_sensor_03.present_value"
+      units:
+        key: "pointset.points.output_phase2_current_sensor_03.units"
+        values:
+          amperes: amperes
+    output_phase3_current_sensor_03:
+      present_value: "points.output_phase3_current_sensor_03.present_value"
+      units:
+        key: "pointset.points.output_phase3_current_sensor_03.units"
+        values:
+          amperes: amperes
+    bypass_phase1_neutral_voltage_sensor_03:
+      present_value: "points.bypass_phase1_neutral_voltage_sensor_03.present_value"
+      units:
+        key: "pointset.points.bypass_phase1_neutral_voltage_sensor_03.units"
+        values:
+          volts: volts
+    bypass_phase2_neutral_voltage_sensor_03:
+      present_value: "points.bypass_phase2_neutral_voltage_sensor_03.present_value"
+      units:
+        key: "pointset.points.bypass_phase2_neutral_voltage_sensor_03.units"
+        values:
+          volts: volts
+    bypass_phase3_neutral_voltage_sensor_03:
+      present_value: "points.bypass_phase3_neutral_voltage_sensor_03.present_value"
+      units:
+        key: "pointset.points.bypass_phase3_neutral_voltage_sensor_03.units"
+        values:
+          volts: volts
+    average_inter_line_voltage_sensor_03:
+      present_value: "points.average_inter_line_voltage_sensor_03.present_value"
+      units:
+        key: "pointset.points.average_inter_line_voltage_sensor_03.units"
+        values:
+          volts: volts
+    input_frequency_sensor_03:
+      present_value: "points.input_frequency_sensor_03.present_value"
+      units:
+        key: "pointset.points.input_frequency_sensor_03.units"
+        values:
+          hertz: hertz
+    output_frequency_sensor_03:
+      present_value: "points.output_frequency_sensor_03.present_value"
+      units:
+        key: "pointset.points.output_frequency_sensor_03.units"
+        values:
+          hertz: hertz
+    bypass_frequency_sensor_03:
+      present_value: "points.bypass_frequency_sensor_03.present_value"
+      units:
+        key: "pointset.points.bypass_frequency_sensor_03.units"
+        values:
+          hertz: hertz
+    output_power_sensor_03:
+      present_value: "points.output_power_sensor_03.present_value"
+      units:
+        key: "pointset.points.output_power_sensor_03.units"
+        values:
+          kilowatts: kilowatts
+    output_apparent_power_sensor_03:
+      present_value: "points.output_apparent_power_sensor_03.present_value"
+      units:
+        key: "pointset.points.output_apparent_power_sensor_03.units"
+        values:
+          kilowatts: kilowatts
+    battery_voltage_sensor_03:
+      present_value: "points.battery_voltage_sensor_03.present_value"
+      units:
+        key: "pointset.points.battery_voltage_sensor_03.units"
+        values:
+          volts: volts
+    battery_current_sensor_03:
+      present_value: "points.battery_current_sensor_03.present_value"
+      units:
+        key: "pointset.points.battery_current_sensor_03.units"
+        values:
+          amperes: amperes
+    remaining_charge_time_sensor_03:
+      present_value: "points.remaining_charge_time_sensor_03.present_value"
+      units:
+        key: "pointset.points.remaining_charge_time_sensor_03.units"
+        values:
+          minutes: minutes
+    lost_power_alarm_03:
+      present_value: "points.lost_power_alarm_03.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    input_phase1_phase2_voltage_sensor_04:
+      present_value: "points.input_phase1_phase2_voltage_sensor_04.present_value"
+      units:
+        key: "pointset.points.input_phase1_phase2_voltage_sensor_04.units"
+        values:
+          volts: volts
+    input_phase2_phase3_voltage_sensor_04:
+      present_value: "points.input_phase2_phase3_voltage_sensor_04.present_value"
+      units:
+        key: "pointset.points.input_phase2_phase3_voltage_sensor_04.units"
+        values:
+          volts: volts
+    input_phase3_phase1_voltage_sensor_04:
+      present_value: "points.input_phase3_phase1_voltage_sensor_04.present_value"
+      units:
+        key: "pointset.points.input_phase3_phase1_voltage_sensor_04.units"
+        values:
+          volts: volts
+    input_phase1_neutral_voltage_sensor_04:
+      present_value: "points.input_phase1_neutral_voltage_sensor_04.present_value"
+      units:
+        key: "pointset.points.input_phase1_neutral_voltage_sensor_04.units"
+        values:
+          volts: volts
+    input_phase2_neutral_voltage_sensor_04:
+      present_value: "points.input_phase2_neutral_voltage_sensor_04.present_value"
+      units:
+        key: "pointset.points.input_phase2_neutral_voltage_sensor_04.units"
+        values:
+          volts: volts
+    input_phase3_neutral_voltage_sensor_04:
+      present_value: "points.input_phase3_neutral_voltage_sensor_04.present_value"
+      units:
+        key: "pointset.points.input_phase3_neutral_voltage_sensor_04.units"
+        values:
+          volts: volts
+    input_phase1_current_sensor_04:
+      present_value: "points.input_phase1_current_sensor_04.present_value"
+      units:
+        key: "pointset.points.input_phase1_current_sensor_04.units"
+        values:
+          amperes: amperes
+    input_phase2_current_sensor_04:
+      present_value: "points.input_phase2_current_sensor_04.present_value"
+      units:
+        key: "pointset.points.input_phase2_current_sensor_04.units"
+        values:
+          amperes: amperes
+    input_phase3_current_sensor_04:
+      present_value: "points.input_phase3_current_sensor_04.present_value"
+      units:
+        key: "pointset.points.input_phase3_current_sensor_04.units"
+        values:
+          amperes: amperes
+    output_phase1_phase2_voltage_sensor_04:
+      present_value: "points.output_phase1_phase2_voltage_sensor_04.present_value"
+      units:
+        key: "pointset.points.output_phase1_phase2_voltage_sensor_04.units"
+        values:
+          volts: volts
+    output_phase2_phase3_voltage_sensor_04:
+      present_value: "points.output_phase2_phase3_voltage_sensor_04.present_value"
+      units:
+        key: "pointset.points.output_phase2_phase3_voltage_sensor_04.units"
+        values:
+          volts: volts
+    output_phase3_phase1_voltage_sensor_04:
+      present_value: "points.output_phase3_phase1_voltage_sensor_04.present_value"
+      units:
+        key: "pointset.points.output_phase3_phase1_voltage_sensor_04.units"
+        values:
+          volts: volts
+    output_phase1_neutral_voltage_sensor_04:
+      present_value: "points.output_phase1_neutral_voltage_sensor_04.present_value"
+      units:
+        key: "pointset.points.output_phase1_neutral_voltage_sensor_04.units"
+        values:
+          volts: volts
+    output_phase2_neutral_voltage_sensor_04:
+      present_value: "points.output_phase2_neutral_voltage_sensor_04.present_value"
+      units:
+        key: "pointset.points.output_phase2_neutral_voltage_sensor_04.units"
+        values:
+          volts: volts
+    output_phase3_neutral_voltage_sensor_04:
+      present_value: "points.output_phase3_neutral_voltage_sensor_04.present_value"
+      units:
+        key: "pointset.points.output_phase3_neutral_voltage_sensor_04.units"
+        values:
+          volts: volts
+    output_phase1_current_sensor_04:
+      present_value: "points.output_phase1_current_sensor_04.present_value"
+      units:
+        key: "pointset.points.output_phase1_current_sensor_04.units"
+        values:
+          amperes: amperes
+    output_phase2_current_sensor_04:
+      present_value: "points.output_phase2_current_sensor_04.present_value"
+      units:
+        key: "pointset.points.output_phase2_current_sensor_04.units"
+        values:
+          amperes: amperes
+    output_phase3_current_sensor_04:
+      present_value: "points.output_phase3_current_sensor_04.present_value"
+      units:
+        key: "pointset.points.output_phase3_current_sensor_04.units"
+        values:
+          amperes: amperes
+    bypass_phase1_neutral_voltage_sensor_04:
+      present_value: "points.bypass_phase1_neutral_voltage_sensor_04.present_value"
+      units:
+        key: "pointset.points.bypass_phase1_neutral_voltage_sensor_04.units"
+        values:
+          volts: volts
+    bypass_phase2_neutral_voltage_sensor_04:
+      present_value: "points.bypass_phase2_neutral_voltage_sensor_04.present_value"
+      units:
+        key: "pointset.points.bypass_phase2_neutral_voltage_sensor_04.units"
+        values:
+          volts: volts
+    bypass_phase3_neutral_voltage_sensor_04:
+      present_value: "points.bypass_phase3_neutral_voltage_sensor_04.present_value"
+      units:
+        key: "pointset.points.bypass_phase3_neutral_voltage_sensor_04.units"
+        values:
+          volts: volts
+    average_inter_line_voltage_sensor_04:
+      present_value: "points.average_inter_line_voltage_sensor_04.present_value"
+      units:
+        key: "pointset.points.average_inter_line_voltage_sensor_04.units"
+        values:
+          volts: volts
+    input_frequency_sensor_04:
+      present_value: "points.input_frequency_sensor_04.present_value"
+      units:
+        key: "pointset.points.input_frequency_sensor_04.units"
+        values:
+          hertz: hertz
+    output_frequency_sensor_04:
+      present_value: "points.output_frequency_sensor_04.present_value"
+      units:
+        key: "pointset.points.output_frequency_sensor_04.units"
+        values:
+          hertz: hertz
+    bypass_frequency_sensor_04:
+      present_value: "points.bypass_frequency_sensor_04.present_value"
+      units:
+        key: "pointset.points.bypass_frequency_sensor_04.units"
+        values:
+          hertz: hertz
+    output_power_sensor_04:
+      present_value: "points.output_power_sensor_04.present_value"
+      units:
+        key: "pointset.points.output_power_sensor_04.units"
+        values:
+          kilowatts: kilowatts
+    output_apparent_power_sensor_04:
+      present_value: "points.output_apparent_power_sensor_04.present_value"
+      units:
+        key: "pointset.points.output_apparent_power_sensor_04.units"
+        values:
+          kilowatts: kilowatts
+    battery_voltage_sensor_04:
+      present_value: "points.battery_voltage_sensor_04.present_value"
+      units:
+        key: "pointset.points.battery_voltage_sensor_04.units"
+        values:
+          volts: volts
+    battery_current_sensor_04:
+      present_value: "points.battery_current_sensor_04.present_value"
+      units:
+        key: "pointset.points.battery_current_sensor_04.units"
+        values:
+          amperes: amperes
+    remaining_charge_time_sensor_04:
+      present_value: "points.remaining_charge_time_sensor_04.present_value"
+      units:
+        key: "pointset.points.remaining_charge_time_sensor_04.units"
+        values:
+          minutes: minutes
+    lost_power_alarm_04:
+      present_value: "points.lost_power_alarm_04.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    input_phase1_phase2_voltage_sensor_05:
+      present_value: "points.input_phase1_phase2_voltage_sensor_05.present_value"
+      units:
+        key: "pointset.points.input_phase1_phase2_voltage_sensor_05.units"
+        values:
+          volts: volts
+    input_phase2_phase3_voltage_sensor_05:
+      present_value: "points.input_phase2_phase3_voltage_sensor_05.present_value"
+      units:
+        key: "pointset.points.input_phase2_phase3_voltage_sensor_05.units"
+        values:
+          volts: volts
+    input_phase3_phase1_voltage_sensor_05:
+      present_value: "points.input_phase3_phase1_voltage_sensor_05.present_value"
+      units:
+        key: "pointset.points.input_phase3_phase1_voltage_sensor_05.units"
+        values:
+          volts: volts
+    input_phase1_neutral_voltage_sensor_05:
+      present_value: "points.input_phase1_neutral_voltage_sensor_05.present_value"
+      units:
+        key: "pointset.points.input_phase1_neutral_voltage_sensor_05.units"
+        values:
+          volts: volts
+    input_phase2_neutral_voltage_sensor_05:
+      present_value: "points.input_phase2_neutral_voltage_sensor_05.present_value"
+      units:
+        key: "pointset.points.input_phase2_neutral_voltage_sensor_05.units"
+        values:
+          volts: volts
+    input_phase3_neutral_voltage_sensor_05:
+      present_value: "points.input_phase3_neutral_voltage_sensor_05.present_value"
+      units:
+        key: "pointset.points.input_phase3_neutral_voltage_sensor_05.units"
+        values:
+          volts: volts
+    input_phase1_current_sensor_05:
+      present_value: "points.input_phase1_current_sensor_05.present_value"
+      units:
+        key: "pointset.points.input_phase1_current_sensor_05.units"
+        values:
+          amperes: amperes
+    input_phase2_current_sensor_05:
+      present_value: "points.input_phase2_current_sensor_05.present_value"
+      units:
+        key: "pointset.points.input_phase2_current_sensor_05.units"
+        values:
+          amperes: amperes
+    input_phase3_current_sensor_05:
+      present_value: "points.input_phase3_current_sensor_05.present_value"
+      units:
+        key: "pointset.points.input_phase3_current_sensor_05.units"
+        values:
+          amperes: amperes
+    output_phase1_phase2_voltage_sensor_05:
+      present_value: "points.output_phase1_phase2_voltage_sensor_05.present_value"
+      units:
+        key: "pointset.points.output_phase1_phase2_voltage_sensor_05.units"
+        values:
+          volts: volts
+    output_phase2_phase3_voltage_sensor_05:
+      present_value: "points.output_phase2_phase3_voltage_sensor_05.present_value"
+      units:
+        key: "pointset.points.output_phase2_phase3_voltage_sensor_05.units"
+        values:
+          volts: volts
+    output_phase3_phase1_voltage_sensor_05:
+      present_value: "points.output_phase3_phase1_voltage_sensor_05.present_value"
+      units:
+        key: "pointset.points.output_phase3_phase1_voltage_sensor_05.units"
+        values:
+          volts: volts
+    output_phase1_neutral_voltage_sensor_05:
+      present_value: "points.output_phase1_neutral_voltage_sensor_05.present_value"
+      units:
+        key: "pointset.points.output_phase1_neutral_voltage_sensor_05.units"
+        values:
+          volts: volts
+    output_phase2_neutral_voltage_sensor_05:
+      present_value: "points.output_phase2_neutral_voltage_sensor_05.present_value"
+      units:
+        key: "pointset.points.output_phase2_neutral_voltage_sensor_05.units"
+        values:
+          volts: volts
+    output_phase3_neutral_voltage_sensor_05:
+      present_value: "points.output_phase3_neutral_voltage_sensor_05.present_value"
+      units:
+        key: "pointset.points.output_phase3_neutral_voltage_sensor_05.units"
+        values:
+          volts: volts
+    output_phase1_current_sensor_05:
+      present_value: "points.output_phase1_current_sensor_05.present_value"
+      units:
+        key: "pointset.points.output_phase1_current_sensor_05.units"
+        values:
+          amperes: amperes
+    output_phase2_current_sensor_05:
+      present_value: "points.output_phase2_current_sensor_05.present_value"
+      units:
+        key: "pointset.points.output_phase2_current_sensor_05.units"
+        values:
+          amperes: amperes
+    output_phase3_current_sensor_05:
+      present_value: "points.output_phase3_current_sensor_05.present_value"
+      units:
+        key: "pointset.points.output_phase3_current_sensor_05.units"
+        values:
+          amperes: amperes
+    bypass_phase1_neutral_voltage_sensor_05:
+      present_value: "points.bypass_phase1_neutral_voltage_sensor_05.present_value"
+      units:
+        key: "pointset.points.bypass_phase1_neutral_voltage_sensor_05.units"
+        values:
+          volts: volts
+    bypass_phase2_neutral_voltage_sensor_05:
+      present_value: "points.bypass_phase2_neutral_voltage_sensor_05.present_value"
+      units:
+        key: "pointset.points.bypass_phase2_neutral_voltage_sensor_05.units"
+        values:
+          volts: volts
+    bypass_phase3_neutral_voltage_sensor_05:
+      present_value: "points.bypass_phase3_neutral_voltage_sensor_05.present_value"
+      units:
+        key: "pointset.points.bypass_phase3_neutral_voltage_sensor_05.units"
+        values:
+          volts: volts
+    average_inter_line_voltage_sensor_05:
+      present_value: "points.average_inter_line_voltage_sensor_05.present_value"
+      units:
+        key: "pointset.points.average_inter_line_voltage_sensor_05.units"
+        values:
+          volts: volts
+    input_frequency_sensor_05:
+      present_value: "points.input_frequency_sensor_05.present_value"
+      units:
+        key: "pointset.points.input_frequency_sensor_05.units"
+        values:
+          hertz: hertz
+    output_frequency_sensor_05:
+      present_value: "points.output_frequency_sensor_05.present_value"
+      units:
+        key: "pointset.points.output_frequency_sensor_05.units"
+        values:
+          hertz: hertz
+    bypass_frequency_sensor_05:
+      present_value: "points.bypass_frequency_sensor_05.present_value"
+      units:
+        key: "pointset.points.bypass_frequency_sensor_05.units"
+        values:
+          hertz: hertz
+    output_power_sensor_05:
+      present_value: "points.output_power_sensor_05.present_value"
+      units:
+        key: "pointset.points.output_power_sensor_05.units"
+        values:
+          kilowatts: kilowatts
+    output_apparent_power_sensor_05:
+      present_value: "points.output_apparent_power_sensor_05.present_value"
+      units:
+        key: "pointset.points.output_apparent_power_sensor_05.units"
+        values:
+          kilowatts: kilowatts
+    battery_voltage_sensor_05:
+      present_value: "points.battery_voltage_sensor_05.present_value"
+      units:
+        key: "pointset.points.battery_voltage_sensor_05.units"
+        values:
+          volts: volts
+    battery_current_sensor_05:
+      present_value: "points.battery_current_sensor_05.present_value"
+      units:
+        key: "pointset.points.battery_current_sensor_05.units"
+        values:
+          amperes: amperes
+    remaining_charge_time_sensor_05:
+      present_value: "points.remaining_charge_time_sensor_05.present_value"
+      units:
+        key: "pointset.points.remaining_charge_time_sensor_05.units"
+        values:
+          minutes: minutes
+    lost_power_alarm_05:
+      present_value: "points.lost_power_alarm_05.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    input_phase1_phase2_voltage_sensor_06:
+      present_value: "points.input_phase1_phase2_voltage_sensor_06.present_value"
+      units:
+        key: "pointset.points.input_phase1_phase2_voltage_sensor_06.units"
+        values:
+          volts: volts
+    input_phase2_phase3_voltage_sensor_06:
+      present_value: "points.input_phase2_phase3_voltage_sensor_06.present_value"
+      units:
+        key: "pointset.points.input_phase2_phase3_voltage_sensor_06.units"
+        values:
+          volts: volts
+    input_phase3_phase1_voltage_sensor_06:
+      present_value: "points.input_phase3_phase1_voltage_sensor_06.present_value"
+      units:
+        key: "pointset.points.input_phase3_phase1_voltage_sensor_06.units"
+        values:
+          volts: volts
+    input_phase1_neutral_voltage_sensor_06:
+      present_value: "points.input_phase1_neutral_voltage_sensor_06.present_value"
+      units:
+        key: "pointset.points.input_phase1_neutral_voltage_sensor_06.units"
+        values:
+          volts: volts
+    input_phase2_neutral_voltage_sensor_06:
+      present_value: "points.input_phase2_neutral_voltage_sensor_06.present_value"
+      units:
+        key: "pointset.points.input_phase2_neutral_voltage_sensor_06.units"
+        values:
+          volts: volts
+    input_phase3_neutral_voltage_sensor_06:
+      present_value: "points.input_phase3_neutral_voltage_sensor_06.present_value"
+      units:
+        key: "pointset.points.input_phase3_neutral_voltage_sensor_06.units"
+        values:
+          volts: volts
+    input_phase1_current_sensor_06:
+      present_value: "points.input_phase1_current_sensor_06.present_value"
+      units:
+        key: "pointset.points.input_phase1_current_sensor_06.units"
+        values:
+          amperes: amperes
+    input_phase2_current_sensor_06:
+      present_value: "points.input_phase2_current_sensor_06.present_value"
+      units:
+        key: "pointset.points.input_phase2_current_sensor_06.units"
+        values:
+          amperes: amperes
+    input_phase3_current_sensor_06:
+      present_value: "points.input_phase3_current_sensor_06.present_value"
+      units:
+        key: "pointset.points.input_phase3_current_sensor_06.units"
+        values:
+          amperes: amperes
+    output_phase1_phase2_voltage_sensor_06:
+      present_value: "points.output_phase1_phase2_voltage_sensor_06.present_value"
+      units:
+        key: "pointset.points.output_phase1_phase2_voltage_sensor_06.units"
+        values:
+          volts: volts
+    output_phase2_phase3_voltage_sensor_06:
+      present_value: "points.output_phase2_phase3_voltage_sensor_06.present_value"
+      units:
+        key: "pointset.points.output_phase2_phase3_voltage_sensor_06.units"
+        values:
+          volts: volts
+    output_phase3_phase1_voltage_sensor_06:
+      present_value: "points.output_phase3_phase1_voltage_sensor_06.present_value"
+      units:
+        key: "pointset.points.output_phase3_phase1_voltage_sensor_06.units"
+        values:
+          volts: volts
+    output_phase1_neutral_voltage_sensor_06:
+      present_value: "points.output_phase1_neutral_voltage_sensor_06.present_value"
+      units:
+        key: "pointset.points.output_phase1_neutral_voltage_sensor_06.units"
+        values:
+          volts: volts
+    output_phase2_neutral_voltage_sensor_06:
+      present_value: "points.output_phase2_neutral_voltage_sensor_06.present_value"
+      units:
+        key: "pointset.points.output_phase2_neutral_voltage_sensor_06.units"
+        values:
+          volts: volts
+    output_phase3_neutral_voltage_sensor_06:
+      present_value: "points.output_phase3_neutral_voltage_sensor_06.present_value"
+      units:
+        key: "pointset.points.output_phase3_neutral_voltage_sensor_06.units"
+        values:
+          volts: volts
+    output_phase1_current_sensor_06:
+      present_value: "points.output_phase1_current_sensor_06.present_value"
+      units:
+        key: "pointset.points.output_phase1_current_sensor_06.units"
+        values:
+          amperes: amperes
+    output_phase2_current_sensor_06:
+      present_value: "points.output_phase2_current_sensor_06.present_value"
+      units:
+        key: "pointset.points.output_phase2_current_sensor_06.units"
+        values:
+          amperes: amperes
+    output_phase3_current_sensor_06:
+      present_value: "points.output_phase3_current_sensor_06.present_value"
+      units:
+        key: "pointset.points.output_phase3_current_sensor_06.units"
+        values:
+          amperes: amperes
+    bypass_phase1_neutral_voltage_sensor_06:
+      present_value: "points.bypass_phase1_neutral_voltage_sensor_06.present_value"
+      units:
+        key: "pointset.points.bypass_phase1_neutral_voltage_sensor_06.units"
+        values:
+          volts: volts
+    bypass_phase2_neutral_voltage_sensor_06:
+      present_value: "points.bypass_phase2_neutral_voltage_sensor_06.present_value"
+      units:
+        key: "pointset.points.bypass_phase2_neutral_voltage_sensor_06.units"
+        values:
+          volts: volts
+    bypass_phase3_neutral_voltage_sensor_06:
+      present_value: "points.bypass_phase3_neutral_voltage_sensor_06.present_value"
+      units:
+        key: "pointset.points.bypass_phase3_neutral_voltage_sensor_06.units"
+        values:
+          volts: volts
+    average_inter_line_voltage_sensor_06:
+      present_value: "points.average_inter_line_voltage_sensor_06.present_value"
+      units:
+        key: "pointset.points.average_inter_line_voltage_sensor_06.units"
+        values:
+          volts: volts
+    input_frequency_sensor_06:
+      present_value: "points.input_frequency_sensor_06.present_value"
+      units:
+        key: "pointset.points.input_frequency_sensor_06.units"
+        values:
+          hertz: hertz
+    output_frequency_sensor_06:
+      present_value: "points.output_frequency_sensor_06.present_value"
+      units:
+        key: "pointset.points.output_frequency_sensor_06.units"
+        values:
+          hertz: hertz
+    bypass_frequency_sensor_06:
+      present_value: "points.bypass_frequency_sensor_06.present_value"
+      units:
+        key: "pointset.points.bypass_frequency_sensor_06.units"
+        values:
+          hertz: hertz
+    output_power_sensor_06:
+      present_value: "points.output_power_sensor_06.present_value"
+      units:
+        key: "pointset.points.output_power_sensor_06.units"
+        values:
+          kilowatts: kilowatts
+    output_apparent_power_sensor_06:
+      present_value: "points.output_apparent_power_sensor_06.present_value"
+      units:
+        key: "pointset.points.output_apparent_power_sensor_06.units"
+        values:
+          kilowatts: kilowatts
+    battery_voltage_sensor_06:
+      present_value: "points.battery_voltage_sensor_06.present_value"
+      units:
+        key: "pointset.points.battery_voltage_sensor_06.units"
+        values:
+          volts: volts
+    battery_current_sensor_06:
+      present_value: "points.battery_current_sensor_06.present_value"
+      units:
+        key: "pointset.points.battery_current_sensor_06.units"
+        values:
+          amperes: amperes
+    remaining_charge_time_sensor_06:
+      present_value: "points.remaining_charge_time_sensor_06.present_value"
+      units:
+        key: "pointset.points.remaining_charge_time_sensor_06.units"
+        values:
+          minutes: minutes
+    lost_power_alarm_06:
+      present_value: "points.lost_power_alarm_06.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    phase1_apparent_power_sensor: MISSING
+    phase2_apparent_power_sensor: MISSING
+    phase3_apparent_power_sensor: MISSING
+    battery_status: MISSING
+    input_supply_mode: MISSING
+    battery_test_status: MISSING
+
+UPS-01:
+  type: ELECTRICAL/UPS_IOBM_PPWM_UPSBM
+  links:
+    HLI-24:
+      battery_test_status: battery_test_status_01
+      input_supply_mode: input_supply_mode_01
+      battery_status: battery_status_01
+      phase3_apparent_power_sensor: phase3_apparent_power_sensor_01
+      phase2_apparent_power_sensor: phase2_apparent_power_sensor_01
+      phase1_apparent_power_sensor: phase1_apparent_power_sensor_01
+      average_inter_line_voltage_sensor: average_inter_line_voltage_sensor_01
+      input_frequency_sensor: input_frequency_sensor_01
+      output_frequency_sensor: output_frequency_sensor_01
+      bypass_frequency_sensor: bypass_frequency_sensor_01
+      output_power_sensor: output_power_sensor_01
+      output_apparent_power_sensor: output_apparent_power_sensor_01
+      input_phase1_phase2_voltage_sensor: input_phase1_phase2_voltage_sensor_01
+      input_phase2_phase3_voltage_sensor: input_phase2_phase3_voltage_sensor_01
+      input_phase3_phase1_voltage_sensor: input_phase3_phase1_voltage_sensor_01
+      input_phase1_neutral_voltage_sensor: input_phase1_neutral_voltage_sensor_01
+      input_phase2_neutral_voltage_sensor: input_phase2_neutral_voltage_sensor_01
+      input_phase3_neutral_voltage_sensor: input_phase3_neutral_voltage_sensor_01
+      input_phase1_current_sensor: input_phase1_current_sensor_01
+      input_phase2_current_sensor: input_phase2_current_sensor_01
+      input_phase3_current_sensor: input_phase3_current_sensor_01
+      output_phase1_phase2_voltage_sensor: output_phase1_phase2_voltage_sensor_01
+      output_phase2_phase3_voltage_sensor: output_phase2_phase3_voltage_sensor_01
+      output_phase3_phase1_voltage_sensor: output_phase3_phase1_voltage_sensor_01
+      output_phase1_neutral_voltage_sensor: output_phase1_neutral_voltage_sensor_01
+      output_phase2_neutral_voltage_sensor: output_phase2_neutral_voltage_sensor_01
+      output_phase3_neutral_voltage_sensor: output_phase3_neutral_voltage_sensor_01
+      output_phase1_current_sensor: output_phase1_current_sensor_01
+      output_phase2_current_sensor: output_phase2_current_sensor_01
+      output_phase3_current_sensor: output_phase3_current_sensor_01
+      bypass_phase1_neutral_voltage_sensor: bypass_phase1_neutral_voltage_sensor_01
+      bypass_phase2_neutral_voltage_sensor: bypass_phase2_neutral_voltage_sensor_01
+      bypass_phase3_neutral_voltage_sensor: bypass_phase3_neutral_voltage_sensor_01
+      battery_voltage_sensor: battery_voltage_sensor_01
+      battery_current_sensor: battery_current_sensor_01
+      remaining_charge_time_sensor: remaining_charge_time_sensor_01
+UPS-02:
+  type: ELECTRICAL/UPS_IOBM_PPWM_UPSBM
+  links:
+    HLI-24:
+      battery_test_status: battery_test_status_02
+      input_supply_mode: input_supply_mode_02
+      battery_status: battery_status_02
+      phase3_apparent_power_sensor: phase3_apparent_power_sensor_02
+      phase2_apparent_power_sensor: phase2_apparent_power_sensor_02
+      phase1_apparent_power_sensor: phase1_apparent_power_sensor_02
+      average_inter_line_voltage_sensor: average_inter_line_voltage_sensor_02
+      input_frequency_sensor: input_frequency_sensor_02
+      output_frequency_sensor: output_frequency_sensor_02
+      bypass_frequency_sensor: bypass_frequency_sensor_02
+      output_power_sensor: output_power_sensor_02
+      output_apparent_power_sensor: output_apparent_power_sensor_02
+      input_phase1_phase2_voltage_sensor: input_phase1_phase2_voltage_sensor_02
+      input_phase2_phase3_voltage_sensor: input_phase2_phase3_voltage_sensor_02
+      input_phase3_phase1_voltage_sensor: input_phase3_phase1_voltage_sensor_02
+      input_phase1_neutral_voltage_sensor: input_phase1_neutral_voltage_sensor_02
+      input_phase2_neutral_voltage_sensor: input_phase2_neutral_voltage_sensor_02
+      input_phase3_neutral_voltage_sensor: input_phase3_neutral_voltage_sensor_02
+      input_phase1_current_sensor: input_phase1_current_sensor_02
+      input_phase2_current_sensor: input_phase2_current_sensor_02
+      input_phase3_current_sensor: input_phase3_current_sensor_02
+      output_phase1_phase2_voltage_sensor: output_phase1_phase2_voltage_sensor_02
+      output_phase2_phase3_voltage_sensor: output_phase2_phase3_voltage_sensor_02
+      output_phase3_phase1_voltage_sensor: output_phase3_phase1_voltage_sensor_02
+      output_phase1_neutral_voltage_sensor: output_phase1_neutral_voltage_sensor_02
+      output_phase2_neutral_voltage_sensor: output_phase2_neutral_voltage_sensor_02
+      output_phase3_neutral_voltage_sensor: output_phase3_neutral_voltage_sensor_02
+      output_phase1_current_sensor: output_phase1_current_sensor_02
+      output_phase2_current_sensor: output_phase2_current_sensor_02
+      output_phase3_current_sensor: output_phase3_current_sensor_02
+      bypass_phase1_neutral_voltage_sensor: bypass_phase1_neutral_voltage_sensor_02
+      bypass_phase2_neutral_voltage_sensor: bypass_phase2_neutral_voltage_sensor_02
+      bypass_phase3_neutral_voltage_sensor: bypass_phase3_neutral_voltage_sensor_02
+      battery_voltage_sensor: battery_voltage_sensor_02
+      battery_current_sensor: battery_current_sensor_02
+      remaining_charge_time_sensor: remaining_charge_time_sensor_02
+UPS-03:
+  type: ELECTRICAL/UPS_IOBM_PPWM_UPSBM
+  links:
+    HLI-24:
+      battery_test_status: battery_test_status_03
+      input_supply_mode: input_supply_mode_03
+      battery_status: battery_status_03
+      phase3_apparent_power_sensor: phase3_apparent_power_sensor_03
+      phase2_apparent_power_sensor: phase2_apparent_power_sensor_03
+      phase1_apparent_power_sensor: phase1_apparent_power_sensor_03
+      average_inter_line_voltage_sensor: average_inter_line_voltage_sensor_03
+      input_frequency_sensor: input_frequency_sensor_03
+      output_frequency_sensor: output_frequency_sensor_03
+      bypass_frequency_sensor: bypass_frequency_sensor_03
+      output_power_sensor: output_power_sensor_03
+      output_apparent_power_sensor: output_apparent_power_sensor_03
+      input_phase1_phase2_voltage_sensor: input_phase1_phase2_voltage_sensor_03
+      input_phase2_phase3_voltage_sensor: input_phase2_phase3_voltage_sensor_03
+      input_phase3_phase1_voltage_sensor: input_phase3_phase1_voltage_sensor_03
+      input_phase1_neutral_voltage_sensor: input_phase1_neutral_voltage_sensor_03
+      input_phase2_neutral_voltage_sensor: input_phase2_neutral_voltage_sensor_03
+      input_phase3_neutral_voltage_sensor: input_phase3_neutral_voltage_sensor_03
+      input_phase1_current_sensor: input_phase1_current_sensor_03
+      input_phase2_current_sensor: input_phase2_current_sensor_03
+      input_phase3_current_sensor: input_phase3_current_sensor_03
+      output_phase1_phase2_voltage_sensor: output_phase1_phase2_voltage_sensor_03
+      output_phase2_phase3_voltage_sensor: output_phase2_phase3_voltage_sensor_03
+      output_phase3_phase1_voltage_sensor: output_phase3_phase1_voltage_sensor_03
+      output_phase1_neutral_voltage_sensor: output_phase1_neutral_voltage_sensor_03
+      output_phase2_neutral_voltage_sensor: output_phase2_neutral_voltage_sensor_03
+      output_phase3_neutral_voltage_sensor: output_phase3_neutral_voltage_sensor_03
+      output_phase1_current_sensor: output_phase1_current_sensor_03
+      output_phase2_current_sensor: output_phase2_current_sensor_03
+      output_phase3_current_sensor: output_phase3_current_sensor_03
+      bypass_phase1_neutral_voltage_sensor: bypass_phase1_neutral_voltage_sensor_03
+      bypass_phase2_neutral_voltage_sensor: bypass_phase2_neutral_voltage_sensor_03
+      bypass_phase3_neutral_voltage_sensor: bypass_phase3_neutral_voltage_sensor_03
+      battery_voltage_sensor: battery_voltage_sensor_03
+      battery_current_sensor: battery_current_sensor_03
+      remaining_charge_time_sensor: remaining_charge_time_sensor_03
+UPS-04:
+  type: ELECTRICAL/UPS_IOBM_PPWM_UPSBM
+  links:
+    HLI-24:
+      battery_test_status: battery_test_status_04
+      input_supply_mode: input_supply_mode_04
+      battery_status: battery_status_04
+      phase3_apparent_power_sensor: phase3_apparent_power_sensor_04
+      phase2_apparent_power_sensor: phase2_apparent_power_sensor_04
+      phase1_apparent_power_sensor: phase1_apparent_power_sensor_04
+      average_inter_line_voltage_sensor: average_inter_line_voltage_sensor_04
+      input_frequency_sensor: input_frequency_sensor_04
+      output_frequency_sensor: output_frequency_sensor_04
+      bypass_frequency_sensor: bypass_frequency_sensor_04
+      output_power_sensor: output_power_sensor_04
+      output_apparent_power_sensor: output_apparent_power_sensor_04
+      input_phase1_phase2_voltage_sensor: input_phase1_phase2_voltage_sensor_04
+      input_phase2_phase3_voltage_sensor: input_phase2_phase3_voltage_sensor_04
+      input_phase3_phase1_voltage_sensor: input_phase3_phase1_voltage_sensor_04
+      input_phase1_neutral_voltage_sensor: input_phase1_neutral_voltage_sensor_04
+      input_phase2_neutral_voltage_sensor: input_phase2_neutral_voltage_sensor_04
+      input_phase3_neutral_voltage_sensor: input_phase3_neutral_voltage_sensor_04
+      input_phase1_current_sensor: input_phase1_current_sensor_04
+      input_phase2_current_sensor: input_phase2_current_sensor_04
+      input_phase3_current_sensor: input_phase3_current_sensor_04
+      output_phase1_phase2_voltage_sensor: output_phase1_phase2_voltage_sensor_04
+      output_phase2_phase3_voltage_sensor: output_phase2_phase3_voltage_sensor_04
+      output_phase3_phase1_voltage_sensor: output_phase3_phase1_voltage_sensor_04
+      output_phase1_neutral_voltage_sensor: output_phase1_neutral_voltage_sensor_04
+      output_phase2_neutral_voltage_sensor: output_phase2_neutral_voltage_sensor_04
+      output_phase3_neutral_voltage_sensor: output_phase3_neutral_voltage_sensor_04
+      output_phase1_current_sensor: output_phase1_current_sensor_04
+      output_phase2_current_sensor: output_phase2_current_sensor_04
+      output_phase3_current_sensor: output_phase3_current_sensor_04
+      bypass_phase1_neutral_voltage_sensor: bypass_phase1_neutral_voltage_sensor_04
+      bypass_phase2_neutral_voltage_sensor: bypass_phase2_neutral_voltage_sensor_04
+      bypass_phase3_neutral_voltage_sensor: bypass_phase3_neutral_voltage_sensor_04
+      battery_voltage_sensor: battery_voltage_sensor_04
+      battery_current_sensor: battery_current_sensor_04
+      remaining_charge_time_sensor: remaining_charge_time_sensor_04
+UPS-05:
+  type: ELECTRICAL/UPS_IOBM_PPWM_UPSBM
+  links:
+    HLI-24:
+      battery_test_status: battery_test_status_05
+      input_supply_mode: input_supply_mode_05
+      battery_status: battery_status_05
+      phase3_apparent_power_sensor: phase3_apparent_power_sensor_05
+      phase2_apparent_power_sensor: phase2_apparent_power_sensor_05
+      phase1_apparent_power_sensor: phase1_apparent_power_sensor_05
+      average_inter_line_voltage_sensor: average_inter_line_voltage_sensor_05
+      input_frequency_sensor: input_frequency_sensor_05
+      output_frequency_sensor: output_frequency_sensor_05
+      bypass_frequency_sensor: bypass_frequency_sensor_05
+      output_power_sensor: output_power_sensor_05
+      output_apparent_power_sensor: output_apparent_power_sensor_05
+      input_phase1_phase2_voltage_sensor: input_phase1_phase2_voltage_sensor_05
+      input_phase2_phase3_voltage_sensor: input_phase2_phase3_voltage_sensor_05
+      input_phase3_phase1_voltage_sensor: input_phase3_phase1_voltage_sensor_05
+      input_phase1_neutral_voltage_sensor: input_phase1_neutral_voltage_sensor_05
+      input_phase2_neutral_voltage_sensor: input_phase2_neutral_voltage_sensor_05
+      input_phase3_neutral_voltage_sensor: input_phase3_neutral_voltage_sensor_05
+      input_phase1_current_sensor: input_phase1_current_sensor_05
+      input_phase2_current_sensor: input_phase2_current_sensor_05
+      input_phase3_current_sensor: input_phase3_current_sensor_05
+      output_phase1_phase2_voltage_sensor: output_phase1_phase2_voltage_sensor_05
+      output_phase2_phase3_voltage_sensor: output_phase2_phase3_voltage_sensor_05
+      output_phase3_phase1_voltage_sensor: output_phase3_phase1_voltage_sensor_05
+      output_phase1_neutral_voltage_sensor: output_phase1_neutral_voltage_sensor_05
+      output_phase2_neutral_voltage_sensor: output_phase2_neutral_voltage_sensor_05
+      output_phase3_neutral_voltage_sensor: output_phase3_neutral_voltage_sensor_05
+      output_phase1_current_sensor: output_phase1_current_sensor_05
+      output_phase2_current_sensor: output_phase2_current_sensor_05
+      output_phase3_current_sensor: output_phase3_current_sensor_05
+      bypass_phase1_neutral_voltage_sensor: bypass_phase1_neutral_voltage_sensor_05
+      bypass_phase2_neutral_voltage_sensor: bypass_phase2_neutral_voltage_sensor_05
+      bypass_phase3_neutral_voltage_sensor: bypass_phase3_neutral_voltage_sensor_05
+      battery_voltage_sensor: battery_voltage_sensor_05
+      battery_current_sensor: battery_current_sensor_05
+      remaining_charge_time_sensor: remaining_charge_time_sensor_05
+UPS-06:
+  type: ELECTRICAL/UPS_IOBM_PPWM_UPSBM
+  links:
+    HLI-24:
+      battery_test_status: battery_test_status_06
+      input_supply_mode: input_supply_mode_06
+      battery_status: battery_status_06
+      phase3_apparent_power_sensor: phase3_apparent_power_sensor_06
+      phase2_apparent_power_sensor: phase2_apparent_power_sensor_06
+      phase1_apparent_power_sensor: phase1_apparent_power_sensor_06
+      average_inter_line_voltage_sensor: average_inter_line_voltage_sensor_06
+      input_frequency_sensor: input_frequency_sensor_06
+      output_frequency_sensor: output_frequency_sensor_06
+      bypass_frequency_sensor: bypass_frequency_sensor_06
+      output_power_sensor: output_power_sensor_06
+      output_apparent_power_sensor: output_apparent_power_sensor_06
+      input_phase1_phase2_voltage_sensor: input_phase1_phase2_voltage_sensor_06
+      input_phase2_phase3_voltage_sensor: input_phase2_phase3_voltage_sensor_06
+      input_phase3_phase1_voltage_sensor: input_phase3_phase1_voltage_sensor_06
+      input_phase1_neutral_voltage_sensor: input_phase1_neutral_voltage_sensor_06
+      input_phase2_neutral_voltage_sensor: input_phase2_neutral_voltage_sensor_06
+      input_phase3_neutral_voltage_sensor: input_phase3_neutral_voltage_sensor_06
+      input_phase1_current_sensor: input_phase1_current_sensor_06
+      input_phase2_current_sensor: input_phase2_current_sensor_06
+      input_phase3_current_sensor: input_phase3_current_sensor_06
+      output_phase1_phase2_voltage_sensor: output_phase1_phase2_voltage_sensor_06
+      output_phase2_phase3_voltage_sensor: output_phase2_phase3_voltage_sensor_06
+      output_phase3_phase1_voltage_sensor: output_phase3_phase1_voltage_sensor_06
+      output_phase1_neutral_voltage_sensor: output_phase1_neutral_voltage_sensor_06
+      output_phase2_neutral_voltage_sensor: output_phase2_neutral_voltage_sensor_06
+      output_phase3_neutral_voltage_sensor: output_phase3_neutral_voltage_sensor_06
+      output_phase1_current_sensor: output_phase1_current_sensor_06
+      output_phase2_current_sensor: output_phase2_current_sensor_06
+      output_phase3_current_sensor: output_phase3_current_sensor_06
+      bypass_phase1_neutral_voltage_sensor: bypass_phase1_neutral_voltage_sensor_06
+      bypass_phase2_neutral_voltage_sensor: bypass_phase2_neutral_voltage_sensor_06
+      bypass_phase3_neutral_voltage_sensor: bypass_phase3_neutral_voltage_sensor_06
+      battery_voltage_sensor: battery_voltage_sensor_06
+      battery_current_sensor: battery_current_sensor_06
+      remaining_charge_time_sensor: remaining_charge_time_sensor_06
+UPS-07:
+  type: ELECTRICAL/UPS_IOBM_PPWM_UPSBM
+  links:
+    HLI-24:
+      battery_test_status: battery_test_status_07
+      input_supply_mode: input_supply_mode_07
+      battery_status: battery_status_07
+      phase3_apparent_power_sensor: phase3_apparent_power_sensor_07
+      phase2_apparent_power_sensor: phase2_apparent_power_sensor_07
+      phase1_apparent_power_sensor: phase1_apparent_power_sensor_07
+      average_inter_line_voltage_sensor: average_inter_line_voltage_sensor_07
+      input_frequency_sensor: input_frequency_sensor_07
+      output_frequency_sensor: output_frequency_sensor_07
+      bypass_frequency_sensor: bypass_frequency_sensor_07
+      output_power_sensor: output_power_sensor_07
+      output_apparent_power_sensor: output_apparent_power_sensor_07
+      input_phase1_phase2_voltage_sensor: input_phase1_phase2_voltage_sensor_07
+      input_phase2_phase3_voltage_sensor: input_phase2_phase3_voltage_sensor_07
+      input_phase3_phase1_voltage_sensor: input_phase3_phase1_voltage_sensor_07
+      input_phase1_neutral_voltage_sensor: input_phase1_neutral_voltage_sensor_07
+      input_phase2_neutral_voltage_sensor: input_phase2_neutral_voltage_sensor_07
+      input_phase3_neutral_voltage_sensor: input_phase3_neutral_voltage_sensor_07
+      input_phase1_current_sensor: input_phase1_current_sensor_07
+      input_phase2_current_sensor: input_phase2_current_sensor_07
+      input_phase3_current_sensor: input_phase3_current_sensor_07
+      output_phase1_phase2_voltage_sensor: output_phase1_phase2_voltage_sensor_07
+      output_phase2_phase3_voltage_sensor: output_phase2_phase3_voltage_sensor_07
+      output_phase3_phase1_voltage_sensor: output_phase3_phase1_voltage_sensor_07
+      output_phase1_neutral_voltage_sensor: output_phase1_neutral_voltage_sensor_07
+      output_phase2_neutral_voltage_sensor: output_phase2_neutral_voltage_sensor_07
+      output_phase3_neutral_voltage_sensor: output_phase3_neutral_voltage_sensor_07
+      output_phase1_current_sensor: output_phase1_current_sensor_07
+      output_phase2_current_sensor: output_phase2_current_sensor_07
+      output_phase3_current_sensor: output_phase3_current_sensor_07
+      bypass_phase1_neutral_voltage_sensor: bypass_phase1_neutral_voltage_sensor_07
+      bypass_phase2_neutral_voltage_sensor: bypass_phase2_neutral_voltage_sensor_07
+      bypass_phase3_neutral_voltage_sensor: bypass_phase3_neutral_voltage_sensor_07
+      battery_voltage_sensor: battery_voltage_sensor_07
+      battery_current_sensor: battery_current_sensor_07
+      remaining_charge_time_sensor: remaining_charge_time_sensor_07
+

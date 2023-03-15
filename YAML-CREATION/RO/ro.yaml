@@ -1,0 +1,56 @@
+# Building
+IN-GUR-SIGD:
+  type: FACILITIES/BUILDING
+
+# Floor
+IN-GUR-SIGD_FL1:
+  type: FACILITIES/FLOOR
+  connections:
+    IN-GUR-SIGD: CONTAINS
+
+# Rooms
+IN-GUR-SIGD_RM1:
+  type: FACILITIES/ROOM
+  connections:
+    IN-GUR-SIGD_FL1: CONTAINS
+IN-GUR-SIGD_RM2:
+  type: FACILITIES/ROOM
+  connections:
+    IN-GUR-SIGD_ZN1: CONTAINS
+
+# Devices
+HLI-66:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2738012256879830
+  translation:
+    ro_01_control_mode:
+      present_value: "points.ro_01_control_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    pp_01_run_status:
+      present_value: "points.pp_01_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    pp_01_lost_power_alarm:
+      present_value: "points.pp_01_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    tk_01_level_status:
+      present_value: "points.tk_01_level_status.present_value"
+      states:
+        HIGH: "TRUE"
+        LOW: "FALSE"
+
+# Zones
+IN-GUR-SIGD_ZN1:
+  type: HVAC/ZONE
+  connections:
+    IN-GUR-SIGD_RM1: CONTAINS
+IN-GUR-SIGD_ZN2:
+  type: HVAC/ZONE
+  connections:
+    IN-GUR-SIGD_RM2: CONTAINS
+

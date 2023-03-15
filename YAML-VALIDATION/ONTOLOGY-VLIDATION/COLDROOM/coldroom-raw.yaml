@@ -1,0 +1,550 @@
+# Building
+IN-BLR-BCPWK:
+  type: FACILITIES/BUILDING
+
+
+# Devices
+HLI-14:
+  type: 
+  cloud_device_id: 2723577238569615
+  translation:
+    master_alarm_01:
+      present_value: "points.master_alarm_3f_chef_chiller_01.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_01:
+      present_value: "points.discharge_fan_run_status_3f_chef_chiller_01.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_01:
+      present_value: "points.defrost_run_status_3f_chef_chiller_01.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_01:
+      present_value: "points.compressor_run_status_3f_chef_chiller_01.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_01:
+      present_value: "points.discharge_fan_lost_power_alarm_3f_chef_chiller_01.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_lost_power_alarm_02:
+      present_value: "points.discharge_fan_lost_power_alarm_3f_chef_freezer_02.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_02:
+      present_value: "points.discharge_fan_run_status_3f_chef_freezer_02.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_02:
+      present_value: "points.defrost_run_status_3f_chef_freezer_02.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_02:
+      present_value: "points.compressor_run_status_3f_chef_freezer_02.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    master_alarm_02:
+      present_value: "points.master_alarm_3f_chef_freezer_02.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_03:
+      present_value: "points.discharge_fan_run_status_3f_meat_chiller_03.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_03:
+      present_value: "points.defrost_run_status_3f_meat_chiller_03.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_03:
+      present_value: "points.compressor_run_status_3f_meat_chiller_03.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_03:
+      present_value: "points.discharge_fan_lost_power_alarm_3f_meat_chiller_03.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_03:
+      present_value: "points.master_alarm_3f_meat_chiller_03.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_04:
+      present_value: "points.discharge_fan_run_status_3f_meat_freezer_04.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_04:
+      present_value: "points.defrost_run_status_3f_meat_freezer_04.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_04:
+      present_value: "points.compressor_run_status_3f_meat_freezer_04.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_04:
+      present_value: "points.discharge_fan_lost_power_alarm_3f_meat_freezer_04.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_04:
+      present_value: "points.master_alarm_3f_meat_freezer_04.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_05:
+      present_value: "points.discharge_fan_run_status_3f_veg_chiller_05.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_05:
+      present_value: "points.defrost_run_status_3f_veg_chiller_05.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_05:
+      present_value: "points.compressor_run_status_3f_veg_chiller_05.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_05:
+      present_value: "points.discharge_fan_lost_power_alarm_3f_veg_chiller_05.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_05:
+      present_value: "points.master_alarm_3f_veg_chiller_05.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_06:
+      present_value: "points.discharge_fan_run_status_7f_chef_chiller_06.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_06:
+      present_value: "points.defrost_run_status_7f_chef_chiller_06.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_06:
+      present_value: "points.compressor_run_status_7f_chef_chiller_06.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_06:
+      present_value: "points.discharge_fan_lost_power_alarm_7f_chef_chiller_06.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_06:
+      present_value: "points.master_alarm_7f_chef_chiller_06.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_07:
+      present_value: "points.discharge_fan_run_status_7f_chef_freezer_07.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_07:
+      present_value: "points.defrost_run_status_7f_chef_freezer_07.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_07:
+      present_value: "points.compressor_run_status_7f_chef_freezer_07.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_07:
+      present_value: "points.discharge_fan_lost_power_alarm_7f_chef_freezer_07.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_07:
+      present_value: "points.master_alarm_7f_chef_freezer_07.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_08:
+      present_value: "points.discharge_fan_run_status_7f_meat_chiller_08.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_08:
+      present_value: "points.defrost_run_status_7f_meat_chiller_08.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_08:
+      present_value: "points.compressor_run_status_7f_meat_chiller_08.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_08:
+      present_value: "points.discharge_fan_lost_power_alarm_7f_meat_chiller_08.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_08:
+      present_value: "points.master_alarm_7f_meat_chiller_08.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_09:
+      present_value: "points.discharge_fan_run_status_7f_meat_freezer_09.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_09:
+      present_value: "points.defrost_run_status_7f_meat_freezer_09.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_09:
+      present_value: "points.compressor_run_status_7f_meat_freezer_09.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_09:
+      present_value: "points.discharge_fan_lost_power_alarm_7f_meat_freezer_09.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_09:
+      present_value: "points.master_alarm_7f_meat_freezer_09.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_10:
+      present_value: "points.discharge_fan_run_status_7f_veg_chiller_10.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_10:
+      present_value: "points.defrost_run_status_7f_veg_chiller_10.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_10:
+      present_value: "points.compressor_run_status_7f_veg_chiller_10.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_10:
+      present_value: "points.discharge_fan_lost_power_alarm_7f_veg_chiller_10.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_10:
+      present_value: "points.master_alarm_7f_veg_chiller_10.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_11:
+      present_value: "points.discharge_fan_run_status_bf_garbage_chiller_11.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_11:
+      present_value: "points.defrost_run_status_bf_garbage_chiller_11.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_11:
+      present_value: "points.compressor_run_status_bf_garbage_chiller_11.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_11:
+      present_value: "points.discharge_fan_lost_power_alarm_bf_garbage_chiller_11.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_11:
+      present_value: "points.master_alarm_bf_garbage_chiller_11.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    zone_air_temperature_sensor_01:
+      present_value: "points.zone_air_temperature_sensor_3f_chef_chiller_01.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_3f_chef_chiller_01.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_02:
+      present_value: "points.zone_air_temperature_sensor_3f_chef_freezer_02.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_3f_chef_freezer_02.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_03:
+      present_value: "points.zone_air_temperature_sensor_3f_meat_chiller_03.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_3f_meat_chiller_03.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_04:
+      present_value: "points.zone_air_temperature_sensor_3f_meat_freezer_04.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_3f_meat_freezer_04.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_05:
+      present_value: "points.zone_air_temperature_sensor_3f_veg_chiller_05.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_3f_veg_chiller_05.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_06:
+      present_value: "points.zone_air_temperature_sensor_7f_chef_chiller_06.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_7f_chef_chiller_06.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_07:
+      present_value: "points.zone_air_temperature_sensor_7f_chef_freezer_07.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_7f_chef_freezer_07.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_08:
+      present_value: "points.zone_air_temperature_sensor_7f_meat_chiller_08.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_7f_meat_chiller_08.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_09:
+      present_value: "points.zone_air_temperature_sensor_7f_meat_freezer_09.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_7f_meat_freezer_09.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_10:
+      present_value: "points.zone_air_temperature_sensor_7f_veg_chiller_10.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_7f_veg_chiller_10.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_11:
+      present_value: "points.zone_air_temperature_sensor_bf_garbage_chiller_11.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_bf_garbage_chiller_11.units"
+        values:
+          degrees_celsius: degrees_celsius
+    defrost_temperature_sensor: MISSING
+    discharge_fan_run_command: MISSING
+    defrost_run_command: MISSING
+    defrost_temperature_sensor: MISSING
+    zone_air_temperature_setpoint: MISSING
+    defrost_temperature_setpoint: MISSING
+    compressor_run_command: MISSIBG
+
+
+
+CRREF-01:
+  type: HVAC/FRZ_DFSS_DEFSS_DEFSTC_DXZTC
+  links:
+    HLI-14:
+      master_alarm: master_alarm_01
+      discharge_fan_run_status: discharge_fan_run_status_01
+      defrost_run_status: defrost_run_status_01
+      compressor_run_status: compressor_run_status_01
+      zone_air_temperature_sensor: zone_air_temperature_sensor_01
+      defrost_temperature_sensor: defrost_temperature_sensor
+      discharge_fan_run_command: discharge_fan_run_command
+      defrost_run_command: defrost_run_command
+      zone_air_temperature_setpoint: zone_air_temperature_setpoint
+      compressor_run_command: compressor_run_command
+      defrost_temperature_setpoint: defrost_temperature_setpoint
+      discharge_fan_lost_power_alarm: discharge_fan_lost_power_alarm_01
+
+CRFRZ-01:
+  type: HVAC/FRZ_DFSS_DEFSS_DEFSTC_DXZTC
+  links:
+    HLI-14:
+      master_alarm: master_alarm_02
+      discharge_fan_run_status: discharge_fan_run_status_02
+      defrost_run_status: defrost_run_status_02
+      compressor_run_status: compressor_run_status_02
+      zone_air_temperature_sensor: zone_air_temperature_sensor_02
+      defrost_temperature_sensor: defrost_temperature_sensor
+      discharge_fan_run_command: discharge_fan_run_command
+      defrost_run_command: defrost_run_command
+      zone_air_temperature_setpoint: zone_air_temperature_setpoint
+      compressor_run_command: compressor_run_command
+      defrost_temperature_setpoint: defrost_temperature_setpoint
+      discharge_fan_lost_power_alarm: discharge_fan_lost_power_alarm_02
+
+CRREF-02:
+  type: HVAC/FRZ_DFSS_DEFSS_DEFSTC_DXZTC
+  links:
+    HLI-14:
+      master_alarm: master_alarm_03
+      discharge_fan_run_status: discharge_fan_run_status_03
+      defrost_run_status: defrost_run_status_03
+      compressor_run_status: compressor_run_status_03
+      zone_air_temperature_sensor: zone_air_temperature_sensor_03
+      defrost_temperature_sensor: defrost_temperature_sensor
+      discharge_fan_run_command: discharge_fan_run_command
+      defrost_run_command: defrost_run_command
+      zone_air_temperature_setpoint: zone_air_temperature_setpoint
+      compressor_run_command: compressor_run_command
+      defrost_temperature_setpoint: defrost_temperature_setpoint
+      discharge_fan_lost_power_alarm: discharge_fan_lost_power_alarm_03
+
+CRFRZ-02:
+  type: HVAC/FRZ_DFSS_DEFSS_DEFSTC_DXZTC
+  links:
+    HLI-14:
+      master_alarm: master_alarm_04
+      discharge_fan_run_status: discharge_fan_run_status_04
+      defrost_run_status: defrost_run_status_04
+      compressor_run_status: compressor_run_status_04
+      zone_air_temperature_sensor: zone_air_temperature_sensor_04
+      defrost_temperature_sensor: defrost_temperature_sensor
+      discharge_fan_run_command: discharge_fan_run_command
+      defrost_run_command: defrost_run_command
+      zone_air_temperature_setpoint: zone_air_temperature_setpoint
+      compressor_run_command: compressor_run_command
+      defrost_temperature_setpoint: defrost_temperature_setpoint
+      discharge_fan_lost_power_alarm: discharge_fan_lost_power_alarm_04
+
+CRREF-03:
+  type: HVAC/FRZ_DFSS_DEFSS_DEFSTC_DXZTC
+  links:
+    HLI-14:
+      master_alarm: master_alarm_05
+      discharge_fan_run_status: discharge_fan_run_status_05
+      defrost_run_status: defrost_run_status_05
+      compressor_run_status: compressor_run_status_05
+      zone_air_temperature_sensor: zone_air_temperature_sensor_05
+      defrost_temperature_sensor: defrost_temperature_sensor
+      discharge_fan_run_command: discharge_fan_run_command
+      defrost_run_command: defrost_run_command
+      zone_air_temperature_setpoint: zone_air_temperature_setpoint
+      compressor_run_command: compressor_run_command
+      defrost_temperature_setpoint: defrost_temperature_setpoint
+      discharge_fan_lost_power_alarm: discharge_fan_lost_power_alarm_05
+
+CRREF-04:
+  type: HVAC/FRZ_DFSS_DEFSS_DEFSTC_DXZTC
+  links:
+    HLI-14:
+      master_alarm: master_alarm_06
+      discharge_fan_run_status: discharge_fan_run_status_06
+      defrost_run_status: defrost_run_status_06
+      compressor_run_status: compressor_run_status_06
+      zone_air_temperature_sensor: zone_air_temperature_sensor_06
+      defrost_temperature_sensor: defrost_temperature_sensor
+      discharge_fan_run_command: discharge_fan_run_command
+      defrost_run_command: defrost_run_command
+      zone_air_temperature_setpoint: zone_air_temperature_setpoint
+      compressor_run_command: compressor_run_command
+      defrost_temperature_setpoint: defrost_temperature_setpoint
+      discharge_fan_lost_power_alarm: discharge_fan_lost_power_alarm_06
+
+CRFRZ-03:
+  type: HVAC/FRZ_DFSS_DEFSS_DEFSTC_DXZTC
+  links:
+    HLI-14:
+      master_alarm: master_alarm_07
+      discharge_fan_run_status: discharge_fan_run_status_07
+      defrost_run_status: defrost_run_status_07
+      compressor_run_status: compressor_run_status_07
+      zone_air_temperature_sensor: zone_air_temperature_sensor_07
+      defrost_temperature_sensor: defrost_temperature_sensor
+      discharge_fan_run_command: discharge_fan_run_command
+      defrost_run_command: defrost_run_command
+      zone_air_temperature_setpoint: zone_air_temperature_setpoint
+      compressor_run_command: compressor_run_command
+      defrost_temperature_setpoint: defrost_temperature_setpoint
+      discharge_fan_lost_power_alarm: discharge_fan_lost_power_alarm_07
+
+CRREF-05:
+  type: HVAC/FRZ_DFSS_DEFSS_DEFSTC_DXZTC
+  links:
+    HLI-14:
+      master_alarm: master_alarm_08
+      discharge_fan_run_status: discharge_fan_run_status_08
+      defrost_run_status: defrost_run_status_08
+      compressor_run_status: compressor_run_status_08
+      zone_air_temperature_sensor: zone_air_temperature_sensor_08
+      defrost_temperature_sensor: defrost_temperature_sensor
+      discharge_fan_run_command: discharge_fan_run_command
+      defrost_run_command: defrost_run_command
+      zone_air_temperature_setpoint: zone_air_temperature_setpoint
+      compressor_run_command: compressor_run_command
+      defrost_temperature_setpoint: defrost_temperature_setpoint
+      discharge_fan_lost_power_alarm: discharge_fan_lost_power_alarm_08
+
+CRFRZ-04:
+  type: HVAC/FRZ_DFSS_DEFSS_DEFSTC_DXZTC
+  links:
+    HLI-14:
+      master_alarm: master_alarm_09
+      discharge_fan_run_status: discharge_fan_run_status_09
+      defrost_run_status: defrost_run_status_09
+      compressor_run_status: compressor_run_status_09
+      zone_air_temperature_sensor: zone_air_temperature_sensor_09
+      defrost_temperature_sensor: defrost_temperature_sensor
+      discharge_fan_run_command: discharge_fan_run_command
+      defrost_run_command: defrost_run_command
+      zone_air_temperature_setpoint: zone_air_temperature_setpoint
+      compressor_run_command: compressor_run_command
+      defrost_temperature_setpoint: defrost_temperature_setpoint
+      discharge_fan_lost_power_alarm: discharge_fan_lost_power_alarm_09
+
+CRREF-06:
+  type: HVAC/FRZ_DFSS_DEFSS_DEFSTC_DXZTC
+  links:
+    HLI-14:
+      master_alarm: master_alarm_10
+      discharge_fan_run_status: discharge_fan_run_status_10
+      defrost_run_status: defrost_run_status_10
+      compressor_run_status: compressor_run_status_10
+      zone_air_temperature_sensor: zone_air_temperature_sensor_10
+      defrost_temperature_sensor: defrost_temperature_sensor
+      discharge_fan_run_command: discharge_fan_run_command
+      defrost_run_command: defrost_run_command
+      zone_air_temperature_setpoint: zone_air_temperature_setpoint
+      compressor_run_command: compressor_run_command
+      defrost_temperature_setpoint: defrost_temperature_setpoint
+      discharge_fan_lost_power_alarm: discharge_fan_lost_power_alarm_10
+
+CRREF-07:
+  type: HVAC/FRZ_DFSS_DEFSS_DEFSTC_DXZTC
+  links:
+    HLI-14:
+      master_alarm: master_alarm_11
+      discharge_fan_run_status: discharge_fan_run_status_11
+      defrost_run_status: defrost_run_status_11
+      compressor_run_status: compressor_run_status_11
+      zone_air_temperature_sensor: zone_air_temperature_sensor_11
+      defrost_temperature_sensor: defrost_temperature_sensor
+      discharge_fan_run_command: discharge_fan_run_command
+      defrost_run_command: defrost_run_command
+      zone_air_temperature_setpoint: zone_air_temperature_setpoint
+      compressor_run_command: compressor_run_command
+      defrost_temperature_setpoint: defrost_temperature_setpoint
+      discharge_fan_lost_power_alarm: discharge_fan_lost_power_alarm_11
+
+
+

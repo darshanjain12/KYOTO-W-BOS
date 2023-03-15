@@ -1,0 +1,51 @@
+CONFIG_METADATA:
+  operation: INITIALIZE
+
+3bde9dbd-f32f-4c6e-8b7e-f39a9d865eb9:
+  type: FACILITIES/BUILDING
+  code: IN-BLR-BCPWK
+
+7f96df95-3e7a-4077-b5b1-63218a508a5b:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2738012256879830
+  translation:
+    control_mode_01:
+      present_value: points.ro_01_control_mode.present_value
+      states:
+        AUTO: TRUE
+        MANUAL: FALSE
+    run_status_01:
+      present_value: points.pp_01_run_status.present_value
+      states:
+        ON: TRUE
+        OFF: FALSE
+    lost_power_alarm_01:
+      present_value: points.pp_01_lost_power_alarm.present_value
+      states:
+        ACTIVE: TRUE
+        INACTIVE: FALSE
+    level_status_01:
+      present_value: points.tk_01_level_status.present_value
+      states:
+        HIGH: TRUE
+        LOW: FALSE
+    run_command: MISSING
+  code: HLI-66
+
+8c7dcd1e-983e-4608-afc4-2bcab607f205:
+  type: PLUMBING/PMP_SS
+  links:
+    7f96df95-3e7a-4077-b5b1-63218a508a5b:
+      control_mode: control_mode_01
+      run_status: run_status_01
+      lost_power_alarm: lost_power_alarm_01
+      run_command: run_command
+  code: PP-01
+
+d0c05635-4651-4520-8dca-1012aeee47e2:
+  type: PLUMBING/TK_LVLM
+  links:
+    7f96df95-3e7a-4077-b5b1-63218a508a5b:
+      level_status: level_status_01
+  code: TK-01
+

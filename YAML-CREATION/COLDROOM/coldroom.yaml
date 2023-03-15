@@ -1,0 +1,372 @@
+# Building
+IN-GUR-SIGD:
+  type: FACILITIES/BUILDING
+
+# Floor
+IN-GUR-SIGD_FL1:
+  type: FACILITIES/FLOOR
+  connections:
+    IN-GUR-SIGD: CONTAINS
+
+# Rooms
+IN-GUR-SIGD_RM1:
+  type: FACILITIES/ROOM
+  connections:
+    IN-GUR-SIGD_FL1: CONTAINS
+IN-GUR-SIGD_RM2:
+  type: FACILITIES/ROOM
+  connections:
+    IN-GUR-SIGD_FL1: CONTAINS
+
+# Devices
+HLI-14:
+  type: WALKIN COLD ROOMS
+  cloud_device_id: 2723577238569615
+  translation:
+    master_alarm_01:
+      present_value: "points.master_alarm_3f_chef_chiller_01.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_01:
+      present_value: "points.discharge_fan_run_status_3f_chef_chiller_01.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_01:
+      present_value: "points.defrost_run_status_3f_chef_chiller_01.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_01:
+      present_value: "points.compressor_run_status_3f_chef_chiller_01.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_02:
+      present_value: "points.discharge_fan_lost_power_alarm_3f_chef_freezer_02.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_02:
+      present_value: "points.discharge_fan_run_status_3f_chef_freezer_02.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_02:
+      present_value: "points.defrost_run_status_3f_chef_freezer_02.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_02:
+      present_value: "points.compressor_run_status_3f_chef_freezer_02.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    master_alarm_02:
+      present_value: "points.master_alarm_3f_chef_freezer_02.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_03:
+      present_value: "points.discharge_fan_run_status_3f_meat_chiller_03.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_03:
+      present_value: "points.defrost_run_status_3f_meat_chiller_03.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_03:
+      present_value: "points.compressor_run_status_3f_meat_chiller_03.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_03:
+      present_value: "points.discharge_fan_lost_power_alarm_3f_meat_chiller_03.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_03:
+      present_value: "points.master_alarm_3f_meat_chiller_03.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_04:
+      present_value: "points.discharge_fan_run_status_3f_meat_freezer_04.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_04:
+      present_value: "points.defrost_run_status_3f_meat_freezer_04.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_04:
+      present_value: "points.compressor_run_status_3f_meat_freezer_04.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_04:
+      present_value: "points.discharge_fan_lost_power_alarm_3f_meat_freezer_04.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_04:
+      present_value: "points.master_alarm_3f_meat_freezer_04.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_05:
+      present_value: "points.discharge_fan_run_status_3f_veg_chiller_05.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_05:
+      present_value: "points.defrost_run_status_3f_veg_chiller_05.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_05:
+      present_value: "points.compressor_run_status_3f_veg_chiller_05.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_05:
+      present_value: "points.discharge_fan_lost_power_alarm_3f_veg_chiller_05.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_05:
+      present_value: "points.master_alarm_3f_veg_chiller_05.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_06:
+      present_value: "points.discharge_fan_run_status_7f_chef_chiller_06.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_06:
+      present_value: "points.defrost_run_status_7f_chef_chiller_06.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_06:
+      present_value: "points.compressor_run_status_7f_chef_chiller_06.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_06:
+      present_value: "points.discharge_fan_lost_power_alarm_7f_chef_chiller_06.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_06:
+      present_value: "points.master_alarm_7f_chef_chiller_06.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_07:
+      present_value: "points.discharge_fan_run_status_7f_chef_freezer_07.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_07:
+      present_value: "points.defrost_run_status_7f_chef_freezer_07.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_07:
+      present_value: "points.compressor_run_status_7f_chef_freezer_07.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_07:
+      present_value: "points.discharge_fan_lost_power_alarm_7f_chef_freezer_07.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_07:
+      present_value: "points.master_alarm_7f_chef_freezer_07.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_08:
+      present_value: "points.discharge_fan_run_status_7f_meat_chiller_08.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_08:
+      present_value: "points.defrost_run_status_7f_meat_chiller_08.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_08:
+      present_value: "points.compressor_run_status_7f_meat_chiller_08.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_08:
+      present_value: "points.discharge_fan_lost_power_alarm_7f_meat_chiller_08.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_08:
+      present_value: "points.master_alarm_7f_meat_chiller_08.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_09:
+      present_value: "points.discharge_fan_run_status_7f_meat_freezer_09.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_09:
+      present_value: "points.defrost_run_status_7f_meat_freezer_09.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_09:
+      present_value: "points.compressor_run_status_7f_meat_freezer_09.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_09:
+      present_value: "points.discharge_fan_lost_power_alarm_7f_meat_freezer_09.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_09:
+      present_value: "points.master_alarm_7f_meat_freezer_09.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_10:
+      present_value: "points.discharge_fan_run_status_7f_veg_chiller_10.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_10:
+      present_value: "points.defrost_run_status_7f_veg_chiller_10.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_10:
+      present_value: "points.compressor_run_status_7f_veg_chiller_10.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_10:
+      present_value: "points.discharge_fan_lost_power_alarm_7f_veg_chiller_10.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_10:
+      present_value: "points.master_alarm_7f_veg_chiller_10.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    discharge_fan_run_status_11:
+      present_value: "points.discharge_fan_run_status_bf_garbage_chiller_11.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    defrost_run_status_11:
+      present_value: "points.defrost_run_status_bf_garbage_chiller_11.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    compressor_run_status_11:
+      present_value: "points.compressor_run_status_bf_garbage_chiller_11.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    discharge_fan_lost_power_alarm_11:
+      present_value: "points.discharge_fan_lost_power_alarm_bf_garbage_chiller_11.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    master_alarm_11:
+      present_value: "points.master_alarm_bf_garbage_chiller_11.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    zone_air_temperature_sensor_01:
+      present_value: "points.zone_air_temperature_sensor_3f_chef_chiller_01.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_3f_chef_chiller_01.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_02:
+      present_value: "points.zone_air_temperature_sensor_3f_chef_freezer_02.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_3f_chef_freezer_02.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_03:
+      present_value: "points.zone_air_temperature_sensor_3f_meat_chiller_03.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_3f_meat_chiller_03.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_04:
+      present_value: "points.zone_air_temperature_sensor_3f_meat_freezer_04.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_3f_meat_freezer_04.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_05:
+      present_value: "points.zone_air_temperature_sensor_3f_veg_chiller_05.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_3f_veg_chiller_05.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_06:
+      present_value: "points.zone_air_temperature_sensor_7f_chef_chiller_06.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_7f_chef_chiller_06.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_07:
+      present_value: "points.zone_air_temperature_sensor_7f_chef_freezer_07.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_7f_chef_freezer_07.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_08:
+      present_value: "points.zone_air_temperature_sensor_7f_meat_chiller_08.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_7f_meat_chiller_08.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_09:
+      present_value: "points.zone_air_temperature_sensor_7f_meat_freezer_09.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_7f_meat_freezer_09.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_10:
+      present_value: "points.zone_air_temperature_sensor_7f_veg_chiller_10.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_7f_veg_chiller_10.units"
+        values:
+          degrees_celsius: degrees_celsius
+    zone_air_temperature_sensor_11:
+      present_value: "points.zone_air_temperature_sensor_bf_garbage_chiller_11.present_value"
+      units:
+        key: "pointset.points.zone_air_temperature_sensor_bf_garbage_chiller_11.units"
+        values:
+          degrees_celsius: degrees_celsius
+
+# Zones
+IN-GUR-SIGD_ZN1:
+  type: HVAC/ZONE
+  connections:
+    IN-GUR-SIGD-RM1: CONTAINS
+IN-GUR-SIGD_ZN2:
+  type: HVAC/ZONE
+  connections:
+    IN-GUR-SIGD_RM2: CONTAINS
+

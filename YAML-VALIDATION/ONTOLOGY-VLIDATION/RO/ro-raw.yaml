@@ -1,0 +1,63 @@
+# Building
+IN-BLR-BCPWK:
+  type: FACILITIES/BUILDING
+
+
+
+
+# Devices
+HLI-66:
+  type: GATEWAYS/PASSTHROUGH
+  cloud_device_id: 2738012256879830
+  translation:
+    control_mode_01:
+      present_value: "points.ro_01_control_mode.present_value"
+      states:
+        AUTO: "TRUE"
+        MANUAL: "FALSE"
+    run_status_01:
+      present_value: "points.pp_01_run_status.present_value"
+      states:
+        ON: "TRUE"
+        OFF: "FALSE"
+    lost_power_alarm_01:
+      present_value: "points.pp_01_lost_power_alarm.present_value"
+      states:
+        ACTIVE: "TRUE"
+        INACTIVE: "FALSE"
+    level_status_01:
+      present_value: "points.tk_01_level_status.present_value"
+      states:
+        HIGH: "TRUE"
+        LOW: "FALSE"
+
+
+  
+
+
+  
+PP-01:
+  type: PLUMBING/PP_SS
+  links:
+    HLI-66:
+      control_mode: control_mode_01
+      run_status: run_status_01
+      lost_power_alarm: lost_power_alarm_01
+
+TK-01:
+  type: PLUMBING/TK_LVLM
+  links:
+  connections:
+    RO-01: HAS_PART
+    HLI-66:
+      level_status: level_status_01
+  
+
+RO-01:
+  connections:
+    PP-01: FEEDS
+      
+  
+
+
+

@@ -1,0 +1,3786 @@
+CONFIG_METADATA:
+  operation: INITIALIZE
+9b54e371-6748-4a90-ab6f-2d6ea6c4240d:
+  type: FACILITIES/BUILDING
+  code: IN-BLR-BCPWK
+22f53f64-cc99-4b4f-9a6c-23dc2d2a131e:
+  type: FACILITIES/FLOOR
+  code: IN-BLR-BCPWK-B2
+560714f9-ed47-4faa-83a9-5ddd8bcbf7f3:
+  type: FACILITIES/FLOOR
+  code: IN-BLR-BCPWK-UB
+fa6c1277-7f3a-470b-8c21-993a96f2b990:
+  type: FACILITIES/FLOOR
+  code: IN-BLR-BCPWK-G
+ab1be32e-6f38-4f3a-ae19-aa83fec736d4:
+  type: FACILITIES/FLOOR
+  code: IN-BLR-BCPWK-1
+72df6973-c81d-4f0c-b52b-6a0db1cf5652:
+  type: FACILITIES/FLOOR
+  code: IN-BLR-BCPWK-2
+f545ae84-25b7-4270-8ffa-093752ac884a:
+  type: FACILITIES/FLOOR
+  code: IN-BLR-BCPWK-3
+45c6c01a-8415-4c8b-8f14-ed725798e83b:
+  type: FACILITIES/FLOOR
+  code: IN-BLR-BCPWK-4
+3d4bdf6e-5c76-4766-bd26-f41e11ca3fe9:
+  type: FACILITIES/FLOOR
+  code: IN-BLR-BCPWK-5
+f37c30ad-b281-49bd-9b73-197f704d2548:
+  type: FACILITIES/FLOOR
+  code: IN-BLR-BCPWK-6
+30074d4b-1ee5-4a8b-8363-5ef16839dfc6:
+  type: FACILITIES/FLOOR
+  code: IN-BLR-BCPWK-7
+38e1c9ff-23dc-44a6-8c14-1eed4f02201d:
+  type: FACILITIES/FLOOR
+  code: IN-BLR-BCPWK-8
+292dbc0b-7f1a-46d0-a57b-f1ef4e704337:
+  type: FACILITIES/FLOOR
+  code: IN-BLR-BCPWK-9
+e04e2556-4ecd-42d4-bf30-732f5b9e9deb:
+  type: FACILITIES/FLOOR
+  code: IN-BLR-BCPWK-11
+  
+d6b799b8-a384-40a3-a719-77324b04d7b5:
+  type: LIGHTING/LGRP_DC
+  code: GRP-1
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  connections:
+    4912a235-3ac7-49d3-8c8c-e8a22cf285f3: CONTROLS
+    1c0d6d20-c8d9-4c1f-93f8-50654bbf5acf: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2700917033118284
+b8fa1795-4459-45a3-914c-39e021b2bfb1:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent    
+  code: LMP-1
+
+  connections:
+    d6b799b8-a384-40a3-a719-77324b04d7b5: CONTAINS
+  cloud_device_id: 2754610403703310
+24a9de79-6472-4426-964d-22c45053d448:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent    
+  code: LMP-2
+  connections:
+    d6b799b8-a384-40a3-a719-77324b04d7b5: CONTAINS
+  cloud_device_id: 2687829317665815
+84fa5ee3-cbfa-4f80-abc5-6c1694c13aee:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent    
+  code: LMP-3
+  connections:
+    d6b799b8-a384-40a3-a719-77324b04d7b5: CONTAINS
+  cloud_device_id: 2778121359777846
+f5f5e936-f9b2-49f4-b2ab-42099386c098:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent    
+  code: LMP-4
+  connections:
+    d6b799b8-a384-40a3-a719-77324b04d7b5: CONTAINS
+  cloud_device_id: 2766372744824239
+93c70d23-1ace-4581-b4c0-aec7d18200c8:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent    
+  code: LMP-5
+  connections:
+    d6b799b8-a384-40a3-a719-77324b04d7b5: CONTAINS
+  cloud_device_id: 2634706791642514
+5404eb2d-1486-4670-be5a-3f36329e540c:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-2
+  connections:
+    a250f84a-3c89-455d-af6d-2594375cb59c: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2697588966892482
+bf85a473-f8c8-4e44-a629-66d4ab56b45a:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-3
+  connections:
+    a250f84a-3c89-455d-af6d-2594375cb59c: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2546472600105157
+d669e6e1-f1f6-46eb-9027-f9fc13952924:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent    
+  code: LMP-6
+  connections:
+    bf85a473-f8c8-4e44-a629-66d4ab56b45a: CONTAINS
+  cloud_device_id: 2636646264652827
+8eb529f6-6055-41db-ae36-940c5b31456f:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent    
+  code: LMP-7
+  connections:
+    bf85a473-f8c8-4e44-a629-66d4ab56b45a: CONTAINS
+  cloud_device_id: 2770096864004680
+4cd95069-f8e9-4c5b-81b6-a5024bd2fbe9:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-4
+  connections:
+    1c0d6d20-c8d9-4c1f-93f8-50654bbf5acf: CONTROLS
+    4912a235-3ac7-49d3-8c8c-e8a22cf285f3: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2730332405322870
+2c8a1fe2-e847-4fdf-9c66-2928531badc5:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent    
+  code: LMP-8
+  connections:
+    4cd95069-f8e9-4c5b-81b6-a5024bd2fbe9: CONTAINS
+  cloud_device_id: 2786840508790066
+c311cc13-6d3d-41e4-b328-ccd18c7abaf9:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent    
+  code: LMP-9
+  connections:
+    4cd95069-f8e9-4c5b-81b6-a5024bd2fbe9: CONTAINS
+  cloud_device_id: 2771865908829905
+a05769de-334b-49db-87fc-340f61001068:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent    
+  code: LMP-10
+  connections:
+    4cd95069-f8e9-4c5b-81b6-a5024bd2fbe9: CONTAINS
+  cloud_device_id: 2608110817529516
+39d242dc-2123-4fc3-b01f-58fc5f66b907:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent    
+  code: LMP-11
+  connections:
+    4cd95069-f8e9-4c5b-81b6-a5024bd2fbe9: CONTAINS
+  cloud_device_id: 2762200635732865
+18ed0e56-2544-4b1e-8a22-38366da4f4ff:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent    
+  code: LMP-12
+  connections:
+    4cd95069-f8e9-4c5b-81b6-a5024bd2fbe9: CONTAINS
+  cloud_device_id: 2611571539261575
+5fbd47a6-3c43-4ee7-aed7-4ee9248130d6:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent    
+  code: LMP-13
+  connections:
+    4cd95069-f8e9-4c5b-81b6-a5024bd2fbe9: CONTAINS
+  cloud_device_id: 2651008344049525
+c1bddb93-be76-4908-b6d3-784c55139784:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-14
+  connections:
+    4cd95069-f8e9-4c5b-81b6-a5024bd2fbe9: CONTAINS
+  cloud_device_id: 2548948153839655
+88be3623-3324-420b-b723-783897fa0ee6:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent    
+  code: LMP-15
+  connections:
+    4cd95069-f8e9-4c5b-81b6-a5024bd2fbe9: CONTAINS
+  cloud_device_id: 2653561859697685
+f97312d2-f168-4abc-8e04-843dc5136907:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent    
+  code: LMP-16
+  connections:
+    4cd95069-f8e9-4c5b-81b6-a5024bd2fbe9: CONTAINS
+  cloud_device_id: 2703691263739032
+30e9a750-5499-4931-860b-ce516e1d422e:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent    
+  code: LMP-17
+  connections:
+    4cd95069-f8e9-4c5b-81b6-a5024bd2fbe9: CONTAINS
+  cloud_device_id: 2788651463562388
+e907e3c1-b76b-47e3-818e-b85f664cc10a:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-5
+  connections:
+    4912a235-3ac7-49d3-8c8c-e8a22cf285f3: CONTROLS
+    1c0d6d20-c8d9-4c1f-93f8-50654bbf5acf: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2738558189717065
+7f3dd79f-a390-4b1d-be40-900e3fa083c1:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-18
+  connections:
+    e907e3c1-b76b-47e3-818e-b85f664cc10a: CONTAINS
+  cloud_device_id: 2582122934070666
+708f0d97-531d-4b08-9c69-f2203bb7a57e:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-19
+  connections:
+    e907e3c1-b76b-47e3-818e-b85f664cc10a: CONTAINS
+  cloud_device_id: 2553525342275944
+e61cb002-5373-4565-945f-e0074aa72f82:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-20
+  connections:
+    e907e3c1-b76b-47e3-818e-b85f664cc10a: CONTAINS
+  cloud_device_id: 2716033969384090
+ff5c5c77-35c9-4c2b-9343-fb575f8af01b:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-21
+  connections:
+    e907e3c1-b76b-47e3-818e-b85f664cc10a: CONTAINS
+  cloud_device_id: 2798124499726244
+763d42fe-efcd-4383-91e8-576e090e299e:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-22
+  connections:
+    e907e3c1-b76b-47e3-818e-b85f664cc10a: CONTAINS
+  cloud_device_id: 2764274863354736
+63455d15-1c1f-4813-ae9e-edd6d0762599:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-23
+  connections:
+    e907e3c1-b76b-47e3-818e-b85f664cc10a: CONTAINS
+  cloud_device_id: 2634420796140422
+8ad52ce5-32a6-4796-b8b0-7b285bcde3bd:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-24
+  connections:
+    e907e3c1-b76b-47e3-818e-b85f664cc10a: CONTAINS
+  cloud_device_id: 2690307367003522
+70f46dc2-c61d-446f-a835-dd4b66845803:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-25
+  connections:
+    e907e3c1-b76b-47e3-818e-b85f664cc10a: CONTAINS
+  cloud_device_id: 2576369202605686
+bf680ca9-1600-4f77-90d3-3cf34338badd:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-26
+  connections:
+    e907e3c1-b76b-47e3-818e-b85f664cc10a: CONTAINS
+  cloud_device_id: 2709136204571993
+7f979212-5b8c-4fcc-a74d-2cf35cae5cac:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-27
+  connections:
+    e907e3c1-b76b-47e3-818e-b85f664cc10a: CONTAINS
+  cloud_device_id: 2696616973198490
+b7d32c3b-06e4-4776-9d60-4e2d501564ce:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-28
+  connections:
+    e907e3c1-b76b-47e3-818e-b85f664cc10a: CONTAINS
+  cloud_device_id: 2745877836645549
+cf625403-74f8-4fa2-bfec-d993f98b8986:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-6
+  connections:
+    4912a235-3ac7-49d3-8c8c-e8a22cf285f3: CONTROLS
+    1c0d6d20-c8d9-4c1f-93f8-50654bbf5acf: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2668139804655910
+603054a2-1266-4ad6-8ab6-a9793ec094f9:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-29
+  connections:
+    bf85a473-f8c8-4e44-a629-66d4ab56b45a: CONTAINS
+  cloud_device_id: 2741290003773572
+2ce06009-bd7f-4c95-adfe-fa7004680729:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-7
+  connections:
+    89bc5315-8896-4b3c-bc2b-d680a1159b0e: CONTROLS
+    ce04961b-a898-416f-82b0-fa2ff1af523c: CONTROLS
+    aa1676bb-eb32-4dff-b6bc-7b262132b02d: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2658645499172536
+01e18662-30fb-4c4b-a673-75d162ce3d41:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-30
+  connections:
+    2ce06009-bd7f-4c95-adfe-fa7004680729: CONTAINS
+  cloud_device_id: 2585686053983987
+9315d616-b654-45ee-8c10-670ff529d57b:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-31
+  connections:
+    2ce06009-bd7f-4c95-adfe-fa7004680729: CONTAINS
+  cloud_device_id: 2736970354462701
+e8653a3c-5615-42e5-b2d5-899ef7cc5188:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-32
+  connections:
+    2ce06009-bd7f-4c95-adfe-fa7004680729: CONTAINS
+  cloud_device_id: 2653735881830402
+988b67cd-94cd-4655-a87c-adbdd0c3ea01:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-33
+  connections:
+    2ce06009-bd7f-4c95-adfe-fa7004680729: CONTAINS
+  cloud_device_id: 2661424904741488
+a9e254a3-74af-44aa-a9c1-607ef9e2f793:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-8
+  connections:
+    89bc5315-8896-4b3c-bc2b-d680a1159b0e: CONTROLS
+    ce04961b-a898-416f-82b0-fa2ff1af523c: CONTROLS
+    aa1676bb-eb32-4dff-b6bc-7b262132b02d: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2730865582751419
+0562a410-15d0-44c7-9216-d561b1fd322b:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-9
+  connections:
+    72184ce3-8b85-4fac-88e7-9b4de9a1a02b: CONTROLS
+    ca1dfdab-2a49-408d-94bb-1d6727f2d42b: CONTROLS
+    8019f127-d0b7-489a-a651-cfe986172cf2: CONTROLS
+    2bf7a7dc-ea9d-40cb-88d5-740c8f3a2442: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2558736921127222
+0c8e9f9f-ffa8-4206-a4b0-7e75e0d49a63:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-34
+  connections:
+    0562a410-15d0-44c7-9216-d561b1fd322b: CONTAINS
+  cloud_device_id: 2691954344561955
+12ecd1fa-4db5-4b49-8d6a-e6db050ebc1f:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-35
+  connections:
+    0562a410-15d0-44c7-9216-d561b1fd322b: CONTAINS
+  cloud_device_id: 2693864807253594
+1b4545f5-1799-4a8e-912e-a078eba26092:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-36
+  connections:
+    0562a410-15d0-44c7-9216-d561b1fd322b: CONTAINS
+  cloud_device_id: 2681855377988346
+802712bd-77b7-423b-9226-7f3bc0d71fc8:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-37
+  connections:
+    0562a410-15d0-44c7-9216-d561b1fd322b: CONTAINS
+  cloud_device_id: 2666503821805305
+f5a3af75-8eea-4ca4-9a12-32c90edd862e:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-38
+  connections:
+    0562a410-15d0-44c7-9216-d561b1fd322b: CONTAINS
+  cloud_device_id: 2700744350027296
+e5d6e54d-1d6b-4f62-93bb-6010fedcde6a:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-39
+  connections:
+    0562a410-15d0-44c7-9216-d561b1fd322b: CONTAINS
+  cloud_device_id: 2737886497162953
+795b5d67-f0c7-40e2-9405-bb24a5dd1d4f:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-40
+  connections:
+    0562a410-15d0-44c7-9216-d561b1fd322b: CONTAINS
+  cloud_device_id: 2600445071242935
+f7c43527-93d0-4456-b31f-85bf3db8bac0:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-41
+  connections:
+    0562a410-15d0-44c7-9216-d561b1fd322b: CONTAINS
+  cloud_device_id: 2717005403204672
+d3ba4590-cbd5-45a2-9b6d-fbda31e93da1:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-10
+  connections:
+    41415c0f-a6b5-47b2-beac-d4ecba6bd93e: CONTROLS
+    566f8e48-dd44-48e2-8beb-f2bbf5c9beb3: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2786305364636575
+61234962-cf5e-4740-8f7d-09968c2ad851:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-42
+  connections:
+    d3ba4590-cbd5-45a2-9b6d-fbda31e93da1: CONTAINS
+  cloud_device_id: 2806944810323947
+9f8f2473-ec8d-4279-9d21-fc0cbed823cd:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-43
+  connections:
+    d3ba4590-cbd5-45a2-9b6d-fbda31e93da1: CONTAINS
+  cloud_device_id: 2722365365428706
+dbe3ce68-a961-4f57-b4f1-352d301ae788:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-44
+  connections:
+    d3ba4590-cbd5-45a2-9b6d-fbda31e93da1: CONTAINS
+  cloud_device_id: 2642480250466356
+2e657830-4efc-449c-98f9-1dc1bb34f204:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-45
+  connections:
+    d3ba4590-cbd5-45a2-9b6d-fbda31e93da1: CONTAINS
+  cloud_device_id: 2739623502088260
+7eddca01-1453-4696-87cc-7bbe39be0f68:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-11
+  connections:
+    667eff82-058d-43fb-8d55-9c971ebc8d5b: CONTROLS
+    9b175833-b7a5-446f-9af5-4142148450b8: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2731123539462692
+d712cd44-3161-456e-a65d-486e16f3e5d9:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-46
+  connections:
+    7eddca01-1453-4696-87cc-7bbe39be0f68: CONTAINS
+  cloud_device_id: 2643003996369455
+d8d8a0bc-70d3-4c4a-9d5b-07fc8d29ed1a:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-47
+  connections:
+    7eddca01-1453-4696-87cc-7bbe39be0f68: CONTAINS
+  cloud_device_id: 2638094639204570
+f54b9370-89da-4de9-a3ea-360e1789ff4a:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-48
+  connections:
+    7eddca01-1453-4696-87cc-7bbe39be0f68: CONTAINS
+  cloud_device_id: 2709389305359988
+b1137e52-9ff2-4468-9908-cd0755b4f84f:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-12
+  connections:
+    e8fc5d84-5845-4bec-96ae-65b7a176c404: CONTROLS
+    164019e6-e717-42cf-b504-1133fd3bfd07: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2724084810475500
+960b81e9-1fd9-40a8-b944-dda8b4caf7d5:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-49
+  connections:
+    b1137e52-9ff2-4468-9908-cd0755b4f84f: CONTAINS
+  cloud_device_id: 2769096338988871
+ea1a4dab-9bb3-4d16-96da-309a6f4c24ae:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-50
+  connections:
+    b1137e52-9ff2-4468-9908-cd0755b4f84f: CONTAINS
+  cloud_device_id: 2775588524188464
+4a7c486f-bbd1-462f-a5f8-8fb5d7ed4582:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-51
+  connections:
+    b1137e52-9ff2-4468-9908-cd0755b4f84f: CONTAINS
+  cloud_device_id: 2579870766286159
+9da5c406-de37-490d-b996-b0a0199319ff:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-13
+  connections:
+    5d9247d8-735a-422d-a0ce-6000aa4feca1: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2619325945389383
+a00376ae-0326-4cd9-ab29-60bc07b098a9:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-52
+  connections:
+    9da5c406-de37-490d-b996-b0a0199319ff: CONTAINS
+  cloud_device_id: 2683976521868992
+351813e5-76c6-48ff-bdbe-21ece3fa526c:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-53
+  connections:
+    9da5c406-de37-490d-b996-b0a0199319ff: CONTAINS
+  cloud_device_id: 2677954284455654
+928d516e-0776-414c-82f7-b8a29d4918ba:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-54
+  connections:
+    9da5c406-de37-490d-b996-b0a0199319ff: CONTAINS
+  cloud_device_id: 2624698077127070
+388a23c6-9cfa-471c-a212-4ed72c01cc2c:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-14
+  connections:
+    69c24aa6-9298-4886-b089-226b5e1ab39e: CONTROLS
+    780e3882-2e37-40a2-a324-3389c22bb316: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2570588998204399
+e3c18731-be5d-4553-8e72-d6f2d860fd71:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-55
+  connections:
+    388a23c6-9cfa-471c-a212-4ed72c01cc2c: CONTAINS
+  cloud_device_id: 2776202620043300
+92a032b4-9a0f-4f06-b14f-ea906b75dfc3:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-56
+  connections:
+    388a23c6-9cfa-471c-a212-4ed72c01cc2c: CONTAINS
+  cloud_device_id: 2588361789514839
+c2316156-6bb0-4479-9319-9858fde44380:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-15
+  connections:
+    3cf234fb-a8d5-494d-aaf8-253123a495d0: CONTROLS
+    f118cfda-7063-4a98-9f3d-c14567160402: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2651839947488772
+619dc0b5-c263-4b6d-9c36-9e91877a98fa:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-57
+  connections:
+    c2316156-6bb0-4479-9319-9858fde44380: CONTAINS
+  cloud_device_id: 2727380044169998
+6336db1f-1c85-435b-a05e-1044bd6fb21f:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-58
+  connections:
+    c2316156-6bb0-4479-9319-9858fde44380: CONTAINS
+  cloud_device_id: 2660592086181183
+d7b9555b-a304-4b21-8ea2-85a1844b8f1c:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-59
+  connections:
+    c2316156-6bb0-4479-9319-9858fde44380: CONTAINS
+  cloud_device_id: 2639708280378246
+a0835b09-f145-42be-9ec8-7a3fb92e44fe:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-60
+  connections:
+    7eddca01-1453-4696-87cc-7bbe39be0f68: CONTAINS
+  cloud_device_id: 2537258785632695
+975772c0-903d-4715-825a-e696a0e2230d:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-16
+  connections:
+    dd5c0452-1053-4920-afb8-1fb8c011a53f: CONTROLS
+    80615b0a-1cc1-4dd1-b3e5-4595dd844611: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2602256509174552
+10fda76f-e823-44fd-bf29-e858422a699a:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-61
+  connections:
+    975772c0-903d-4715-825a-e696a0e2230d: CONTAINS
+  cloud_device_id: 2626075322307759
+fcdeb1fc-41aa-4840-821d-9bf00aa0b7b7:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-62
+  connections:
+    975772c0-903d-4715-825a-e696a0e2230d: CONTAINS
+  cloud_device_id: 2713871373066539
+5fac835b-7aac-4daa-a383-d3a27308200b:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-63
+  connections:
+    975772c0-903d-4715-825a-e696a0e2230d: CONTAINS
+  cloud_device_id: 2746850712382415
+91f66754-1e76-4225-b94e-0a421c049ae5:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-17
+  connections:
+    fb39b6ed-54b2-4fef-aa9b-409d2781b330: CONTROLS
+    8d1f7123-44fc-47a8-aa49-32dcf242eb0d: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2609164840217507
+a5933d2f-18fd-4d64-b5f0-47c6a8013204:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-64
+  connections:
+    91f66754-1e76-4225-b94e-0a421c049ae5: CONTAINS
+  cloud_device_id: 2696591026333725
+c278927d-3c50-4fde-beb6-62e343a25c22:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-65
+  connections:
+    91f66754-1e76-4225-b94e-0a421c049ae5: CONTAINS
+  cloud_device_id: 2612599076285382
+350b6f6f-bf57-4351-82ba-5c101d7dec30:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-66
+  connections:
+    91f66754-1e76-4225-b94e-0a421c049ae5: CONTAINS
+  cloud_device_id: 2779756052541753
+b6be90a7-850b-441e-8080-5b43ef856c9a:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-18
+  connections:
+    5d9247d8-735a-422d-a0ce-6000aa4feca1: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2711876726576031
+8b1aca0d-73cb-409b-b0f0-4d4654f21acc:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-67
+  connections:
+    b6be90a7-850b-441e-8080-5b43ef856c9a: CONTAINS
+  cloud_device_id: 2747788611640948
+3405945f-8d1f-4334-897a-f932991a95f8:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-19
+  connections:
+    5d9247d8-735a-422d-a0ce-6000aa4feca1: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2607710184283046
+c50605cc-bb68-4bb8-bbbf-aff28c38e227:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-68
+  connections:
+    3405945f-8d1f-4334-897a-f932991a95f8: CONTAINS
+  cloud_device_id: 2552864660013682
+1501a3dc-8c27-423c-b39a-5b031cd2660c:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-20
+  connections:
+    fb39b6ed-54b2-4fef-aa9b-409d2781b330: CONTROLS
+    8d1f7123-44fc-47a8-aa49-32dcf242eb0d: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2728228759568238
+e39023be-3eb6-4b26-b2b7-a342e9d08f3b:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-69
+  connections:
+    1501a3dc-8c27-423c-b39a-5b031cd2660c: CONTAINS
+  cloud_device_id: 2607332745376710
+54366f59-cd18-484b-8a50-8be3ec28b00e:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-70
+  connections:
+    1501a3dc-8c27-423c-b39a-5b031cd2660c: CONTAINS
+  cloud_device_id: 2538669101709561
+9eb4c5c8-0b09-409d-9f9c-e083005a1f5f:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-21
+  connections:
+    fb39b6ed-54b2-4fef-aa9b-409d2781b330: CONTROLS
+    8d1f7123-44fc-47a8-aa49-32dcf242eb0d: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2742329566926106
+ae0498fb-8026-4769-9fda-97f68c80e5df:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-71
+  connections:
+    9eb4c5c8-0b09-409d-9f9c-e083005a1f5f: CONTAINS
+  cloud_device_id: 2756601528447001
+0f2dccb3-fe0b-4558-a30c-6648dd37c507:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-22
+  connections:
+    fb39b6ed-54b2-4fef-aa9b-409d2781b330: CONTROLS
+    8d1f7123-44fc-47a8-aa49-32dcf242eb0d: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2591735492390797
+132fac09-718e-47ef-8c9b-4c288f3f9ddc:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-72
+  connections:
+    0f2dccb3-fe0b-4558-a30c-6648dd37c507: CONTAINS
+  cloud_device_id: 2548058775766508
+22536af5-2bb7-498a-90dc-a2073e7d0ab2:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-73
+  connections:
+    0f2dccb3-fe0b-4558-a30c-6648dd37c507: CONTAINS
+  cloud_device_id: 2615640488161207
+822f4d10-9357-461f-bc86-46b79a9d0694:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-23
+  connections:
+    fb39b6ed-54b2-4fef-aa9b-409d2781b330: CONTROLS
+    8d1f7123-44fc-47a8-aa49-32dcf242eb0d: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2611654138917481
+d4d7db3b-7772-44da-a800-e1429f6ec241:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-24
+  connections:
+    667eff82-058d-43fb-8d55-9c971ebc8d5b: CONTROLS
+    9b175833-b7a5-446f-9af5-4142148450b8: CONTROLS
+    5d9247d8-735a-422d-a0ce-6000aa4feca1: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2696129142896305
+855edeb8-9187-4e4a-bee5-c2ed75e37378:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-74
+  connections:
+    d4d7db3b-7772-44da-a800-e1429f6ec241: CONTAINS
+  cloud_device_id: 2600988217247760
+e31f0e93-db95-43e1-b2a5-91297778f22b:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-75
+  connections:
+    d4d7db3b-7772-44da-a800-e1429f6ec241: CONTAINS
+  cloud_device_id: 2723161591486288
+a4321751-be9f-43fa-8b61-db4a4afa52ae:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-25
+  connections:
+    5d9247d8-735a-422d-a0ce-6000aa4feca1: CONTROLS
+    667eff82-058d-43fb-8d55-9c971ebc8d5b: CONTROLS
+    9b175833-b7a5-446f-9af5-4142148450b8: CONTROLS
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2608185208215857
+07c0e5aa-e5f3-42fb-93e5-cff67bb7d91e:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-76
+  connections:
+    a4321751-be9f-43fa-8b61-db4a4afa52ae: CONTAINS
+  cloud_device_id: 2748331189653195
+3fa82e6e-a2cd-471a-89cb-477da94f6e9f:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-77
+  connections:
+    d4d7db3b-7772-44da-a800-e1429f6ec241: CONTAINS
+  cloud_device_id: 2774003414269294
+cb82f47e-087a-4bce-ae68-25edd2b76684:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-78
+  connections:
+    a4321751-be9f-43fa-8b61-db4a4afa52ae: CONTAINS
+  cloud_device_id: 2582970411569786
+eb7f1cfc-a846-4eb8-ac8f-1208e72f1015:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-79
+  connections:
+    a4321751-be9f-43fa-8b61-db4a4afa52ae: CONTAINS
+  cloud_device_id: 2535425147793907
+e8522259-e8e2-4c37-986c-b909c9d85566:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-80
+  connections:
+    d4d7db3b-7772-44da-a800-e1429f6ec241: CONTAINS
+  cloud_device_id: 2539602502149634
+93fb28ac-a0f6-4b41-988c-1bb3925ec4a0:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-81
+  connections:
+    91f66754-1e76-4225-b94e-0a421c049ae5: CONTAINS
+  cloud_device_id: 2778200062093505
+a250f84a-3c89-455d-af6d-2594375cb59c:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-1
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2732069211597065
+aa1676bb-eb32-4dff-b6bc-7b262132b02d:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-2
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2665339470178858
+2bf7a7dc-ea9d-40cb-88d5-740c8f3a2442:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-3
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2611836317595091
+8019f127-d0b7-489a-a651-cfe986172cf2:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-4
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2683612922536417
+566f8e48-dd44-48e2-8beb-f2bbf5c9beb3:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-5
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2643118018114959
+667eff82-058d-43fb-8d55-9c971ebc8d5b:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-6
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2729509905826123
+f118cfda-7063-4a98-9f3d-c14567160402:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-7
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2769201463476849
+780e3882-2e37-40a2-a324-3389c22bb316:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-8
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2657778726053227
+164019e6-e717-42cf-b504-1133fd3bfd07:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-9
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2771824391004667
+ce04961b-a898-416f-82b0-fa2ff1af523c:
+  type: LIGHTING/LKP_SCZ_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+    zone_scene_command:
+      present_value: points.zone_scene_command.present_value
+      states:
+        ACTIVE: 0
+        INACTIVE: 2
+
+    scene_command:
+      present_value: points.scene_command.present_value
+      states:
+        ACTIVE: TRUE
+        INACTIVE: FALSE
+
+  code: LKP-1
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2648584989374692
+89bc5315-8896-4b3c-bc2b-d680a1159b0e:
+  type: LIGHTING/LKP_SCZ_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+    zone_scene_command:
+      present_value: points.zone_scene_command.present_value
+      states:
+        ACTIVE: 0
+        INACTIVE: 2
+
+    scene_command:
+      present_value: points.scene_command.present_value
+      states:
+        ACTIVE: "step_up"
+        INACTIVE: "step_down"
+  code: LKP-2
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2795716464082823
+72184ce3-8b85-4fac-88e7-9b4de9a1a02b:
+  type: LIGHTING/LKP_SCZ_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+    zone_scene_command:
+      present_value: points.zone_scene_command.present_value
+      states:
+        ACTIVE: 0
+        INACTIVE: 3
+
+    scene_command:
+      present_value: points.scene_command.present_value
+      states:
+        ACTIVE: TRUE
+        INACTIVE: FALSE
+  code: LKP-3
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2540602522714727
+ca1dfdab-2a49-408d-94bb-1d6727f2d42b:
+  type: LIGHTING/LKP_SCZ_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+    zone_scene_command:
+      present_value: points.zone_scene_command.present_value
+      states:
+        ACTIVE: 0
+        INACTIVE: 2
+
+    scene_command:
+      present_value: points.scene_command.present_value
+      states:
+        ACTIVE: TRUE
+        INACTIVE: FALSE
+  code: LKP-4
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2655721365329178
+41415c0f-a6b5-47b2-beac-d4ecba6bd93e:
+  type: LIGHTING/LKP_SCZ_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+    zone_scene_command:
+      present_value: points.zone_scene_command.present_value
+      states:
+        ACTIVE: 0
+        INACTIVE: 2
+
+    scene_command:
+      present_value: points.scene_command.present_value
+      states:
+        ACTIVE: TRUE
+        INACTIVE: FALSE
+  code: LKP-5
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2777092239517988
+3cf234fb-a8d5-494d-aaf8-253123a495d0:
+  type: LIGHTING/LKP_SCZ_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+    zone_scene_command:
+      present_value: points.zone_scene_command.present_value
+      states:
+        ACTIVE: 0
+        INACTIVE: 2
+
+    scene_command:
+      present_value: points.scene_command.present_value
+      states:
+        ACTIVE: TRUE
+        INACTIVE: FALSE
+  code: LKP-6
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2660850314294742
+69c24aa6-9298-4886-b089-226b5e1ab39e:
+  type: LIGHTING/LKP_SCZ_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+    zone_scene_command:
+      present_value: points.zone_scene_command.present_value
+      states:
+        ACTIVE: 0
+        INACTIVE: 2
+
+    scene_command:
+      present_value: points.scene_command.present_value
+      states:
+        ACTIVE: TRUE
+        INACTIVE: FALSE
+  code: LKP-7
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2796563248694515
+e8fc5d84-5845-4bec-96ae-65b7a176c404:
+  type: LIGHTING/LKP_SCZ_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+    zone_scene_command:
+      present_value: points.zone_scene_command.present_value
+      states:
+        ACTIVE: 0
+        INACTIVE: 2
+
+    scene_command:
+      present_value: points.scene_command.present_value
+      states:
+        ACTIVE: TRUE
+        INACTIVE: FALSE
+  code: LKP-8
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2654906783801837
+80615b0a-1cc1-4dd1-b3e5-4595dd844611:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-10
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2813147462661764
+8d1f7123-44fc-47a8-aa49-32dcf242eb0d:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-11
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2626920669418049
+9b175833-b7a5-446f-9af5-4142148450b8:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-12
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2661320393512460
+5d9247d8-735a-422d-a0ce-6000aa4feca1:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-13
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2725925251082027
+dd5c0452-1053-4920-afb8-1fb8c011a53f:
+  type: LIGHTING/LKP_SCZ_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+    zone_scene_command:
+      present_value: points.zone_scene_command.present_value
+      states:
+        ACTIVE: 0
+        INACTIVE: 2
+
+    scene_command:
+      present_value: points.scene_command.present_value
+      states:
+        ACTIVE: TRUE
+        INACTIVE: FALSE
+  code: LKP-9
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2617888722579261
+fb39b6ed-54b2-4fef-aa9b-409d2781b330:
+  type: LIGHTING/LKP_SCZ_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+    zone_scene_command:
+      present_value: points.zone_scene_command.present_value
+      states:
+        ACTIVE: 0
+        INACTIVE: 2
+
+    scene_command:
+      present_value: points.scene_command.present_value
+      states:
+        ACTIVE: TRUE
+        INACTIVE: FALSE
+  code: LKP-10
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2643268642491554
+1c0d6d20-c8d9-4c1f-93f8-50654bbf5acf:
+  type: LIGHTING/LKP_SCZ_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+    zone_scene_command:
+      present_value: points.zone_scene_command.present_value
+      states:
+        ACTIVE: 0
+        INACTIVE: 2
+
+    scene_command:
+      present_value: points.scene_command.present_value
+      states:
+        ACTIVE: TRUE
+        INACTIVE: FALSE
+  code: LKP-11
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2587306333211945
+4912a235-3ac7-49d3-8c8c-e8a22cf285f3:
+  type: LIGHTING/LKP_SCZ_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+    zone_scene_command:
+      present_value: points.zone_scene_command.present_value
+      states:
+        ACTIVE: 0
+        INACTIVE: 2
+
+    scene_command:
+      present_value: points.scene_command.present_value
+      states:
+        ACTIVE: TRUE
+        INACTIVE: FALSE
+  code: LKP-12
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  cloud_device_id: 2755974670748014
+14677bcc-acd8-4340-985c-b88f5900bbf6:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-14
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2793759701234510
+8a53565f-b34f-4a4d-9008-d2e3d6407007:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-15
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2538096770050090
+8cb9b0df-9702-4084-8632-9ca3a741a1a7:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-16
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2608909528704944
+bce392e1-9a6e-4efc-a3c6-0e8ee1d85821:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-17
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2574090500514209
+2e7a1ed0-500c-484f-b526-5c193b7fc42c:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-18
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2694373647894608
+bce49165-3775-4332-8ceb-70c4548c7366:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-19
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2747674170046714
+0309d9d5-70ee-47f6-b7e0-cba5b3644a5d:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-20
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2539621282259608
+3b6e473f-e07d-495f-b108-fe82aa2e8338:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-21
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2734758737956269
+fb4b796f-c8c6-4d93-8c7b-42af29ef6bc8:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-22
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2697688608821170
+f1a81d20-98d4-4495-a491-e0c310d73954:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-23
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2690111766366809
+7f7c3275-5114-4751-ab91-15dee95904e3:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-24
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2625352619185917
+e26cc9c1-da38-41a6-b04d-32cc7f1cad32:
+  type: LIGHTING/LKP_SCZ_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+    zone_scene_command:
+      present_value: points.zone_scene_command.present_value
+      states:
+        ACTIVE: 0
+        INACTIVE: 2
+
+    scene_command:
+      present_value: points.scene_command.present_value
+      states:
+        ACTIVE: TRUE
+        INACTIVE: FALSE
+  code: LKP-13
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2610822751508845
+9122481d-9cd3-4fc1-966d-d0ef3ca4958a:
+  type: LIGHTING/LKP_SCZ_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+    zone_scene_command:
+      present_value: points.zone_scene_command.present_value
+      states:
+        ACTIVE: 0
+        INACTIVE: 2
+
+    scene_command:
+      present_value: points.scene_command.present_value
+      states:
+        ACTIVE: TRUE
+        INACTIVE: FALSE
+  code: LKP-14
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2732203976003529
+5169c8e8-9536-4578-8122-5ad75abcc358:
+  type: LIGHTING/LKP_SCZ_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+    zone_scene_command:
+      present_value: points.zone_scene_command.present_value
+      states:
+        ACTIVE: 0
+        INACTIVE: 2
+      states:
+        ACTIVE: 0
+        INACTIVE: 2
+
+    scene_command:
+      present_value: points.scene_command.present_value
+      states:
+        ACTIVE: TRUE
+        INACTIVE: FALSE
+  code: LKP-15
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2650591012406897
+a17e684b-8a4e-42d8-ae88-9e07aa8f6ffb:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-25
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2634925043292271
+20eba45f-5e13-40d1-9a9a-cf5faf7f6652:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-26
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2608407801945519
+9632069d-a2d9-40b5-a095-f204c4f25567:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-27
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2686393166484789
+f00f49a2-3fc7-44ec-84a9-a7b172b5e221:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-28
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2763180194366935
+95c9c018-64d8-49af-84b7-908037bcb109:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-29
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2813095674447755
+1fabbb7c-b6cd-4d50-9a13-79f0459a7633:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-30
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2674371329578447
+9fddefec-30e6-4b9b-879b-f21938586695:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-31
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2629849972198953
+2df5c316-de64-4793-b112-495a570b15df:
+  type: LIGHTING/LS_LMS
+  translation:
+    motion_status:
+      present_value: points.zone_occupancy_status.present_value
+      states:
+        PRESENT: TRUE
+        ABSENT: FALSE
+
+  code: LTMTS-32
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2667073105375331
+d326dddc-2bbf-4cb4-9b22-c3e8022d2e24:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-26
+  connections:
+    a17e684b-8a4e-42d8-ae88-9e07aa8f6ffb: CONTROLS
+    20eba45f-5e13-40d1-9a9a-cf5faf7f6652: CONTROLS
+    9632069d-a2d9-40b5-a095-f204c4f25567: CONTROLS
+    f00f49a2-3fc7-44ec-84a9-a7b172b5e221: CONTROLS
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2787426372722908
+c0da8486-e2b2-4f20-9ff8-1b3e98295010:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-82
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2790260653859455
+ad9c7a9c-2d4b-4825-9e14-e8a0196be1d3:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-83
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2691695415175922
+975b355e-6b1c-4cdd-8088-b518361b34cc:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-84
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2560448461664117
+b4e17883-9dbc-4116-8de6-ad77ab7468ff:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-85
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2558731753046466
+d8e0b25c-ad4f-4115-9ce6-39362ace5ee5:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-86
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2800011658946606
+a8ef42d2-eece-4fa6-a387-ab5a308bf3f6:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-87
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2687511909176721
+cb9c359a-208c-4a04-aecc-fcf1f4f93ede:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-88
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2808155426572749
+65ab89c1-3c0d-4a12-935b-244e5cf4f427:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-89
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2757902399398588
+848ce1c3-40e4-4712-9014-a5cdce43e529:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-90
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2594128576074541
+26784e2d-e852-45ca-a217-b5c654d37686:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-91
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2753070604655215
+8dfcc7f5-019f-4427-94b0-f11d7fdfb45f:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-92
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2557785493766165
+8d7cd0bd-6a11-43c5-9cd5-42df1ea3875c:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-93
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2547471237176177
+6d219dd7-20ba-4079-b7c9-544f57f3cc03:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-94
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2598903930910693
+0cd12515-4493-443d-b3b7-74857763b7c9:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-95
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2590574167615161
+b1a13031-aba2-49c5-ab12-19146ded13f3:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-96
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2679060044043101
+a9f33497-89d2-4196-a6c2-f3a2aaf4e8fd:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-97
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2688636270538102
+4a4b0ddf-cbd8-492c-9bcc-5bd1a6ce9edd:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-98
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2548565907932504
+2b718e67-f841-42b9-af6e-460dca04ffee:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-99
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2601845584586258
+6abc6750-6b83-48e1-bd30-f61f4627fc32:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-100
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2707820309043813
+f3137c1d-7532-451e-9c40-af729d150cee:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-101
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2676241641685461
+ea2eb546-a5fe-4da0-bc09-de0710684e52:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-102
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2675667466855959
+9de7a250-0c0c-4bb2-adfe-077005e7d8a9:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-103
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2586859761396443
+36ca0198-4955-446a-984b-72b7c50e2281:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-104
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2634145717880478
+d661f4b4-0ee6-4d7a-a03a-ec2f9f159ca6:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-105
+  connections:
+    d326dddc-2bbf-4cb4-9b22-c3e8022d2e24: CONTAINS
+  cloud_device_id: 2750914424986378
+dc788b69-c8f1-4a45-b63b-29fdfec6eabb:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-27
+  connections:
+    95c9c018-64d8-49af-84b7-908037bcb109: CONTROLS
+    1fabbb7c-b6cd-4d50-9a13-79f0459a7633: CONTROLS
+    9fddefec-30e6-4b9b-879b-f21938586695: CONTROLS
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2587093887211988
+69a97250-f295-45a1-b4ff-ec002ac0e8ad:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-106
+  connections:
+    dc788b69-c8f1-4a45-b63b-29fdfec6eabb: CONTAINS
+  cloud_device_id: 2756833793864434
+609bc2a9-9111-4b83-8c7a-2b1549716def:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-107
+  connections:
+    dc788b69-c8f1-4a45-b63b-29fdfec6eabb: CONTAINS
+  cloud_device_id: 2725599772832888
+f564ac26-e121-427d-b2fc-cb805e906748:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-108
+  connections:
+    dc788b69-c8f1-4a45-b63b-29fdfec6eabb: CONTAINS
+  cloud_device_id: 2552483750028321
+67432a2d-a774-4718-8b16-8580c88c167a:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-109
+  connections:
+    dc788b69-c8f1-4a45-b63b-29fdfec6eabb: CONTAINS
+  cloud_device_id: 2587046495195065
+8abe7ac9-d942-46fe-abaf-dae36553e50b:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-110
+  connections:
+    dc788b69-c8f1-4a45-b63b-29fdfec6eabb: CONTAINS
+  cloud_device_id: 2780907795759325
+e4b1c675-653b-4df5-bff0-7f27d81324be:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-111
+  connections:
+    dc788b69-c8f1-4a45-b63b-29fdfec6eabb: CONTAINS
+  cloud_device_id: 2607045567685195
+e9def29a-a155-4c3a-bf48-8c0e1b7f9a29:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-112
+  connections:
+    dc788b69-c8f1-4a45-b63b-29fdfec6eabb: CONTAINS
+  cloud_device_id: 2793104521227692
+b3c72a44-8dbe-4ab4-892c-141e9ed721fa:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-28
+  connections:
+    e26cc9c1-da38-41a6-b04d-32cc7f1cad32: CONTROLS
+    9122481d-9cd3-4fc1-966d-d0ef3ca4958a: CONTROLS
+    2df5c316-de64-4793-b112-495a570b15df: CONTROLS
+    8a53565f-b34f-4a4d-9008-d2e3d6407007: CONTROLS
+    14677bcc-acd8-4340-985c-b88f5900bbf6: CONTROLS
+    8cb9b0df-9702-4084-8632-9ca3a741a1a7: CONTROLS
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2673321601902883
+0ed03a43-5bc3-4f2b-8679-d1e86ebc6a7e:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-113
+  connections:
+    b3c72a44-8dbe-4ab4-892c-141e9ed721fa: CONTAINS
+  cloud_device_id: 2795830624989861
+94ce9c33-bd58-4e4c-9cce-75c15bc5c878:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-114
+  connections:
+    b3c72a44-8dbe-4ab4-892c-141e9ed721fa: CONTAINS
+  cloud_device_id: 2601682587853293
+79fd34d8-3faf-4aa6-8865-45c2e9540898:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-29
+  connections:
+    e26cc9c1-da38-41a6-b04d-32cc7f1cad32: CONTROLS
+    9122481d-9cd3-4fc1-966d-d0ef3ca4958a: CONTROLS
+    14677bcc-acd8-4340-985c-b88f5900bbf6: CONTROLS
+    bce392e1-9a6e-4efc-a3c6-0e8ee1d85821: CONTROLS
+    2e7a1ed0-500c-484f-b526-5c193b7fc42c: CONTROLS
+    8a53565f-b34f-4a4d-9008-d2e3d6407007: CONTROLS
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2793563969275496
+1a8f4036-a027-4d03-b818-0baef768e828:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-115
+  connections:
+    79fd34d8-3faf-4aa6-8865-45c2e9540898: CONTAINS
+  cloud_device_id: 2723871349943116
+d5fe13a1-bbfb-46c5-97e0-d239ff695e2c:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-116
+  connections:
+    79fd34d8-3faf-4aa6-8865-45c2e9540898: CONTAINS
+  cloud_device_id: 2757821178423498
+4b48b768-8977-4982-b22a-08c7b71903e3:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-30
+  connections:
+    e26cc9c1-da38-41a6-b04d-32cc7f1cad32: CONTROLS
+    9122481d-9cd3-4fc1-966d-d0ef3ca4958a: CONTROLS
+    bce49165-3775-4332-8ceb-70c4548c7366: CONTROLS
+    2e7a1ed0-500c-484f-b526-5c193b7fc42c: CONTROLS
+    bce392e1-9a6e-4efc-a3c6-0e8ee1d85821: CONTROLS
+    0309d9d5-70ee-47f6-b7e0-cba5b3644a5d: CONTROLS
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2595119474335091
+6c0b9b2e-5013-4401-9ea8-43ee89014dd0:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-117
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2625438099535450
+9b064deb-9870-44e9-9d4d-728ef84f3b54:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-118
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2740636566412673
+6bbb868b-9b73-439d-b75c-7736aa5bbdde:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-119
+  connections:
+    b3c72a44-8dbe-4ab4-892c-141e9ed721fa: CONTAINS
+  cloud_device_id: 2805871373412747
+59ae497a-837f-4db4-b31a-8f1aaf4c451b:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-120
+  connections:
+    b3c72a44-8dbe-4ab4-892c-141e9ed721fa: CONTAINS
+  cloud_device_id: 2705850425109578
+7e2e09e0-64a2-4255-835a-b511aadeead9:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-121
+  connections:
+    79fd34d8-3faf-4aa6-8865-45c2e9540898: CONTAINS
+  cloud_device_id: 2693388738447211
+8b86fe0e-ad28-4223-8198-acc022d3e10d:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-122
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2803929106236201
+6bada92a-2dd9-402c-96d8-8c2a6029405c:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-123
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2693191815134132
+1710decc-7f1f-4112-8648-439803bef343:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-124
+  connections:
+    b3c72a44-8dbe-4ab4-892c-141e9ed721fa: CONTAINS
+  cloud_device_id: 2775554441203162
+9aaa4350-487e-4c3b-8e9b-618bc286bc3b:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-125
+  connections:
+    b3c72a44-8dbe-4ab4-892c-141e9ed721fa: CONTAINS
+  cloud_device_id: 2787616796613516
+d369eddf-1b31-474e-8d73-d3e335936875:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-126
+  connections:
+    b3c72a44-8dbe-4ab4-892c-141e9ed721fa: CONTAINS
+  cloud_device_id: 2782905160326852
+318f9d8b-ab00-4b7b-bf26-c303d3460ed3:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-127
+  connections:
+    b3c72a44-8dbe-4ab4-892c-141e9ed721fa: CONTAINS
+  cloud_device_id: 2728310412723247
+e316dd21-b636-43d0-be3b-e8a954412c4e:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-128
+  connections:
+    b3c72a44-8dbe-4ab4-892c-141e9ed721fa: CONTAINS
+  cloud_device_id: 2657104685116386
+4c2ed73f-289c-4068-8d0e-2501da6a5277:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-129
+  connections:
+    b3c72a44-8dbe-4ab4-892c-141e9ed721fa: CONTAINS
+  cloud_device_id: 2764115800012707
+702a7388-a4da-4134-9f6d-5c6a4d129df1:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-130
+  connections:
+    b3c72a44-8dbe-4ab4-892c-141e9ed721fa: CONTAINS
+  cloud_device_id: 2700931794774411
+9a441a45-7a1f-410c-81bc-ccc9d7d6c321:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-131
+  connections:
+    b3c72a44-8dbe-4ab4-892c-141e9ed721fa: CONTAINS
+  cloud_device_id: 2813628180710910
+325a80fd-bde8-45ca-b4f2-f488366d4777:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-132
+  connections:
+    79fd34d8-3faf-4aa6-8865-45c2e9540898: CONTAINS
+  cloud_device_id: 2784877320903986
+c39cb338-0675-445d-aa7a-3638804891fb:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-133
+  connections:
+    79fd34d8-3faf-4aa6-8865-45c2e9540898: CONTAINS
+  cloud_device_id: 2738743184228022
+2d1c0efe-adc7-407a-8abe-20f94e070287:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-134
+  connections:
+    79fd34d8-3faf-4aa6-8865-45c2e9540898: CONTAINS
+  cloud_device_id: 2660373225064285
+74743569-44fd-4a29-8514-e5678fb07c17:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-135
+  connections:
+    79fd34d8-3faf-4aa6-8865-45c2e9540898: CONTAINS
+  cloud_device_id: 2643703890610489
+590163ff-0689-4e08-8108-ee689acb0184:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-136
+  connections:
+    79fd34d8-3faf-4aa6-8865-45c2e9540898: CONTAINS
+  cloud_device_id: 2672925221397825
+6db3a7ae-7a79-4c42-a6bd-8e344afd5617:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-137
+  connections:
+    79fd34d8-3faf-4aa6-8865-45c2e9540898: CONTAINS
+  cloud_device_id: 2640664561131535
+b3663054-a7bb-4383-8f61-f7bf84bab89e:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-138
+  connections:
+    79fd34d8-3faf-4aa6-8865-45c2e9540898: CONTAINS
+  cloud_device_id: 2607446603146518
+bcee4f79-d60d-4e93-b3d1-a9e02c362163:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-139
+  connections:
+    79fd34d8-3faf-4aa6-8865-45c2e9540898: CONTAINS
+  cloud_device_id: 2599409881376261
+
+6ec2f6fb-f0f9-476f-bdd4-34079aa717ca:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-140
+  connections:
+    79fd34d8-3faf-4aa6-8865-45c2e9540898: CONTAINS
+  cloud_device_id: 2581273918162435
+ad0870d3-0ba2-4252-a1fb-de0502e747fc:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-141
+  connections:
+    79fd34d8-3faf-4aa6-8865-45c2e9540898: CONTAINS
+  cloud_device_id: 2801929594737833
+98c98b5e-1933-4f79-bcc8-5d302145b721:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-142
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2638215160555623
+
+ce5ce67e-2e5b-4753-b5f4-0d04f19400e9:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-143
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2583220019924376
+d28315d7-7b5b-4fc4-9fd3-da72b3f35672:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-144
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2599339697239726
+f451c2a8-b00c-4c73-94af-ae42b532b285:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-145
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2788929405856498
+4174c108-6ba8-4f98-a041-9ec535632dfe:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-146
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2644083386087193
+43df2999-e005-4411-9c68-d6c1a134af13:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-147
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2796516237540198
+3e22f17f-9409-40cb-bca4-1124f4c63849:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-148
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2685426078577896
+72e1d98c-9e46-4b85-a9e8-2f5a832f3915:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-149
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2773961526615807
+0dcb083e-81f2-4545-82bc-47199f66e101:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-150
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2763100861509709
+38f18f45-22cc-4e36-b630-4f32a7ef0723:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-151
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2704469722682951
+eda7cc4a-67db-4be4-beb5-5e0cdda4367b:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-152
+  connections:
+    b3c72a44-8dbe-4ab4-892c-141e9ed721fa: CONTAINS
+  cloud_device_id: 2603249699460267
+93eb7ea2-3035-4547-82d3-c0ceea50d1f9:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-153
+  connections:
+    b3c72a44-8dbe-4ab4-892c-141e9ed721fa: CONTAINS
+  cloud_device_id: 2771999799996366
+
+9b530dc4-23cc-4216-b066-e979b804e32c:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-154
+  connections:
+    b3c72a44-8dbe-4ab4-892c-141e9ed721fa: CONTAINS
+  cloud_device_id: 2785366159149266
+57c3f1cd-a18f-40fe-9100-b8b6a5681ec8:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-155
+  connections:
+    b3c72a44-8dbe-4ab4-892c-141e9ed721fa: CONTAINS
+  cloud_device_id: 2788688954193096
+5d9e7891-1ab1-4387-81d6-e9998cec28a4:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-156
+  connections:
+    b3c72a44-8dbe-4ab4-892c-141e9ed721fa: CONTAINS
+  cloud_device_id: 2813685364390337
+6cf09faf-e938-4632-b2a0-23381d441de4:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-157
+  connections:
+    b3c72a44-8dbe-4ab4-892c-141e9ed721fa: CONTAINS
+  cloud_device_id: 2810144993789092
+b8e900c6-8072-4890-b6b7-9b8d89eb3547:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-158
+  connections:
+    79fd34d8-3faf-4aa6-8865-45c2e9540898: CONTAINS
+  cloud_device_id: 2570657918305453
+
+cf8bd58e-4dac-45fe-8d06-f53e63738f15:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-159
+  connections:
+    79fd34d8-3faf-4aa6-8865-45c2e9540898: CONTAINS
+  cloud_device_id: 2580833249890183
+1b8a8f57-7247-4537-8e54-a0a1894f158f:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-160
+  connections:
+    79fd34d8-3faf-4aa6-8865-45c2e9540898: CONTAINS
+  cloud_device_id: 2723623169226399
+85a5ee69-2bc4-43e5-b91e-f91af3f82f8a:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-161
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2795033198208799
+60770d1a-dbd6-4afa-bcb1-9837500d2943:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-162
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2611127446077498
+a7a9e7b1-4e66-4be6-be30-18f55b0ee8cb:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-163
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2685284785718335
+ac5c2d6c-b0c4-4720-b5d4-5d580e06ccc7:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-164
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2558396232230460
+296d5b20-9694-4e9f-8546-b83a9a9ae31d:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-165
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2727921035477967
+54b63acf-92d2-4175-98b6-3ed0aaeadbcf:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-166
+  connections:
+    4b48b768-8977-4982-b22a-08c7b71903e3: CONTAINS
+  cloud_device_id: 2753372709176846
+36f9e19d-083b-4715-9754-2fe059b21d0f:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-31
+  connections:
+    e26cc9c1-da38-41a6-b04d-32cc7f1cad32: CONTROLS
+    9122481d-9cd3-4fc1-966d-d0ef3ca4958a: CONTROLS
+    3b6e473f-e07d-495f-b108-fe82aa2e8338: CONTROLS
+    fb4b796f-c8c6-4d93-8c7b-42af29ef6bc8: CONTROLS
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2776798034215507
+cef41925-3d11-4e98-9483-f5d40f9366aa:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-167
+  connections:
+    36f9e19d-083b-4715-9754-2fe059b21d0f: CONTAINS
+  cloud_device_id: 2585679660735407
+0742c901-894b-4f33-bc56-0e082494efef:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-168
+  connections:
+    36f9e19d-083b-4715-9754-2fe059b21d0f: CONTAINS
+  cloud_device_id: 2745189887227355
+0a31b3dd-a250-47cb-8198-d31a6f90c1db:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-169
+  connections:
+    36f9e19d-083b-4715-9754-2fe059b21d0f: CONTAINS
+  cloud_device_id: 2637079245401532
+f0dd0c95-1d51-4998-b368-55c54ac68083:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-170
+  connections:
+    36f9e19d-083b-4715-9754-2fe059b21d0f: CONTAINS
+  cloud_device_id: 2793250937958558
+06b9fccf-63e4-4ab9-89bc-faa935503e9e:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-171
+  connections:
+    36f9e19d-083b-4715-9754-2fe059b21d0f: CONTAINS
+  cloud_device_id: 2655678074725053
+1b09f3c8-b77d-4e06-b303-829b3a10c14e:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-32
+  connections:
+    e26cc9c1-da38-41a6-b04d-32cc7f1cad32: CONTROLS
+    9122481d-9cd3-4fc1-966d-d0ef3ca4958a: CONTROLS
+    3b6e473f-e07d-495f-b108-fe82aa2e8338: CONTROLS
+    fb4b796f-c8c6-4d93-8c7b-42af29ef6bc8: CONTROLS
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2603118709278295
+ebf48428-e20e-4cc0-964c-8ee7d39457ee:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-172
+  connections:
+    1b09f3c8-b77d-4e06-b303-829b3a10c14e: CONTAINS
+  cloud_device_id: 2627704771109000
+eee9dd57-8bf9-4bb4-b929-cd1279366097:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-173
+  connections:
+    1b09f3c8-b77d-4e06-b303-829b3a10c14e: CONTAINS
+  cloud_device_id: 2729791078464738
+
+0ae18bc4-990b-4133-8fa1-59b1ac0a37a5:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-33
+  connections:
+    e26cc9c1-da38-41a6-b04d-32cc7f1cad32: CONTROLS
+    9122481d-9cd3-4fc1-966d-d0ef3ca4958a: CONTROLS
+    f1a81d20-98d4-4495-a491-e0c310d73954: CONTROLS
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2580891972678109
+faa9fce4-4ce9-4fc0-9b96-bc8acda1328f:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-174
+  connections:
+    0ae18bc4-990b-4133-8fa1-59b1ac0a37a5: CONTAINS
+  cloud_device_id: 2661832678029014
+2c11cfd8-5628-4b31-b34e-4c89c64c8149:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-175
+  connections:
+    0ae18bc4-990b-4133-8fa1-59b1ac0a37a5: CONTAINS
+  cloud_device_id: 2613441938014424
+d9b31d03-6174-4f2b-9853-2aaa6eab8ed8:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-176
+  connections:
+    0ae18bc4-990b-4133-8fa1-59b1ac0a37a5: CONTAINS
+  cloud_device_id: 2575429875087633
+52c9800c-7c9f-4e80-ba0a-71baad7a8f75:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-34
+  connections:
+    5169c8e8-9536-4578-8122-5ad75abcc358: CONTROLS
+    7f7c3275-5114-4751-ab91-15dee95904e3: CONTROLS
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2805903031097765
+c52b3a3e-0500-49a6-a4d8-dcaa35a0e9c5:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-177
+  connections:
+    52c9800c-7c9f-4e80-ba0a-71baad7a8f75: CONTAINS
+  cloud_device_id: 2689271595521781
+77de588b-3d9b-4941-83ed-5656afb7450a:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-178
+  connections:
+    52c9800c-7c9f-4e80-ba0a-71baad7a8f75: CONTAINS
+  cloud_device_id: 2580828770989159
+426a0d6c-3faf-428a-a540-cd3dc6cd1326:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-179
+  connections:
+    52c9800c-7c9f-4e80-ba0a-71baad7a8f75: CONTAINS
+  cloud_device_id: 2577761361723724
+4f2c1d07-8756-48cf-9354-b086df44f7fb:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-180
+  connections:
+    52c9800c-7c9f-4e80-ba0a-71baad7a8f75: CONTAINS
+  cloud_device_id: 2756293618470178
+523c4e5e-3f7b-48e8-8acf-228a2ac87380:
+  type: LIGHTING/LGRP_DC
+  translation:
+    brightness_percentage_command:
+      present_value: points.brightness_percentage_command.present_value
+      units:
+        key: pointset.points.brightness_percentage_command.units
+        values:
+          percent: percent
+  code: GRP-35
+  connections:
+    e26cc9c1-da38-41a6-b04d-32cc7f1cad32: CONTROLS
+    9122481d-9cd3-4fc1-966d-d0ef3ca4958a: CONTROLS
+    3b6e473f-e07d-495f-b108-fe82aa2e8338: CONTROLS
+    fb4b796f-c8c6-4d93-8c7b-42af29ef6bc8: CONTROLS
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  cloud_device_id: 2732862876408754
+c2d1f0c9-f2c9-4b82-8502-668fb597f364:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-181
+  connections:
+    523c4e5e-3f7b-48e8-8acf-228a2ac87380: CONTAINS
+  cloud_device_id: 2698805160485287
+9eceb479-e27b-493f-9852-a15d290e0ede:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-182
+  connections:
+    523c4e5e-3f7b-48e8-8acf-228a2ac87380: CONTAINS
+  cloud_device_id: 2648246248183511
+862b18cc-0eb8-4b76-852f-dd45583c5192:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-183
+  connections:
+    523c4e5e-3f7b-48e8-8acf-228a2ac87380: CONTAINS
+  cloud_device_id: 2649928600734946
+33771e45-9c02-4170-86d5-14cc12b69556:
+  type: LIGHTING/LT_DPC
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+  code: LMP-184
+  connections:
+    523c4e5e-3f7b-48e8-8acf-228a2ac87380: CONTAINS
+  cloud_device_id: 2613789109707943
+b6ce8230-d7e1-4d85-a407-62b4cff3ecea:
+  type: LIGHTING/LT_DC
+  code: LMP-185
+  translation:
+    dimmer_percentage_command:
+      present_value: points.dimmer_percentage_command.present_value
+      units:
+        key: pointset.points.dimmer_percentage_command.units
+        values:
+          percent: percent
+    brightness_percentage_command: MISSING
+  connections:
+    523c4e5e-3f7b-48e8-8acf-228a2ac87380: CONTAINS
+  cloud_device_id: 2651741920927640
+

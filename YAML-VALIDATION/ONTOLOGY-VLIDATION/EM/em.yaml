@@ -1,9 +1,549 @@
 CONFIG_METADATA:
   operation: INITIALIZE
 
-e15aa2d4-882d-4dc4-8b52-91d4e4465c70:
+9b54e371-6748-4a90-ab6f-2d6ea6c4240d:
   type: FACILITIES/BUILDING
   code: IN-BLR-BCPWK
+
+22f53f64-cc99-4b4f-9a6c-23dc2d2a131e:
+  type: FACILITIES/FLOOR
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: IN-BLR-BCPWK-B2
+560714f9-ed47-4faa-83a9-5ddd8bcbf7f3:
+  type: FACILITIES/FLOOR
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: IN-BLR-BCPWK-B1
+fa6c1277-7f3a-470b-8c21-993a96f2b990:
+  type: FACILITIES/FLOOR
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: IN-BLR-BCPWK-G
+ab1be32e-6f38-4f3a-ae19-aa83fec736d4:
+  type: FACILITIES/FLOOR
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: IN-BLR-BCPWK-1
+72df6973-c81d-4f0c-b52b-6a0db1cf5652:
+  type: FACILITIES/FLOOR
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: IN-BLR-BCPWK-2
+f545ae84-25b7-4270-8ffa-093752ac884a:
+  type: FACILITIES/FLOOR
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: IN-BLR-BCPWK-3
+45c6c01a-8415-4c8b-8f14-ed725798e83b:
+  type: FACILITIES/FLOOR
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: IN-BLR-BCPWK-4
+3d4bdf6e-5c76-4766-bd26-f41e11ca3fe9:
+  type: FACILITIES/FLOOR
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: IN-BLR-BCPWK-5
+f37c30ad-b281-49bd-9b73-197f704d2548:
+  type: FACILITIES/FLOOR
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: IN-BLR-BCPWK-6
+30074d4b-1ee5-4a8b-8363-5ef16839dfc6:
+  type: FACILITIES/FLOOR
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: IN-BLR-BCPWK-7
+38e1c9ff-23dc-44a6-8c14-1eed4f02201d:
+  type: FACILITIES/FLOOR
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: IN-BLR-BCPWK-8
+292dbc0b-7f1a-46d0-a57b-f1ef4e704337:
+  type: FACILITIES/FLOOR
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: IN-BLR-BCPWK-9
+e04e2556-4ecd-42d4-bf30-732f5b9e9deb:
+  type: FACILITIES/FLOOR
+  connections:
+    9b54e371-6748-4a90-ab6f-2d6ea6c4240d: CONTAINS
+  code: IN-BLR-BCPWK-11
+
+
+
+##ROOMS###
+5ce76de7-f76e-49d8-8e25-a362991e96f2:
+  type: FACILITIES/ROOM
+  connections:
+    f37c30ad-b281-49bd-9b73-197f704d2548: CONTAINS
+  code: IN-BLR-BCPWK-6-MKAR
+
+
+87c84607-11d0-45c2-8b70-952dcbab96c1:
+  type: FACILITIES/ROOM
+  connections:
+    72df6973-c81d-4f0c-b52b-6a0db1cf5652: CONTAINS
+  code: IN-BLR-BCPWK-2-MKAR
+
+73fb29ff-7b97-49e3-8a6d-f688a12c4185:
+  type: FACILITIES/ROOM
+  connections:
+    72df6973-c81d-4f0c-b52b-6a0db1cf5652: CONTAINS
+  code: IN-BLR-BCPWK-2-2AHURM
+
+
+8bbe57ad-d9b6-4f8f-8288-d96810611fce:
+  type: FACILITIES/ROOM
+  connections:
+    72df6973-c81d-4f0c-b52b-6a0db1cf5652: CONTAINS
+  code: IN-BLR-BCPWK-2-1AHURM
+
+1fb7f405-ac47-47e2-8e3c-8b38d78ff22a:
+  type: FACILITIES/ROOM
+  connections:
+    f545ae84-25b7-4270-8ffa-093752ac884a: CONTAINS
+  code: IN-BLR-BCPWK-3-2AHURM
+
+
+54a00e19-8e21-4bbd-9fc6-a640c1029893:
+  type: FACILITIES/ROOM
+  connections:
+    f545ae84-25b7-4270-8ffa-093752ac884a: CONTAINS
+  code: IN-BLR-BCPWK-3-1AHURM
+
+aefd2f19-4cfc-423e-aa5e-6e216101c4eb:
+  type: FACILITIES/ROOM
+  connections:
+    45c6c01a-8415-4c8b-8f14-ed725798e83b: CONTAINS
+  code: IN-BLR-BCPWK-4-2AHURM
+
+a058a679-ae53-42f1-a870-03c4d091ae5d:
+  type: FACILITIES/ROOM
+  connections:
+    45c6c01a-8415-4c8b-8f14-ed725798e83b: CONTAINS
+  code: IN-BLR-BCPWK-4-1AHURM
+
+850555f5-367b-4e12-abb6-d5ede3be3e20:
+  type: FACILITIES/ROOM
+  connections:
+    3d4bdf6e-5c76-4766-bd26-f41e11ca3fe9: CONTAINS
+  code: IN-BLR-BCPWK-5-2AHURM
+
+b06eba52-f997-4549-beab-fe87a01fa64a:
+  type: FACILITIES/ROOM
+  connections:
+    3d4bdf6e-5c76-4766-bd26-f41e11ca3fe9: CONTAINS
+  code: IN-BLR-BCPWK-5-1AHURM
+
+4b5422b7-1a63-4462-ae30-696902867b35:
+  type: FACILITIES/ROOM
+  connections:
+    f37c30ad-b281-49bd-9b73-197f704d2548: CONTAINS
+  code: IN-BLR-BCPWK-6-2AHURM
+
+593e7c5c-add8-4dfd-9bf4-8921cdda2199:
+  type: FACILITIES/ROOM
+  connections:
+    f37c30ad-b281-49bd-9b73-197f704d2548: CONTAINS
+  code: IN-BLR-BCPWK-6-1AHURM
+
+a7698bec-cc85-4bfd-884b-77b4bc7d2464:
+  type: FACILITIES/ROOM
+  connections:
+    30074d4b-1ee5-4a8b-8363-5ef16839dfc6: CONTAINS
+  code: IN-BLR-BCPWK-7-2AHURM
+
+5336ac29-2ddf-422d-9dff-0ff8f27f9a9a:
+  type: FACILITIES/ROOM
+  connections:
+    30074d4b-1ee5-4a8b-8363-5ef16839dfc6: CONTAINS
+  code: IN-BLR-BCPWK-7-1AHURM
+
+28a729e3-3a3e-4b32-9909-a23515687273:
+  type: FACILITIES/ROOM
+  connections:
+    38e1c9ff-23dc-44a6-8c14-1eed4f02201d: CONTAINS
+  code: IN-BLR-BCPWK-8-2AHURM
+
+d1d55d20-4cfc-429a-a7a9-b6ca7dafa6c2:
+  type: FACILITIES/ROOM
+  connections:
+    38e1c9ff-23dc-44a6-8c14-1eed4f02201d: CONTAINS
+  code: IN-BLR-BCPWK-8-1AHURM
+
+580e4d74-dcbc-4e69-acef-237af41c9745:
+  type: FACILITIES/ROOM
+  connections:
+    292dbc0b-7f1a-46d0-a57b-f1ef4e704337: CONTAINS
+  code: IN-BLR-BCPWK-9-2AHURM
+
+c8f7c02b-6712-45ee-9747-ab18b3cfc3d0:
+  type: FACILITIES/ROOM
+  connections:
+    292dbc0b-7f1a-46d0-a57b-f1ef4e704337: CONTAINS
+  code: IN-BLR-BCPWK-9-1AHURM
+
+071262ef-b020-4309-9a29-f3abd6f0e0f6:
+  type: FACILITIES/ROOM
+  connections:
+    72df6973-c81d-4f0c-b52b-6a0db1cf5652: CONTAINS
+  code: IN-BLR-BCPWK-2-2ELECRM
+
+401af0f4-6f20-4da7-b832-56b5a592836d:
+  type: FACILITIES/ROOM
+  connections:
+    72df6973-c81d-4f0c-b52b-6a0db1cf5652: CONTAINS
+  code: IN-BLR-BCPWK-2-1ELECRM
+
+31a53f72-4110-4320-a71e-91d5bdf8f18f:
+  type: FACILITIES/ROOM
+  connections:
+    f545ae84-25b7-4270-8ffa-093752ac884a: CONTAINS
+  code: IN-BLR-BCPWK-3-2ELECRM
+
+ea49576d-dcb8-423f-ae6b-3732156924cf:
+  type: FACILITIES/ROOM
+  connections:
+    f545ae84-25b7-4270-8ffa-093752ac884a: CONTAINS
+  code: IN-BLR-BCPWK-3-1ELECRM
+
+d77fc199-8243-405d-b02d-939887bd7333:
+  type: FACILITIES/ROOM
+  connections:
+    45c6c01a-8415-4c8b-8f14-ed725798e83b: CONTAINS
+  code: IN-BLR-BCPWK-4-2ELECRM
+
+ae6edbed-f5cb-41c3-982b-67417843b71f:
+  type: FACILITIES/ROOM
+  connections:
+    45c6c01a-8415-4c8b-8f14-ed725798e83b: CONTAINS
+  code: IN-BLR-BCPWK-4-1ELECRM
+
+ffaf99bf-f4a8-4cbf-8297-aa2f60832ed2:
+  type: FACILITIES/ROOM
+  connections:
+    3d4bdf6e-5c76-4766-bd26-f41e11ca3fe9: CONTAINS
+  code: IN-BLR-BCPWK-5-2ELECRM
+
+72aa1ecb-6d4d-4813-ab27-1128b18a6901:
+  type: FACILITIES/ROOM
+  connections:
+    3d4bdf6e-5c76-4766-bd26-f41e11ca3fe9: CONTAINS
+  code: IN-BLR-BCPWK-5-1ELECRM
+
+3788305a-136c-41b0-bb08-687c3ab47f25:
+  type: FACILITIES/ROOM
+  connections:
+    f37c30ad-b281-49bd-9b73-197f704d2548: CONTAINS
+  code: IN-BLR-BCPWK-6-2ELECRM
+
+721cbf13-5c66-428a-8d4c-611e72621377:
+  type: FACILITIES/ROOM
+  connections:
+    f37c30ad-b281-49bd-9b73-197f704d2548: CONTAINS
+  code: IN-BLR-BCPWK-6-1ELECRM
+
+ef639db9-f874-4367-8c40-321c6524b7d0:
+  type: FACILITIES/ROOM
+  connections:
+    30074d4b-1ee5-4a8b-8363-5ef16839dfc6: CONTAINS
+  code: IN-BLR-BCPWK-7-2ELECRM
+
+351c4155-9b79-4e0e-955e-026c13fa5317:
+  type: FACILITIES/ROOM
+  connections:
+    30074d4b-1ee5-4a8b-8363-5ef16839dfc6: CONTAINS
+  code: IN-BLR-BCPWK-7-1ELECRM
+
+05d27762-5a9d-4b41-912f-31380d89b467:
+  type: FACILITIES/ROOM
+  connections:
+    38e1c9ff-23dc-44a6-8c14-1eed4f02201d: CONTAINS
+  code: IN-BLR-BCPWK-8-2ELECRM
+
+55fbe735-1e47-4566-bf5d-57f69119de6d:
+  type: FACILITIES/ROOM
+  connections:
+    38e1c9ff-23dc-44a6-8c14-1eed4f02201d: CONTAINS
+  code: IN-BLR-BCPWK-8-1ELECRM
+
+1e6ff64a-cc0b-4ab7-9b31-66211027c386:
+  type: FACILITIES/ROOM
+  connections:
+    292dbc0b-7f1a-46d0-a57b-f1ef4e704337: CONTAINS
+  code: IN-BLR-BCPWK-9-2ELECRM
+
+e813d21c-98d2-435a-bd0a-5ecda946de9d:
+  type: FACILITIES/ROOM
+  connections:
+    292dbc0b-7f1a-46d0-a57b-f1ef4e704337: CONTAINS
+  code: IN-BLR-BCPWK-9-1ELECRM
+
+587d29ba-0e9d-422f-9d83-6e3308d626f0:
+  type: FACILITIES/ROOM
+  connections:
+    560714f9-ed47-4faa-83a9-5ddd8bcbf7f3: CONTAINS
+  code: IN-BLR-BCPWK-B1-IDFRM
+
+5f2f31b2-1281-4600-aa33-f1603f22ab16:
+  type: FACILITIES/ROOM
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  code: IN-BLR-BCPWK-G-IDFRM
+
+28ecb5f9-5a47-43c9-8da0-8284b0773607:
+  type: FACILITIES/ROOM
+  connections:
+    72df6973-c81d-4f0c-b52b-6a0db1cf5652: CONTAINS
+  code: IN-BLR-BCPWK-2-IDFRM
+
+6ed336f6-bd92-47c6-8958-5f6c43d8d88a:
+  type: FACILITIES/ROOM
+  connections:
+    f545ae84-25b7-4270-8ffa-093752ac884a: CONTAINS
+  code: IN-BLR-BCPWK-3-IDFRM
+
+55aa05c0-0acc-403a-a03b-d0ee7474e9ba:
+  type: FACILITIES/ROOM
+  connections:
+    3d4bdf6e-5c76-4766-bd26-f41e11ca3fe9: CONTAINS
+  code: IN-BLR-BCPWK-5-IDFRM
+
+b5c1c5a6-8398-486f-b2fa-56f566881cc3:
+  type: FACILITIES/ROOM
+  connections:
+    f37c30ad-b281-49bd-9b73-197f704d2548: CONTAINS
+  code: IN-BLR-BCPWK-6-IDFRM
+
+6cafbcb7-afa5-4017-8f80-cc5346f314c4:
+  type: FACILITIES/ROOM
+  connections:
+    30074d4b-1ee5-4a8b-8363-5ef16839dfc6: CONTAINS
+  code: IN-BLR-BCPWK-7-IDFRM
+
+b1deb1fb-3e4b-4d3f-b430-fff204789cfd:
+  type: FACILITIES/ROOM
+  connections:
+    38e1c9ff-23dc-44a6-8c14-1eed4f02201d: CONTAINS
+  code: IN-BLR-BCPWK-8-IDFRM
+
+08303404-2be6-46b9-b367-f844b15d64a2:
+  type: FACILITIES/ROOM
+  connections:
+    292dbc0b-7f1a-46d0-a57b-f1ef4e704337: CONTAINS
+  code: IN-BLR-BCPWK-9-IDFRM
+
+5e0d467d-8bf1-4ca2-8461-4bae8a58c57a:
+  type: FACILITIES/ROOM
+  connections:
+    30074d4b-1ee5-4a8b-8363-5ef16839dfc6: CONTAINS
+  code: IN-BLR-BCPWK-7-KTCHAR
+
+e918c65f-9975-4cac-b671-cca3fa6e9f96:
+  type: FACILITIES/ROOM
+  connections:
+    30074d4b-1ee5-4a8b-8363-5ef16839dfc6: CONTAINS
+  code: IN-BLR-BCPWK-7-MKAR
+
+fbe8c3c5-e6c3-40b2-aad3-5aaa5093933e:
+  type: FACILITIES/ROOM
+  connections:
+    38e1c9ff-23dc-44a6-8c14-1eed4f02201d: CONTAINS
+  code: IN-BLR-BCPWK-8-TFPNL
+
+ab83179c-2b73-4886-aa73-d92e645ef8ca:
+  type: FACILITIES/ROOM
+  connections:
+    292dbc0b-7f1a-46d0-a57b-f1ef4e704337: CONTAINS
+  code: IN-BLR-BCPWK-9-MKAR
+
+712031b0-37fb-4537-bf87-3194c71e12ed:
+  type: FACILITIES/ROOM
+  connections:
+    45c6c01a-8415-4c8b-8f14-ed725798e83b: CONTAINS
+  code: IN-BLR-BCPWK-4-BALN
+
+8680a932-02ee-4c42-a3c7-83da64d39c80:
+  type: FACILITIES/ROOM
+  connections:
+    45c6c01a-8415-4c8b-8f14-ed725798e83b: CONTAINS
+  code: IN-BLR-BCPWK-4-UPSRM
+
+6eff0788-8e04-4a65-a106-a59953760d89:
+  type: FACILITIES/ROOM
+  connections:
+    560714f9-ed47-4faa-83a9-5ddd8bcbf7f3: CONTAINS
+  code: IN-BLR-BCPWK-B1-2ELECRM
+
+183970bd-40a8-4757-9eb2-60b7fb80bd6e:
+  type: FACILITIES/ROOM
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  code: IN-BLR-BCPWK-G-2ELECRM
+
+35f14c0e-51df-4c65-bc24-2dec3a93cd25:
+  type: FACILITIES/ROOM
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  code: IN-BLR-BCPWK-G-1ELECRM
+
+fd527ca4-df41-4eda-9ee8-02599e15cff3:
+  type: FACILITIES/ROOM
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  code: IN-BLR-BCPWK-G-SECWKRM
+
+38524a33-c9a5-4ea0-801a-c3d940c5e707:
+  type: FACILITIES/ROOM
+  connections:
+    560714f9-ed47-4faa-83a9-5ddd8bcbf7f3: CONTAINS
+  code: IN-BLR-BCPWK-B1-MMRRM
+
+df9ca884-9460-41f6-9b70-a28fe2762ec4:
+  type: FACILITIES/ROOM
+  connections:
+    fa6c1277-7f3a-470b-8c21-993a96f2b990: CONTAINS
+  code: IN-BLR-BCPWK-G-PSG
+
+fd482f69-8754-461e-85fd-2a794f29a76d:
+  type: FACILITIES/ROOM
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  code: IN-BLR-BCPWK-1-GYMRM
+
+9066a6f1-29be-4bc5-8ca2-dbf2e77c00b5:
+  type: FACILITIES/ROOM
+  connections:
+    45c6c01a-8415-4c8b-8f14-ed725798e83b: CONTAINS
+  code: IN-BLR-BCPWK-4-BATTRM
+
+
+1d3235f7-3450-4e7a-9e1f-581bd8eee6b0:
+  type: FACILITIES/ROOM
+  connections:
+    f545ae84-25b7-4270-8ffa-093752ac884a: CONTAINS
+  code: IN-BLR-BCPWK-3-KTCHAR
+
+be653c21-c36a-4833-a4df-e4994c2d9bc6:
+  type: FACILITIES/ROOM
+  connections:
+    f545ae84-25b7-4270-8ffa-093752ac884a: CONTAINS
+  code: IN-BLR-BCPWK-3-BALS
+
+37ee156c-74de-4e65-983d-ed7d52fd801d:
+  type: FACILITIES/ROOM
+  connections:
+    292dbc0b-7f1a-46d0-a57b-f1ef4e704337: CONTAINS
+  code: IN-BLR-BCPWK-9-BALS
+
+86a7e145-4559-44d2-be0a-278e4814960a:
+  type: FACILITIES/ROOM
+  connections:
+    72df6973-c81d-4f0c-b52b-6a0db1cf5652: CONTAINS
+  code: IN-BLR-BCPWK-2-BALS
+
+e56271c3-933a-4165-87db-c4d95671eed5:
+  type: FACILITIES/ROOM
+  connections:
+    3d4bdf6e-5c76-4766-bd26-f41e11ca3fe9: CONTAINS
+  code: IN-BLR-BCPWK-5-MKAR
+
+8bcf60ad-2a25-4f9e-aac2-9f0bbc514943:
+  type: FACILITIES/ROOM
+  connections:
+    3d4bdf6e-5c76-4766-bd26-f41e11ca3fe9: CONTAINS
+  code: IN-BLR-BCPWK-5-BMSRM
+
+3dece24a-6bb4-4bcb-8561-2aaee45cec3d:
+  type: FACILITIES/ROOM
+  connections:
+    3d4bdf6e-5c76-4766-bd26-f41e11ca3fe9: CONTAINS
+  code: IN-BLR-BCPWK-5-BALN
+
+8737f25b-f7bc-4c36-91cf-e4f0a8af1bfd:
+  type: FACILITIES/ROOM
+  connections:
+    f37c30ad-b281-49bd-9b73-197f704d2548: CONTAINS
+  code: IN-BLR-BCPWK-6-BALN
+2bfeeadf-2fcd-4f8f-83ca-fc09c63b678e:
+  type: FACILITIES/ROOM
+  connections:
+    30074d4b-1ee5-4a8b-8363-5ef16839dfc6: CONTAINS
+  code: IN-BLR-BCPWK-7-BALN
+
+f3002dda-4094-43ba-b241-b8441c98c161:
+  type: FACILITIES/ROOM
+  connections:
+    72df6973-c81d-4f0c-b52b-6a0db1cf5652: CONTAINS
+  code: IN-BLR-BCPWK-2-BALN
+
+82244bb4-d6fb-44ee-832c-ed0360a77995:
+  type: FACILITIES/ROOM
+  connections:
+    38e1c9ff-23dc-44a6-8c14-1eed4f02201d: CONTAINS
+  code: IN-BLR-BCPWK-8-MKAR
+
+2852aff0-8b82-48b0-b6e8-4fa2f14a46b9:
+  type: FACILITIES/ROOM
+  connections:
+    560714f9-ed47-4faa-83a9-5ddd8bcbf7f3: CONTAINS
+  code: IN-BLR-BCPWK-B1-DISRM
+
+300d19bb-f335-4e76-95f0-a6c8532a6eaf:
+  type: FACILITIES/ROOM
+  connections:
+    560714f9-ed47-4faa-83a9-5ddd8bcbf7f3: CONTAINS
+  code: IN-BLR-BCPWK-B1-VENRM
+
+ceda327e-5477-47e0-b9b0-236474f72fc0:
+  type: FACILITIES/ROOM
+  connections:
+    560714f9-ed47-4faa-83a9-5ddd8bcbf7f3: CONTAINS
+  code: IN-BLR-BCPWK-B1-TRTMRM
+
+fd724dab-7cf5-475d-b832-fac24aed60df:
+  type: FACILITIES/ROOM
+  connections:
+    45c6c01a-8415-4c8b-8f14-ed725798e83b: CONTAINS
+  code: IN-BLR-BCPWK-4-MDFRM
+
+4c092175-7aa0-4182-ba37-d95b731a9a10:
+  type: FACILITIES/ROOM
+  connections:
+    560714f9-ed47-4faa-83a9-5ddd8bcbf7f3: CONTAINS
+  code: IN-BLR-BCPWK-B1-1ELECRM
+
+
+5b3a02be-762a-4acc-92e5-d9292f92655c:
+  type: FACILITIES/ROOM
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  code: IN-BLR-BCPWK-1-1ELECRM
+
+3ff87655-65a6-4a8b-a9a8-e2ae2d1948e1:
+  type: FACILITIES/ROOM
+  connections:
+    ab1be32e-6f38-4f3a-ae19-aa83fec736d4: CONTAINS
+  code: IN-BLR-BCPWK-1-2ELECRM
+34bbee32-de4f-4f54-8657-6dbfefdc28fa:
+  type: FACILITIES/ROOM
+  connections:
+    45c6c01a-8415-4c8b-8f14-ed725798e83b: CONTAINS
+  code: IN-BLR-BCPWK-4-PACRM
+
+6a7b3404-9604-4f5d-8b36-387b3a1db9ae:
+  type: FACILITIES/ROOM
+  connections:
+    f545ae84-25b7-4270-8ffa-093752ac884a: CONTAINS
+  code: IN-BLR-BCPWK-3-MKAR
+
+a3a5175e-6a2e-4e95-8736-030d4df6422d:
+  type: FACILITIES/ROOM
+  connections:
+    45c6c01a-8415-4c8b-8f14-ed725798e83b: CONTAINS
+  code: IN-BLR-BCPWK-4-MKAR
 
 e848c9c8-a1f1-4d4d-8411-aa1bc7749265:
   type: GATEWAYS/PASSTHROUGH

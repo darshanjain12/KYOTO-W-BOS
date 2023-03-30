@@ -44,27 +44,27 @@ CONFIG_METADATA:
         values:
           degrees_celsius: degrees_celsius
     condensing_return_water_temperature_sensor_10001:
-      present_value: points.wch_01_ condensing_return_water_temperature_sensor.present_value
+      present_value: points.wch_01_condensing_return_water_temperature_sensor.present_value
       units:
-        key: pointset.points.wch_01_ condensing_return_water_temperature_sensor.units
+        key: pointset.points.wch_01_condensing_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
     condensing_supply_water_temperature_sensor_10001:
-      present_value: points.wch_01_ condensing_supply_water_temperature_sensor.present_value
+      present_value: points.wch_01_condensing_supply_water_temperature_sensor.present_value
       units:
-        key: pointset.points.wch_01_ condensing_supply_water_temperature_sensor.units
+        key: pointset.points.wch_01_condensing_supply_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
     condensing_return_water_temperature_sensor_10002:
-      present_value: points.wch_02_ condensing_return_water_temperature_sensor.present_value
+      present_value: points.wch_02_condensing_return_water_temperature_sensor.present_value
       units:
-        key: pointset.points.wch_02_ condensing_return_water_temperature_sensor.units
+        key: pointset.points.wch_02_condensing_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
     condensing_supply_water_temperature_sensor_10002:
-      present_value: points.wch_02_ condensing_supply_water_temperature_sensor.present_value
+      present_value: points.wch_02_condensing_supply_water_temperature_sensor.present_value
       units:
-        key: pointset.points.wch_02_ condensing_supply_water_temperature_sensor.units
+        key: pointset.points.wch_02 condensing_supply_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
     condensing_water_flowrate_status_10001:
@@ -473,15 +473,15 @@ CONFIG_METADATA:
         values:
           degrees_celsius: degrees_celsius
     return_water_temperature_sensor_72000:
-      present_value: points.chws_com_return_water_temperature_sensor.present_value
+      present_value: points.cdws_com_return_water_temperature_sensor.present_value
       units:
-        key: pointset.points.chws_com_return_water_temperature_sensor.units
+        key: pointset.points.cdws_com_return_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
     supply_water_temperature_sensor_72000:
-      present_value: points.chws_com_supply_water_temperature_sensor.present_value
+      present_value: points.cdws_com_supply_water_temperature_sensor.present_value
       units:
-        key: pointset.points.chws_com_supply_water_temperature_sensor.units
+        key: pointset.points.cdws_com_supply_water_temperature_sensor.units
         values:
           degrees_celsius: degrees_celsius
     cooling_thermal_energy_accumulator_80001:
@@ -2899,7 +2899,7 @@ ccb31e42-3d6b-4593-ba14-00eabb6a4922:
   code: CHWS-01
 
 1f9cface-6309-4878-bd78-4e4d9bfc25fb:
-  type: HVAC/CHWS_SWTC
+  type: HVAC/CDWS_SWTC
   links:
     4499fea4-458c-46f7-9588-1211b92bd84f:
       supply_water_temperature_sensor: supply_water_temperature_sensor_72000
